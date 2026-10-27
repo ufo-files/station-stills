@@ -1,0 +1,478 @@
+[
+  {
+    "id": "7a373694af4e5dca",
+    "detected_at": "2026-10-27T16:46:54.213759+00:00",
+    "detected_epoch": 1793119614.2138076,
+    "motion_started_epoch": 1793119613.2693393,
+    "changed_area_percent": 0.0039544753086419755,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 25,
+      "min_area_percent": 0.001,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "started_recording",
+    "session_id": "20261027T164654Z-c1d05f",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1133,
+          "top": 193,
+          "right": 1138,
+          "bottom": 213,
+          "changed_analysis_pixels": 53,
+          "visible_in": "both"
+        },
+        {
+          "left": 1273,
+          "top": 138,
+          "right": 1279,
+          "bottom": 145,
+          "changed_analysis_pixels": 29,
+          "visible_in": "both"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 1133,
+          "top": 193,
+          "right": 1138,
+          "bottom": 213,
+          "changed_analysis_pixels": 53,
+          "visible_in": "both"
+        },
+        {
+          "left": 1273,
+          "top": 138,
+          "right": 1279,
+          "bottom": 145,
+          "changed_analysis_pixels": 29,
+          "visible_in": "both"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 2,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-7a373694af4e5dca-boxed.jpg",
+    "evidence_files": [
+      "motion-7a373694af4e5dca-before.jpg",
+      "motion-7a373694af4e5dca-after.jpg"
+    ]
+  },
+  {
+    "id": "c6a00a0d6bc8e325",
+    "detected_at": "2026-10-27T16:47:03.090548+00:00",
+    "detected_epoch": 1793119623.090579,
+    "motion_started_epoch": 1793119622.5818043,
+    "changed_area_percent": 0.0014467592592592592,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 25,
+      "min_area_percent": 0.001,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "annotated_existing_recording",
+    "session_id": "20261027T164654Z-c1d05f",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1115,
+          "top": 210,
+          "right": 1119,
+          "bottom": 219,
+          "changed_analysis_pixels": 30,
+          "visible_in": "both"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 1115,
+          "top": 210,
+          "right": 1119,
+          "bottom": 219,
+          "changed_analysis_pixels": 30,
+          "visible_in": "both"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 2,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-c6a00a0d6bc8e325-boxed.jpg",
+    "evidence_files": [
+      "motion-c6a00a0d6bc8e325-before.jpg",
+      "motion-c6a00a0d6bc8e325-after.jpg"
+    ]
+  },
+  {
+    "id": "5c658002018396ed",
+    "detected_at": "2026-10-27T16:52:15.716648+00:00",
+    "detected_epoch": 1793119935.7166898,
+    "motion_started_epoch": 1793119935.15621,
+    "changed_area_percent": 0.0028452932098765433,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 25,
+      "min_area_percent": 0.001,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "annotated_existing_recording",
+    "session_id": "20261027T164654Z-c1d05f",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 407,
+          "top": 670,
+          "right": 411,
+          "bottom": 686,
+          "changed_analysis_pixels": 30,
+          "visible_in": "both"
+        },
+        {
+          "left": 621,
+          "top": 591,
+          "right": 625,
+          "bottom": 601,
+          "changed_analysis_pixels": 29,
+          "visible_in": "both"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 407,
+          "top": 670,
+          "right": 411,
+          "bottom": 686,
+          "changed_analysis_pixels": 30,
+          "visible_in": "both"
+        },
+        {
+          "left": 621,
+          "top": 591,
+          "right": 625,
+          "bottom": 601,
+          "changed_analysis_pixels": 29,
+          "visible_in": "both"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 2,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-5c658002018396ed-boxed.jpg",
+    "evidence_files": [
+      "motion-5c658002018396ed-before.jpg",
+      "motion-5c658002018396ed-after.jpg"
+    ]
+  },
+  {
+    "id": "9b7f3f6f7d8f4477",
+    "detected_at": "2026-10-27T16:53:13.201107+00:00",
+    "detected_epoch": 1793119993.2012098,
+    "motion_started_epoch": 1793119992.157711,
+    "changed_area_percent": 0.026041666666666668,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 25,
+      "min_area_percent": 0.01,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "annotated_existing_recording",
+    "session_id": "20261027T164654Z-c1d05f",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 757,
+          "top": 528,
+          "right": 779,
+          "bottom": 559,
+          "changed_analysis_pixels": 119,
+          "visible_in": "both"
+        },
+        {
+          "left": 725,
+          "top": 515,
+          "right": 756,
+          "bottom": 529,
+          "changed_analysis_pixels": 100,
+          "visible_in": "both"
+        },
+        {
+          "left": 1527,
+          "top": 429,
+          "right": 1549,
+          "bottom": 441,
+          "changed_analysis_pixels": 78,
+          "visible_in": "both"
+        },
+        {
+          "left": 627,
+          "top": 546,
+          "right": 645,
+          "bottom": 561,
+          "changed_analysis_pixels": 65,
+          "visible_in": "both"
+        },
+        {
+          "left": 1135,
+          "top": 698,
+          "right": 1139,
+          "bottom": 712,
+          "changed_analysis_pixels": 43,
+          "visible_in": "both"
+        },
+        {
+          "left": 167,
+          "top": 829,
+          "right": 172,
+          "bottom": 844,
+          "changed_analysis_pixels": 36,
+          "visible_in": "both"
+        },
+        {
+          "left": 1164,
+          "top": 538,
+          "right": 1180,
+          "bottom": 543,
+          "changed_analysis_pixels": 35,
+          "visible_in": "both"
+        },
+        {
+          "left": 423,
+          "top": 661,
+          "right": 442,
+          "bottom": 664,
+          "changed_analysis_pixels": 33,
+          "visible_in": "both"
+        },
+        {
+          "left": 937,
+          "top": 556,
+          "right": 952,
+          "bottom": 561,
+          "changed_analysis_pixels": 31,
+          "visible_in": "both"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 757,
+          "top": 528,
+          "right": 779,
+          "bottom": 559,
+          "changed_analysis_pixels": 119,
+          "visible_in": "both"
+        },
+        {
+          "left": 725,
+          "top": 515,
+          "right": 756,
+          "bottom": 529,
+          "changed_analysis_pixels": 100,
+          "visible_in": "both"
+        },
+        {
+          "left": 1527,
+          "top": 429,
+          "right": 1549,
+          "bottom": 441,
+          "changed_analysis_pixels": 78,
+          "visible_in": "both"
+        },
+        {
+          "left": 627,
+          "top": 546,
+          "right": 645,
+          "bottom": 561,
+          "changed_analysis_pixels": 65,
+          "visible_in": "both"
+        },
+        {
+          "left": 1135,
+          "top": 698,
+          "right": 1139,
+          "bottom": 712,
+          "changed_analysis_pixels": 43,
+          "visible_in": "both"
+        },
+        {
+          "left": 167,
+          "top": 829,
+          "right": 172,
+          "bottom": 844,
+          "changed_analysis_pixels": 36,
+          "visible_in": "both"
+        },
+        {
+          "left": 1164,
+          "top": 538,
+          "right": 1180,
+          "bottom": 543,
+          "changed_analysis_pixels": 35,
+          "visible_in": "both"
+        },
+        {
+          "left": 423,
+          "top": 661,
+          "right": 442,
+          "bottom": 664,
+          "changed_analysis_pixels": 33,
+          "visible_in": "both"
+        },
+        {
+          "left": 937,
+          "top": 556,
+          "right": 952,
+          "bottom": 561,
+          "changed_analysis_pixels": 31,
+          "visible_in": "both"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 2,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-9b7f3f6f7d8f4477-boxed.jpg",
+    "evidence_files": [
+      "motion-9b7f3f6f7d8f4477-before.jpg",
+      "motion-9b7f3f6f7d8f4477-after.jpg"
+    ]
+  }
+]
