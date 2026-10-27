@@ -1,0 +1,24 @@
+{
+  "mode": "selected",
+  "timing": "Representative stills near start, middle and end; original JPEG packets where available.",
+  "frames": [
+    {
+      "file": "frame-000000000.jpg",
+      "video_time_seconds": 0.0,
+      "bytes": 144008,
+      "sha256": "e44673aaee6490c606ea4bfdfb7e8301a0466065ce39817998f6b270a520cb20"
+    },
+    {
+      "file": "frame-000000001.jpg",
+      "video_time_seconds": 10.3745,
+      "bytes": 149426,
+      "sha256": "5f66a9d2aa2e792ce6ed95fbc82eae11d3ddbf70fe7aeee9fb8941da185286bb"
+    },
+    {
+      "file": "frame-000000002.jpg",
+      "video_time_seconds": 19.749,
+      "bytes": 153848,
+      "sha256": "76388719a4cbfc6b64878879c158c423e96a90ce42d4fc98c4b900c32a4a6b49"
+    }
+  ]
+}
