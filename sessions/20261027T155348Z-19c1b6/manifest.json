@@ -1337,5 +1337,27 @@
       }
     ],
     "error": null
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 348507448,
+      "sha256": "0eca6e83ff88cee608e61769f0661d3cf2616ad5e7b56621ff9b04a6ecfc2920",
+      "frame_count": 25440,
+      "fps": "1526400/25447",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
+    "error": null
   }
 }
