@@ -361,7 +361,7 @@
     "timing": "Original segment packet timestamps; host UTC mapping estimated from first segment write time. HDMI latency uncalibrated."
   },
   "youtube": {
-    "state": "waiting_frames",
+    "state": "retaining",
     "video_id": "aYcZDw0CVoo",
     "url": "https://www.youtube.com/watch?v=aYcZDw0CVoo",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
