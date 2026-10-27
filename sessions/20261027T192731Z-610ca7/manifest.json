@@ -22,16 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1336,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261027t192731z-610ca7/video.mp4",
+    "frame_count": 1336
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -232,17 +225,9 @@
       "bytes": 115472,
       "sha256": "2c5648c1a9d96195edbf369fde15200ae52e933b9fbd3e7f778fceb04e0854ee"
     },
-    "video.mkv": {
-      "bytes": 154358242,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "205fdbaa03bd102c52925b96042aea8a72c4d34607215eb5381c889dfa729a0a"
-    },
-    "video.mp4": {
-      "bytes": 13503027,
-      "sha256": "d8638dde575200c9fb1cfa4d89e91ae2fab916fcdfb1ea55d53c759a70efefa5"
     }
   },
   "buffer_assembly": {
@@ -258,7 +243,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -280,12 +265,12 @@
     "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261027t192731z-610ca7",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t192731z-610ca7",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t192731z-610ca7/video.mp4",
     "verified_at": 1793130057.3830512,
-    "cleaned_at": null,
+    "cleaned_at": 1793133677.3493803,
     "files": [
       {
         "name": "rf.jsonl",
