@@ -22,14 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 10797,
-    "avg_frame_rate": "3599/60",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "faststart": true
+    "state": "youtube",
+    "url": "https://www.youtube.com/watch?v=aYcZDw0CVoo",
+    "frame_count": 10797
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -339,14 +334,6 @@
       "bytes": 887668,
       "sha256": "dfe0a806dfddbadf03bcc69cb257d7cf8d673a0a8bfa8462cca830c8b8025040"
     },
-    "video.mkv": {
-      "bytes": 9579121157,
-      "integrity": "queued"
-    },
-    "video.mp4": {
-      "bytes": 886637108,
-      "sha256": "47e7e7c2a8dc51abcfa9c341af17800b27649f67fdc7cd807ecd1ac19c7ec066"
-    },
     "frames/index.json": {
       "bytes": 685,
       "sha256": "8aea92c535fefa8aa3d9f0570a84efd864eb6d6f719d035ac634bdf11b961e9a"
@@ -361,7 +348,7 @@
     "timing": "Original segment packet timestamps; host UTC mapping estimated from first segment write time. HDMI latency uncalibrated."
   },
   "youtube": {
-    "state": "retaining",
+    "state": "cleaned",
     "video_id": "aYcZDw0CVoo",
     "url": "https://www.youtube.com/watch?v=aYcZDw0CVoo",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -378,8 +365,30 @@
       "height": 1080
     },
     "cleanup": "videos_only",
-    "cleaned_files": [],
-    "cleanup_plan": [],
+    "cleaned_files": [
+      {
+        "file": "video.mkv",
+        "bytes": 9579121157,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 886637108,
+        "sha256": "47e7e7c2a8dc51abcfa9c341af17800b27649f67fdc7cd807ecd1ac19c7ec066"
+      }
+    ],
+    "cleanup_plan": [
+      {
+        "file": "video.mkv",
+        "bytes": 9579121157,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 886637108,
+        "sha256": "47e7e7c2a8dc51abcfa9c341af17800b27649f67fdc7cd807ecd1ac19c7ec066"
+      }
+    ],
     "error": null
   },
   "frame_integrity": {
