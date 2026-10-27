@@ -22,16 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1221,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true
+    "state": "youtube",
+    "url": "https://www.youtube.com/watch?v=87o-eLCv_CM",
+    "frame_count": 1221
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -295,17 +288,9 @@
       "bytes": 259596,
       "sha256": "68c56923aa95cdd0dfded2110df2f92593e8bba92d70fbd9996c921bed9c24a1"
     },
-    "video.mkv": {
-      "bytes": 317602972,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "d099fad42192409c9c97c3f2aa4c224db7ca48902952ce5db8905a7aee6f3e21"
-    },
-    "video.mp4": {
-      "bytes": 79134830,
-      "sha256": "15d671917492e319cad5afbb12b3a03dabe27a806eae9f55d1e597b901893665"
     }
   },
   "buffer_assembly": {
@@ -321,7 +306,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "retaining",
+    "state": "cleaned",
     "video_id": "87o-eLCv_CM",
     "url": "https://www.youtube.com/watch?v=87o-eLCv_CM",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -338,8 +323,30 @@
       "height": 1080
     },
     "cleanup": "videos_only",
-    "cleaned_files": [],
-    "cleanup_plan": [],
+    "cleaned_files": [
+      {
+        "file": "video.mkv",
+        "bytes": 317602972,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 79134830,
+        "sha256": "15d671917492e319cad5afbb12b3a03dabe27a806eae9f55d1e597b901893665"
+      }
+    ],
+    "cleanup_plan": [
+      {
+        "file": "video.mkv",
+        "bytes": 317602972,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 79134830,
+        "sha256": "15d671917492e319cad5afbb12b3a03dabe27a806eae9f55d1e597b901893665"
+      }
+    ],
     "error": null
   }
 }
