@@ -91,44 +91,77 @@
       "annotation": {
         "boxes": [
           {
-            "left": 1852,
-            "top": 648,
-            "right": 1888,
-            "bottom": 680,
-            "changed_analysis_pixels": 204
-          },
-          {
-            "left": 1874,
-            "top": 679,
-            "right": 1883,
-            "bottom": 727,
-            "changed_analysis_pixels": 194
-          },
-          {
-            "left": 1859,
-            "top": 642,
-            "right": 1891,
-            "bottom": 673,
-            "changed_analysis_pixels": 138
-          },
-          {
             "left": 1829,
-            "top": 646,
-            "right": 1848,
-            "bottom": 658,
-            "changed_analysis_pixels": 117
+            "top": 638,
+            "right": 1891,
+            "bottom": 727,
+            "changed_analysis_pixels": 819,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1802,
+              "top": 611,
+              "right": 1918,
+              "bottom": 754
+            }
           },
           {
-            "left": 1866,
-            "top": 681,
-            "right": 1872,
-            "bottom": 701,
-            "changed_analysis_pixels": 85
+            "left": 1320,
+            "top": 524,
+            "right": 1337,
+            "bottom": 534,
+            "changed_analysis_pixels": 33,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1296,
+              "top": 500,
+              "right": 1361,
+              "bottom": 558
+            }
           }
         ],
+        "changed_regions": [
+          {
+            "left": 1829,
+            "top": 638,
+            "right": 1891,
+            "bottom": 727,
+            "changed_analysis_pixels": 819,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1802,
+              "top": 611,
+              "right": 1918,
+              "bottom": 754
+            }
+          },
+          {
+            "left": 1288,
+            "top": 544,
+            "right": 1303,
+            "bottom": 558,
+            "changed_analysis_pixels": 37,
+            "visible_in": "after"
+          },
+          {
+            "left": 1320,
+            "top": 524,
+            "right": 1337,
+            "bottom": 534,
+            "changed_analysis_pixels": 33,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1296,
+              "top": 500,
+              "right": 1361,
+              "bottom": 558
+            }
+          }
+        ],
+        "source_frame": "before",
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
       },
       "annotated_frame": "motion-e1fd08fdc6c0313a-boxed.jpg",
       "evidence_files": [
@@ -181,8 +214,8 @@
       "sha256": "0ce1f74c2f7fc636adeea4d75bd1c6bd0d8a57ed8c001a95ea04c0bf6d4fe2a5"
     },
     "motion-e1fd08fdc6c0313a-boxed.jpg": {
-      "bytes": 171391,
-      "sha256": "b6a53a8abdb39d87c248f8d8f60eb6aeee016981ca36c935c6bbd79e2c173551"
+      "bytes": 174335,
+      "sha256": "85145f01af925e2a2874223b0c97204c895684579237fbc7716a7e153dd15e96"
     },
     "frames/index.json": {
       "bytes": 719,
