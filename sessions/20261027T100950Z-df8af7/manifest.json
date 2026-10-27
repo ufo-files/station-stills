@@ -22,14 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1212,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "faststart": true
+    "state": "youtube",
+    "url": "https://www.youtube.com/watch?v=q5uH3VSwe-A",
+    "frame_count": 1212
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -293,17 +288,9 @@
       "bytes": 365373,
       "sha256": "5102963fc6044c60c5e022866be8c25fe0ef30922858ffe434a185d747bd469e"
     },
-    "video.mkv": {
-      "bytes": 312793851,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 719,
       "sha256": "2d207aceb9328a9485e76083def3f3c7e0f163a7068fe3543100f32b5682ea4b"
-    },
-    "video.mp4": {
-      "bytes": 77611065,
-      "sha256": "a690a8fb79b1610f6686625919f8e6175fedcd4d0654e5b1abf50e0dfffbf577"
     }
   },
   "buffer_assembly": {
@@ -319,7 +306,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "retaining",
+    "state": "cleaned",
     "video_id": "q5uH3VSwe-A",
     "url": "https://www.youtube.com/watch?v=q5uH3VSwe-A",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -336,8 +323,30 @@
       "height": 1080
     },
     "cleanup": "videos_only",
-    "cleaned_files": [],
-    "cleanup_plan": [],
+    "cleaned_files": [
+      {
+        "file": "video.mkv",
+        "bytes": 312793851,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 77611065,
+        "sha256": "a690a8fb79b1610f6686625919f8e6175fedcd4d0654e5b1abf50e0dfffbf577"
+      }
+    ],
+    "cleanup_plan": [
+      {
+        "file": "video.mkv",
+        "bytes": 312793851,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 77611065,
+        "sha256": "a690a8fb79b1610f6686625919f8e6175fedcd4d0654e5b1abf50e0dfffbf577"
+      }
+    ],
     "error": null
   }
 }
