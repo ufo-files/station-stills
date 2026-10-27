@@ -435,6 +435,6 @@
         "sha256": "188f42120475e3aba82dc21a4ff4cff2383ad12a69ee9362f2e7fd1cf0f425c9"
       }
     ],
-    "error": null
+    "error": "Internet Archive connection interrupted; local files retained"
   }
 }
