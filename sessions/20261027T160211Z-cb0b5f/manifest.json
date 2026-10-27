@@ -442,7 +442,7 @@
         "sha256": "01d2db6d376ba8dbc529f95a7c2c402bbc1308e23a36b79d64c0e0021a7b1f66"
       }
     ],
-    "error": null
+    "error": "Internet Archive connection interrupted; local files retained"
   },
   "youtube": {
     "state": "queued",
