@@ -1,0 +1,98 @@
+{
+  "id": "20261027T201505Z-5580dc",
+  "title": "Automatic pair 18 \u00b7 Silence",
+  "condition": "silence",
+  "notes": "Automatic scheduled trial. Frame export: 1 fps. CE5 stage enabled: False.",
+  "state": "completed",
+  "started_at": "2026-10-27T20:15:05.441531+00:00",
+  "started_epoch": 1793132105.441531,
+  "started_monotonic": 55776.89274269028,
+  "duration_limit_seconds": 180,
+  "rf_records": 174,
+  "markers": [],
+  "frame_fps": 1,
+  "video_fps": 60,
+  "frame_export_mode": "selected",
+  "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
+  "video_archive": "video.mkv",
+  "video_playback": {
+    "state": "failed",
+    "file": "video.mp4",
+    "error": "MP4 encoding failed; see playback-encode.log",
+    "attempts": 1,
+    "next_attempt": 1793137300.8972118
+  },
+  "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
+  "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
+  "playback": {
+    "state": "silent",
+    "description": "No station-controlled audio played during this trial."
+  },
+  "upload": "Local only; video uploads are not configured",
+  "buffered_capture": true,
+  "pre_roll_complete": true,
+  "capture_origin": "scheduled",
+  "automatic_run": "20261026T182225Z-bf29c0",
+  "pair": 18,
+  "trial_valid": true,
+  "experiment_settings": {
+    "duration_minutes": 3,
+    "gap_minutes": 10,
+    "interval_minutes": 60,
+    "frame_fps": 1,
+    "video_fps": 60,
+    "frame_export_mode": "selected",
+    "ce5_enabled": false,
+    "output": "",
+    "volume": 0.25
+  },
+  "buffer_tail_complete": true,
+  "clip_end_epoch": 1793132285.441531,
+  "stopped_at": "2026-10-27T20:18:06.169637+00:00",
+  "stopped_epoch": 1793132286.1696787,
+  "elapsed_seconds": 180.728,
+  "stop_reason": "Automatic stop: duration reached",
+  "capture_stats": {
+    "frame": 10797
+  },
+  "frames": {
+    "state": "completed",
+    "mode": "selected",
+    "count": 3,
+    "completed_at": "2026-10-27T20:24:09.918423+00:00"
+  },
+  "files": {
+    "rf.jsonl": {
+      "bytes": 655663,
+      "sha256": "f0f1e0d9216b00f1d00507abc2b108b98739dc3d6d9adc66eac3faf54c3aca6f"
+    },
+    "capture.log": {
+      "bytes": 48,
+      "sha256": "862fd61458e484316f3b811278b24161ede27f4b94718e5ce07bc3952464c769"
+    },
+    "buffer-state.json": {
+      "bytes": 36497,
+      "sha256": "bd0607dba2e89b2574d29af8957fad76d1d0c88e5d6213f908ebd01b5f2e4b61"
+    },
+    "video.mkv": {
+      "bytes": 1393949971,
+      "integrity": "queued"
+    },
+    "frames/index.json": {
+      "bytes": 720,
+      "sha256": "9c7dc0734dcb0d840ff490a8596908d072ecbcc1ff44e62f6eb10e342d39519c"
+    }
+  },
+  "buffer_assembly": {
+    "state": "completed",
+    "frames": 10797,
+    "seconds": 180.0,
+    "trim_start_seconds": 0.40285396575927734,
+    "packet_copy": true,
+    "timing": "Original segment packet timestamps; host UTC mapping estimated from first segment write time. HDMI latency uncalibrated."
+  },
+  "frame_integrity": {
+    "every_recorded_frame": false,
+    "selected_original_stills": true
+  }
+}
