@@ -256,7 +256,7 @@
     "error": null
   },
   "internet_archive": {
-    "state": "verifying",
+    "state": "uploading",
     "identifier": "ufo-files-station-7c3668-20261027t163130z-1a1830",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t163130z-1a1830",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t163130z-1a1830/video.mp4",
@@ -329,6 +329,62 @@
         "bytes": 10735797,
         "md5": "371876c07cc838e248869c427d9ca0c3",
         "sha256": "0b5441113eb6b08f4fec51a150281b70c0999001784f86e9047af1346968fa98"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 16640,
+        "md5": "d51785b66278e550658c651ea2149704",
+        "sha256": "07f86f832c6004cc4b84c70bbc0ddf4a428b254711c08d206a1dca9d85ddc25b"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 1407,
+        "md5": "8454f1ffc1e8292b1159e4b0111b7621",
+        "sha256": "dcf6d945268f5d7cadb2ae9edaa1071cb747609856a73b15c3394c9d33a4515b"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 4762,
+        "md5": "3deb065e7b1db822470639d7cb60eee1",
+        "sha256": "a93e50694390c1d4cb5629410fb5aad8c9698ac6a2110d27f33df24f33b09587"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 48,
+        "md5": "24a672269bd868f7ea05280c1954d98c",
+        "sha256": "d819a2ed145732e248569d23625de1e3da16b910970a53c6369f5abd146c4cff"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 96,
+        "md5": "6e2019067e12013618b040e30ceebc2a",
+        "sha256": "11162af4deb56cc3a49ee3180e2f74b5e39a5b051b9628d7da5af94368bed9c4"
+      },
+      {
+        "name": "playback-progress.txt",
+        "bytes": 31164,
+        "md5": "cb567c4aa3b78fe55c8517410c0639ed",
+        "sha256": "527a65e3c7cb6d2344bb30dadec5f6084cf561671837f853860f885d529527ac"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261027T163130Z-1a1830-manifest.json",
+        "bytes": 10706,
+        "md5": "bf31a899009f4e19f633de62afe059a2",
+        "sha256": "d6b37ae7dc8c16cb75e4012f6cec4625bc673a79431de473f51efbe64c568dd5"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261027T163130Z-1a1830-archive-index.json",
+        "bytes": 4157,
+        "md5": "9d0a61fc371b83c334fefb1495a9bdcb",
+        "sha256": "68c30dd163c749ac98a15b7b3722d7b27af3c586b8c83c613e9d9738e70277b3"
       }
     ],
     "error": null
