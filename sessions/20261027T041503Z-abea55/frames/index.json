@@ -1,0 +1,24 @@
+{
+  "mode": "selected",
+  "timing": "Selected original JPEGs; no rescaling or recompression.",
+  "frames": [
+    {
+      "file": "frame-000000000.jpg",
+      "video_time_seconds": 0.0,
+      "bytes": 889563,
+      "sha256": "5a86cbfec8bb613dda75683e42d3be9ce9941bdd3acf764bc4bf2684a9aa44f5"
+    },
+    {
+      "file": "frame-000000001.jpg",
+      "video_time_seconds": 7.501,
+      "bytes": 885594,
+      "sha256": "6ba75b3ff539d900cc31bc04938945756b7096df93ad2024323a22697910e63e"
+    },
+    {
+      "file": "frame-000000002.jpg",
+      "video_time_seconds": 14.984,
+      "bytes": 881695,
+      "sha256": "3852a29cc5fba75150a070d41e2b9eae047af29da3959cdfa9e830febc3e4aac"
+    }
+  ]
+}

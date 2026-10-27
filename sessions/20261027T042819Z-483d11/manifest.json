@@ -1,0 +1,121 @@
+{
+  "id": "20261027T042819Z-483d11",
+  "title": "Motion trigger \u00b7 2026-10-27T04:28:19.864550+00:00",
+  "condition": "silence",
+  "notes": "",
+  "state": "interrupted",
+  "started_at": "2026-10-27T04:28:09.719811+00:00",
+  "started_epoch": 1793075289.719811,
+  "started_monotonic": 43174.31708053111,
+  "duration_limit_seconds": 7200,
+  "rf_records": 8,
+  "markers": [],
+  "frame_fps": 1,
+  "video_fps": 60,
+  "frame_export_mode": "selected",
+  "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
+  "video_archive": "video.mkv",
+  "video_playback": {
+    "state": "youtube",
+    "url": "https://www.youtube.com/watch?v=a0YEP71V514",
+    "frame_count": 407
+  },
+  "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
+  "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
+  "playback": {
+    "state": "silent",
+    "description": "Manual condition label; no station-controlled playback."
+  },
+  "upload": "Local only; video uploads are not configured",
+  "buffered_capture": true,
+  "capture_mode": "motion_window",
+  "pre_roll_seconds": 10.0,
+  "post_roll_seconds": 10.0,
+  "motion_onset_epoch": 1793075299.719811,
+  "pre_roll_complete": true,
+  "pre_roll_actual_seconds": 10.0,
+  "capture_origin": "motion_trigger",
+  "trial_valid": false,
+  "stopped_at": "2026-10-27T04:39:33.475996+00:00",
+  "stop_reason": "Station restarted; partial recording retained",
+  "frames": {
+    "state": "completed",
+    "mode": "selected",
+    "count": 3,
+    "completed_at": "2026-10-27T05:34:27.931100+00:00"
+  },
+  "recovery": {
+    "state": "partial_archive_queued",
+    "detected_at": "2026-10-27T04:39:33.477241+00:00",
+    "note": "Recover available frames; recording remains an interrupted trial."
+  },
+  "capture_stats": {
+    "frame": 407
+  },
+  "buffer_assembly": {
+    "state": "completed",
+    "frames": 407,
+    "seconds": 10.197151899337769,
+    "trim_start_seconds": 0.8008480072021484,
+    "packet_copy": true,
+    "timing": "Original segment packet timestamps; host UTC mapping estimated from first segment write time. HDMI latency uncalibrated."
+  },
+  "files": {
+    "buffer-state.json": {
+      "bytes": 2683,
+      "sha256": "d2983794433246af69147cf55fadc9fc459412f5c45ec1c3c4392de810f4c18c"
+    },
+    "frames/index.json": {
+      "bytes": 682,
+      "sha256": "2222ea30a9a871bd0e741d26b36b83ee24e062fac18fbaed73c580bd9c5d2fa5"
+    }
+  },
+  "youtube": {
+    "state": "cleaned",
+    "video_id": "a0YEP71V514",
+    "url": "https://www.youtube.com/watch?v=a0YEP71V514",
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": 1793076369.7502942,
+    "verified_at": 1793076431.9494436,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 34229099,
+      "sha256": "92fd0b9fd8b66e5cb885ae9dff3a795fe72c18b1529424845d051270e2833b35",
+      "frame_count": 407,
+      "fps": "8140/141",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [
+      {
+        "file": "video.mkv",
+        "bytes": 361150354,
+        "sha256": "4f6e6a5cf8d3fc89b14bf42f1cec838181f5f639f894da15c286db92aacaa729"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 34229099,
+        "sha256": "92fd0b9fd8b66e5cb885ae9dff3a795fe72c18b1529424845d051270e2833b35"
+      }
+    ],
+    "cleanup_plan": [
+      {
+        "file": "video.mkv",
+        "bytes": 361150354,
+        "sha256": "4f6e6a5cf8d3fc89b14bf42f1cec838181f5f639f894da15c286db92aacaa729"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 34229099,
+        "sha256": "92fd0b9fd8b66e5cb885ae9dff3a795fe72c18b1529424845d051270e2833b35"
+      }
+    ],
+    "error": null
+  },
+  "frame_integrity": {
+    "every_recorded_frame": false,
+    "selected_original_stills": true
+  }
+}
