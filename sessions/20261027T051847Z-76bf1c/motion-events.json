@@ -1,0 +1,88 @@
+[
+  {
+    "id": "a79e26993e093b67",
+    "detected_at": "2026-10-27T05:18:47.968767+00:00",
+    "detected_epoch": 1793078327.9688222,
+    "motion_started_epoch": 1793078327.8086276,
+    "changed_area_percent": 0.010513117283950617,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 30,
+      "analysis_width": 1920,
+      "pixel_threshold": 20,
+      "min_area_percent": 0.01,
+      "max_area_percent": 40.0,
+      "confirmation_seconds": 0.15,
+      "reference_seconds": 0.5,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "native-detail-exposure-compensated-v2",
+    "action": "started_recording",
+    "session_id": "20261027T051847Z-76bf1c",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1,
+          "top": 829,
+          "right": 17,
+          "bottom": 844,
+          "changed_analysis_pixels": 200
+        },
+        {
+          "left": 1097,
+          "top": 1068,
+          "right": 1101,
+          "bottom": 1071,
+          "changed_analysis_pixels": 8
+        },
+        {
+          "left": 1864,
+          "top": 653,
+          "right": 1868,
+          "bottom": 656,
+          "changed_analysis_pixels": 7
+        },
+        {
+          "left": 977,
+          "top": 769,
+          "right": 979,
+          "bottom": 771,
+          "changed_analysis_pixels": 3
+        }
+      ],
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+    },
+    "annotated_frame": "motion-a79e26993e093b67-boxed.jpg",
+    "evidence_files": [
+      "motion-a79e26993e093b67-before.jpg",
+      "motion-a79e26993e093b67-after.jpg"
+    ]
+  }
+]
