@@ -1,0 +1,89 @@
+[
+  {
+    "id": "f7906a51ac052421",
+    "detected_at": "2026-10-27T16:16:50.452649+00:00",
+    "detected_epoch": 1793117810.4526794,
+    "motion_started_epoch": 1793117809.6718447,
+    "changed_area_percent": 0.00236304012345679,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 25,
+      "min_area_percent": 0.001,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "started_recording",
+    "session_id": "20261027T161650Z-c1f9da",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 803,
+          "top": 576,
+          "right": 811,
+          "bottom": 580,
+          "changed_analysis_pixels": 25,
+          "visible_in": "after"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 803,
+          "top": 576,
+          "right": 811,
+          "bottom": 580,
+          "changed_analysis_pixels": 25,
+          "visible_in": "after"
+        },
+        {
+          "left": 1560,
+          "top": 341,
+          "right": 1568,
+          "bottom": 345,
+          "changed_analysis_pixels": 24,
+          "visible_in": "before"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 2,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-f7906a51ac052421-boxed.jpg",
+    "evidence_files": [
+      "motion-f7906a51ac052421-before.jpg",
+      "motion-f7906a51ac052421-after.jpg"
+    ]
+  }
+]
