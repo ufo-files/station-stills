@@ -18,9 +18,9 @@
   "video_playback": {
     "state": "failed",
     "file": "video.mp4",
-    "error": "Playback frame mismatch: 10773 vs 10815",
-    "attempts": 2,
-    "next_attempt": 1793131919.6651936
+    "error": "MP4 encoding failed; see playback-encode.log",
+    "attempts": 3,
+    "next_attempt": 1793148790.421171
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
