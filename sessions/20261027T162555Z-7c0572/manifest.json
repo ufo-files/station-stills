@@ -27,16 +27,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 2367,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261027t162555z-7c0572/video.mp4",
+    "frame_count": 2367
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -288,17 +281,9 @@
       "bytes": 159498,
       "sha256": "137daf11b8c80477c1afc39249198aca17826ac039ba9e21435d96afc97cf07d"
     },
-    "video.mkv": {
-      "bytes": 376864881,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 719,
       "sha256": "6d4cba0bcc8c95e88a1a4c7579326ba63975e396553d1daa80f00dd8478d8c9b"
-    },
-    "video.mp4": {
-      "bytes": 35264738,
-      "sha256": "f230780c2de136bb11a156e3a46d3546dc0315b04c5017ef2ce94b4bf4d4e6e8"
     }
   },
   "buffer_assembly": {
@@ -314,12 +299,12 @@
     "selected_original_stills": true
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261027t162555z-7c0572",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t162555z-7c0572",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t162555z-7c0572/video.mp4",
     "verified_at": 1793131408.339085,
-    "cleaned_at": null,
+    "cleaned_at": 1793135010.121139,
     "files": [
       {
         "name": "rf.jsonl",
@@ -466,7 +451,7 @@
     "error": null
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
