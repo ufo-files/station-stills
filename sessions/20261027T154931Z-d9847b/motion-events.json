@@ -1,0 +1,67 @@
+[
+  {
+    "id": "c8b5fc7aa63b75bf",
+    "detected_at": "2026-10-27T15:49:45.404720+00:00",
+    "detected_epoch": 1793116185.404754,
+    "motion_started_epoch": 1793116185.193355,
+    "changed_area_percent": 0.033034336419753084,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 20,
+      "min_area_percent": 0.02,
+      "max_area_percent": 40.0,
+      "confirmation_seconds": 0.15,
+      "reference_seconds": 0.5,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "native-detail-exposure-compensated-v2",
+    "action": "annotated_existing_recording",
+    "session_id": "20261027T154931Z-d9847b",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 184,
+          "top": 736,
+          "right": 240,
+          "bottom": 763,
+          "changed_analysis_pixels": 685
+        }
+      ],
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+    },
+    "annotated_frame": "motion-c8b5fc7aa63b75bf-boxed.jpg",
+    "evidence_files": [
+      "motion-c8b5fc7aa63b75bf-before.jpg",
+      "motion-c8b5fc7aa63b75bf-after.jpg"
+    ]
+  }
+]
