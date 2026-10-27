@@ -22,18 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1244,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261027t203616z-22f5eb/video.mp4",
+    "frame_count": 1244
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -190,17 +181,9 @@
       "bytes": 111259,
       "sha256": "2e2938288663cc1a41e0b57e9b4d2a781f7b11b2b0713ce1ac49426329c0f4a9"
     },
-    "video.mkv": {
-      "bytes": 138111535,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "f19183b9b7ecf841cb1cfa33777dd6da5b2130884dc3389fbbfc8233ebf1615f"
-    },
-    "video.mp4": {
-      "bytes": 10047102,
-      "sha256": "a5adf1d495b304d3a9ea514d60d66be2e38b51c0b663a62e30c1ac7c1a25a367"
     }
   },
   "buffer_assembly": {
@@ -216,12 +199,12 @@
     "selected_original_stills": true
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261027t203616z-22f5eb",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t203616z-22f5eb",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t203616z-22f5eb/video.mp4",
     "verified_at": 1793139265.4090922,
-    "cleaned_at": null,
+    "cleaned_at": 1793142866.399345,
     "files": [
       {
         "name": "rf.jsonl",
@@ -344,7 +327,7 @@
     "error": null
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
