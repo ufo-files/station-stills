@@ -296,5 +296,123 @@
   "frame_integrity": {
     "every_recorded_frame": false,
     "selected_original_stills": true
+  },
+  "internet_archive": {
+    "state": "queued",
+    "identifier": "ufo-files-station-7c3668-20261027t164550z-8678c3",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t164550z-8678c3",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t164550z-8678c3/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 97794,
+        "md5": "792855dd50e8cffa965938f0be40d47d",
+        "sha256": "bfecf9218dc05896fa402dec20a122a559d93876fcc66f5b0101ea0a95520e09"
+      },
+      {
+        "name": "motion-events.json",
+        "bytes": 4075,
+        "md5": "a60e833d583279c78855df900763dbd2",
+        "sha256": "52b23ac7915890aa27428c1a5b6e8981cbcb32783785ada013d2946ea8b8e5d9"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 720,
+        "md5": "4b0e78a28bfeaee10f7f6f3b5206d57d",
+        "sha256": "1549f472d817f457fea75a830acd23118fe6a45397e41b4d88c68d5588abd1f9"
+      },
+      {
+        "name": "motion-54b9d238773c641c-after.jpg",
+        "bytes": 143065,
+        "md5": "0f7a05aa15fb619f7da53871321ce0a0",
+        "sha256": "64e67b7c4158b1cb5de55a868ec155da428e1c321445b08cf2576dc0dd545c24"
+      },
+      {
+        "name": "motion-52f6537e8c6f11b3-boxed.jpg",
+        "bytes": 195033,
+        "md5": "a939f50b43fdd119507e29acefcebb99",
+        "sha256": "fd081b77b56ed940fce8192f2f6b16c785e5e235cc6f7e77436053aa6144ffb7"
+      },
+      {
+        "name": "motion-54b9d238773c641c-boxed.jpg",
+        "bytes": 195618,
+        "md5": "61ac5284c815d5728c7b84b8d845c4e4",
+        "sha256": "d0e1e6aa85e7f95fcfcb8c1ababa498afa16d58c8eb85e4078fabcb095549ba5"
+      },
+      {
+        "name": "motion-54b9d238773c641c-before.jpg",
+        "bytes": 143354,
+        "md5": "8d204a843da043d19a11fe20bd3c3fd9",
+        "sha256": "93eeac01f345758a40ccb693a4e18afdccc68d553602e03eb4128828fa694f8a"
+      },
+      {
+        "name": "motion-52f6537e8c6f11b3-after.jpg",
+        "bytes": 142952,
+        "md5": "6bb421dcf00a146afb08039c48fa50b6",
+        "sha256": "f05acc92e985434d47643718a5b8c9d8980045a773b7a569e33133b276172091"
+      },
+      {
+        "name": "motion-52f6537e8c6f11b3-before.jpg",
+        "bytes": 143350,
+        "md5": "5e9ef7b522e81c9b48a9c4b84fafad46",
+        "sha256": "3fe04fbff6cf9aa1acf89b8203b3077ae915a0b7c57acf03fd50ff0a5e54550d"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 139940,
+        "md5": "6ee578e1ba50dcbc9a418f50d3662ba0",
+        "sha256": "abe7c86c3850e3885325ce42ed8462e029d5298d837c7bbc7d8a0b13acda1d72"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 142910,
+        "md5": "e195f0fd27322b91520a10a6ac46a93e",
+        "sha256": "33e0b90906e6249ae889ff9d9ff345f6f2e3f6059403ea566a6830ee8db3f975"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 148820,
+        "md5": "77739ffbc89e04775da8a3464ff9d282",
+        "sha256": "bd78000f0eec1fb25f557a78021810f27c98d73b6e94d77f7bc6e1615df1452e"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261027T164550Z-8678c3-session.json",
+        "bytes": 9813,
+        "md5": "ac22d969f7666528907ec6735e931b2a",
+        "sha256": "d536efcefd7c0173413e0b63a157395bcfa78f33c0d5c462b4e258e8cf7d2bae"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 22557842,
+        "md5": "4d660ae8550b3348a8437170d72e4f6e",
+        "sha256": "c243644728bba4bf61a8d531eee1ada6997f734bbbd025c5326e05b015f903c5"
+      }
+    ],
+    "error": null
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 22557842,
+      "sha256": "c243644728bba4bf61a8d531eee1ada6997f734bbbd025c5326e05b015f903c5",
+      "frame_count": 1734,
+      "fps": "20808/347",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
+    "error": null
   }
 }
