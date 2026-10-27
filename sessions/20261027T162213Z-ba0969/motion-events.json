@@ -1,0 +1,81 @@
+[
+  {
+    "id": "a9ad2c9f14c2491c",
+    "detected_at": "2026-10-27T16:22:13.259986+00:00",
+    "detected_epoch": 1793118133.2600195,
+    "motion_started_epoch": 1793118132.4875689,
+    "changed_area_percent": 0.0013020833333333333,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 25,
+      "min_area_percent": 0.001,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "started_recording",
+    "session_id": "20261027T162213Z-ba0969",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 232,
+          "top": 982,
+          "right": 240,
+          "bottom": 986,
+          "changed_analysis_pixels": 27,
+          "visible_in": "before"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 232,
+          "top": 982,
+          "right": 240,
+          "bottom": 986,
+          "changed_analysis_pixels": 27,
+          "visible_in": "before"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 2,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-a9ad2c9f14c2491c-boxed.jpg",
+    "evidence_files": [
+      "motion-a9ad2c9f14c2491c-before.jpg",
+      "motion-a9ad2c9f14c2491c-after.jpg"
+    ]
+  }
+]
