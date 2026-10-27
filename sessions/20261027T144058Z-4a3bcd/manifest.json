@@ -125,5 +125,59 @@
     "cleaned_files": [],
     "cleanup_plan": [],
     "error": "The user has exceeded the number of videos they may upload."
+  },
+  "internet_archive": {
+    "state": "queued",
+    "identifier": "ufo-files-station-7c3668-20261027t144058z-4a3bcd",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t144058z-4a3bcd",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t144058z-4a3bcd/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 616842,
+        "md5": "736be6655c942b255898ade8c5521fe1",
+        "sha256": "ff7159166aabaa49d19904365fe7c03eb1062fcc29ee7f6c03db1fb31bcbc39e"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 717,
+        "md5": "70f82616c7377205144b749c0ac77661",
+        "sha256": "a21845eaade6bea7fa1769163a68d84107df45cc42fe56c22914c3d08d2c940a"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 74251,
+        "md5": "6466923e1f2e4292348d97413596593d",
+        "sha256": "25a8315c821f5e29349b009659a9e03ba11816bb5af3051f44833b68439d8ee3"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 69255,
+        "md5": "cc1bbb09b63cd0a1e8801184b8c09186",
+        "sha256": "36515cd25fbde4fefdc708ab3cea1c00a79cbbd89fd3eb53d186cd4de6563730"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 58987,
+        "md5": "5eee5478910e0be8e25e280a389d99e0",
+        "sha256": "b5c9ab43d541aa879902989aa2f200408e59c168adac1be6357fef09d0010712"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261027T144058Z-4a3bcd-session.json",
+        "bytes": 4289,
+        "md5": "4d0b9cb74b0be9923b29778a7143c740",
+        "sha256": "7e4b75dc0b5bf167c9f0b3b91b7ad522d6fa432ff80561246c41e52fc8f17781"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 115138237,
+        "md5": "53112cd23bba306faa0672cf48f61f71",
+        "sha256": "1686f815b1ed99305b7a309b22db8207d10877d16138997b514da6eaf897101f"
+      }
+    ],
+    "error": null
   }
 }

@@ -299,5 +299,83 @@
     "cleaned_files": [],
     "cleanup_plan": [],
     "error": "The user has exceeded the number of videos they may upload."
+  },
+  "internet_archive": {
+    "state": "queued",
+    "identifier": "ufo-files-station-7c3668-20261027t153519z-81883f",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t153519z-81883f",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t153519z-81883f/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 60384,
+        "md5": "bb55db6519483ea0e830f766bb001c61",
+        "sha256": "c4cddde9fc9795bcb24e6171690f954862d07a2d035ef186d7b1d8882acc39e9"
+      },
+      {
+        "name": "motion-events.json",
+        "bytes": 3690,
+        "md5": "e464b6dc772d60a487775989610baee2",
+        "sha256": "6fd84d8b8f258d2c21b1ff338aa802314eedd5a76d3789dfa6e29e28c1eac744"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 719,
+        "md5": "73192bbb420d3fe9ec992d1c33e42ddb",
+        "sha256": "a6b477c84e646ad12c805d6f67c69932c942087057e7208c2820a55a7fedc711"
+      },
+      {
+        "name": "motion-a5db7a2097d37598-boxed.jpg",
+        "bytes": 183097,
+        "md5": "a183ae7d42e138e92367743de67e2385",
+        "sha256": "8d54bf598c7dbe46305a776cb8e5ffddf45ab05f6ee9e19fad4c52a084d746de"
+      },
+      {
+        "name": "motion-a5db7a2097d37598-after.jpg",
+        "bytes": 122635,
+        "md5": "15d1c30796eb163bc6341f7b40ddd2ca",
+        "sha256": "b26b99be02ee73b741b6a3e1887ec15325179306b780f45177d52430377c7d96"
+      },
+      {
+        "name": "motion-a5db7a2097d37598-before.jpg",
+        "bytes": 121730,
+        "md5": "27dfe02ae892849032d10e02c291e053",
+        "sha256": "597e8fd058c1dc67569cd2a4afeaf17a12326423aa62a1d2bc1a04566bc9f807"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 123614,
+        "md5": "989d62a57813a59c3e5b5cef630c57b8",
+        "sha256": "c020d970aeb4e7517c53e311aeea09a49037dccd9e895cd6e0dcc13ba2881ea3"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 122075,
+        "md5": "05af0dc71ea9631e3405da2b56da69c5",
+        "sha256": "5011d14938d0f61b06d82feb17e84440059561557298e2d708e320e7594d75b8"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 119483,
+        "md5": "ab566e49abb213f96085195107254512",
+        "sha256": "f08890f053aaef2cbcd080c549ee3dc6e3558c40e684c751e685aa9f37818642"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261027T153519Z-81883f-session.json",
+        "bytes": 9392,
+        "md5": "c66dbc12aef6214a9119c4ba327adc36",
+        "sha256": "29645a8a352e281ecc010cafebd84e943a392441c66c0e71cf17a6cd675d27d0"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 14712438,
+        "md5": "924460be0f372c316e4f0d8f73254917",
+        "sha256": "4b2a15c424ee513cce2caec8729b9cadd5b5c5c1f4e2d844213d2056e8477157"
+      }
+    ],
+    "error": null
   }
 }

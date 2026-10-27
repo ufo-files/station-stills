@@ -222,5 +222,83 @@
     "cleaned_files": [],
     "cleanup_plan": [],
     "error": null
+  },
+  "internet_archive": {
+    "state": "uploading",
+    "identifier": "ufo-files-station-7c3668-20261027t163429z-54a1c6",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t163429z-54a1c6",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t163429z-54a1c6/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 71463,
+        "md5": "2718df72b7337f971dd2284b2e710490",
+        "sha256": "24d823f4730a245ffff6fc3762a36c55c8f9bec9d65bef7ac31002c2018366a1"
+      },
+      {
+        "name": "motion-events.json",
+        "bytes": 2039,
+        "md5": "36731b4ac2d9ac7310d1316111685b4c",
+        "sha256": "9ff2d49d913c83bad0d466791a91297412d1f02dc8ba7e398d43a3495f61a456"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 720,
+        "md5": "96184726c53581c15a37d1cc140699a6",
+        "sha256": "c0b68bf38afe9b68f10ca19b612b2473731a7dbc578621ff44595c06af166987"
+      },
+      {
+        "name": "motion-f8a1dad23b67ec6d-before.jpg",
+        "bytes": 126381,
+        "md5": "e9840444cfcd248b36f1ec2acd7769d4",
+        "sha256": "c92effacc919c8b0d219a9f00653d29560ed451261f2c40e49b48d1c8d9b5af2"
+      },
+      {
+        "name": "motion-f8a1dad23b67ec6d-boxed.jpg",
+        "bytes": 175160,
+        "md5": "172cb3164ec0ff4f12572e0f20c37fbb",
+        "sha256": "164f6cb936205798878b5db80a64a266baf4b17ad9f07c14dae095bdab372684"
+      },
+      {
+        "name": "motion-f8a1dad23b67ec6d-after.jpg",
+        "bytes": 126068,
+        "md5": "c68973fab244536385d507bb6b784253",
+        "sha256": "5269464adae7c3549cb9a2772c79ea36014294128da93fd6b3545ef1de6b2021"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 125305,
+        "md5": "c04490a3f01b78bcd259f5a0a72c1167",
+        "sha256": "b0ec98a051a4a88b4468f6e3f83ef1db4ce2a846c6f58c35832f48ca71ca00e7"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 126147,
+        "md5": "ff7400a5e68a371163a6a91e99e6965f",
+        "sha256": "79221dce3c840585e2321fa52c7353ad04b83eefc0d8b02cce538001518fa167"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 128256,
+        "md5": "8aa6b7865f413f72be86446feac7d45b",
+        "sha256": "47b0b3d074191b251a264b0d678bb45c6dab1cea247d03dd5df6a886dd4b7bbf"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261027T163429Z-54a1c6-session.json",
+        "bytes": 7377,
+        "md5": "cd9a809f289a9968380af991c409d1a5",
+        "sha256": "dfa2b1192b07894757e34ddf90b01b039fc7dbfb81df206dc943ed5a8d8024e2"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 8754101,
+        "md5": "474ca50925a8022b74baa4866ce93213",
+        "sha256": "c191097f42a0b40bd2eac42e2c88a6cbc1b9b25c9a64213452ed7f7705b6f159"
+      }
+    ],
+    "error": null
   }
 }

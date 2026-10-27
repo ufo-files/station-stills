@@ -209,5 +209,83 @@
     "cleaned_files": [],
     "cleanup_plan": [],
     "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
+  },
+  "internet_archive": {
+    "state": "queued",
+    "identifier": "ufo-files-station-7c3668-20261027t160521z-bf298c",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t160521z-bf298c",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t160521z-bf298c/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 71464,
+        "md5": "492f141ec0fa4b38f5223bf27f82e211",
+        "sha256": "e03bfd51ea12be97f61eb0b96ad54dfdf159da21e1fea994bb90268604af6149"
+      },
+      {
+        "name": "motion-events.json",
+        "bytes": 1698,
+        "md5": "677b9ec1ca7cffe2ce8615c698470296",
+        "sha256": "d27728d20432eb5285d31e4ee89f58b03d685cf1d353f020f3c3652bc37c2465"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 720,
+        "md5": "55f5c2be703aa56367768cd80f4c5718",
+        "sha256": "704d443ceefa76db8caf2725f5c41e851d8b84024d4f2d8c31c0171e9f02e049"
+      },
+      {
+        "name": "motion-44481e8c5d3d750b-before.jpg",
+        "bytes": 114759,
+        "md5": "6e68771d6c45bc5e689ae36ad20117bf",
+        "sha256": "4b060fdb9c2fd2bd6bc305f9d040e8b159cc5ea36efa92e650c57befbfac0ae4"
+      },
+      {
+        "name": "motion-44481e8c5d3d750b-boxed.jpg",
+        "bytes": 159106,
+        "md5": "d83a9f53dd24c43f4d6c6e49d9207cf1",
+        "sha256": "7cdca96c5eaa1506e31c74bb61baa0fa8b252973f91d758c9aff6a32498046c1"
+      },
+      {
+        "name": "motion-44481e8c5d3d750b-after.jpg",
+        "bytes": 114290,
+        "md5": "db525cf17c91ee36fb5cd25d90e183a3",
+        "sha256": "e19b4d4673f8b45bd03bcaf477daf11ee828811c35aa6e34b2ffcb436e0e5f7c"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 116568,
+        "md5": "8cc90b8b45faafb5d46af922ee64b337",
+        "sha256": "e5b3d97d8affab4450ba8f4087d78ba860ce41aab18256a3235eea58362cba03"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 114057,
+        "md5": "a4395b5c91d3b428b6992ab886339596",
+        "sha256": "aed707b5c1aff7b90a3d53b9367e6e1c998135e084e7ec8b3d8456140cf7d2e7"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 112978,
+        "md5": "9f3ee5beb7fe5d4d5e8c4974aa784c63",
+        "sha256": "ba5a4da878ab593821f12e7087ce405eddde50f27550455424832ffdddb94c3b"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261027T160521Z-bf298c-session.json",
+        "bytes": 7153,
+        "md5": "440ad09c5b16f9da1fccf3dea0f52e9e",
+        "sha256": "544be974408654847a39fd9b07744cd6f84fb05a5fab53ea7f77c79bf557f3b6"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 11593576,
+        "md5": "e03171f8de038b038b6df3174db3335e",
+        "sha256": "915f62e85ecaecc56f190e05e3a891fe13322f790a540447bb8bcefdc0778023"
+      }
+    ],
+    "error": null
   }
 }
