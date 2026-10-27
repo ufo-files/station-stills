@@ -224,7 +224,7 @@
     "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
   },
   "internet_archive": {
-    "state": "queued",
+    "state": "uploading",
     "identifier": "ufo-files-station-7c3668-20261027t161521z-b7617f",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t161521z-b7617f",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t161521z-b7617f/video.mp4",
@@ -355,6 +355,6 @@
         "sha256": "0ee2e92dba461cbb731755c631dfcd9f380894400c6601952d67b48b057f65c7"
       }
     ],
-    "error": "Internet Archive connection interrupted; local files retained"
+    "error": null
   }
 }
