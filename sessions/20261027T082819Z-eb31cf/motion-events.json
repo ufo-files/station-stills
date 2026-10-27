@@ -1,0 +1,116 @@
+[
+  {
+    "id": "52d45c51c872d49d",
+    "detected_at": "2026-10-27T08:28:19.773290+00:00",
+    "detected_epoch": 1793089699.7733178,
+    "motion_started_epoch": 1793089699.6167793,
+    "changed_area_percent": 0.012008101851851851,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 30,
+      "analysis_width": 1920,
+      "pixel_threshold": 20,
+      "min_area_percent": 0.01,
+      "max_area_percent": 40.0,
+      "confirmation_seconds": 0.15,
+      "reference_seconds": 0.5,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "native-detail-exposure-compensated-v2",
+    "action": "started_recording",
+    "session_id": "20261027T082819Z-eb31cf",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1417,
+          "top": 374,
+          "right": 1436,
+          "bottom": 388,
+          "changed_analysis_pixels": 139
+        },
+        {
+          "left": 363,
+          "top": 2,
+          "right": 370,
+          "bottom": 9,
+          "changed_analysis_pixels": 30
+        },
+        {
+          "left": 1411,
+          "top": 392,
+          "right": 1416,
+          "bottom": 397,
+          "changed_analysis_pixels": 22
+        },
+        {
+          "left": 1418,
+          "top": 392,
+          "right": 1423,
+          "bottom": 397,
+          "changed_analysis_pixels": 22
+        },
+        {
+          "left": 1425,
+          "top": 392,
+          "right": 1430,
+          "bottom": 396,
+          "changed_analysis_pixels": 13
+        },
+        {
+          "left": 1223,
+          "top": 703,
+          "right": 1227,
+          "bottom": 707,
+          "changed_analysis_pixels": 10
+        },
+        {
+          "left": 198,
+          "top": 980,
+          "right": 201,
+          "bottom": 985,
+          "changed_analysis_pixels": 10
+        },
+        {
+          "left": 85,
+          "top": 538,
+          "right": 87,
+          "bottom": 540,
+          "changed_analysis_pixels": 3
+        }
+      ],
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+    },
+    "annotated_frame": "motion-52d45c51c872d49d-boxed.jpg",
+    "evidence_files": [
+      "motion-52d45c51c872d49d-before.jpg",
+      "motion-52d45c51c872d49d-after.jpg"
+    ]
+  }
+]
