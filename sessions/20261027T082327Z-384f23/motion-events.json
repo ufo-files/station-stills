@@ -1,0 +1,95 @@
+[
+  {
+    "id": "59500749bd5e6d4b",
+    "detected_at": "2026-10-27T08:23:27.089291+00:00",
+    "detected_epoch": 1793089407.08932,
+    "motion_started_epoch": 1793089406.8297212,
+    "changed_area_percent": 0.017216435185185185,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 30,
+      "analysis_width": 1920,
+      "pixel_threshold": 20,
+      "min_area_percent": 0.01,
+      "max_area_percent": 40.0,
+      "confirmation_seconds": 0.15,
+      "reference_seconds": 0.5,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "native-detail-exposure-compensated-v2",
+    "action": "started_recording",
+    "session_id": "20261027T082327Z-384f23",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 497,
+          "top": 8,
+          "right": 524,
+          "bottom": 21,
+          "changed_analysis_pixels": 237
+        },
+        {
+          "left": 499,
+          "top": 1,
+          "right": 525,
+          "bottom": 6,
+          "changed_analysis_pixels": 102
+        },
+        {
+          "left": 210,
+          "top": 124,
+          "right": 216,
+          "bottom": 127,
+          "changed_analysis_pixels": 12
+        },
+        {
+          "left": 1187,
+          "top": 543,
+          "right": 1189,
+          "bottom": 545,
+          "changed_analysis_pixels": 3
+        },
+        {
+          "left": 1044,
+          "top": 631,
+          "right": 1046,
+          "bottom": 633,
+          "changed_analysis_pixels": 3
+        }
+      ],
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+    },
+    "annotated_frame": "motion-59500749bd5e6d4b-boxed.jpg",
+    "evidence_files": [
+      "motion-59500749bd5e6d4b-before.jpg",
+      "motion-59500749bd5e6d4b-after.jpg"
+    ]
+  }
+]
