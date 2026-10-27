@@ -22,14 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1210,
-    "avg_frame_rate": "72600/1211",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "faststart": true
+    "state": "youtube",
+    "url": "https://www.youtube.com/watch?v=ZkV0R4ClnEs",
+    "frame_count": 1210
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -272,17 +267,9 @@
       "bytes": 368409,
       "sha256": "8c7374007ac2a45b95491335da9774cf0555e9e9ec5b05630cb12108a3b1d724"
     },
-    "video.mkv": {
-      "bytes": 313474702,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "53ba639673cdfa393386ac2d588f28ce00117961827c6fa3f9b72336d130676d"
-    },
-    "video.mp4": {
-      "bytes": 77553415,
-      "sha256": "6b557254ec7810faaf9f8e5c743a9f5a72cdb780026256da07baf9c1c2e7cde1"
     }
   },
   "buffer_assembly": {
@@ -298,7 +285,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "retaining",
+    "state": "cleaned",
     "video_id": "ZkV0R4ClnEs",
     "url": "https://www.youtube.com/watch?v=ZkV0R4ClnEs",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -315,8 +302,30 @@
       "height": 1080
     },
     "cleanup": "videos_only",
-    "cleaned_files": [],
-    "cleanup_plan": [],
+    "cleaned_files": [
+      {
+        "file": "video.mkv",
+        "bytes": 313474702,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 77553415,
+        "sha256": "6b557254ec7810faaf9f8e5c743a9f5a72cdb780026256da07baf9c1c2e7cde1"
+      }
+    ],
+    "cleanup_plan": [
+      {
+        "file": "video.mkv",
+        "bytes": 313474702,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 77553415,
+        "sha256": "6b557254ec7810faaf9f8e5c743a9f5a72cdb780026256da07baf9c1c2e7cde1"
+      }
+    ],
     "error": null
   }
 }
