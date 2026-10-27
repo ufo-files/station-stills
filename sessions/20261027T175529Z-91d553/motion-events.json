@@ -1,0 +1,81 @@
+[
+  {
+    "id": "021d996f5f8a959d",
+    "detected_at": "2026-10-27T17:55:29.369956+00:00",
+    "detected_epoch": 1793123729.369984,
+    "motion_started_epoch": 1793123728.5468035,
+    "changed_area_percent": 0.020399305555555556,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 25,
+      "min_area_percent": 0.01,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "started_recording",
+    "session_id": "20261027T175529Z-91d553",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1322,
+          "top": 965,
+          "right": 1359,
+          "bottom": 984,
+          "changed_analysis_pixels": 423,
+          "visible_in": "before"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 1322,
+          "top": 965,
+          "right": 1359,
+          "bottom": 984,
+          "changed_analysis_pixels": 423,
+          "visible_in": "before"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 2,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-021d996f5f8a959d-boxed.jpg",
+    "evidence_files": [
+      "motion-021d996f5f8a959d-before.jpg",
+      "motion-021d996f5f8a959d-after.jpg"
+    ]
+  }
+]
