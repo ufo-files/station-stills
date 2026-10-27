@@ -22,16 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1059,
-    "avg_frame_rate": "6354/121",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true
+    "state": "youtube",
+    "url": "https://www.youtube.com/watch?v=hMAS6vx6jTY",
+    "frame_count": 1059
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -295,17 +288,9 @@
       "bytes": 343719,
       "sha256": "e3cb97e8c0e59063226b494f15dd1ebda47bd026978141e81056891ae58ca064"
     },
-    "video.mkv": {
-      "bytes": 364224058,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 719,
       "sha256": "5f45187e80d215a25dca27f76929b3e8c8b71171aa1e26bbd1801a109ba20ecb"
-    },
-    "video.mp4": {
-      "bytes": 106674077,
-      "sha256": "9b24925a5b228de3ba3c227b13f04a7d1eabfe70e72bc367aca2804d56a08565"
     }
   },
   "buffer_assembly": {
@@ -321,7 +306,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "retaining",
+    "state": "cleaned",
     "video_id": "hMAS6vx6jTY",
     "url": "https://www.youtube.com/watch?v=hMAS6vx6jTY",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -338,8 +323,30 @@
       "height": 1080
     },
     "cleanup": "videos_only",
-    "cleaned_files": [],
-    "cleanup_plan": [],
+    "cleaned_files": [
+      {
+        "file": "video.mkv",
+        "bytes": 364224058,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 106674077,
+        "sha256": "9b24925a5b228de3ba3c227b13f04a7d1eabfe70e72bc367aca2804d56a08565"
+      }
+    ],
+    "cleanup_plan": [
+      {
+        "file": "video.mkv",
+        "bytes": 364224058,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 106674077,
+        "sha256": "9b24925a5b228de3ba3c227b13f04a7d1eabfe70e72bc367aca2804d56a08565"
+      }
+    ],
     "error": null
   }
 }
