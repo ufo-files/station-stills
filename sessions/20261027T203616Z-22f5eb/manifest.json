@@ -22,11 +22,18 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "failed",
+    "state": "completed",
     "file": "video.mp4",
-    "error": "MP4 encoding failed; see playback-encode.log",
-    "attempts": 1,
-    "next_attempt": 1793137303.8259118
+    "frame_count": 1244,
+    "avg_frame_rate": "60/1",
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "faststart": true,
+    "encoder_worker": "m1",
+    "quality": "libx264 ultrafast CRF18"
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -190,6 +197,10 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "f19183b9b7ecf841cb1cfa33777dd6da5b2130884dc3389fbbfc8233ebf1615f"
+    },
+    "video.mp4": {
+      "bytes": 10047102,
+      "sha256": "a5adf1d495b304d3a9ea514d60d66be2e38b51c0b663a62e30c1ac7c1a25a367"
     }
   },
   "buffer_assembly": {
@@ -203,5 +214,155 @@
   "frame_integrity": {
     "every_recorded_frame": false,
     "selected_original_stills": true
+  },
+  "internet_archive": {
+    "state": "queued",
+    "identifier": "ufo-files-station-7c3668-20261027t203616z-22f5eb",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t203616z-22f5eb",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t203616z-22f5eb/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 71463,
+        "md5": "3e5e5393413acc25823b7ce7bc836f53",
+        "sha256": "8694c89238bfbfa7414e37d529dbbe4c0e17562799dac2238a77a114b602440b"
+      },
+      {
+        "name": "motion-events.json",
+        "bytes": 2318,
+        "md5": "7bcc24d3d49f6ed575f1eb761180e0dd",
+        "sha256": "bc25646ce851ae64a57f050c75c2978359bb66462ab162bdb1bc76bda4ded9a6"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 720,
+        "md5": "902b8b208d08976f4f1091a69823feb2",
+        "sha256": "f19183b9b7ecf841cb1cfa33777dd6da5b2130884dc3389fbbfc8233ebf1615f"
+      },
+      {
+        "name": "motion-ff1ed0b5ebf726fd-boxed.jpg",
+        "bytes": 162285,
+        "md5": "73079c483c076314ce0eee6f26a9ddd0",
+        "sha256": "18c6680b7527172e24e6a76fddc5870cfc9ca9ed2eec87fcf0404cac7e2ae6c9"
+      },
+      {
+        "name": "motion-ff1ed0b5ebf726fd-after.jpg",
+        "bytes": 111232,
+        "md5": "fa0761b3b74f0260dd63ce1f10391a60",
+        "sha256": "19bbf8de72c11805c3a940f415b0ea5197ada4cac146136247db1286c8dadc20"
+      },
+      {
+        "name": "motion-ff1ed0b5ebf726fd-before.jpg",
+        "bytes": 111259,
+        "md5": "24574dc7f923279349b750e6b56ed3be",
+        "sha256": "2e2938288663cc1a41e0b57e9b4d2a781f7b11b2b0713ce1ac49426329c0f4a9"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 111487,
+        "md5": "5ca6ba950159e100082da8f820504bf7",
+        "sha256": "8f2491af2a4ad2dc8aa6ea28876eb0bebcb88c8d587e47fe3e78bd5814d9d7d3"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 110874,
+        "md5": "431f4f1cbef863530c541e7527cf1901",
+        "sha256": "ea073587e4deaacbeafd76dd986fe34e2847e35cc42f5e7f217a0dc9a007c4e7"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 110456,
+        "md5": "ac0ad89fd38be528ae79a36dda32c047",
+        "sha256": "f45631248b381afe2dacb377a141accdd422c808865e05390b61345d33edac47"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261027T203616Z-22f5eb-session.json",
+        "bytes": 7177,
+        "md5": "9c920103a9a801f8da7918ba8775c06a",
+        "sha256": "dd3389af66ad0e7af8494eb3cf1b81c942451c9c027b32dc4aa8988f77eb1cd6"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 10047102,
+        "md5": "9d893ba090f4e6f749f88a4098efac50",
+        "sha256": "a5adf1d495b304d3a9ea514d60d66be2e38b51c0b663a62e30c1ac7c1a25a367"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 17433,
+        "md5": "8a886d5ab9bf90422c8071bdc3b2c907",
+        "sha256": "e66f09cd1328b6eff249ab655591fa103d7dc494f14f00ca5abde76547254c52"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 1473,
+        "md5": "70c84ebae20878ff2320b6e8b19de2ec",
+        "sha256": "1fd0bc515b2a59dd002337435f60cf51857c7c0aa9cf35de6a9676e3a1a74cf2"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 4933,
+        "md5": "db7c42368caf72ff6a167c09ef00769b",
+        "sha256": "9b694c4ba8dba43153be8955e7518d9ff3f927a145135c61b9a5fc67d73f4a82"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 48,
+        "md5": "e082fec11d8bc8a13e7cf9f914f35c9d",
+        "sha256": "862fd61458e484316f3b811278b24161ede27f4b94718e5ce07bc3952464c769"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 3353,
+        "md5": "3479a39149def334dc60d3c861c83812",
+        "sha256": "8eee4998590a779fe4e69f90707efcb05ba78f81f68e69b1044a807ffaa77b20"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261027T203616Z-22f5eb-manifest.json",
+        "bytes": 6803,
+        "md5": "2b9af30891f7f20565668dab12f8dd40",
+        "sha256": "8b8f4b634b0c9387993291c66dba40502e461951ae889f108e79eeeab1bd3dfe"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261027T203616Z-22f5eb-archive-index.json",
+        "bytes": 3952,
+        "md5": "6a158b14a2127a58749c9ad0de680fdc",
+        "sha256": "1bc59687c8af3687b7681379ad875084eac669fdfd36bd60f79e8b29ea30c2ae"
+      }
+    ],
+    "error": null
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 10047102,
+      "sha256": "a5adf1d495b304d3a9ea514d60d66be2e38b51c0b663a62e30c1ac7c1a25a367",
+      "frame_count": 1244,
+      "fps": "60/1",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
+    "error": null
   }
 }
