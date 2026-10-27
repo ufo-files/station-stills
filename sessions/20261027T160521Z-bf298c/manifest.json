@@ -22,16 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1222,
-    "avg_frame_rate": "73320/1223",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261027t160521z-bf298c/video.mp4",
+    "frame_count": 1222
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -163,17 +156,9 @@
       "bytes": 114290,
       "sha256": "e19b4d4673f8b45bd03bcaf477daf11ee828811c35aa6e34b2ffcb436e0e5f7c"
     },
-    "video.mkv": {
-      "bytes": 140073137,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "704d443ceefa76db8caf2725f5c41e851d8b84024d4f2d8c31c0171e9f02e049"
-    },
-    "video.mp4": {
-      "bytes": 11593576,
-      "sha256": "915f62e85ecaecc56f190e05e3a891fe13322f790a540447bb8bcefdc0778023"
     }
   },
   "buffer_assembly": {
@@ -189,7 +174,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -208,15 +193,15 @@
     "cleanup": "videos_only",
     "cleaned_files": [],
     "cleanup_plan": [],
-    "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
+    "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261027t160521z-bf298c",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t160521z-bf298c",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t160521z-bf298c/video.mp4",
     "verified_at": 1793122478.6255732,
-    "cleaned_at": null,
+    "cleaned_at": 1793126101.691939,
     "files": [
       {
         "name": "rf.jsonl",
