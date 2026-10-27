@@ -211,11 +211,11 @@
     "error": "The user has exceeded the number of videos they may upload."
   },
   "internet_archive": {
-    "state": "verifying",
+    "state": "retaining",
     "identifier": "ufo-files-station-7c3668-20261027t160553z-32e0a4",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t160553z-32e0a4",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t160553z-32e0a4/video.mp4",
-    "verified_at": null,
+    "verified_at": 1793122079.698441,
     "cleaned_at": null,
     "files": [
       {
