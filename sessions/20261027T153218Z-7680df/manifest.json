@@ -319,5 +319,27 @@
   "frame_integrity": {
     "every_recorded_frame": false,
     "selected_original_stills": true
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 86577593,
+      "sha256": "c1bfc71f77cc4901a8bd7ba152bbd93d52cb57110bb7931fc70c0aeacb696fce",
+      "frame_count": 9585,
+      "fps": "57510/959",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
+    "error": "The user has exceeded the number of videos they may upload."
   }
 }
