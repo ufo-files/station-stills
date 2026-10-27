@@ -313,6 +313,62 @@
         "bytes": 18684479,
         "md5": "e612b8115254d224ca18f7775cb66753",
         "sha256": "26c4c1296ed160c485f6387dd3ef85b48f8c0e3bf1283fe311d19215a06a6ea9"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 11927,
+        "md5": "4bb8ea7e3d23c264cdf750ca250ccc5b",
+        "sha256": "55d51c4a45d47c23f8747b3e6d65ad6308d18e47a15cfe0a07e703b5a6d470ff"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 1473,
+        "md5": "bb6d6f9e85b07ef7bcaf0984052eda88",
+        "sha256": "9c7d0f085aca0b945db5651f25b493585d4859f944188b04c05473f36202058e"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 4901,
+        "md5": "7a5686b532a7f661fa2b9efe8bfb7bcd",
+        "sha256": "af36d71550fc80719aa2dc90a1a3a225faf79d3e6396d98cda39bdecbca31137"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 48,
+        "md5": "24a672269bd868f7ea05280c1954d98c",
+        "sha256": "d819a2ed145732e248569d23625de1e3da16b910970a53c6369f5abd146c4cff"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 2336,
+        "md5": "d3ffb5e48fdb0ff47f57a242899314dc",
+        "sha256": "273956d73ad2a4e64110698490693ce710e3c5d16cb01e52806681fc16b283ff"
+      },
+      {
+        "name": "playback-progress.txt",
+        "bytes": 32109,
+        "md5": "60844ef3025e6f3439dd556455c98822",
+        "sha256": "22ee60b4529be866b241c651cb40e2936d475695d6dfbe21d9112ac07ac472b5"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261027T162537Z-e0e173-manifest.json",
+        "bytes": 10281,
+        "md5": "b7c041d78a6276f16b489614c4c6f828",
+        "sha256": "4bc22f2934b0b2dcd04065283db93078d147794f5e64c2ed8bf7392e2ab6de8b"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261027T162537Z-e0e173-archive-index.json",
+        "bytes": 4159,
+        "md5": "2ba1dc81fa3484f195f473dcfd6166d6",
+        "sha256": "66ea3a37f14dfe7a21f6005fe9dbffa4e46425bbf294e6177b9e5ad48293a99a"
       }
     ],
     "error": null

@@ -217,11 +217,11 @@
     "error": "The user has exceeded the number of videos they may upload."
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "uploading",
     "identifier": "ufo-files-station-7c3668-20261027t153628z-6b9429",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t153628z-6b9429",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t153628z-6b9429/video.mp4",
-    "verified_at": 1793120359.5881124,
+    "verified_at": null,
     "cleaned_at": null,
     "files": [
       {
@@ -290,6 +290,62 @@
         "bytes": 10181198,
         "md5": "d11086b305d1c947aa82de40d810fb66",
         "sha256": "8834458a169f2aa8a6e9151333bf802abb2a0b6996752a2f09c37252095b2222"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 17043,
+        "md5": "d3e135317292d8b181489fce0044f808",
+        "sha256": "07f0d57f171c7fe6dc6f090d787950507a2220b706df5ff850ce152dfae4f6a9"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 1473,
+        "md5": "8d11ab657072bf380103f513c462d710",
+        "sha256": "abb996613e66580b48520812122bfb517cd53ece9c1e8d891a30f178cc486d3b"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 4934,
+        "md5": "efb7d3cd7e836bd1e4da4231c19e3400",
+        "sha256": "30cf042d885a1cfef82bf97498b7b541b397cb1101ac63f018e7f394dc5231ec"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 48,
+        "md5": "35264e2254f3d920762275acf4cc555e",
+        "sha256": "6c284e082cc2510506fecb31f6216eb1ccdadcfc8fcec2c50bfcb11fa77c4ee2"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 11968,
+        "md5": "149164216a7ebfe74880b6866a5ca860",
+        "sha256": "108e5e02f11458c66ef0bf6e153215134141504d4635baa58a3810e9f3bdc2e9"
+      },
+      {
+        "name": "playback-progress.txt",
+        "bytes": 30011,
+        "md5": "62205155a092170ed72ab871c7d42e3f",
+        "sha256": "60cef25e0000deb873c057a83c3e6ca3285330fe1d67089aede2cee6174af9d1"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261027T153628Z-6b9429-manifest.json",
+        "bytes": 9716,
+        "md5": "371d085bce4bb77b526ab79f44e42aa6",
+        "sha256": "d60214d834422dfe04c88afe6ab06cd31fe0429ccbd8a4c5933205628dd4483b"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261027T153628Z-6b9429-archive-index.json",
+        "bytes": 4159,
+        "md5": "308953fc5e8ff2a6f9e793580309df37",
+        "sha256": "e8d631708adf55c7e47e49f8c07c697c76f4e67085ae5ca54827587f956d5592"
       }
     ],
     "error": null

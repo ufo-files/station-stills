@@ -224,11 +224,11 @@
     "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "uploading",
     "identifier": "ufo-files-station-7c3668-20261027t163337z-d81e23",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t163337z-d81e23",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t163337z-d81e23/video.mp4",
-    "verified_at": 1793119405.9820497,
+    "verified_at": null,
     "cleaned_at": null,
     "files": [
       {
@@ -297,6 +297,62 @@
         "bytes": 7906175,
         "md5": "20d81045a5edc81cd4d6cc01a06df7f0",
         "sha256": "268f74e3e2eba11a5fe30282ad89214b30d8b515cf224d672b48ae3a92a8c718"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 17024,
+        "md5": "c567fc520bc6763dac7e6ba113c5b64d",
+        "sha256": "d96a7f97549c2b9046a55fdb417b6ba95a844b5559fc7ea79453c4acb5518eb6"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 1473,
+        "md5": "62fb550c9b5c7a7fba2f3d451e2922c0",
+        "sha256": "a4badd5edc2864eff342b598a5003df51773db4eef844f6be3fb978d4e72f1db"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 4933,
+        "md5": "cc06c63ea83663b3c5c5213605c43a98",
+        "sha256": "17ff617694def111d9512a3075ee2d5a459b7b85cece89bba9dd7f1c2ea76719"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 48,
+        "md5": "24a672269bd868f7ea05280c1954d98c",
+        "sha256": "d819a2ed145732e248569d23625de1e3da16b910970a53c6369f5abd146c4cff"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 1664,
+        "md5": "9d72e6fd01517f73c173a2ee52efb8c1",
+        "sha256": "b915ff508491bb8e19b849b9981b5ee3286748a91e68b96fe17731208d62bc4e"
+      },
+      {
+        "name": "playback-progress.txt",
+        "bytes": 32999,
+        "md5": "542e9874d762e679cd61fc18a36a1ca7",
+        "sha256": "b05e67e296ca6f59d34ca5803037ef79bae02236e9d7fe14a3281464e7dcde22"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261027T163337Z-d81e23-manifest.json",
+        "bytes": 9883,
+        "md5": "8bf693a57cca1d4d6daa6b7adb37baa7",
+        "sha256": "fa6dd9d62398cfbeb8000e9b1efde38a2f47840dd215daa8099d6b868da45e95"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261027T163337Z-d81e23-archive-index.json",
+        "bytes": 4157,
+        "md5": "dff9a6f4e772cfaf0e442efdf3f12373",
+        "sha256": "109188a73af060dd7b7adbdf231ebe9d36a84e0e2419db2a704ce29c24296e24"
       }
     ],
     "error": null
