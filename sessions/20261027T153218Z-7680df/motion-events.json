@@ -1,0 +1,200 @@
+[
+  {
+    "id": "83f6f8cbd5a0d71a",
+    "detected_at": "2026-10-27T15:32:18.489671+00:00",
+    "detected_epoch": 1793115138.4897017,
+    "motion_started_epoch": 1793115138.0808003,
+    "changed_area_percent": 1.0841531635802468,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 20,
+      "min_area_percent": 0.01,
+      "max_area_percent": 40.0,
+      "confirmation_seconds": 0.25,
+      "reference_seconds": 0.5,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "native-detail-exposure-compensated-v2",
+    "action": "started_recording",
+    "session_id": "20261027T153218Z-7680df",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1689,
+          "top": 4,
+          "right": 1919,
+          "bottom": 166,
+          "changed_analysis_pixels": 19682
+        },
+        {
+          "left": 1765,
+          "top": 211,
+          "right": 1832,
+          "bottom": 280,
+          "changed_analysis_pixels": 2005
+        },
+        {
+          "left": 1477,
+          "top": 216,
+          "right": 1509,
+          "bottom": 234,
+          "changed_analysis_pixels": 366
+        },
+        {
+          "left": 1882,
+          "top": 1,
+          "right": 1900,
+          "bottom": 18,
+          "changed_analysis_pixels": 192
+        },
+        {
+          "left": 1855,
+          "top": 18,
+          "right": 1864,
+          "bottom": 28,
+          "changed_analysis_pixels": 54
+        },
+        {
+          "left": 1706,
+          "top": 96,
+          "right": 1714,
+          "bottom": 101,
+          "changed_analysis_pixels": 26
+        },
+        {
+          "left": 1783,
+          "top": 34,
+          "right": 1792,
+          "bottom": 37,
+          "changed_analysis_pixels": 19
+        },
+        {
+          "left": 1734,
+          "top": 215,
+          "right": 1739,
+          "bottom": 221,
+          "changed_analysis_pixels": 18
+        },
+        {
+          "left": 875,
+          "top": 368,
+          "right": 880,
+          "bottom": 372,
+          "changed_analysis_pixels": 14
+        },
+        {
+          "left": 1675,
+          "top": 75,
+          "right": 1680,
+          "bottom": 79,
+          "changed_analysis_pixels": 13
+        },
+        {
+          "left": 1875,
+          "top": 226,
+          "right": 1878,
+          "bottom": 231,
+          "changed_analysis_pixels": 12
+        },
+        {
+          "left": 1856,
+          "top": 30,
+          "right": 1860,
+          "bottom": 34,
+          "changed_analysis_pixels": 10
+        },
+        {
+          "left": 1751,
+          "top": 150,
+          "right": 1756,
+          "bottom": 155,
+          "changed_analysis_pixels": 10
+        },
+        {
+          "left": 1738,
+          "top": 226,
+          "right": 1741,
+          "bottom": 231,
+          "changed_analysis_pixels": 10
+        },
+        {
+          "left": 1904,
+          "top": 153,
+          "right": 1907,
+          "bottom": 156,
+          "changed_analysis_pixels": 8
+        },
+        {
+          "left": 1858,
+          "top": 156,
+          "right": 1861,
+          "bottom": 158,
+          "changed_analysis_pixels": 6
+        },
+        {
+          "left": 1780,
+          "top": 210,
+          "right": 1782,
+          "bottom": 214,
+          "changed_analysis_pixels": 6
+        },
+        {
+          "left": 1170,
+          "top": 344,
+          "right": 1173,
+          "bottom": 346,
+          "changed_analysis_pixels": 5
+        },
+        {
+          "left": 1735,
+          "top": 233,
+          "right": 1737,
+          "bottom": 236,
+          "changed_analysis_pixels": 4
+        },
+        {
+          "left": 1907,
+          "top": 14,
+          "right": 1909,
+          "bottom": 16,
+          "changed_analysis_pixels": 3
+        }
+      ],
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+    },
+    "annotated_frame": "motion-83f6f8cbd5a0d71a-boxed.jpg",
+    "evidence_files": [
+      "motion-83f6f8cbd5a0d71a-before.jpg",
+      "motion-83f6f8cbd5a0d71a-after.jpg"
+    ]
+  }
+]
