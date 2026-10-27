@@ -1,0 +1,213 @@
+{
+  "id": "20261027T160521Z-bf298c",
+  "title": "Motion trigger \u00b7 2026-10-27T16:05:21.372210+00:00",
+  "condition": "silence",
+  "notes": "",
+  "state": "completed",
+  "started_at": "2026-10-27T16:05:10.836175+00:00",
+  "started_epoch": 1793117110.8361754,
+  "started_monotonic": 40782.287387132514,
+  "duration_limit_seconds": 20.36392378807068,
+  "rf_records": 19,
+  "markers": [
+    {
+      "timestamp": "2026-10-27T16:05:21.200123+00:00",
+      "elapsed_seconds": 10.88527687748865,
+      "note": "Motion confirmed: 0.0205% of analysis region changed"
+    }
+  ],
+  "frame_fps": 1,
+  "video_fps": 60,
+  "frame_export_mode": "selected",
+  "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
+  "video_archive": "video.mkv",
+  "video_playback": {
+    "state": "completed",
+    "file": "video.mp4",
+    "frame_count": 1222,
+    "avg_frame_rate": "73320/1223",
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "faststart": true
+  },
+  "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
+  "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
+  "playback": {
+    "state": "silent",
+    "description": "Manual condition label; no station-controlled playback."
+  },
+  "upload": "Local only; video uploads are not configured",
+  "buffered_capture": true,
+  "capture_mode": "motion_window",
+  "pre_roll_seconds": 10.0,
+  "post_roll_seconds": 10.0,
+  "motion_onset_epoch": 1793117120.8361754,
+  "pre_roll_complete": true,
+  "pre_roll_actual_seconds": 10.0,
+  "capture_origin": "motion_trigger",
+  "motion_events": [
+    {
+      "id": "44481e8c5d3d750b",
+      "detected_at": "2026-10-27T16:05:21.200123+00:00",
+      "detected_epoch": 1793117121.200144,
+      "motion_started_epoch": 1793117120.8361754,
+      "changed_area_percent": 0.020543981481481483,
+      "settings": {
+        "enabled": true,
+        "duration_minutes": 3,
+        "cooldown_minutes": 0.0,
+        "pre_roll_seconds": 10.0,
+        "post_roll_seconds": 10.0,
+        "analysis_fps": 5,
+        "analysis_width": 1920,
+        "pixel_threshold": 20,
+        "min_area_percent": 0.005,
+        "max_area_percent": 40.0,
+        "confirmation_seconds": 0.25,
+        "reference_seconds": 0.25,
+        "cloud_suppression": true,
+        "roi_left": 0.0,
+        "roi_top": 0.0,
+        "roi_right": 100.0,
+        "roi_bottom": 68.0,
+        "roi_polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0
+          ],
+          [
+            100.0,
+            100.0
+          ],
+          [
+            0.0,
+            100.0
+          ]
+        ]
+      },
+      "algorithm": "compact-detail-cloud-suppression-v3",
+      "action": "started_recording",
+      "session_id": "20261027T160521Z-bf298c",
+      "annotation": {
+        "boxes": [
+          {
+            "left": 670,
+            "top": 648,
+            "right": 691,
+            "bottom": 690,
+            "changed_analysis_pixels": 426
+          }
+        ],
+        "frame_width": 1920,
+        "frame_height": 1080,
+        "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+      },
+      "annotated_frame": "motion-44481e8c5d3d750b-boxed.jpg",
+      "evidence_files": [
+        "motion-44481e8c5d3d750b-before.jpg",
+        "motion-44481e8c5d3d750b-after.jpg"
+      ]
+    }
+  ],
+  "motion_last_seen_epoch": 1793117121.2000992,
+  "motion_end_epoch": 1793117131.2000992,
+  "motion_tail_remaining_seconds": 0,
+  "buffer_tail_complete": true,
+  "clip_end_epoch": 1793117131.2000992,
+  "stopped_at": "2026-10-27T16:05:31.922829+00:00",
+  "stopped_epoch": 1793117131.922863,
+  "elapsed_seconds": 21.087,
+  "stop_reason": "Motion ended: post-roll complete",
+  "capture_stats": {
+    "frame": 1222
+  },
+  "frames": {
+    "state": "completed",
+    "mode": "selected",
+    "count": 3,
+    "completed_at": "2026-10-27T16:06:15.905627+00:00"
+  },
+  "files": {
+    "rf.jsonl": {
+      "bytes": 71464,
+      "sha256": "e03bfd51ea12be97f61eb0b96ad54dfdf159da21e1fea994bb90268604af6149"
+    },
+    "capture.log": {
+      "bytes": 48,
+      "sha256": "655c1c4e0df54aee9ea5d9366de395c3a8c06d08bb1aa0a49c13d5cd8467954e"
+    },
+    "motion-events.json": {
+      "bytes": 1698,
+      "sha256": "d27728d20432eb5285d31e4ee89f58b03d685cf1d353f020f3c3652bc37c2465"
+    },
+    "buffer-state.json": {
+      "bytes": 4729,
+      "sha256": "d1a3427414f0fc3ac1753c3af07c5505eae1f0383df25b4323dfdaac94f7c31f"
+    },
+    "motion-44481e8c5d3d750b-before.jpg": {
+      "bytes": 114759,
+      "sha256": "4b060fdb9c2fd2bd6bc305f9d040e8b159cc5ea36efa92e650c57befbfac0ae4"
+    },
+    "motion-44481e8c5d3d750b-boxed.jpg": {
+      "bytes": 159106,
+      "sha256": "7cdca96c5eaa1506e31c74bb61baa0fa8b252973f91d758c9aff6a32498046c1"
+    },
+    "motion-44481e8c5d3d750b-after.jpg": {
+      "bytes": 114290,
+      "sha256": "e19b4d4673f8b45bd03bcaf477daf11ee828811c35aa6e34b2ffcb436e0e5f7c"
+    },
+    "video.mkv": {
+      "bytes": 140073137,
+      "integrity": "queued"
+    },
+    "frames/index.json": {
+      "bytes": 720,
+      "sha256": "704d443ceefa76db8caf2725f5c41e851d8b84024d4f2d8c31c0171e9f02e049"
+    },
+    "video.mp4": {
+      "bytes": 11593576,
+      "sha256": "915f62e85ecaecc56f190e05e3a891fe13322f790a540447bb8bcefdc0778023"
+    }
+  },
+  "buffer_assembly": {
+    "state": "completed",
+    "frames": 1222,
+    "seconds": 20.36392378807068,
+    "trim_start_seconds": 0.08000516891479492,
+    "packet_copy": true,
+    "timing": "Original segment packet timestamps; host UTC mapping estimated from first segment write time. HDMI latency uncalibrated."
+  },
+  "frame_integrity": {
+    "every_recorded_frame": false,
+    "selected_original_stills": true
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 11593576,
+      "sha256": "915f62e85ecaecc56f190e05e3a891fe13322f790a540447bb8bcefdc0778023",
+      "frame_count": 1222,
+      "fps": "73320/1223",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
+    "error": "The user has exceeded the number of videos they may upload."
+  }
+}

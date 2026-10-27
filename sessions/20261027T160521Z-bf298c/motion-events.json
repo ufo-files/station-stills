@@ -1,0 +1,68 @@
+[
+  {
+    "id": "44481e8c5d3d750b",
+    "detected_at": "2026-10-27T16:05:21.200123+00:00",
+    "detected_epoch": 1793117121.200144,
+    "motion_started_epoch": 1793117120.8361754,
+    "changed_area_percent": 0.020543981481481483,
+    "settings": {
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 20,
+      "min_area_percent": 0.005,
+      "max_area_percent": 40.0,
+      "confirmation_seconds": 0.25,
+      "reference_seconds": 0.25,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "compact-detail-cloud-suppression-v3",
+    "action": "started_recording",
+    "session_id": "20261027T160521Z-bf298c",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 670,
+          "top": 648,
+          "right": 691,
+          "bottom": 690,
+          "changed_analysis_pixels": 426
+        }
+      ],
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+    },
+    "annotated_frame": "motion-44481e8c5d3d750b-boxed.jpg",
+    "evidence_files": [
+      "motion-44481e8c5d3d750b-before.jpg",
+      "motion-44481e8c5d3d750b-after.jpg"
+    ]
+  }
+]
