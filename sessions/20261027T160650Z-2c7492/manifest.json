@@ -239,7 +239,7 @@
     "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
   },
   "internet_archive": {
-    "state": "uploading",
+    "state": "verifying",
     "identifier": "ufo-files-station-7c3668-20261027t160650z-2c7492",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t160650z-2c7492",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t160650z-2c7492/video.mp4",
