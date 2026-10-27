@@ -224,7 +224,7 @@
     "error": null
   },
   "internet_archive": {
-    "state": "uploading",
+    "state": "verifying",
     "identifier": "ufo-files-station-7c3668-20261027t173858z-f3cdc2",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261027t173858z-f3cdc2",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261027t173858z-f3cdc2/video.mp4",
@@ -355,6 +355,6 @@
         "sha256": "74f05ff1b25318021775afc8d7c5e77ce5a5958eb131cf7ea1914926b0d4917d"
       }
     ],
-    "error": "Internet Archive connection interrupted; local files retained"
+    "error": null
   }
 }
