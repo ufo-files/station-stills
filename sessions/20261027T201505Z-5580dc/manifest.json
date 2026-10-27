@@ -16,11 +16,18 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "failed",
+    "state": "completed",
     "file": "video.mp4",
-    "error": "MP4 encoding failed; see playback-encode.log",
-    "attempts": 1,
-    "next_attempt": 1793137300.8972118
+    "frame_count": 10797,
+    "avg_frame_rate": "647820/10799",
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "faststart": true,
+    "encoder_worker": "m1",
+    "quality": "libx264 ultrafast CRF18"
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -81,6 +88,10 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "9c7dc0734dcb0d840ff490a8596908d072ecbcc1ff44e62f6eb10e342d39519c"
+    },
+    "video.mp4": {
+      "bytes": 98761177,
+      "sha256": "44abb61c5efab195d66bdfc823c6e6600908174e068918b132d2e639aea5c0cf"
     }
   },
   "buffer_assembly": {
