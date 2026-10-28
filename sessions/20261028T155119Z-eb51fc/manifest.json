@@ -101,75 +101,50 @@
       "annotation": {
         "boxes": [
           {
-            "left": 975,
-            "top": 542,
-            "right": 991,
-            "bottom": 552,
-            "changed_analysis_pixels": 99,
+            "left": 975.0,
+            "top": 542.0,
+            "right": 991.0,
+            "bottom": 552.0,
+            "label": "Bird (reviewed) | elongated",
             "visible_in": "after",
             "review_bounds": {
-              "left": 951,
-              "top": 518,
-              "right": 1015,
-              "bottom": 576
-            },
-            "label": "Unknown | too small"
+              "left": 959.0,
+              "top": 526.0,
+              "right": 1007.0,
+              "bottom": 568.0
+            }
           }
         ],
         "detail_images": [
           {
             "bounds": {
-              "left": 975,
-              "top": 542,
-              "right": 991,
-              "bottom": 552
+              "left": 975.0,
+              "top": 542.0,
+              "right": 991.0,
+              "bottom": 552.0
             },
             "crop_bounds": {
-              "left": 951,
-              "top": 518,
-              "right": 1015,
-              "bottom": 576
+              "left": 959,
+              "top": 526,
+              "right": 1007,
+              "bottom": 568
             },
-            "native_file": "motion-588c46b96b0e5497-after-2f06897ae1-crop.png",
-            "detail_file": "motion-588c46b96b0e5497-after-2f06897ae1-detail.jpg",
-            "native_width": 64,
-            "native_height": 58,
+            "native_file": "motion-588c46b96b0e5497-after-ae1feb8270-crop.png",
+            "detail_file": "motion-588c46b96b0e5497-after-ae1feb8270-detail.jpg",
+            "native_width": 48,
+            "native_height": 42,
             "display_width": 1024,
-            "display_height": 928,
+            "display_height": 896,
             "upscaled": true,
             "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
-        "changed_regions": [
-          {
-            "left": 481,
-            "top": 576,
-            "right": 496,
-            "bottom": 587,
-            "changed_analysis_pixels": 102,
-            "visible_in": "before"
-          },
-          {
-            "left": 975,
-            "top": 542,
-            "right": 991,
-            "bottom": 552,
-            "changed_analysis_pixels": 99,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 951,
-              "top": 518,
-              "right": 1015,
-              "bottom": 576
-            },
-            "label": "Unknown | too small"
-          }
-        ],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-588c46b96b0e5497-boxed.jpg",
       "evidence_files": [
@@ -247,6 +222,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T18:49:47.526007+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 975.0,
+              "top": 542.0,
+              "right": 991.0,
+              "bottom": 552.0
+            },
+            "object": "bird",
+            "shape": "elongated"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -278,16 +273,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 5330,
-      "sha256": "b5d90c4f3c33a79a9c7732cd86926caa737df5db78a73e28420acc8cc711ba91"
+      "bytes": 5144,
+      "sha256": "5c4f0b29f18d5a142a7d2ab100111de33ecec62bb56f9c9440a8d93139f3603b"
     },
     "buffer-state.json": {
       "bytes": 8052,
       "sha256": "f3c5f581f9c5559b837f54110203f85e6ea576a8575fea236e032e206aae77ea"
     },
     "motion-588c46b96b0e5497-boxed.jpg": {
-      "bytes": 219887,
-      "sha256": "4094a7886bbcd59ed0ec28d83745297528612c74200554e0322513c771f34e96"
+      "bytes": 215443,
+      "sha256": "a680f48c6b6635eb62fcfbbe20d9934cede2e542bbc18db8f6882753b1188283"
     },
     "motion-588c46b96b0e5497-after.jpg": {
       "bytes": 513580,
@@ -316,6 +311,14 @@
     "motion-588c46b96b0e5497-after-2f06897ae1-detail.jpg": {
       "bytes": 53187,
       "sha256": "49af25db69282b020f3b8819495daa5a898feb256cca7136ccb9e723cdcdb162"
+    },
+    "motion-588c46b96b0e5497-after-ae1feb8270-crop.png": {
+      "bytes": 1850,
+      "sha256": "7ae21746d151a1d89443ef08ac2d404cfe20b4124d430f4931e4e991125effbb"
+    },
+    "motion-588c46b96b0e5497-after-ae1feb8270-detail.jpg": {
+      "bytes": 49966,
+      "sha256": "71d2b69c3079a821563ed4591c73593f65416d74c0cfd35840ab363d2568269b"
     }
   },
   "buffer_assembly": {

@@ -60,7 +60,7 @@
             "right": 1474,
             "bottom": 108
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1123,
@@ -78,6 +78,52 @@
           "label": "Unknown | shape unresolved"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1416,
+            "top": 69,
+            "right": 1450,
+            "bottom": 84
+          },
+          "crop_bounds": {
+            "left": 1392,
+            "top": 45,
+            "right": 1474,
+            "bottom": 108
+          },
+          "native_file": "motion-7a373694af4e5dca-after-57e5c89862-crop.png",
+          "detail_file": "motion-7a373694af4e5dca-after-57e5c89862-detail.jpg",
+          "native_width": 82,
+          "native_height": 63,
+          "display_width": 1024,
+          "display_height": 787,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1123,
+            "top": 193,
+            "right": 1138,
+            "bottom": 220
+          },
+          "crop_bounds": {
+            "left": 1099,
+            "top": 169,
+            "right": 1162,
+            "bottom": 244
+          },
+          "native_file": "motion-7a373694af4e5dca-after-e218938076-crop.png",
+          "detail_file": "motion-7a373694af4e5dca-after-e218938076-detail.jpg",
+          "native_width": 63,
+          "native_height": 75,
+          "display_width": 860,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1416,
@@ -92,7 +138,7 @@
             "right": 1474,
             "bottom": 108
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1123,
@@ -125,25 +171,21 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:34:38.872744+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:49:43.453480+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 1133,
-            "top": 193,
-            "right": 1138,
-            "bottom": 213
+            "left": 1416,
+            "top": 69,
+            "right": 1450,
+            "bottom": 84
           },
           "shape": {
             "label": "unresolved",
-            "circularity": 0.239,
-            "axis_ratio": 0.515,
-            "fill_fraction": 0.634,
-            "area_pixels": 331,
-            "width_pixels": 18,
-            "height_pixels": 29,
-            "contrast_threshold": 44.0
+            "reason": "No separable silhouette",
+            "contrast_threshold": 190.0
           },
           "source_frame": "after",
           "object": {
@@ -162,25 +204,39 @@
         },
         {
           "bounds": {
-            "left": 1273,
-            "top": 138,
-            "right": 1279,
-            "bottom": 145
+            "left": 1123,
+            "top": 193,
+            "right": 1138,
+            "bottom": 220
           },
           "shape": {
             "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 136.0
+            "circularity": 0.496,
+            "axis_ratio": 0.542,
+            "fill_fraction": 0.724,
+            "area_pixels": 688,
+            "width_pixels": 25,
+            "height_pixels": 38,
+            "contrast_threshold": 24.0
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "Target too small for reliable object identification",
+            "reason": "No consistent high-confidence object label",
             "support_frames": 0
           },
           "model_observations": [
             {
-              "labels": []
+              "labels": [
+                {
+                  "identifier": "bird",
+                  "threshold": 0.995,
+                  "model_version": "20261028T183704Z-723291ee",
+                  "confidence": 0.9953917,
+                  "source": "camera-trained",
+                  "minimum_native_size": 8
+                }
+              ]
             },
             {
               "labels": []
@@ -253,7 +309,7 @@
             "right": 1150,
             "bottom": 243
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1282,
@@ -268,7 +324,7 @@
             "right": 1321,
             "bottom": 150
           },
-          "label": "Motion | analyzing"
+          "label": "Likely bird | shape unresolved"
         },
         {
           "left": 1047,
@@ -283,7 +339,7 @@
             "right": 1082,
             "bottom": 264
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1034,
@@ -316,6 +372,118 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1109,
+            "top": 208,
+            "right": 1126,
+            "bottom": 219
+          },
+          "crop_bounds": {
+            "left": 1085,
+            "top": 184,
+            "right": 1150,
+            "bottom": 243
+          },
+          "native_file": "motion-c6a00a0d6bc8e325-before-6adee24ca0-crop.png",
+          "detail_file": "motion-c6a00a0d6bc8e325-before-6adee24ca0-detail.jpg",
+          "native_width": 65,
+          "native_height": 59,
+          "display_width": 1024,
+          "display_height": 929,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1282,
+            "top": 112,
+            "right": 1297,
+            "bottom": 126
+          },
+          "crop_bounds": {
+            "left": 1258,
+            "top": 88,
+            "right": 1321,
+            "bottom": 150
+          },
+          "native_file": "motion-c6a00a0d6bc8e325-before-09ab69ef57-crop.png",
+          "detail_file": "motion-c6a00a0d6bc8e325-before-09ab69ef57-detail.jpg",
+          "native_width": 63,
+          "native_height": 62,
+          "display_width": 1024,
+          "display_height": 1008,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1047,
+            "top": 222,
+            "right": 1058,
+            "bottom": 240
+          },
+          "crop_bounds": {
+            "left": 1023,
+            "top": 198,
+            "right": 1082,
+            "bottom": 264
+          },
+          "native_file": "motion-c6a00a0d6bc8e325-before-89b110cb32-crop.png",
+          "detail_file": "motion-c6a00a0d6bc8e325-before-89b110cb32-detail.jpg",
+          "native_width": 59,
+          "native_height": 66,
+          "display_width": 915,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1034,
+            "top": 284,
+            "right": 1048,
+            "bottom": 291
+          },
+          "crop_bounds": {
+            "left": 1010,
+            "top": 260,
+            "right": 1072,
+            "bottom": 315
+          },
+          "native_file": "motion-c6a00a0d6bc8e325-before-9adc6ad4d6-crop.png",
+          "detail_file": "motion-c6a00a0d6bc8e325-before-9adc6ad4d6-detail.jpg",
+          "native_width": 62,
+          "native_height": 55,
+          "display_width": 1024,
+          "display_height": 908,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1311,
+            "top": 115,
+            "right": 1320,
+            "bottom": 124
+          },
+          "crop_bounds": {
+            "left": 1287,
+            "top": 91,
+            "right": 1344,
+            "bottom": 148
+          },
+          "native_file": "motion-c6a00a0d6bc8e325-before-ae1a5222fc-crop.png",
+          "detail_file": "motion-c6a00a0d6bc8e325-before-ae1a5222fc-detail.jpg",
+          "native_width": 57,
+          "native_height": 57,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1109,
@@ -330,7 +498,7 @@
             "right": 1150,
             "bottom": 243
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1282,
@@ -345,7 +513,7 @@
             "right": 1321,
             "bottom": 150
           },
-          "label": "Motion | analyzing"
+          "label": "Likely bird | shape unresolved"
         },
         {
           "left": 1047,
@@ -360,7 +528,7 @@
             "right": 1082,
             "bottom": 264
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1034,
@@ -408,25 +576,115 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:34:34.769651+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:49:40.437382+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 1115,
-            "top": 210,
-            "right": 1119,
-            "bottom": 219
+            "left": 1282,
+            "top": 112,
+            "right": 1297,
+            "bottom": 126
           },
           "shape": {
             "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 44.0
+            "circularity": 0.357,
+            "axis_ratio": 0.343,
+            "fill_fraction": 0.621,
+            "area_pixels": 210,
+            "width_pixels": 26,
+            "height_pixels": 13,
+            "contrast_threshold": 84.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "bird",
+            "confidence": 0.995,
+            "support_frames": 1,
+            "model_version": "20261028T183704Z-723291ee",
+            "reason": "Camera-trained model suggestion at validated threshold"
+          },
+          "model_observations": [
+            {
+              "labels": [
+                {
+                  "threshold": 0.995,
+                  "model_version": "20261028T183704Z-723291ee",
+                  "minimum_native_size": 8,
+                  "identifier": "bird",
+                  "source": "camera-trained",
+                  "confidence": 0.99530053
+                }
+              ]
+            },
+            {
+              "labels": [
+                {
+                  "threshold": 0.995,
+                  "model_version": "20261028T183704Z-723291ee",
+                  "minimum_native_size": 8,
+                  "identifier": "bird",
+                  "source": "camera-trained",
+                  "confidence": 0.9951887
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1047,
+            "top": 222,
+            "right": 1058,
+            "bottom": 240
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.396,
+            "axis_ratio": 0.705,
+            "fill_fraction": 0.793,
+            "area_pixels": 533,
+            "width_pixels": 24,
+            "height_pixels": 28,
+            "contrast_threshold": 12.25
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "Target too small for reliable object identification",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1109,
+            "top": 208,
+            "right": 1126,
+            "bottom": 219
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.438,
+            "axis_ratio": 0.736,
+            "fill_fraction": 0.656,
+            "area_pixels": 212,
+            "width_pixels": 19,
+            "height_pixels": 17,
+            "contrast_threshold": 36.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
             "support_frames": 0
           },
           "model_observations": [
@@ -504,7 +762,7 @@
             "right": 1882,
             "bottom": 431
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1049,
@@ -519,7 +777,7 @@
             "right": 1096,
             "bottom": 393
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1262,
@@ -549,7 +807,7 @@
             "right": 962,
             "bottom": 427
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 609,
@@ -564,7 +822,7 @@
             "right": 649,
             "bottom": 625
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 669,
@@ -624,7 +882,207 @@
             "right": 435,
             "bottom": 710
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1839,
+            "top": 380,
+            "right": 1858,
+            "bottom": 407
+          },
+          "crop_bounds": {
+            "left": 1815,
+            "top": 356,
+            "right": 1882,
+            "bottom": 431
+          },
+          "native_file": "motion-5c658002018396ed-after-f0a31b7185-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-f0a31b7185-detail.jpg",
+          "native_width": 67,
+          "native_height": 75,
+          "display_width": 915,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1049,
+            "top": 356,
+            "right": 1072,
+            "bottom": 369
+          },
+          "crop_bounds": {
+            "left": 1025,
+            "top": 332,
+            "right": 1096,
+            "bottom": 393
+          },
+          "native_file": "motion-5c658002018396ed-after-acb46f0a41-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-acb46f0a41-detail.jpg",
+          "native_width": 71,
+          "native_height": 61,
+          "display_width": 1024,
+          "display_height": 880,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1262,
+            "top": 358,
+            "right": 1285,
+            "bottom": 365
+          },
+          "crop_bounds": {
+            "left": 1238,
+            "top": 334,
+            "right": 1309,
+            "bottom": 389
+          },
+          "native_file": "motion-5c658002018396ed-after-4b8c35f454-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-4b8c35f454-detail.jpg",
+          "native_width": 71,
+          "native_height": 55,
+          "display_width": 1024,
+          "display_height": 793,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 926,
+            "top": 382,
+            "right": 938,
+            "bottom": 403
+          },
+          "crop_bounds": {
+            "left": 902,
+            "top": 358,
+            "right": 962,
+            "bottom": 427
+          },
+          "native_file": "motion-5c658002018396ed-after-d7a2cd7d02-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-d7a2cd7d02-detail.jpg",
+          "native_width": 60,
+          "native_height": 69,
+          "display_width": 890,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 609,
+            "top": 591,
+            "right": 625,
+            "bottom": 601
+          },
+          "crop_bounds": {
+            "left": 585,
+            "top": 567,
+            "right": 649,
+            "bottom": 625
+          },
+          "native_file": "motion-5c658002018396ed-after-ffbc3b5749-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-ffbc3b5749-detail.jpg",
+          "native_width": 64,
+          "native_height": 58,
+          "display_width": 1024,
+          "display_height": 928,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 669,
+            "top": 548,
+            "right": 676,
+            "bottom": 563
+          },
+          "crop_bounds": {
+            "left": 645,
+            "top": 524,
+            "right": 700,
+            "bottom": 587
+          },
+          "native_file": "motion-5c658002018396ed-after-3e4a70b8dc-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-3e4a70b8dc-detail.jpg",
+          "native_width": 55,
+          "native_height": 63,
+          "display_width": 894,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 777,
+            "top": 468,
+            "right": 782,
+            "bottom": 481
+          },
+          "crop_bounds": {
+            "left": 753,
+            "top": 444,
+            "right": 806,
+            "bottom": 505
+          },
+          "native_file": "motion-5c658002018396ed-after-69748cc3db-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-69748cc3db-detail.jpg",
+          "native_width": 53,
+          "native_height": 61,
+          "display_width": 890,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1238,
+            "top": 365,
+            "right": 1248,
+            "bottom": 376
+          },
+          "crop_bounds": {
+            "left": 1214,
+            "top": 341,
+            "right": 1272,
+            "bottom": 400
+          },
+          "native_file": "motion-5c658002018396ed-after-5ea091a9e9-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-5ea091a9e9-detail.jpg",
+          "native_width": 58,
+          "native_height": 59,
+          "display_width": 1007,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 407,
+            "top": 670,
+            "right": 411,
+            "bottom": 686
+          },
+          "crop_bounds": {
+            "left": 383,
+            "top": 646,
+            "right": 435,
+            "bottom": 710
+          },
+          "native_file": "motion-5c658002018396ed-after-4f35d15e81-crop.png",
+          "detail_file": "motion-5c658002018396ed-after-4f35d15e81-detail.jpg",
+          "native_width": 52,
+          "native_height": 64,
+          "display_width": 832,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "changed_regions": [
@@ -641,7 +1099,7 @@
             "right": 1882,
             "bottom": 431
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1049,
@@ -656,7 +1114,7 @@
             "right": 1096,
             "bottom": 393
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1262,
@@ -686,7 +1144,7 @@
             "right": 962,
             "bottom": 427
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 609,
@@ -701,7 +1159,7 @@
             "right": 649,
             "bottom": 625
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 669,
@@ -761,7 +1219,7 @@
             "right": 435,
             "bottom": 710
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         }
       ],
       "source_frame": "after",
@@ -779,20 +1237,21 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:34:32.236896+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:49:36.390331+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 407,
-            "top": 670,
-            "right": 411,
-            "bottom": 686
+            "left": 1839,
+            "top": 380,
+            "right": 1858,
+            "bottom": 407
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 92.0
+            "contrast_threshold": 96.0
           },
           "source_frame": "after",
           "object": {
@@ -811,20 +1270,47 @@
         },
         {
           "bounds": {
-            "left": 621,
-            "top": 591,
-            "right": 625,
-            "bottom": 601
+            "left": 1049,
+            "top": 356,
+            "right": 1072,
+            "bottom": 369
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 110.0
+            "contrast_threshold": 160.0
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "Target too small for reliable object identification",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 926,
+            "top": 382,
+            "right": 938,
+            "bottom": 403
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 96.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
             "support_frames": 0
           },
           "model_observations": [
@@ -917,7 +1403,7 @@
             "right": 1573,
             "bottom": 465
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1152,
@@ -932,7 +1418,7 @@
             "right": 1198,
             "bottom": 906
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1589,
@@ -1130,6 +1616,360 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 627,
+            "top": 546,
+            "right": 664,
+            "bottom": 561
+          },
+          "crop_bounds": {
+            "left": 603,
+            "top": 522,
+            "right": 688,
+            "bottom": 585
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-ca97e8a3aa-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-ca97e8a3aa-detail.jpg",
+          "native_width": 85,
+          "native_height": 63,
+          "display_width": 1024,
+          "display_height": 759,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1527,
+            "top": 429,
+            "right": 1549,
+            "bottom": 441
+          },
+          "crop_bounds": {
+            "left": 1503,
+            "top": 405,
+            "right": 1573,
+            "bottom": 465
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-50312636c7-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-50312636c7-detail.jpg",
+          "native_width": 70,
+          "native_height": 60,
+          "display_width": 1024,
+          "display_height": 878,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1152,
+            "top": 871,
+            "right": 1174,
+            "bottom": 882
+          },
+          "crop_bounds": {
+            "left": 1128,
+            "top": 847,
+            "right": 1198,
+            "bottom": 906
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-5cc7cc9aa6-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-5cc7cc9aa6-detail.jpg",
+          "native_width": 70,
+          "native_height": 59,
+          "display_width": 1024,
+          "display_height": 863,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1589,
+            "top": 437,
+            "right": 1607,
+            "bottom": 450
+          },
+          "crop_bounds": {
+            "left": 1565,
+            "top": 413,
+            "right": 1631,
+            "bottom": 474
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-722b8e6834-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-722b8e6834-detail.jpg",
+          "native_width": 66,
+          "native_height": 61,
+          "display_width": 1024,
+          "display_height": 946,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1393,
+            "top": 469,
+            "right": 1403,
+            "bottom": 481
+          },
+          "crop_bounds": {
+            "left": 1369,
+            "top": 445,
+            "right": 1427,
+            "bottom": 505
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-45c283bc8e-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-45c283bc8e-detail.jpg",
+          "native_width": 58,
+          "native_height": 60,
+          "display_width": 990,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 883,
+            "top": 535,
+            "right": 897,
+            "bottom": 547
+          },
+          "crop_bounds": {
+            "left": 859,
+            "top": 511,
+            "right": 921,
+            "bottom": 571
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-49cb99cbcc-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-49cb99cbcc-detail.jpg",
+          "native_width": 62,
+          "native_height": 60,
+          "display_width": 1024,
+          "display_height": 991,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1135,
+            "top": 698,
+            "right": 1139,
+            "bottom": 712
+          },
+          "crop_bounds": {
+            "left": 1111,
+            "top": 674,
+            "right": 1163,
+            "bottom": 736
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-3b11a60685-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-3b11a60685-detail.jpg",
+          "native_width": 52,
+          "native_height": 62,
+          "display_width": 859,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 549,
+            "top": 613,
+            "right": 555,
+            "bottom": 625
+          },
+          "crop_bounds": {
+            "left": 525,
+            "top": 589,
+            "right": 579,
+            "bottom": 649
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-85aa9486a1-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-85aa9486a1-detail.jpg",
+          "native_width": 54,
+          "native_height": 60,
+          "display_width": 922,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 699,
+            "top": 528,
+            "right": 712,
+            "bottom": 533
+          },
+          "crop_bounds": {
+            "left": 675,
+            "top": 504,
+            "right": 736,
+            "bottom": 557
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-001f729943-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-001f729943-detail.jpg",
+          "native_width": 61,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 890,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1042,
+            "top": 875,
+            "right": 1052,
+            "bottom": 890
+          },
+          "crop_bounds": {
+            "left": 1018,
+            "top": 851,
+            "right": 1076,
+            "bottom": 914
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-0542782a09-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-0542782a09-detail.jpg",
+          "native_width": 58,
+          "native_height": 63,
+          "display_width": 943,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 986,
+            "top": 545,
+            "right": 1006,
+            "bottom": 552
+          },
+          "crop_bounds": {
+            "left": 962,
+            "top": 521,
+            "right": 1030,
+            "bottom": 576
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-4798793523-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-4798793523-detail.jpg",
+          "native_width": 68,
+          "native_height": 55,
+          "display_width": 1024,
+          "display_height": 828,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 167,
+            "top": 829,
+            "right": 172,
+            "bottom": 844
+          },
+          "crop_bounds": {
+            "left": 143,
+            "top": 805,
+            "right": 196,
+            "bottom": 868
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-70af309a3b-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-70af309a3b-detail.jpg",
+          "native_width": 53,
+          "native_height": 63,
+          "display_width": 861,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1164,
+            "top": 538,
+            "right": 1180,
+            "bottom": 543
+          },
+          "crop_bounds": {
+            "left": 1140,
+            "top": 514,
+            "right": 1204,
+            "bottom": 567
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-b9396c56de-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-b9396c56de-detail.jpg",
+          "native_width": 64,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 848,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 506,
+            "top": 637,
+            "right": 515,
+            "bottom": 649
+          },
+          "crop_bounds": {
+            "left": 482,
+            "top": 613,
+            "right": 539,
+            "bottom": 673
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-0f4de785f0-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-0f4de785f0-detail.jpg",
+          "native_width": 57,
+          "native_height": 60,
+          "display_width": 973,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 423,
+            "top": 661,
+            "right": 442,
+            "bottom": 664
+          },
+          "crop_bounds": {
+            "left": 399,
+            "top": 637,
+            "right": 466,
+            "bottom": 688
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-9a41d5c1f0-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-9a41d5c1f0-detail.jpg",
+          "native_width": 67,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 779,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 937,
+            "top": 556,
+            "right": 952,
+            "bottom": 561
+          },
+          "crop_bounds": {
+            "left": 913,
+            "top": 532,
+            "right": 976,
+            "bottom": 585
+          },
+          "native_file": "motion-9b7f3f6f7d8f4477-after-bd65fcbc38-crop.png",
+          "detail_file": "motion-9b7f3f6f7d8f4477-after-bd65fcbc38-detail.jpg",
+          "native_width": 63,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 861,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 627,
@@ -1159,7 +1999,7 @@
             "right": 1573,
             "bottom": 465
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1152,
@@ -1174,7 +2014,7 @@
             "right": 1198,
             "bottom": 906
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1589,
@@ -1387,89 +2227,75 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:34:29.844916+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:49:31.860390+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
-        {
-          "bounds": {
-            "left": 757,
-            "top": 528,
-            "right": 779,
-            "bottom": 559
-          },
-          "shape": {
-            "label": "unresolved",
-            "circularity": 0.421,
-            "axis_ratio": 0.576,
-            "fill_fraction": 0.566,
-            "area_pixels": 880,
-            "width_pixels": 42,
-            "height_pixels": 37,
-            "contrast_threshold": 78.0
-          },
-          "source_frame": "after",
-          "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
-        {
-          "bounds": {
-            "left": 725,
-            "top": 515,
-            "right": 756,
-            "bottom": 529
-          },
-          "shape": {
-            "label": "unresolved",
-            "circularity": 0.476,
-            "axis_ratio": 0.409,
-            "fill_fraction": 0.719,
-            "area_pixels": 807,
-            "width_pixels": 51,
-            "height_pixels": 22,
-            "contrast_threshold": 21.8
-          },
-          "source_frame": "after",
-          "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
         {
           "bounds": {
             "left": 627,
             "top": 546,
-            "right": 645,
+            "right": 664,
             "bottom": 561
           },
           "shape": {
             "label": "unresolved",
-            "circularity": 0.448,
-            "axis_ratio": 0.549,
-            "fill_fraction": 0.766,
-            "area_pixels": 640,
-            "width_pixels": 38,
-            "height_pixels": 22,
-            "contrast_threshold": 28.0
+            "reason": "No separable silhouette",
+            "contrast_threshold": 102.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1527,
+            "top": 429,
+            "right": 1549,
+            "bottom": 441
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 178.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1152,
+            "top": 871,
+            "right": 1174,
+            "bottom": 882
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 92.0
           },
           "source_frame": "after",
           "object": {

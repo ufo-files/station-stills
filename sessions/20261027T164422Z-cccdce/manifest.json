@@ -90,6 +90,7 @@
       "session_id": "20261027T164422Z-cccdce",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -106,37 +107,10 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:35:05.287096+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "regions": [
-          {
-            "bounds": {
-              "left": 1122,
-              "top": 29,
-              "right": 1136,
-              "bottom": 59
-            },
-            "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 84.0
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          }
-        ],
+        "classified_at": "2026-10-28T18:50:16.025169+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
+        "regions": [],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
       }
@@ -170,8 +144,8 @@
       "sha256": "8e01dd22abb5790219cabff3ef523f2438e67110950402fe29652e0e0e79d7b6"
     },
     "motion-events.json": {
-      "bytes": 2689,
-      "sha256": "c9cbcea73f6436255737bb082b2e288cdb6e0c159bff84b4fc774f1bdc03a133"
+      "bytes": 2090,
+      "sha256": "a206ca88cd73b33a41f1f2c182695e9b568d2ecaa81b5c897cf940c06fb0c3f8"
     },
     "buffer-state.json": {
       "bytes": 6232,

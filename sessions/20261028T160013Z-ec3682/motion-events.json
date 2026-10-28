@@ -49,67 +49,50 @@
     "annotation": {
       "boxes": [
         {
-          "left": 49,
-          "top": 943,
-          "right": 79,
-          "bottom": 970,
-          "changed_analysis_pixels": 504,
+          "left": 49.0,
+          "top": 943.0,
+          "right": 79.0,
+          "bottom": 970.0,
+          "label": "Bird (reviewed) | irregular",
           "visible_in": "before",
           "review_bounds": {
-            "left": 25,
-            "top": 919,
-            "right": 103,
-            "bottom": 994
-          },
-          "label": "Likely bird | irregular"
+            "left": 33.0,
+            "top": 927.0,
+            "right": 95.0,
+            "bottom": 986.0
+          }
         }
       ],
       "detail_images": [
         {
           "bounds": {
-            "left": 49,
-            "top": 943,
-            "right": 79,
-            "bottom": 970
+            "left": 49.0,
+            "top": 943.0,
+            "right": 79.0,
+            "bottom": 970.0
           },
           "crop_bounds": {
-            "left": 25,
-            "top": 919,
-            "right": 103,
-            "bottom": 994
+            "left": 33,
+            "top": 927,
+            "right": 95,
+            "bottom": 986
           },
-          "native_file": "motion-4f64cebacc27bd7d-before-a74a31e6d6-crop.png",
-          "detail_file": "motion-4f64cebacc27bd7d-before-a74a31e6d6-detail.jpg",
-          "native_width": 78,
-          "native_height": 75,
+          "native_file": "motion-4f64cebacc27bd7d-before-e376ce14cf-crop.png",
+          "detail_file": "motion-4f64cebacc27bd7d-before-e376ce14cf-detail.jpg",
+          "native_width": 62,
+          "native_height": 59,
           "display_width": 1024,
-          "display_height": 985,
+          "display_height": 974,
           "upscaled": true,
           "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
-      "changed_regions": [
-        {
-          "left": 49,
-          "top": 943,
-          "right": 79,
-          "bottom": 970,
-          "changed_analysis_pixels": 504,
-          "visible_in": "before",
-          "review_bounds": {
-            "left": 25,
-            "top": 919,
-            "right": 103,
-            "bottom": 994
-          },
-          "label": "Likely bird | irregular"
-        }
-      ],
       "source_frame": "before",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-4f64cebacc27bd7d-boxed.jpg",
     "evidence_files": [
@@ -170,6 +153,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "before",
+      "reviewed_at": "2026-10-28T18:49:12.347057+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 49.0,
+            "top": 943.0,
+            "right": 79.0,
+            "bottom": 970.0
+          },
+          "object": "bird",
+          "shape": "irregular"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]
