@@ -237,5 +237,133 @@
     "cleaned_files": [],
     "cleanup_plan": [],
     "error": null
+  },
+  "internet_archive": {
+    "state": "uploading",
+    "identifier": "ufo-files-station-7c3668-20261028t142659z-bba293",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t142659z-bba293",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t142659z-bba293/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 42173,
+        "md5": "fdad3cdf4fae3c07c801d9152a1bf676",
+        "sha256": "2491b6a15667235a049dddd598dc253c77ff2b7e814b1b749e5083b2539c1502"
+      },
+      {
+        "name": "motion-events.json",
+        "bytes": 2352,
+        "md5": "2baab9e3993fab858a2fdbfc0f15bc90",
+        "sha256": "711ad3eac89d7af35ee4e443cbb921d1f8b47a91f976acd0871e1f6cd3659df1"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 719,
+        "md5": "d24ed97bc1ab8b1c440083ac24a679a7",
+        "sha256": "b7483ebc2e781affa07f2d63e7653f1c6123fa4d60559fc6fc91631a2250bddb"
+      },
+      {
+        "name": "motion-35a6d1ebe190e453-before.jpg",
+        "bytes": 653290,
+        "md5": "11ffc9c4588f3ae35ba32d8e47eb5ac2",
+        "sha256": "17cea04d74294496936676c3f92834a2447abae75e28e34c305b4a293ef7abec"
+      },
+      {
+        "name": "motion-35a6d1ebe190e453-after.jpg",
+        "bytes": 653102,
+        "md5": "5207e80cc85e6b8709f38480721360da",
+        "sha256": "67ca250e64b3580f316c8bf9cac637f7fcf26b87f8d52e9466619ac416056ce0"
+      },
+      {
+        "name": "motion-35a6d1ebe190e453-boxed.jpg",
+        "bytes": 263773,
+        "md5": "a565ab9da7469e03c2bea49483f3628f",
+        "sha256": "0001973121bfd4cad92f056236145ca726f67171cdedb40fbc3b40c4e17614d5"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 653239,
+        "md5": "f6a05682402b0475f04f0866cfd67bec",
+        "sha256": "8954c58bf2262526fd2fbf8d4ee9d61cbc60016622a711271cb5c841efa645f8"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 652724,
+        "md5": "f961a2343861e278250cbefde658ed8d",
+        "sha256": "a8569bc1b6603fcf28f954a70edf8366984074d7c8dbde9e315e0d2ccfa61cde"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 651552,
+        "md5": "9c6d9ed880e4b9a7fd89688e6d55f5e8",
+        "sha256": "c76b762cb2b05252ef8bf105e1db979095788808dade51928c0e5a8ae6ded96a"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261028T142659Z-bba293-session.json",
+        "bytes": 7826,
+        "md5": "80e9ea5464e19f177c22eb7e24261ddb",
+        "sha256": "51334f53297face46683fea0d5a1872866d59bbe1fe20a58b015f719430ea493"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 12872858,
+        "md5": "86f528ad491926611bf7ee2633c84c1b",
+        "sha256": "271df47324397153513d814be1a8fc466bba05875e8e85047931f733767e79d8"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 17180,
+        "md5": "83a8868bc9ec6c6f6d4474360ce2f3ad",
+        "sha256": "b089230e28b12d6dec6707b2d3590f9d7442902843ddb010eac8fa7230163f4f"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 2463,
+        "md5": "5a1b2f09a599b151c4fd18db7cb58ebb",
+        "sha256": "70b6d1530eff933a800898b8d6d2c1557e17e98aad8f8e482ff6cfc622290327"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 8043,
+        "md5": "ca5aae51a30791b1bc3f18b227d60266",
+        "sha256": "050a95db93eeffadb4b03f31cf07abb7f547876298c164a8c8552e8417850fb7"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 12243,
+        "md5": "f637a13b820b70c77a2fbea70e93bedc",
+        "sha256": "b893653a44c9f0bb0b7370d7150adab5387803e7d28d0e5e2d39d73336a0aaf4"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261028T142659Z-bba293-manifest.json",
+        "bytes": 7406,
+        "md5": "e0907783a9c5a4564aff7f2ff4032591",
+        "sha256": "c9f7f5368f5c7f1a98ce8d2e67d0f296adbde9cbfdaa80035a39ae84eba204d4"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261028T142659Z-bba293-archive-index.json",
+        "bytes": 3952,
+        "md5": "6f7931fe2bf92147c331200e25c7eb92",
+        "sha256": "db1c9d05cb2ba97941c5ab5e330ef91f7a95b32c5f6e6fdb168414784b07d212"
+      }
+    ],
+    "error": "Internet Archive is busy; upload queued for retry"
   }
 }
