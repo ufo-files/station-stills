@@ -119,9 +119,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:47:32.117286+00:00",
+      "classified_at": "2026-10-28T19:13:39.671804+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -143,21 +143,21 @@
           "source_frame": "before",
           "object": {
             "label": "bird",
-            "confidence": 0.997,
+            "confidence": 0.857,
             "support_frames": 1,
-            "model_version": "20261028T183704Z-723291ee",
+            "model_version": "20261028T190333Z-72ab2f51",
             "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
               "labels": [
                 {
-                  "minimum_native_size": 8,
-                  "source": "camera-trained",
-                  "threshold": 0.995,
-                  "model_version": "20261028T183704Z-723291ee",
+                  "threshold": 0.85,
                   "identifier": "bird",
-                  "confidence": 0.996783
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "confidence": 0.8572191,
+                  "source": "camera-trained",
+                  "minimum_native_size": 8
                 }
               ]
             },
