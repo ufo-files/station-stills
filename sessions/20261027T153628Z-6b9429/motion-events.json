@@ -62,6 +62,30 @@
           "label": "Unknown | elongated"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 156,
+            "top": 708,
+            "right": 219,
+            "bottom": 740
+          },
+          "crop_bounds": {
+            "left": 132,
+            "top": 684,
+            "right": 243,
+            "bottom": 764
+          },
+          "native_file": "motion-eed63d557b5f6e76-after-d39bbca5ff-crop.png",
+          "detail_file": "motion-eed63d557b5f6e76-after-d39bbca5ff-detail.jpg",
+          "native_width": 111,
+          "native_height": 80,
+          "display_width": 1024,
+          "display_height": 738,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 156,
@@ -94,62 +118,31 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:41.389945+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:56.396057+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 171,
+            "left": 156,
             "top": 708,
             "right": 219,
             "bottom": 740
           },
           "shape": {
             "label": "elongated",
-            "circularity": 0.34,
-            "axis_ratio": 0.328,
-            "fill_fraction": 0.446,
-            "area_pixels": 530,
+            "circularity": 0.344,
+            "axis_ratio": 0.329,
+            "fill_fraction": 0.452,
+            "area_pixels": 537,
             "width_pixels": 41,
             "height_pixels": 29,
-            "contrast_threshold": 37.4
+            "contrast_threshold": 37.07
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
             "reason": "No consistent high-confidence object label",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
-        {
-          "bounds": {
-            "left": 156,
-            "top": 713,
-            "right": 165,
-            "bottom": 717
-          },
-          "shape": {
-            "label": "unresolved",
-            "circularity": 0.405,
-            "axis_ratio": 0.346,
-            "fill_fraction": 0.753,
-            "area_pixels": 149,
-            "width_pixels": 22,
-            "height_pixels": 9,
-            "contrast_threshold": 8.0
-          },
-          "source_frame": "after",
-          "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
             "support_frames": 0
           },
           "model_observations": [

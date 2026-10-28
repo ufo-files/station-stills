@@ -345,6 +345,382 @@
             "label": "Motion | analyzing"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1049,
+              "top": 1069,
+              "right": 1051,
+              "bottom": 1073
+            },
+            "crop_bounds": {
+              "left": 1025,
+              "top": 1045,
+              "right": 1075,
+              "bottom": 1080
+            },
+            "native_file": "motion-0e381261330615d3-after-0d221915de-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-0d221915de-detail.jpg",
+            "native_width": 50,
+            "native_height": 35,
+            "display_width": 1024,
+            "display_height": 717,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 72,
+              "top": 222,
+              "right": 74,
+              "bottom": 225
+            },
+            "crop_bounds": {
+              "left": 48,
+              "top": 198,
+              "right": 98,
+              "bottom": 249
+            },
+            "native_file": "motion-0e381261330615d3-after-2b11540ce9-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-2b11540ce9-detail.jpg",
+            "native_width": 50,
+            "native_height": 51,
+            "display_width": 1004,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 562,
+              "top": 541,
+              "right": 564,
+              "bottom": 544
+            },
+            "crop_bounds": {
+              "left": 538,
+              "top": 517,
+              "right": 588,
+              "bottom": 568
+            },
+            "native_file": "motion-0e381261330615d3-after-fe710d841a-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-fe710d841a-detail.jpg",
+            "native_width": 50,
+            "native_height": 51,
+            "display_width": 1004,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1165,
+              "top": 789,
+              "right": 1168,
+              "bottom": 791
+            },
+            "crop_bounds": {
+              "left": 1141,
+              "top": 765,
+              "right": 1192,
+              "bottom": 815
+            },
+            "native_file": "motion-0e381261330615d3-after-ae750da47c-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-ae750da47c-detail.jpg",
+            "native_width": 51,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1004,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1576,
+              "top": 833,
+              "right": 1578,
+              "bottom": 836
+            },
+            "crop_bounds": {
+              "left": 1552,
+              "top": 809,
+              "right": 1602,
+              "bottom": 860
+            },
+            "native_file": "motion-0e381261330615d3-after-b84ec211b0-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-b84ec211b0-detail.jpg",
+            "native_width": 50,
+            "native_height": 51,
+            "display_width": 1004,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 909,
+              "top": 955,
+              "right": 912,
+              "bottom": 958
+            },
+            "crop_bounds": {
+              "left": 885,
+              "top": 931,
+              "right": 936,
+              "bottom": 982
+            },
+            "native_file": "motion-0e381261330615d3-after-b82b1d1b35-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-b82b1d1b35-detail.jpg",
+            "native_width": 51,
+            "native_height": 51,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1868,
+              "top": 64,
+              "right": 1871,
+              "bottom": 66
+            },
+            "crop_bounds": {
+              "left": 1844,
+              "top": 40,
+              "right": 1895,
+              "bottom": 90
+            },
+            "native_file": "motion-0e381261330615d3-after-3e929af289-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-3e929af289-detail.jpg",
+            "native_width": 51,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1004,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 413,
+              "top": 125,
+              "right": 415,
+              "bottom": 128
+            },
+            "crop_bounds": {
+              "left": 389,
+              "top": 101,
+              "right": 439,
+              "bottom": 152
+            },
+            "native_file": "motion-0e381261330615d3-after-ec89ac2680-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-ec89ac2680-detail.jpg",
+            "native_width": 50,
+            "native_height": 51,
+            "display_width": 1004,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 25,
+              "top": 187,
+              "right": 27,
+              "bottom": 189
+            },
+            "crop_bounds": {
+              "left": 1,
+              "top": 163,
+              "right": 51,
+              "bottom": 213
+            },
+            "native_file": "motion-0e381261330615d3-after-96bb4f275b-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-96bb4f275b-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 843,
+              "top": 333,
+              "right": 845,
+              "bottom": 335
+            },
+            "crop_bounds": {
+              "left": 819,
+              "top": 309,
+              "right": 869,
+              "bottom": 359
+            },
+            "native_file": "motion-0e381261330615d3-after-6d24c60d6a-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-6d24c60d6a-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 694,
+              "top": 391,
+              "right": 696,
+              "bottom": 393
+            },
+            "crop_bounds": {
+              "left": 670,
+              "top": 367,
+              "right": 720,
+              "bottom": 417
+            },
+            "native_file": "motion-0e381261330615d3-after-fc7223c966-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-fc7223c966-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 619,
+              "top": 492,
+              "right": 621,
+              "bottom": 494
+            },
+            "crop_bounds": {
+              "left": 595,
+              "top": 468,
+              "right": 645,
+              "bottom": 518
+            },
+            "native_file": "motion-0e381261330615d3-after-37c55c620a-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-37c55c620a-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1426,
+              "top": 526,
+              "right": 1428,
+              "bottom": 528
+            },
+            "crop_bounds": {
+              "left": 1402,
+              "top": 502,
+              "right": 1452,
+              "bottom": 552
+            },
+            "native_file": "motion-0e381261330615d3-after-535f538882-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-535f538882-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1672,
+              "top": 609,
+              "right": 1675,
+              "bottom": 611
+            },
+            "crop_bounds": {
+              "left": 1648,
+              "top": 585,
+              "right": 1699,
+              "bottom": 635
+            },
+            "native_file": "motion-0e381261330615d3-after-4561e5fe22-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-4561e5fe22-detail.jpg",
+            "native_width": 51,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1004,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1509,
+              "top": 667,
+              "right": 1511,
+              "bottom": 669
+            },
+            "crop_bounds": {
+              "left": 1485,
+              "top": 643,
+              "right": 1535,
+              "bottom": 693
+            },
+            "native_file": "motion-0e381261330615d3-after-ec6fdad5c1-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-ec6fdad5c1-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 18,
+              "top": 777,
+              "right": 20,
+              "bottom": 779
+            },
+            "crop_bounds": {
+              "left": 0,
+              "top": 753,
+              "right": 44,
+              "bottom": 803
+            },
+            "native_file": "motion-0e381261330615d3-after-fdb7e983aa-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-fdb7e983aa-detail.jpg",
+            "native_width": 44,
+            "native_height": 50,
+            "display_width": 901,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1523,
+              "top": 781,
+              "right": 1525,
+              "bottom": 783
+            },
+            "crop_bounds": {
+              "left": 1499,
+              "top": 757,
+              "right": 1549,
+              "bottom": 807
+            },
+            "native_file": "motion-0e381261330615d3-after-fd04f25bab-crop.png",
+            "detail_file": "motion-0e381261330615d3-after-fd04f25bab-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1049,
@@ -641,8 +1017,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:36:49.068645+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:53:12.336309+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -768,8 +1145,8 @@
       "sha256": "b972b6b4e0055422f725ba2d8e73ab6068a57f2e2617f39cbff58ea109059e98"
     },
     "motion-events.json": {
-      "bytes": 17553,
-      "sha256": "d2f8d594533527f9eeb262c8be01693799903d8ee8fa89d9f18caa9a07b24f30"
+      "bytes": 29249,
+      "sha256": "5a28e17394bac12428292fd136da1eadaae753aacf31413745c5f618f451cb9c"
     },
     "buffer-state.json": {
       "bytes": 4833,
@@ -790,6 +1167,142 @@
     "frames/index.json": {
       "bytes": 719,
       "sha256": "5f45187e80d215a25dca27f76929b3e8c8b71171aa1e26bbd1801a109ba20ecb"
+    },
+    "motion-0e381261330615d3-after-0d221915de-crop.png": {
+      "bytes": 1658,
+      "sha256": "3b525b073cab959f147181485dd9ca15b5857279fd03b89c3bcc80f8d560523c"
+    },
+    "motion-0e381261330615d3-after-0d221915de-detail.jpg": {
+      "bytes": 57979,
+      "sha256": "783604ef9e42387e1beb0ffeb944f40aeb75c804f3b2f066e848f3cdf7539b83"
+    },
+    "motion-0e381261330615d3-after-2b11540ce9-crop.png": {
+      "bytes": 2296,
+      "sha256": "7a5ac2d553471304c4d0caecd7923b1717ef774e1a7725b875270677317863b4"
+    },
+    "motion-0e381261330615d3-after-2b11540ce9-detail.jpg": {
+      "bytes": 79560,
+      "sha256": "93950e46c8eebfb5625b29a725aaeb654de7f417e8b418cd34c6bcf9d9c5d53a"
+    },
+    "motion-0e381261330615d3-after-fe710d841a-crop.png": {
+      "bytes": 2235,
+      "sha256": "83673ba3657fb4926903d0ab414439a75b183c0c4ba3ca943f407fd97240a320"
+    },
+    "motion-0e381261330615d3-after-fe710d841a-detail.jpg": {
+      "bytes": 79317,
+      "sha256": "080ec4081774ee4f0ed89072cb03a48798a5c41b52a1e04bfc3bda34782ddddb"
+    },
+    "motion-0e381261330615d3-after-ae750da47c-crop.png": {
+      "bytes": 2185,
+      "sha256": "a31f90dd445c4e452fa49fe6bf929d87074dde271f15daa529c51a516233b096"
+    },
+    "motion-0e381261330615d3-after-ae750da47c-detail.jpg": {
+      "bytes": 79107,
+      "sha256": "26bf0b966df4e2c1540cd2264c69ebe005323a4c6c70a4e522716145746ce8ba"
+    },
+    "motion-0e381261330615d3-after-b84ec211b0-crop.png": {
+      "bytes": 2307,
+      "sha256": "e9b899ad0cafceef7bca53cb39a550736364b622e491b59a419cd23cb73eb748"
+    },
+    "motion-0e381261330615d3-after-b84ec211b0-detail.jpg": {
+      "bytes": 81691,
+      "sha256": "a1a18cbc9fd9595b65794162254d6b54dc0c0975f82309df65cc65b5ae52b411"
+    },
+    "motion-0e381261330615d3-after-b82b1d1b35-crop.png": {
+      "bytes": 2308,
+      "sha256": "bd042b86d70317e085e6e5b9054d0109a99baf304698d2c40f4ae7d41d2cadb6"
+    },
+    "motion-0e381261330615d3-after-b82b1d1b35-detail.jpg": {
+      "bytes": 79765,
+      "sha256": "6715bbad27c1bfa0cb3f47fa3be4c29218267bbdaf783ce27f24532d5a8a0b0e"
+    },
+    "motion-0e381261330615d3-after-3e929af289-crop.png": {
+      "bytes": 2188,
+      "sha256": "e0e1d4b52937586ae3a9bdc24bfd62b43726ac3c38ca8fb534185182ac57907b"
+    },
+    "motion-0e381261330615d3-after-3e929af289-detail.jpg": {
+      "bytes": 78833,
+      "sha256": "8c975f245733b3eee9f53463b1d2bda2caf341d6786c538ebbcd8dfcfb36b8dc"
+    },
+    "motion-0e381261330615d3-after-ec89ac2680-crop.png": {
+      "bytes": 2352,
+      "sha256": "5d31b91f9d215c9c0677aced875aaacfd82c34a8de34e420b71e6bd48a4b36d6"
+    },
+    "motion-0e381261330615d3-after-ec89ac2680-detail.jpg": {
+      "bytes": 79088,
+      "sha256": "543c788c3ac700a2a9dbf2e900dc721de500f9c656a8c0900b0c9f0647425fbb"
+    },
+    "motion-0e381261330615d3-after-96bb4f275b-crop.png": {
+      "bytes": 2228,
+      "sha256": "b7e7831a6297a1ed494e09daacadfb9a6616f797dfe2f7f193369d2907ab9497"
+    },
+    "motion-0e381261330615d3-after-96bb4f275b-detail.jpg": {
+      "bytes": 79306,
+      "sha256": "b6197b9541ac1188da526b71e961a94c4fe24976d8a6c85d6df6bfafaf0cd391"
+    },
+    "motion-0e381261330615d3-after-6d24c60d6a-crop.png": {
+      "bytes": 2044,
+      "sha256": "ea25dbd823db1d0fa274a5d7ac72320365f9f96fd7b0d2b68ba465b127854ba1"
+    },
+    "motion-0e381261330615d3-after-6d24c60d6a-detail.jpg": {
+      "bytes": 76488,
+      "sha256": "bd46ef6e482ceb7ec1c781283de2291bbd7a5ecb32075c2f97d7e0e4fd030523"
+    },
+    "motion-0e381261330615d3-after-fc7223c966-crop.png": {
+      "bytes": 2204,
+      "sha256": "f275c6e875f206a7e12592a29aed0a7126e06fd69c38e203e0dfd628b2e682bd"
+    },
+    "motion-0e381261330615d3-after-fc7223c966-detail.jpg": {
+      "bytes": 79243,
+      "sha256": "01309f28d671ab9f1fec59c85ba4de6ab67b067d6ab08506de29e510794400f6"
+    },
+    "motion-0e381261330615d3-after-37c55c620a-crop.png": {
+      "bytes": 2340,
+      "sha256": "0d8225671516ff566d4fabbaba676f4e6e9eafd2979b7874ae679f0d32672577"
+    },
+    "motion-0e381261330615d3-after-37c55c620a-detail.jpg": {
+      "bytes": 81462,
+      "sha256": "c5c9533e94b237d2a8ff420c3352fb44697b51b3e140c6a9e8390f51a01276de"
+    },
+    "motion-0e381261330615d3-after-535f538882-crop.png": {
+      "bytes": 2263,
+      "sha256": "6a8944f9b79182489f9440e480e2d2f351d7b4c1869886f054385171b0e6dc2a"
+    },
+    "motion-0e381261330615d3-after-535f538882-detail.jpg": {
+      "bytes": 82268,
+      "sha256": "c8d51dee5d18ca9f9907dbd5208fb242f11ebafc6479d55882cc3fffe2c29719"
+    },
+    "motion-0e381261330615d3-after-4561e5fe22-crop.png": {
+      "bytes": 2366,
+      "sha256": "788c3c59bb87429ef4cec1276f0094d34f6c1f20711b0ae573d13f3a562d1311"
+    },
+    "motion-0e381261330615d3-after-4561e5fe22-detail.jpg": {
+      "bytes": 81871,
+      "sha256": "c6d17c6182e87544d52199d3d50f08076bf53e371c4a25d8df1829e1c762e435"
+    },
+    "motion-0e381261330615d3-after-ec6fdad5c1-crop.png": {
+      "bytes": 2509,
+      "sha256": "f4c463608713fcc49b68d2518dae982a8d67ba29228e2675376adcbbf27b4cec"
+    },
+    "motion-0e381261330615d3-after-ec6fdad5c1-detail.jpg": {
+      "bytes": 85266,
+      "sha256": "e2ddb91a5aca955e23458ad70bb259ba5334067b594486c112881184a686a581"
+    },
+    "motion-0e381261330615d3-after-fdb7e983aa-crop.png": {
+      "bytes": 1883,
+      "sha256": "22dd8dc4512f2a41704ab8791beb113e27a4c9e89bf14df31d87e210582f7c33"
+    },
+    "motion-0e381261330615d3-after-fdb7e983aa-detail.jpg": {
+      "bytes": 70417,
+      "sha256": "4223419c035b4a0ea67d20eae8f745cf54d63969ba2831d1cb0791bc835fd3bb"
+    },
+    "motion-0e381261330615d3-after-fd04f25bab-crop.png": {
+      "bytes": 2294,
+      "sha256": "61d0ed770c64595ba10f7b9d18f4e7dcbf5656fd7249559792cb91d113c9df17"
+    },
+    "motion-0e381261330615d3-after-fd04f25bab-detail.jpg": {
+      "bytes": 81804,
+      "sha256": "cfac1afe10ff98331b06cd22a34145e9bb342fe26dbd568c4c671b40daddf3a3"
     }
   },
   "buffer_assembly": {

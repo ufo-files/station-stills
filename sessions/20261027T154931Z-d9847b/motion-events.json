@@ -62,6 +62,30 @@
           "label": "Unknown | irregular"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 184,
+            "top": 736,
+            "right": 240,
+            "bottom": 763
+          },
+          "crop_bounds": {
+            "left": 160,
+            "top": 712,
+            "right": 264,
+            "bottom": 787
+          },
+          "native_file": "motion-c8b5fc7aa63b75bf-after-9143c5be51-crop.png",
+          "detail_file": "motion-c8b5fc7aa63b75bf-after-9143c5be51-detail.jpg",
+          "native_width": 104,
+          "native_height": 75,
+          "display_width": 1024,
+          "display_height": 738,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 184,
@@ -94,8 +118,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:35.289402+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:47.855704+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -127,8 +152,8 @@
             {
               "labels": [
                 {
-                  "identifier": "bird",
-                  "confidence": 0.9312925
+                  "confidence": 0.9312925,
+                  "identifier": "bird"
                 }
               ]
             }

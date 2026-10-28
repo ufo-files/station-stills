@@ -89,7 +89,7 @@
             "right": 1113,
             "bottom": 123
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | too small"
         },
         {
           "left": 253,
@@ -182,6 +182,206 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1723,
+            "top": 106,
+            "right": 1750,
+            "bottom": 145
+          },
+          "crop_bounds": {
+            "left": 1699,
+            "top": 82,
+            "right": 1774,
+            "bottom": 169
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-ff31936201-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-ff31936201-detail.jpg",
+          "native_width": 75,
+          "native_height": 87,
+          "display_width": 883,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 705,
+            "top": 278,
+            "right": 715,
+            "bottom": 290
+          },
+          "crop_bounds": {
+            "left": 681,
+            "top": 254,
+            "right": 739,
+            "bottom": 314
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-7e98a2f4f9-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-7e98a2f4f9-detail.jpg",
+          "native_width": 58,
+          "native_height": 60,
+          "display_width": 990,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1084,
+            "top": 93,
+            "right": 1089,
+            "bottom": 99
+          },
+          "crop_bounds": {
+            "left": 1060,
+            "top": 69,
+            "right": 1113,
+            "bottom": 123
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-c9a6e06447-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-c9a6e06447-detail.jpg",
+          "native_width": 53,
+          "native_height": 54,
+          "display_width": 1005,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 253,
+            "top": 454,
+            "right": 256,
+            "bottom": 462
+          },
+          "crop_bounds": {
+            "left": 229,
+            "top": 430,
+            "right": 280,
+            "bottom": 486
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-e53c027d5c-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-e53c027d5c-detail.jpg",
+          "native_width": 51,
+          "native_height": 56,
+          "display_width": 933,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 253,
+            "top": 435,
+            "right": 257,
+            "bottom": 440
+          },
+          "crop_bounds": {
+            "left": 229,
+            "top": 411,
+            "right": 281,
+            "bottom": 464
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-2e81e103cf-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-2e81e103cf-detail.jpg",
+          "native_width": 52,
+          "native_height": 53,
+          "display_width": 1005,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 705,
+            "top": 401,
+            "right": 709,
+            "bottom": 404
+          },
+          "crop_bounds": {
+            "left": 681,
+            "top": 377,
+            "right": 733,
+            "bottom": 428
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-0658c52803-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-0658c52803-detail.jpg",
+          "native_width": 52,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 665,
+            "top": 369,
+            "right": 668,
+            "bottom": 372
+          },
+          "crop_bounds": {
+            "left": 641,
+            "top": 345,
+            "right": 692,
+            "bottom": 396
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-fd9cae5aba-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-fd9cae5aba-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 573,
+            "top": 287,
+            "right": 576,
+            "bottom": 289
+          },
+          "crop_bounds": {
+            "left": 549,
+            "top": 263,
+            "right": 600,
+            "bottom": 313
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-070a624881-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-070a624881-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1048,
+            "top": 126,
+            "right": 1050,
+            "bottom": 128
+          },
+          "crop_bounds": {
+            "left": 1024,
+            "top": 102,
+            "right": 1074,
+            "bottom": 152
+          },
+          "native_file": "motion-16e0a92b8d4eb902-after-d0b4b5b036-crop.png",
+          "detail_file": "motion-16e0a92b8d4eb902-after-d0b4b5b036-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1723,
@@ -226,7 +426,7 @@
             "right": 1113,
             "bottom": 123
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | too small"
         },
         {
           "left": 872,
@@ -342,20 +542,21 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:31.332558+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:40.061785+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 1738,
-            "top": 122,
+            "left": 1723,
+            "top": 106,
             "right": 1750,
             "bottom": 145
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 122.0
+            "contrast_threshold": 124.0
           },
           "source_frame": "after",
           "object": {
@@ -392,7 +593,16 @@
           },
           "model_observations": [
             {
-              "labels": []
+              "labels": [
+                {
+                  "source": "camera-trained",
+                  "identifier": "bird",
+                  "threshold": 0.995,
+                  "minimum_native_size": 8,
+                  "model_version": "20261028T183704Z-723291ee",
+                  "confidence": 0.9952768
+                }
+              ]
             },
             {
               "labels": []
@@ -401,15 +611,18 @@
         },
         {
           "bounds": {
-            "left": 1730,
-            "top": 117,
-            "right": 1735,
-            "bottom": 124
+            "left": 1084,
+            "top": 93,
+            "right": 1089,
+            "bottom": 99
           },
           "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 104.0
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 23,
+            "width_pixels": 5,
+            "height_pixels": 6,
+            "contrast_threshold": 12.8
           },
           "source_frame": "after",
           "object": {
@@ -422,7 +635,16 @@
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "model_version": "20261028T183704Z-723291ee",
+                  "confidence": 0.9982495,
+                  "source": "camera-trained",
+                  "identifier": "bird",
+                  "threshold": 0.995,
+                  "minimum_native_size": 8
+                }
+              ]
             }
           ]
         }
@@ -506,7 +728,7 @@
             "right": 1328,
             "bottom": 461
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 3,
@@ -536,7 +758,7 @@
             "right": 568,
             "bottom": 803
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 870,
@@ -551,7 +773,7 @@
             "right": 922,
             "bottom": 617
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1190,
@@ -641,7 +863,7 @@
             "right": 553,
             "bottom": 605
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1001,
@@ -719,6 +941,360 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 614,
+            "top": 709,
+            "right": 650,
+            "bottom": 765
+          },
+          "crop_bounds": {
+            "left": 590,
+            "top": 685,
+            "right": 674,
+            "bottom": 789
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-81b1ab046f-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-81b1ab046f-detail.jpg",
+          "native_width": 84,
+          "native_height": 104,
+          "display_width": 827,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1290,
+            "top": 404,
+            "right": 1304,
+            "bottom": 437
+          },
+          "crop_bounds": {
+            "left": 1266,
+            "top": 380,
+            "right": 1328,
+            "bottom": 461
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-0a62a3f9be-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-0a62a3f9be-detail.jpg",
+          "native_width": 62,
+          "native_height": 81,
+          "display_width": 784,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 3,
+            "top": 612,
+            "right": 19,
+            "bottom": 640
+          },
+          "crop_bounds": {
+            "left": 0,
+            "top": 588,
+            "right": 43,
+            "bottom": 664
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-51aee438b7-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-51aee438b7-detail.jpg",
+          "native_width": 43,
+          "native_height": 76,
+          "display_width": 579,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 519,
+            "top": 756,
+            "right": 544,
+            "bottom": 779
+          },
+          "crop_bounds": {
+            "left": 495,
+            "top": 732,
+            "right": 568,
+            "bottom": 803
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-f2b6f0b4a5-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-f2b6f0b4a5-detail.jpg",
+          "native_width": 73,
+          "native_height": 71,
+          "display_width": 1024,
+          "display_height": 996,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 870,
+            "top": 565,
+            "right": 898,
+            "bottom": 593
+          },
+          "crop_bounds": {
+            "left": 846,
+            "top": 541,
+            "right": 922,
+            "bottom": 617
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-7d84afad9f-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-7d84afad9f-detail.jpg",
+          "native_width": 76,
+          "native_height": 76,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1190,
+            "top": 469,
+            "right": 1203,
+            "bottom": 503
+          },
+          "crop_bounds": {
+            "left": 1166,
+            "top": 445,
+            "right": 1227,
+            "bottom": 527
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-6c6332cb4f-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-6c6332cb4f-detail.jpg",
+          "native_width": 61,
+          "native_height": 82,
+          "display_width": 762,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 959,
+            "top": 264,
+            "right": 977,
+            "bottom": 286
+          },
+          "crop_bounds": {
+            "left": 935,
+            "top": 240,
+            "right": 1001,
+            "bottom": 310
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-5eb841fafe-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-5eb841fafe-detail.jpg",
+          "native_width": 66,
+          "native_height": 70,
+          "display_width": 965,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 464,
+            "top": 530,
+            "right": 480,
+            "bottom": 553
+          },
+          "crop_bounds": {
+            "left": 440,
+            "top": 506,
+            "right": 504,
+            "bottom": 577
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-7f3e70a8db-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-7f3e70a8db-detail.jpg",
+          "native_width": 64,
+          "native_height": 71,
+          "display_width": 923,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 962,
+            "top": 557,
+            "right": 983,
+            "bottom": 570
+          },
+          "crop_bounds": {
+            "left": 938,
+            "top": 533,
+            "right": 1007,
+            "bottom": 594
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-669eb3efb5-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-669eb3efb5-detail.jpg",
+          "native_width": 69,
+          "native_height": 61,
+          "display_width": 1024,
+          "display_height": 905,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1100,
+            "top": 498,
+            "right": 1126,
+            "bottom": 509
+          },
+          "crop_bounds": {
+            "left": 1076,
+            "top": 474,
+            "right": 1150,
+            "bottom": 533
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-009f3a8b0e-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-009f3a8b0e-detail.jpg",
+          "native_width": 74,
+          "native_height": 59,
+          "display_width": 1024,
+          "display_height": 816,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 506,
+            "top": 551,
+            "right": 529,
+            "bottom": 581
+          },
+          "crop_bounds": {
+            "left": 482,
+            "top": 527,
+            "right": 553,
+            "bottom": 605
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-59c7fbd767-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-59c7fbd767-detail.jpg",
+          "native_width": 71,
+          "native_height": 78,
+          "display_width": 932,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1001,
+            "top": 538,
+            "right": 1009,
+            "bottom": 555
+          },
+          "crop_bounds": {
+            "left": 977,
+            "top": 514,
+            "right": 1033,
+            "bottom": 579
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-e1101288ff-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-e1101288ff-detail.jpg",
+          "native_width": 56,
+          "native_height": 65,
+          "display_width": 882,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 724,
+            "top": 642,
+            "right": 735,
+            "bottom": 655
+          },
+          "crop_bounds": {
+            "left": 700,
+            "top": 618,
+            "right": 759,
+            "bottom": 679
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-1e0c77e42c-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-1e0c77e42c-detail.jpg",
+          "native_width": 59,
+          "native_height": 61,
+          "display_width": 990,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 529,
+            "top": 706,
+            "right": 537,
+            "bottom": 718
+          },
+          "crop_bounds": {
+            "left": 505,
+            "top": 682,
+            "right": 561,
+            "bottom": 742
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-ad6fd005fc-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-ad6fd005fc-detail.jpg",
+          "native_width": 56,
+          "native_height": 60,
+          "display_width": 956,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 879,
+            "top": 378,
+            "right": 887,
+            "bottom": 391
+          },
+          "crop_bounds": {
+            "left": 855,
+            "top": 354,
+            "right": 911,
+            "bottom": 415
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-5f67fa5967-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-5f67fa5967-detail.jpg",
+          "native_width": 56,
+          "native_height": 61,
+          "display_width": 940,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 589,
+            "top": 771,
+            "right": 598,
+            "bottom": 784
+          },
+          "crop_bounds": {
+            "left": 565,
+            "top": 747,
+            "right": 622,
+            "bottom": 808
+          },
+          "native_file": "motion-eee34e5d9d4135d7-after-66eae590f9-crop.png",
+          "detail_file": "motion-eee34e5d9d4135d7-after-66eae590f9-detail.jpg",
+          "native_width": 57,
+          "native_height": 61,
+          "display_width": 957,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 614,
@@ -748,7 +1324,7 @@
             "right": 1328,
             "bottom": 461
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 3,
@@ -778,7 +1354,7 @@
             "right": 568,
             "bottom": 803
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 870,
@@ -793,7 +1369,7 @@
             "right": 922,
             "bottom": 617
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1190,
@@ -883,7 +1459,7 @@
             "right": 553,
             "bottom": 605
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1001,
@@ -976,20 +1552,21 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:29.300158+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:33.395106+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 629,
+            "left": 614,
             "top": 709,
             "right": 650,
-            "bottom": 756
+            "bottom": 765
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 136.0
+            "contrast_threshold": 156.0
           },
           "source_frame": "after",
           "object": {
@@ -1008,15 +1585,15 @@
         },
         {
           "bounds": {
-            "left": 519,
-            "top": 756,
-            "right": 544,
-            "bottom": 779
+            "left": 870,
+            "top": 565,
+            "right": 898,
+            "bottom": 593
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 146.0
+            "contrast_threshold": 138.0
           },
           "source_frame": "after",
           "object": {
@@ -1035,15 +1612,15 @@
         },
         {
           "bounds": {
-            "left": 1290,
-            "top": 404,
-            "right": 1304,
-            "bottom": 437
+            "left": 506,
+            "top": 551,
+            "right": 529,
+            "bottom": 581
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 118.0
+            "contrast_threshold": 90.0
           },
           "source_frame": "after",
           "object": {
@@ -1125,7 +1702,7 @@
             "right": 566,
             "bottom": 861
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 605,
@@ -1170,7 +1747,7 @@
             "right": 475,
             "bottom": 851
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 930,
@@ -1230,7 +1807,7 @@
             "right": 937,
             "bottom": 631
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 1003,
@@ -1353,6 +1930,360 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 484,
+            "top": 753,
+            "right": 541,
+            "bottom": 836
+          },
+          "crop_bounds": {
+            "left": 459,
+            "top": 728,
+            "right": 566,
+            "bottom": 861
+          },
+          "native_file": "motion-98f64643666add46-after-46fa729f6e-crop.png",
+          "detail_file": "motion-98f64643666add46-after-46fa729f6e-detail.jpg",
+          "native_width": 107,
+          "native_height": 133,
+          "display_width": 824,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 605,
+            "top": 684,
+            "right": 623,
+            "bottom": 707
+          },
+          "crop_bounds": {
+            "left": 581,
+            "top": 660,
+            "right": 647,
+            "bottom": 731
+          },
+          "native_file": "motion-98f64643666add46-after-69314109f5-crop.png",
+          "detail_file": "motion-98f64643666add46-after-69314109f5-detail.jpg",
+          "native_width": 66,
+          "native_height": 71,
+          "display_width": 952,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1150,
+            "top": 462,
+            "right": 1166,
+            "bottom": 486
+          },
+          "crop_bounds": {
+            "left": 1126,
+            "top": 438,
+            "right": 1190,
+            "bottom": 510
+          },
+          "native_file": "motion-98f64643666add46-after-72defc7dd1-crop.png",
+          "detail_file": "motion-98f64643666add46-after-72defc7dd1-detail.jpg",
+          "native_width": 64,
+          "native_height": 72,
+          "display_width": 910,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 419,
+            "top": 811,
+            "right": 451,
+            "bottom": 827
+          },
+          "crop_bounds": {
+            "left": 395,
+            "top": 787,
+            "right": 475,
+            "bottom": 851
+          },
+          "native_file": "motion-98f64643666add46-after-b1884c22f7-crop.png",
+          "detail_file": "motion-98f64643666add46-after-b1884c22f7-detail.jpg",
+          "native_width": 80,
+          "native_height": 64,
+          "display_width": 1024,
+          "display_height": 819,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 930,
+            "top": 561,
+            "right": 952,
+            "bottom": 578
+          },
+          "crop_bounds": {
+            "left": 906,
+            "top": 537,
+            "right": 976,
+            "bottom": 602
+          },
+          "native_file": "motion-98f64643666add46-after-431adc1938-crop.png",
+          "detail_file": "motion-98f64643666add46-after-431adc1938-detail.jpg",
+          "native_width": 70,
+          "native_height": 65,
+          "display_width": 1024,
+          "display_height": 951,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1099,
+            "top": 510,
+            "right": 1121,
+            "bottom": 533
+          },
+          "crop_bounds": {
+            "left": 1075,
+            "top": 486,
+            "right": 1145,
+            "bottom": 557
+          },
+          "native_file": "motion-98f64643666add46-after-c028b05b30-crop.png",
+          "detail_file": "motion-98f64643666add46-after-c028b05b30-detail.jpg",
+          "native_width": 70,
+          "native_height": 71,
+          "display_width": 1010,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 431,
+            "top": 602,
+            "right": 445,
+            "bottom": 630
+          },
+          "crop_bounds": {
+            "left": 407,
+            "top": 578,
+            "right": 469,
+            "bottom": 654
+          },
+          "native_file": "motion-98f64643666add46-after-05e0cf53a5-crop.png",
+          "detail_file": "motion-98f64643666add46-after-05e0cf53a5-detail.jpg",
+          "native_width": 62,
+          "native_height": 76,
+          "display_width": 835,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 896,
+            "top": 581,
+            "right": 913,
+            "bottom": 607
+          },
+          "crop_bounds": {
+            "left": 872,
+            "top": 557,
+            "right": 937,
+            "bottom": 631
+          },
+          "native_file": "motion-98f64643666add46-after-3ddb2204d6-crop.png",
+          "detail_file": "motion-98f64643666add46-after-3ddb2204d6-detail.jpg",
+          "native_width": 65,
+          "native_height": 74,
+          "display_width": 899,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1003,
+            "top": 538,
+            "right": 1023,
+            "bottom": 555
+          },
+          "crop_bounds": {
+            "left": 979,
+            "top": 514,
+            "right": 1047,
+            "bottom": 579
+          },
+          "native_file": "motion-98f64643666add46-after-1559098944-crop.png",
+          "detail_file": "motion-98f64643666add46-after-1559098944-detail.jpg",
+          "native_width": 68,
+          "native_height": 65,
+          "display_width": 1024,
+          "display_height": 979,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 455,
+            "top": 644,
+            "right": 466,
+            "bottom": 673
+          },
+          "crop_bounds": {
+            "left": 431,
+            "top": 620,
+            "right": 490,
+            "bottom": 697
+          },
+          "native_file": "motion-98f64643666add46-after-58462d8d0f-crop.png",
+          "detail_file": "motion-98f64643666add46-after-58462d8d0f-detail.jpg",
+          "native_width": 59,
+          "native_height": 77,
+          "display_width": 785,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 978,
+            "top": 541,
+            "right": 987,
+            "bottom": 564
+          },
+          "crop_bounds": {
+            "left": 954,
+            "top": 517,
+            "right": 1011,
+            "bottom": 588
+          },
+          "native_file": "motion-98f64643666add46-after-17b156be50-crop.png",
+          "detail_file": "motion-98f64643666add46-after-17b156be50-detail.jpg",
+          "native_width": 57,
+          "native_height": 71,
+          "display_width": 822,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 660,
+            "top": 659,
+            "right": 679,
+            "bottom": 674
+          },
+          "crop_bounds": {
+            "left": 636,
+            "top": 635,
+            "right": 703,
+            "bottom": 698
+          },
+          "native_file": "motion-98f64643666add46-after-242d6abac3-crop.png",
+          "detail_file": "motion-98f64643666add46-after-242d6abac3-detail.jpg",
+          "native_width": 67,
+          "native_height": 63,
+          "display_width": 1024,
+          "display_height": 963,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 689,
+            "top": 355,
+            "right": 699,
+            "bottom": 372
+          },
+          "crop_bounds": {
+            "left": 665,
+            "top": 331,
+            "right": 723,
+            "bottom": 396
+          },
+          "native_file": "motion-98f64643666add46-after-a4d24ff8d0-crop.png",
+          "detail_file": "motion-98f64643666add46-after-a4d24ff8d0-detail.jpg",
+          "native_width": 58,
+          "native_height": 65,
+          "display_width": 914,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 789,
+            "top": 610,
+            "right": 803,
+            "bottom": 623
+          },
+          "crop_bounds": {
+            "left": 765,
+            "top": 586,
+            "right": 827,
+            "bottom": 647
+          },
+          "native_file": "motion-98f64643666add46-after-0647543588-crop.png",
+          "detail_file": "motion-98f64643666add46-after-0647543588-detail.jpg",
+          "native_width": 62,
+          "native_height": 61,
+          "display_width": 1024,
+          "display_height": 1007,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1050,
+            "top": 532,
+            "right": 1057,
+            "bottom": 548
+          },
+          "crop_bounds": {
+            "left": 1026,
+            "top": 508,
+            "right": 1081,
+            "bottom": 572
+          },
+          "native_file": "motion-98f64643666add46-after-4fad5845bf-crop.png",
+          "detail_file": "motion-98f64643666add46-after-4fad5845bf-detail.jpg",
+          "native_width": 55,
+          "native_height": 64,
+          "display_width": 880,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 344,
+            "top": 545,
+            "right": 357,
+            "bottom": 556
+          },
+          "crop_bounds": {
+            "left": 320,
+            "top": 521,
+            "right": 381,
+            "bottom": 580
+          },
+          "native_file": "motion-98f64643666add46-after-9f22f4cf9c-crop.png",
+          "detail_file": "motion-98f64643666add46-after-9f22f4cf9c-detail.jpg",
+          "native_width": 61,
+          "native_height": 59,
+          "display_width": 1024,
+          "display_height": 990,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 484,
@@ -1367,7 +2298,7 @@
             "right": 566,
             "bottom": 861
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 605,
@@ -1412,7 +2343,7 @@
             "right": 475,
             "bottom": 851
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 930,
@@ -1472,7 +2403,7 @@
             "right": 937,
             "bottom": 631
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 1003,
@@ -1610,20 +2541,48 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:27.381698+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:29.345515+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 519,
+            "left": 484,
             "top": 753,
             "right": 541,
-            "bottom": 795
+            "bottom": 836
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 152.0
+            "contrast_threshold": 166.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 419,
+            "top": 811,
+            "right": 451,
+            "bottom": 827
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 180.0
           },
           "source_frame": "after",
           "object": {
@@ -1651,33 +2610,6 @@
             "label": "unresolved",
             "reason": "No separable silhouette",
             "contrast_threshold": 102.0
-          },
-          "source_frame": "after",
-          "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
-        {
-          "bounds": {
-            "left": 896,
-            "top": 581,
-            "right": 913,
-            "bottom": 607
-          },
-          "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 228.0
           },
           "source_frame": "after",
           "object": {
@@ -1759,7 +2691,7 @@
             "right": 871,
             "bottom": 692
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 526,
@@ -1789,7 +2721,7 @@
             "right": 228,
             "bottom": 710
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 604,
@@ -1834,7 +2766,7 @@
             "right": 193,
             "bottom": 670
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 752,
@@ -1882,6 +2814,206 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 785,
+            "top": 639,
+            "right": 847,
+            "bottom": 668
+          },
+          "crop_bounds": {
+            "left": 761,
+            "top": 615,
+            "right": 871,
+            "bottom": 692
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-1fe106b42d-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-1fe106b42d-detail.jpg",
+          "native_width": 110,
+          "native_height": 77,
+          "display_width": 1024,
+          "display_height": 717,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 526,
+            "top": 741,
+            "right": 553,
+            "bottom": 759
+          },
+          "crop_bounds": {
+            "left": 502,
+            "top": 717,
+            "right": 577,
+            "bottom": 783
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-f822c99eb4-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-f822c99eb4-detail.jpg",
+          "native_width": 75,
+          "native_height": 66,
+          "display_width": 1024,
+          "display_height": 901,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 184,
+            "top": 654,
+            "right": 204,
+            "bottom": 686
+          },
+          "crop_bounds": {
+            "left": 160,
+            "top": 630,
+            "right": 228,
+            "bottom": 710
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-b6be3eef0b-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-b6be3eef0b-detail.jpg",
+          "native_width": 68,
+          "native_height": 80,
+          "display_width": 870,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 604,
+            "top": 713,
+            "right": 619,
+            "bottom": 721
+          },
+          "crop_bounds": {
+            "left": 580,
+            "top": 689,
+            "right": 643,
+            "bottom": 745
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-070fc5f0da-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-070fc5f0da-detail.jpg",
+          "native_width": 63,
+          "native_height": 56,
+          "display_width": 1024,
+          "display_height": 910,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 301,
+            "top": 859,
+            "right": 310,
+            "bottom": 889
+          },
+          "crop_bounds": {
+            "left": 277,
+            "top": 835,
+            "right": 334,
+            "bottom": 913
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-71a3fda81f-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-71a3fda81f-detail.jpg",
+          "native_width": 57,
+          "native_height": 78,
+          "display_width": 748,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 158,
+            "top": 638,
+            "right": 169,
+            "bottom": 646
+          },
+          "crop_bounds": {
+            "left": 134,
+            "top": 614,
+            "right": 193,
+            "bottom": 670
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-641adc1eea-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-641adc1eea-detail.jpg",
+          "native_width": 59,
+          "native_height": 56,
+          "display_width": 1024,
+          "display_height": 972,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 752,
+            "top": 659,
+            "right": 760,
+            "bottom": 669
+          },
+          "crop_bounds": {
+            "left": 728,
+            "top": 635,
+            "right": 784,
+            "bottom": 693
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-adc18eea4b-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-adc18eea4b-detail.jpg",
+          "native_width": 56,
+          "native_height": 58,
+          "display_width": 989,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 256,
+            "top": 694,
+            "right": 262,
+            "bottom": 703
+          },
+          "crop_bounds": {
+            "left": 232,
+            "top": 670,
+            "right": 286,
+            "bottom": 727
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-8757070fd8-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-8757070fd8-detail.jpg",
+          "native_width": 54,
+          "native_height": 57,
+          "display_width": 970,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 694,
+            "top": 677,
+            "right": 700,
+            "bottom": 682
+          },
+          "crop_bounds": {
+            "left": 670,
+            "top": 653,
+            "right": 724,
+            "bottom": 706
+          },
+          "native_file": "motion-377ac6d5b09377d1-after-7d306e7fd1-crop.png",
+          "detail_file": "motion-377ac6d5b09377d1-after-7d306e7fd1-detail.jpg",
+          "native_width": 54,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 1005,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 785,
@@ -1896,7 +3028,7 @@
             "right": 871,
             "bottom": 692
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 526,
@@ -1926,7 +3058,7 @@
             "right": 228,
             "bottom": 710
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 604,
@@ -1971,7 +3103,7 @@
             "right": 193,
             "bottom": 670
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 752,
@@ -2034,79 +3166,80 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:21.045501+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:24.681671+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 539,
+            "left": 785,
+            "top": 639,
+            "right": 847,
+            "bottom": 668
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 132.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 184,
+            "top": 654,
+            "right": 204,
+            "bottom": 686
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 168.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 526,
             "top": 741,
             "right": 553,
-            "bottom": 752
+            "bottom": 759
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 166.0
+            "contrast_threshold": 134.0
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "Target too small for reliable object identification",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
-        {
-          "bounds": {
-            "left": 826,
-            "top": 639,
-            "right": 836,
-            "bottom": 648
-          },
-          "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 140.0
-          },
-          "source_frame": "after",
-          "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
-        {
-          "bounds": {
-            "left": 158,
-            "top": 638,
-            "right": 169,
-            "bottom": 646
-          },
-          "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 108.0
-          },
-          "source_frame": "after",
-          "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
+            "reason": "No consistent high-confidence object label",
             "support_frames": 0
           },
           "model_observations": [
@@ -2198,7 +3331,7 @@
             "right": 105,
             "bottom": 902
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 823,
@@ -2213,7 +3346,7 @@
             "right": 858,
             "bottom": 681
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 110,
@@ -2228,7 +3361,7 @@
             "right": 166,
             "bottom": 952
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 165,
@@ -2381,6 +3514,316 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 990,
+            "top": 268,
+            "right": 1005,
+            "bottom": 290
+          },
+          "crop_bounds": {
+            "left": 966,
+            "top": 244,
+            "right": 1029,
+            "bottom": 314
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-196943ab7c-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-196943ab7c-detail.jpg",
+          "native_width": 63,
+          "native_height": 70,
+          "display_width": 922,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 36,
+            "top": 846,
+            "right": 81,
+            "bottom": 878
+          },
+          "crop_bounds": {
+            "left": 12,
+            "top": 822,
+            "right": 105,
+            "bottom": 902
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-6ba2484322-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-6ba2484322-detail.jpg",
+          "native_width": 93,
+          "native_height": 80,
+          "display_width": 1024,
+          "display_height": 881,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 823,
+            "top": 643,
+            "right": 834,
+            "bottom": 657
+          },
+          "crop_bounds": {
+            "left": 799,
+            "top": 619,
+            "right": 858,
+            "bottom": 681
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-94dc6d8a15-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-94dc6d8a15-detail.jpg",
+          "native_width": 59,
+          "native_height": 62,
+          "display_width": 974,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 110,
+            "top": 909,
+            "right": 142,
+            "bottom": 928
+          },
+          "crop_bounds": {
+            "left": 86,
+            "top": 885,
+            "right": 166,
+            "bottom": 952
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-78f444735a-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-78f444735a-detail.jpg",
+          "native_width": 80,
+          "native_height": 67,
+          "display_width": 1024,
+          "display_height": 858,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 165,
+            "top": 915,
+            "right": 175,
+            "bottom": 926
+          },
+          "crop_bounds": {
+            "left": 141,
+            "top": 891,
+            "right": 199,
+            "bottom": 950
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-f42c81fc86-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-f42c81fc86-detail.jpg",
+          "native_width": 58,
+          "native_height": 59,
+          "display_width": 1007,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1058,
+            "top": 222,
+            "right": 1065,
+            "bottom": 231
+          },
+          "crop_bounds": {
+            "left": 1034,
+            "top": 198,
+            "right": 1089,
+            "bottom": 255
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-f8af2695fd-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-f8af2695fd-detail.jpg",
+          "native_width": 55,
+          "native_height": 57,
+          "display_width": 988,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 577,
+            "top": 1060,
+            "right": 583,
+            "bottom": 1065
+          },
+          "crop_bounds": {
+            "left": 553,
+            "top": 1036,
+            "right": 607,
+            "bottom": 1080
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-cdda924e88-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-cdda924e88-detail.jpg",
+          "native_width": 54,
+          "native_height": 44,
+          "display_width": 1024,
+          "display_height": 834,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1027,
+            "top": 235,
+            "right": 1030,
+            "bottom": 239
+          },
+          "crop_bounds": {
+            "left": 1003,
+            "top": 211,
+            "right": 1054,
+            "bottom": 263
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-8001ae2af4-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-8001ae2af4-detail.jpg",
+          "native_width": 51,
+          "native_height": 52,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 203,
+            "top": 811,
+            "right": 206,
+            "bottom": 816
+          },
+          "crop_bounds": {
+            "left": 179,
+            "top": 787,
+            "right": 230,
+            "bottom": 840
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-9dd6f76783-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-9dd6f76783-detail.jpg",
+          "native_width": 51,
+          "native_height": 53,
+          "display_width": 985,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 29,
+            "top": 284,
+            "right": 34,
+            "bottom": 288
+          },
+          "crop_bounds": {
+            "left": 5,
+            "top": 260,
+            "right": 58,
+            "bottom": 312
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-f7bf7157b2-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-f7bf7157b2-detail.jpg",
+          "native_width": 53,
+          "native_height": 52,
+          "display_width": 1024,
+          "display_height": 1005,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 90,
+            "top": 1068,
+            "right": 93,
+            "bottom": 1072
+          },
+          "crop_bounds": {
+            "left": 66,
+            "top": 1044,
+            "right": 117,
+            "bottom": 1080
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-55066bf1fc-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-55066bf1fc-detail.jpg",
+          "native_width": 51,
+          "native_height": 36,
+          "display_width": 1024,
+          "display_height": 723,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 612,
+            "top": 1050,
+            "right": 615,
+            "bottom": 1053
+          },
+          "crop_bounds": {
+            "left": 588,
+            "top": 1026,
+            "right": 639,
+            "bottom": 1077
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-90cd74e49b-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-90cd74e49b-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 203,
+            "top": 122,
+            "right": 205,
+            "bottom": 124
+          },
+          "crop_bounds": {
+            "left": 179,
+            "top": 98,
+            "right": 229,
+            "bottom": 148
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-fe84049634-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-fe84049634-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1060,
+            "top": 577,
+            "right": 1062,
+            "bottom": 579
+          },
+          "crop_bounds": {
+            "left": 1036,
+            "top": 553,
+            "right": 1086,
+            "bottom": 603
+          },
+          "native_file": "motion-1e2a664d4fc53d11-after-2b32cc7574-crop.png",
+          "detail_file": "motion-1e2a664d4fc53d11-after-2b32cc7574-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 990,
@@ -2410,7 +3853,7 @@
             "right": 105,
             "bottom": 902
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 823,
@@ -2425,7 +3868,7 @@
             "right": 858,
             "bottom": 681
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Motion | analyzing"
         },
         {
           "left": 110,
@@ -2440,7 +3883,7 @@
             "right": 166,
             "bottom": 952
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 165,
@@ -2608,20 +4051,21 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:18.628024+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:21.156156+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 990,
-            "top": 268,
-            "right": 1005,
-            "bottom": 290
+            "left": 36,
+            "top": 846,
+            "right": 81,
+            "bottom": 878
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 88.0
+            "contrast_threshold": 68.0
           },
           "source_frame": "after",
           "object": {
@@ -2640,20 +4084,20 @@
         },
         {
           "bounds": {
-            "left": 54,
-            "top": 854,
-            "right": 69,
-            "bottom": 867
+            "left": 110,
+            "top": 909,
+            "right": 142,
+            "bottom": 928
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 74.0
+            "contrast_threshold": 58.0
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "Target too small for reliable object identification",
+            "reason": "No consistent high-confidence object label",
             "support_frames": 0
           },
           "model_observations": [
@@ -2667,20 +4111,20 @@
         },
         {
           "bounds": {
-            "left": 823,
-            "top": 643,
-            "right": 834,
-            "bottom": 657
+            "left": 990,
+            "top": 268,
+            "right": 1005,
+            "bottom": 290
           },
           "shape": {
             "label": "unresolved",
             "reason": "No separable silhouette",
-            "contrast_threshold": 76.0
+            "contrast_threshold": 88.0
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "Target too small for reliable object identification",
+            "reason": "No consistent high-confidence object label",
             "support_frames": 0
           },
           "model_observations": [

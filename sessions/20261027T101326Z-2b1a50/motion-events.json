@@ -242,6 +242,294 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1817,
+            "top": 134,
+            "right": 1825,
+            "bottom": 140
+          },
+          "crop_bounds": {
+            "left": 1793,
+            "top": 110,
+            "right": 1849,
+            "bottom": 164
+          },
+          "native_file": "motion-5f651db7ce178939-after-608bffcb53-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-608bffcb53-detail.jpg",
+          "native_width": 56,
+          "native_height": 54,
+          "display_width": 1024,
+          "display_height": 987,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1453,
+            "top": 61,
+            "right": 1460,
+            "bottom": 68
+          },
+          "crop_bounds": {
+            "left": 1429,
+            "top": 37,
+            "right": 1484,
+            "bottom": 92
+          },
+          "native_file": "motion-5f651db7ce178939-after-bf6d512f4a-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-bf6d512f4a-detail.jpg",
+          "native_width": 55,
+          "native_height": 55,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 27,
+            "top": 816,
+            "right": 34,
+            "bottom": 821
+          },
+          "crop_bounds": {
+            "left": 3,
+            "top": 792,
+            "right": 58,
+            "bottom": 845
+          },
+          "native_file": "motion-5f651db7ce178939-after-07a8de7748-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-07a8de7748-detail.jpg",
+          "native_width": 55,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 987,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1264,
+            "top": 817,
+            "right": 1269,
+            "bottom": 823
+          },
+          "crop_bounds": {
+            "left": 1240,
+            "top": 793,
+            "right": 1293,
+            "bottom": 847
+          },
+          "native_file": "motion-5f651db7ce178939-after-af2c3941f9-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-af2c3941f9-detail.jpg",
+          "native_width": 53,
+          "native_height": 54,
+          "display_width": 1005,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1290,
+            "top": 259,
+            "right": 1296,
+            "bottom": 264
+          },
+          "crop_bounds": {
+            "left": 1266,
+            "top": 235,
+            "right": 1320,
+            "bottom": 288
+          },
+          "native_file": "motion-5f651db7ce178939-after-7d58313d15-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-7d58313d15-detail.jpg",
+          "native_width": 54,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 1005,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1347,
+            "top": 453,
+            "right": 1354,
+            "bottom": 457
+          },
+          "crop_bounds": {
+            "left": 1323,
+            "top": 429,
+            "right": 1378,
+            "bottom": 481
+          },
+          "native_file": "motion-5f651db7ce178939-after-4f80fd2ab4-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-4f80fd2ab4-detail.jpg",
+          "native_width": 55,
+          "native_height": 52,
+          "display_width": 1024,
+          "display_height": 968,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 556,
+            "top": 820,
+            "right": 562,
+            "bottom": 824
+          },
+          "crop_bounds": {
+            "left": 532,
+            "top": 796,
+            "right": 586,
+            "bottom": 848
+          },
+          "native_file": "motion-5f651db7ce178939-after-7d2e9acef9-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-7d2e9acef9-detail.jpg",
+          "native_width": 54,
+          "native_height": 52,
+          "display_width": 1024,
+          "display_height": 986,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 985,
+            "top": 96,
+            "right": 989,
+            "bottom": 100
+          },
+          "crop_bounds": {
+            "left": 961,
+            "top": 72,
+            "right": 1013,
+            "bottom": 124
+          },
+          "native_file": "motion-5f651db7ce178939-after-30740c0d80-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-30740c0d80-detail.jpg",
+          "native_width": 52,
+          "native_height": 52,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1267,
+            "top": 189,
+            "right": 1271,
+            "bottom": 192
+          },
+          "crop_bounds": {
+            "left": 1243,
+            "top": 165,
+            "right": 1295,
+            "bottom": 216
+          },
+          "native_file": "motion-5f651db7ce178939-after-1ec2675b61-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-1ec2675b61-detail.jpg",
+          "native_width": 52,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1505,
+            "top": 261,
+            "right": 1507,
+            "bottom": 264
+          },
+          "crop_bounds": {
+            "left": 1481,
+            "top": 237,
+            "right": 1531,
+            "bottom": 288
+          },
+          "native_file": "motion-5f651db7ce178939-after-ce5cbb3355-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-ce5cbb3355-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 223,
+            "top": 97,
+            "right": 226,
+            "bottom": 100
+          },
+          "crop_bounds": {
+            "left": 199,
+            "top": 73,
+            "right": 250,
+            "bottom": 124
+          },
+          "native_file": "motion-5f651db7ce178939-after-6b23310a9a-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-6b23310a9a-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 342,
+            "top": 262,
+            "right": 344,
+            "bottom": 265
+          },
+          "crop_bounds": {
+            "left": 318,
+            "top": 238,
+            "right": 368,
+            "bottom": 289
+          },
+          "native_file": "motion-5f651db7ce178939-after-249c8684c4-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-249c8684c4-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 434,
+            "top": 94,
+            "right": 437,
+            "bottom": 96
+          },
+          "crop_bounds": {
+            "left": 410,
+            "top": 70,
+            "right": 461,
+            "bottom": 120
+          },
+          "native_file": "motion-5f651db7ce178939-after-39ad3544ca-crop.png",
+          "detail_file": "motion-5f651db7ce178939-after-39ad3544ca-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1817,
@@ -502,8 +790,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:37:20.585600+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:53:33.929797+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -798,6 +1087,228 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1459,
+            "top": 58,
+            "right": 1466,
+            "bottom": 65
+          },
+          "crop_bounds": {
+            "left": 1435,
+            "top": 34,
+            "right": 1490,
+            "bottom": 89
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-2c04127efa-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-2c04127efa-detail.jpg",
+          "native_width": 55,
+          "native_height": 55,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1268,
+            "top": 813,
+            "right": 1275,
+            "bottom": 819
+          },
+          "crop_bounds": {
+            "left": 1244,
+            "top": 789,
+            "right": 1299,
+            "bottom": 843
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-dc0fb2db66-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-dc0fb2db66-detail.jpg",
+          "native_width": 55,
+          "native_height": 54,
+          "display_width": 1024,
+          "display_height": 1005,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 33,
+            "top": 811,
+            "right": 40,
+            "bottom": 817
+          },
+          "crop_bounds": {
+            "left": 9,
+            "top": 787,
+            "right": 64,
+            "bottom": 841
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-1614cc6215-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-1614cc6215-detail.jpg",
+          "native_width": 55,
+          "native_height": 54,
+          "display_width": 1024,
+          "display_height": 1005,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1296,
+            "top": 256,
+            "right": 1300,
+            "bottom": 262
+          },
+          "crop_bounds": {
+            "left": 1272,
+            "top": 232,
+            "right": 1324,
+            "bottom": 286
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-7bf562e93f-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-7bf562e93f-detail.jpg",
+          "native_width": 52,
+          "native_height": 54,
+          "display_width": 986,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 563,
+            "top": 815,
+            "right": 568,
+            "bottom": 821
+          },
+          "crop_bounds": {
+            "left": 539,
+            "top": 791,
+            "right": 592,
+            "bottom": 845
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-676ea115bf-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-676ea115bf-detail.jpg",
+          "native_width": 53,
+          "native_height": 54,
+          "display_width": 1005,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1353,
+            "top": 450,
+            "right": 1359,
+            "bottom": 454
+          },
+          "crop_bounds": {
+            "left": 1329,
+            "top": 426,
+            "right": 1383,
+            "bottom": 478
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-07e28c6c0e-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-07e28c6c0e-detail.jpg",
+          "native_width": 54,
+          "native_height": 52,
+          "display_width": 1024,
+          "display_height": 986,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 438,
+            "top": 89,
+            "right": 443,
+            "bottom": 93
+          },
+          "crop_bounds": {
+            "left": 414,
+            "top": 65,
+            "right": 467,
+            "bottom": 117
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-0868b2c774-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-0868b2c774-detail.jpg",
+          "native_width": 53,
+          "native_height": 52,
+          "display_width": 1024,
+          "display_height": 1005,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 228,
+            "top": 91,
+            "right": 232,
+            "bottom": 96
+          },
+          "crop_bounds": {
+            "left": 204,
+            "top": 67,
+            "right": 256,
+            "bottom": 120
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-1b9ebcfad7-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-1b9ebcfad7-detail.jpg",
+          "native_width": 52,
+          "native_height": 53,
+          "display_width": 1005,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 426,
+            "top": 610,
+            "right": 429,
+            "bottom": 614
+          },
+          "crop_bounds": {
+            "left": 402,
+            "top": 586,
+            "right": 453,
+            "bottom": 638
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-aae7a21e2d-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-aae7a21e2d-detail.jpg",
+          "native_width": 51,
+          "native_height": 52,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1153,
+            "top": 321,
+            "right": 1156,
+            "bottom": 324
+          },
+          "crop_bounds": {
+            "left": 1129,
+            "top": 297,
+            "right": 1180,
+            "bottom": 348
+          },
+          "native_file": "motion-31f740f24d1ca1af-after-8fd45840ec-crop.png",
+          "detail_file": "motion-31f740f24d1ca1af-after-8fd45840ec-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1459,
@@ -1045,8 +1556,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:37:10.060599+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:53:30.552349+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {

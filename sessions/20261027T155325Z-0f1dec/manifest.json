@@ -180,6 +180,140 @@
             "label": "Motion | analyzing"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 348,
+              "top": 437,
+              "right": 383,
+              "bottom": 461
+            },
+            "crop_bounds": {
+              "left": 324,
+              "top": 413,
+              "right": 407,
+              "bottom": 485
+            },
+            "native_file": "motion-cb3bfbb31030f94e-after-049e0a11e4-crop.png",
+            "detail_file": "motion-cb3bfbb31030f94e-after-049e0a11e4-detail.jpg",
+            "native_width": 83,
+            "native_height": 72,
+            "display_width": 1024,
+            "display_height": 888,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1034,
+              "top": 185,
+              "right": 1040,
+              "bottom": 201
+            },
+            "crop_bounds": {
+              "left": 1010,
+              "top": 161,
+              "right": 1064,
+              "bottom": 225
+            },
+            "native_file": "motion-cb3bfbb31030f94e-after-296fa27cce-crop.png",
+            "detail_file": "motion-cb3bfbb31030f94e-after-296fa27cce-detail.jpg",
+            "native_width": 54,
+            "native_height": 64,
+            "display_width": 864,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 743,
+              "top": 169,
+              "right": 747,
+              "bottom": 176
+            },
+            "crop_bounds": {
+              "left": 719,
+              "top": 145,
+              "right": 771,
+              "bottom": 200
+            },
+            "native_file": "motion-cb3bfbb31030f94e-after-5a56f8f32f-crop.png",
+            "detail_file": "motion-cb3bfbb31030f94e-after-5a56f8f32f-detail.jpg",
+            "native_width": 52,
+            "native_height": 55,
+            "display_width": 968,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1088,
+              "top": 221,
+              "right": 1091,
+              "bottom": 225
+            },
+            "crop_bounds": {
+              "left": 1064,
+              "top": 197,
+              "right": 1115,
+              "bottom": 249
+            },
+            "native_file": "motion-cb3bfbb31030f94e-after-2cc60bb2b5-crop.png",
+            "detail_file": "motion-cb3bfbb31030f94e-after-2cc60bb2b5-detail.jpg",
+            "native_width": 51,
+            "native_height": 52,
+            "display_width": 1004,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1063,
+              "top": 223,
+              "right": 1065,
+              "bottom": 225
+            },
+            "crop_bounds": {
+              "left": 1039,
+              "top": 199,
+              "right": 1089,
+              "bottom": 249
+            },
+            "native_file": "motion-cb3bfbb31030f94e-after-61b1a99595-crop.png",
+            "detail_file": "motion-cb3bfbb31030f94e-after-61b1a99595-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 190,
+              "top": 368,
+              "right": 192,
+              "bottom": 370
+            },
+            "crop_bounds": {
+              "left": 166,
+              "top": 344,
+              "right": 216,
+              "bottom": 394
+            },
+            "native_file": "motion-cb3bfbb31030f94e-after-d065586fd7-crop.png",
+            "detail_file": "motion-cb3bfbb31030f94e-after-d065586fd7-detail.jpg",
+            "native_width": 50,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 348,
@@ -295,8 +429,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:36:33.301158+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:52:44.028950+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -338,11 +473,16 @@
               "bottom": 693
             },
             "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 16.0
+              "label": "elongated",
+              "circularity": 0.227,
+              "axis_ratio": 0.341,
+              "fill_fraction": 0.325,
+              "area_pixels": 74,
+              "width_pixels": 19,
+              "height_pixels": 12,
+              "contrast_threshold": 24.98
             },
-            "source_frame": "after",
+            "source_frame": "before",
             "object": {
               "label": "unknown",
               "reason": "No consistent high-confidence object label",
@@ -418,8 +558,8 @@
       "sha256": "6c284e082cc2510506fecb31f6216eb1ccdadcfc8fcec2c50bfcb11fa77c4ee2"
     },
     "motion-events.json": {
-      "bytes": 8850,
-      "sha256": "d8c97f7bcfc5d181287e9c849d9cbd6561591edfd764e1596c205a6304b6291b"
+      "bytes": 13188,
+      "sha256": "6ced3807c1ec93a220456f4462b1a7103f2414dec3bf7621c4e792938f0e5871"
     },
     "buffer-state.json": {
       "bytes": 4977,
@@ -440,6 +580,54 @@
     "frames/index.json": {
       "bytes": 718,
       "sha256": "f4b68fef0b9c9283fa04a24a63f116c2a223376d65926d7c0b95f7cc5bd9446e"
+    },
+    "motion-cb3bfbb31030f94e-after-049e0a11e4-crop.png": {
+      "bytes": 4310,
+      "sha256": "55478f2ff558b040cba4ce7f1b4cd926eaa16456bfb80ce3d7f9ee3ba30d2043"
+    },
+    "motion-cb3bfbb31030f94e-after-049e0a11e4-detail.jpg": {
+      "bytes": 58882,
+      "sha256": "3eb740c4b9800656d51f7cbd74cea57ed5decb378b27b7ef533dcd01f9c6bcf2"
+    },
+    "motion-cb3bfbb31030f94e-after-296fa27cce-crop.png": {
+      "bytes": 2760,
+      "sha256": "df54313cdadf2c823c5eadb137896a7a3e0da5e228a36bb1848de3613db66ec5"
+    },
+    "motion-cb3bfbb31030f94e-after-296fa27cce-detail.jpg": {
+      "bytes": 65461,
+      "sha256": "c6e18131bb1403f7454aa84ece7599861235141bb84e9be23db6cf0aa80c4afb"
+    },
+    "motion-cb3bfbb31030f94e-after-5a56f8f32f-crop.png": {
+      "bytes": 2179,
+      "sha256": "6d4eaabb180f16efb232197a5e36ad111ea4dc0c0f54efa6f04a6516ea884450"
+    },
+    "motion-cb3bfbb31030f94e-after-5a56f8f32f-detail.jpg": {
+      "bytes": 69899,
+      "sha256": "79e6e1501252615d4febc53fc904162130372289377eebe395f41168d092a7d5"
+    },
+    "motion-cb3bfbb31030f94e-after-2cc60bb2b5-crop.png": {
+      "bytes": 1913,
+      "sha256": "df9545c4a882ce31d6beb88d52eac41de77351cc8bca16c12604741e026b3814"
+    },
+    "motion-cb3bfbb31030f94e-after-2cc60bb2b5-detail.jpg": {
+      "bytes": 66519,
+      "sha256": "9cd6c744797ca77aa818c7e8ed112031968c94fb944ed9995b5a9eb3741ea5df"
+    },
+    "motion-cb3bfbb31030f94e-after-61b1a99595-crop.png": {
+      "bytes": 2094,
+      "sha256": "98caf7e2d2fb3d073b92d253be2ef0ddb47620ec0b526b4ab0f260c6a7753bca"
+    },
+    "motion-cb3bfbb31030f94e-after-61b1a99595-detail.jpg": {
+      "bytes": 76423,
+      "sha256": "f17588105a3c3e88c01f83dd3fd3cbed216195a50cf73482341cafb8780036f8"
+    },
+    "motion-cb3bfbb31030f94e-after-d065586fd7-crop.png": {
+      "bytes": 1727,
+      "sha256": "323abb62f058bf4f98a51e993b2d5f0b44ca512d0fffe31f8caf684a5a9aa5f3"
+    },
+    "motion-cb3bfbb31030f94e-after-d065586fd7-detail.jpg": {
+      "bytes": 62513,
+      "sha256": "4aa486929ccecd6731b338516669f42c23f1bb01177cf697fcd324bdbff04875"
     }
   },
   "buffer_assembly": {

@@ -60,7 +60,7 @@
             "right": 1062,
             "bottom": 586
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 515,
@@ -75,7 +75,7 @@
             "right": 552,
             "bottom": 712
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 819,
@@ -90,7 +90,75 @@
             "right": 850,
             "bottom": 817
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | too small"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1029,
+            "top": 553,
+            "right": 1038,
+            "bottom": 562
+          },
+          "crop_bounds": {
+            "left": 1005,
+            "top": 529,
+            "right": 1062,
+            "bottom": 586
+          },
+          "native_file": "motion-70d9989c0732c258-before-7aac94d4ea-crop.png",
+          "detail_file": "motion-70d9989c0732c258-before-7aac94d4ea-detail.jpg",
+          "native_width": 57,
+          "native_height": 57,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 515,
+            "top": 679,
+            "right": 528,
+            "bottom": 688
+          },
+          "crop_bounds": {
+            "left": 491,
+            "top": 655,
+            "right": 552,
+            "bottom": 712
+          },
+          "native_file": "motion-70d9989c0732c258-before-3b68d6fd3f-crop.png",
+          "detail_file": "motion-70d9989c0732c258-before-3b68d6fd3f-detail.jpg",
+          "native_width": 61,
+          "native_height": 57,
+          "display_width": 1024,
+          "display_height": 957,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 819,
+            "top": 788,
+            "right": 826,
+            "bottom": 793
+          },
+          "crop_bounds": {
+            "left": 795,
+            "top": 764,
+            "right": 850,
+            "bottom": 817
+          },
+          "native_file": "motion-70d9989c0732c258-before-0d1be44e22-crop.png",
+          "detail_file": "motion-70d9989c0732c258-before-0d1be44e22-detail.jpg",
+          "native_width": 55,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 987,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "changed_regions": [
@@ -107,7 +175,7 @@
             "right": 1062,
             "bottom": 586
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 515,
@@ -122,7 +190,7 @@
             "right": 552,
             "bottom": 712
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 819,
@@ -137,7 +205,7 @@
             "right": 850,
             "bottom": 817
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | too small"
         }
       ],
       "source_frame": "before",
@@ -155,9 +223,64 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:09.414434+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:11.998321+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
+        {
+          "bounds": {
+            "left": 515,
+            "top": 679,
+            "right": 528,
+            "bottom": 688
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 62.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1029,
+            "top": 553,
+            "right": 1038,
+            "bottom": 562
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 98.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
         {
           "bounds": {
             "left": 819,
@@ -166,11 +289,14 @@
             "bottom": 793
           },
           "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 8.0
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 55,
+            "width_pixels": 10,
+            "height_pixels": 7,
+            "contrast_threshold": 10.65
           },
-          "source_frame": "after",
+          "source_frame": "before",
           "object": {
             "label": "unknown",
             "reason": "Target too small for reliable object identification",

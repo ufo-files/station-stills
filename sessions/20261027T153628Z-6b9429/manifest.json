@@ -105,6 +105,30 @@
             "label": "Unknown | elongated"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 156,
+              "top": 708,
+              "right": 219,
+              "bottom": 740
+            },
+            "crop_bounds": {
+              "left": 132,
+              "top": 684,
+              "right": 243,
+              "bottom": 764
+            },
+            "native_file": "motion-eed63d557b5f6e76-after-d39bbca5ff-crop.png",
+            "detail_file": "motion-eed63d557b5f6e76-after-d39bbca5ff-detail.jpg",
+            "native_width": 111,
+            "native_height": 80,
+            "display_width": 1024,
+            "display_height": 738,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 156,
@@ -137,62 +161,31 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:36:41.389945+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:52:56.396057+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
-              "left": 171,
+              "left": 156,
               "top": 708,
               "right": 219,
               "bottom": 740
             },
             "shape": {
               "label": "elongated",
-              "circularity": 0.34,
-              "axis_ratio": 0.328,
-              "fill_fraction": 0.446,
-              "area_pixels": 530,
+              "circularity": 0.344,
+              "axis_ratio": 0.329,
+              "fill_fraction": 0.452,
+              "area_pixels": 537,
               "width_pixels": 41,
               "height_pixels": 29,
-              "contrast_threshold": 37.4
+              "contrast_threshold": 37.07
             },
             "source_frame": "after",
             "object": {
               "label": "unknown",
               "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 156,
-              "top": 713,
-              "right": 165,
-              "bottom": 717
-            },
-            "shape": {
-              "label": "unresolved",
-              "circularity": 0.405,
-              "axis_ratio": 0.346,
-              "fill_fraction": 0.753,
-              "area_pixels": 149,
-              "width_pixels": 22,
-              "height_pixels": 9,
-              "contrast_threshold": 8.0
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "Target too small for reliable object identification",
               "support_frames": 0
             },
             "model_observations": [
@@ -238,8 +231,8 @@
       "sha256": "6c284e082cc2510506fecb31f6216eb1ccdadcfc8fcec2c50bfcb11fa77c4ee2"
     },
     "motion-events.json": {
-      "bytes": 4399,
-      "sha256": "0b0a9b7050483b712d6faad7834a5b8b63ca58bae076d6ab770943957ddfd5bd"
+      "bytes": 4338,
+      "sha256": "80abda822a62ac884fa7f799d788d62ed299e3821a85539c6f300defc6ff49d5"
     },
     "buffer-state.json": {
       "bytes": 4934,
@@ -260,6 +253,14 @@
     "frames/index.json": {
       "bytes": 719,
       "sha256": "f65c88cc4c159be881e879fc58c9fd441ec13e3d4230e81af9d27d7d36024ec1"
+    },
+    "motion-eed63d557b5f6e76-after-d39bbca5ff-crop.png": {
+      "bytes": 4933,
+      "sha256": "f187066513e481cd04a164b276cc52802ad417644de6fb0dff55f3e6dcf2473f"
+    },
+    "motion-eed63d557b5f6e76-after-d39bbca5ff-detail.jpg": {
+      "bytes": 51927,
+      "sha256": "70adcfca1b80e801601fa7bbe46fdd0dab88a6df3d33ac555cf3811d811d745c"
     }
   },
   "buffer_assembly": {

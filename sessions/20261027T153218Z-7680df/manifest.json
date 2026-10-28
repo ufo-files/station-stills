@@ -195,6 +195,162 @@
             "label": "Motion | analyzing"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1675,
+              "top": 1,
+              "right": 1919,
+              "bottom": 166
+            },
+            "crop_bounds": {
+              "left": 1602,
+              "top": 0,
+              "right": 1920,
+              "bottom": 239
+            },
+            "native_file": "motion-83f6f8cbd5a0d71a-after-8aee438256-crop.png",
+            "detail_file": "motion-83f6f8cbd5a0d71a-after-8aee438256-detail.jpg",
+            "native_width": 318,
+            "native_height": 239,
+            "display_width": 1024,
+            "display_height": 770,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1765,
+              "top": 210,
+              "right": 1832,
+              "bottom": 280
+            },
+            "crop_bounds": {
+              "left": 1741,
+              "top": 186,
+              "right": 1856,
+              "bottom": 304
+            },
+            "native_file": "motion-83f6f8cbd5a0d71a-after-62d636d95f-crop.png",
+            "detail_file": "motion-83f6f8cbd5a0d71a-after-62d636d95f-detail.jpg",
+            "native_width": 115,
+            "native_height": 118,
+            "display_width": 998,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1477,
+              "top": 216,
+              "right": 1509,
+              "bottom": 234
+            },
+            "crop_bounds": {
+              "left": 1453,
+              "top": 192,
+              "right": 1533,
+              "bottom": 258
+            },
+            "native_file": "motion-83f6f8cbd5a0d71a-after-b0f38b9e2e-crop.png",
+            "detail_file": "motion-83f6f8cbd5a0d71a-after-b0f38b9e2e-detail.jpg",
+            "native_width": 80,
+            "native_height": 66,
+            "display_width": 1024,
+            "display_height": 845,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1734,
+              "top": 215,
+              "right": 1741,
+              "bottom": 236
+            },
+            "crop_bounds": {
+              "left": 1710,
+              "top": 191,
+              "right": 1765,
+              "bottom": 260
+            },
+            "native_file": "motion-83f6f8cbd5a0d71a-after-e09d1dde08-crop.png",
+            "detail_file": "motion-83f6f8cbd5a0d71a-after-e09d1dde08-detail.jpg",
+            "native_width": 55,
+            "native_height": 69,
+            "display_width": 816,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 875,
+              "top": 368,
+              "right": 880,
+              "bottom": 372
+            },
+            "crop_bounds": {
+              "left": 851,
+              "top": 344,
+              "right": 904,
+              "bottom": 396
+            },
+            "native_file": "motion-83f6f8cbd5a0d71a-after-bffeba8b40-crop.png",
+            "detail_file": "motion-83f6f8cbd5a0d71a-after-bffeba8b40-detail.jpg",
+            "native_width": 53,
+            "native_height": 52,
+            "display_width": 1024,
+            "display_height": 1005,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1875,
+              "top": 226,
+              "right": 1878,
+              "bottom": 231
+            },
+            "crop_bounds": {
+              "left": 1851,
+              "top": 202,
+              "right": 1902,
+              "bottom": 255
+            },
+            "native_file": "motion-83f6f8cbd5a0d71a-after-14c4ce1a49-crop.png",
+            "detail_file": "motion-83f6f8cbd5a0d71a-after-14c4ce1a49-detail.jpg",
+            "native_width": 51,
+            "native_height": 53,
+            "display_width": 985,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1170,
+              "top": 344,
+              "right": 1173,
+              "bottom": 346
+            },
+            "crop_bounds": {
+              "left": 1146,
+              "top": 320,
+              "right": 1197,
+              "bottom": 370
+            },
+            "native_file": "motion-83f6f8cbd5a0d71a-after-bccabad3f9-crop.png",
+            "detail_file": "motion-83f6f8cbd5a0d71a-after-bccabad3f9-detail.jpg",
+            "native_width": 51,
+            "native_height": 50,
+            "display_width": 1024,
+            "display_height": 1004,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1675,
@@ -317,13 +473,14 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:36:45.438105+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:53:03.503347+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
-              "left": 1689,
-              "top": 4,
+              "left": 1675,
+              "top": 1,
               "right": 1919,
               "bottom": 166
             },
@@ -350,7 +507,7 @@
           {
             "bounds": {
               "left": 1765,
-              "top": 211,
+              "top": 210,
               "right": 1832,
               "bottom": 280
             },
@@ -440,8 +597,8 @@
       "sha256": "6c284e082cc2510506fecb31f6216eb1ccdadcfc8fcec2c50bfcb11fa77c4ee2"
     },
     "motion-events.json": {
-      "bytes": 9466,
-      "sha256": "9b3799a826a2acc95e4256519c9a56c73a451a3e9768fca830b356cd00e6e734"
+      "bytes": 14345,
+      "sha256": "a0cd787c53e735f93c1aa9edaaf85b782d58a2115c151769b576348be8885623"
     },
     "buffer-state.json": {
       "bytes": 32414,
@@ -462,6 +619,62 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "e848a845375146a853f4038f16fbcb3fbbfd51b6e59857a447e770424bd92f37"
+    },
+    "motion-83f6f8cbd5a0d71a-after-8aee438256-crop.png": {
+      "bytes": 46083,
+      "sha256": "092a4aad2de59225213b41642b8dbb1d37b0439582e1202f6755deccb3ed5053"
+    },
+    "motion-83f6f8cbd5a0d71a-after-8aee438256-detail.jpg": {
+      "bytes": 90814,
+      "sha256": "9b93f8969bd82bbb196fb0da045ef4e1620fcb7f6dc3d53aee2231cea2de9224"
+    },
+    "motion-83f6f8cbd5a0d71a-after-62d636d95f-crop.png": {
+      "bytes": 10110,
+      "sha256": "352b482f0b9bff081749565a98a3f114997bc7edd0b1aed6aac00ee4ea144a86"
+    },
+    "motion-83f6f8cbd5a0d71a-after-62d636d95f-detail.jpg": {
+      "bytes": 88073,
+      "sha256": "1f2fda5f91641627bd8bad1c0c93afcdb2b390a03b3ea3b0130ea12941ec02e8"
+    },
+    "motion-83f6f8cbd5a0d71a-after-b0f38b9e2e-crop.png": {
+      "bytes": 3811,
+      "sha256": "df3fb522f5391a98fa7e4fb94bedb76fc9188339f2d976be778e7d3bc5eaeb41"
+    },
+    "motion-83f6f8cbd5a0d71a-after-b0f38b9e2e-detail.jpg": {
+      "bytes": 62452,
+      "sha256": "1c0d99d8d9e1bfed753821d957c714c677e2e97d52d494b9a5655032575a508c"
+    },
+    "motion-83f6f8cbd5a0d71a-after-e09d1dde08-crop.png": {
+      "bytes": 2868,
+      "sha256": "8dbbcc12b1a3cd4ea9a386d8a4ad4f35c5f987bd1ffcd9403bceb2512cd3fa79"
+    },
+    "motion-83f6f8cbd5a0d71a-after-e09d1dde08-detail.jpg": {
+      "bytes": 57687,
+      "sha256": "2b4e01d8efda20c3531d9a33750784b9201b1c27213a9ef9316221f36151cd60"
+    },
+    "motion-83f6f8cbd5a0d71a-after-bffeba8b40-crop.png": {
+      "bytes": 1572,
+      "sha256": "e516509b3043591f71d9cb30135f1eccf771876220f967b3a57d9b4aad12881b"
+    },
+    "motion-83f6f8cbd5a0d71a-after-bffeba8b40-detail.jpg": {
+      "bytes": 58528,
+      "sha256": "78df1836a2e29758368766379c0efaf13ac73c628cefe9844843e8c657b4d072"
+    },
+    "motion-83f6f8cbd5a0d71a-after-14c4ce1a49-crop.png": {
+      "bytes": 2001,
+      "sha256": "26ee7c58b57810ff59836cb0f64c2bc3f0b9896ce351531283f45276a78b6ed1"
+    },
+    "motion-83f6f8cbd5a0d71a-after-14c4ce1a49-detail.jpg": {
+      "bytes": 63671,
+      "sha256": "0bcc550484aa6a03443558d734d9d00f9d3b52505979628dce09ea8d0a3da13b"
+    },
+    "motion-83f6f8cbd5a0d71a-after-bccabad3f9-crop.png": {
+      "bytes": 1164,
+      "sha256": "ab1eed47c753eec89636727aeaa2b47adc38021b69478ca880a8e0b9998c9ece"
+    },
+    "motion-83f6f8cbd5a0d71a-after-bccabad3f9-detail.jpg": {
+      "bytes": 47694,
+      "sha256": "1103939e385f0c0b2e12ef9802b76323e8d1c08fd1f9d389497d84cf62169d4d"
     }
   },
   "buffer_assembly": {

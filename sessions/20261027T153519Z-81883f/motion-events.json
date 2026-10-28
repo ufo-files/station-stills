@@ -59,7 +59,7 @@
             "right": 1036,
             "bottom": 760
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
         },
         {
           "left": 1510,
@@ -227,6 +227,272 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 981,
+            "top": 710,
+            "right": 1012,
+            "bottom": 736
+          },
+          "crop_bounds": {
+            "left": 957,
+            "top": 686,
+            "right": 1036,
+            "bottom": 760
+          },
+          "native_file": "motion-a5db7a2097d37598-after-4104c6889f-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-4104c6889f-detail.jpg",
+          "native_width": 79,
+          "native_height": 74,
+          "display_width": 1024,
+          "display_height": 959,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1510,
+            "top": 854,
+            "right": 1542,
+            "bottom": 865
+          },
+          "crop_bounds": {
+            "left": 1486,
+            "top": 830,
+            "right": 1566,
+            "bottom": 889
+          },
+          "native_file": "motion-a5db7a2097d37598-after-66f71e3c3d-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-66f71e3c3d-detail.jpg",
+          "native_width": 80,
+          "native_height": 59,
+          "display_width": 1024,
+          "display_height": 755,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1112,
+            "top": 397,
+            "right": 1144,
+            "bottom": 409
+          },
+          "crop_bounds": {
+            "left": 1088,
+            "top": 373,
+            "right": 1168,
+            "bottom": 433
+          },
+          "native_file": "motion-a5db7a2097d37598-after-f2486b64a7-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-f2486b64a7-detail.jpg",
+          "native_width": 80,
+          "native_height": 60,
+          "display_width": 1024,
+          "display_height": 768,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1286,
+            "top": 864,
+            "right": 1318,
+            "bottom": 876
+          },
+          "crop_bounds": {
+            "left": 1262,
+            "top": 840,
+            "right": 1342,
+            "bottom": 900
+          },
+          "native_file": "motion-a5db7a2097d37598-after-6e745092f5-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-6e745092f5-detail.jpg",
+          "native_width": 80,
+          "native_height": 60,
+          "display_width": 1024,
+          "display_height": 768,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 961,
+            "top": 118,
+            "right": 987,
+            "bottom": 129
+          },
+          "crop_bounds": {
+            "left": 937,
+            "top": 94,
+            "right": 1011,
+            "bottom": 153
+          },
+          "native_file": "motion-a5db7a2097d37598-after-361195c35c-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-361195c35c-detail.jpg",
+          "native_width": 74,
+          "native_height": 59,
+          "display_width": 1024,
+          "display_height": 816,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 992,
+            "top": 1064,
+            "right": 1022,
+            "bottom": 1074
+          },
+          "crop_bounds": {
+            "left": 968,
+            "top": 1040,
+            "right": 1046,
+            "bottom": 1080
+          },
+          "native_file": "motion-a5db7a2097d37598-after-596d8dc250-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-596d8dc250-detail.jpg",
+          "native_width": 78,
+          "native_height": 40,
+          "display_width": 1024,
+          "display_height": 525,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 949,
+            "top": 917,
+            "right": 953,
+            "bottom": 922
+          },
+          "crop_bounds": {
+            "left": 925,
+            "top": 893,
+            "right": 977,
+            "bottom": 946
+          },
+          "native_file": "motion-a5db7a2097d37598-after-4010310aca-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-4010310aca-detail.jpg",
+          "native_width": 52,
+          "native_height": 53,
+          "display_width": 1005,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 759,
+            "top": 977,
+            "right": 777,
+            "bottom": 994
+          },
+          "crop_bounds": {
+            "left": 735,
+            "top": 953,
+            "right": 801,
+            "bottom": 1018
+          },
+          "native_file": "motion-a5db7a2097d37598-after-ce46ad45e2-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-ce46ad45e2-detail.jpg",
+          "native_width": 66,
+          "native_height": 65,
+          "display_width": 1024,
+          "display_height": 1008,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 917,
+            "top": 923,
+            "right": 931,
+            "bottom": 926
+          },
+          "crop_bounds": {
+            "left": 893,
+            "top": 899,
+            "right": 955,
+            "bottom": 950
+          },
+          "native_file": "motion-a5db7a2097d37598-after-01a3def156-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-01a3def156-detail.jpg",
+          "native_width": 62,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 842,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 845,
+            "top": 952,
+            "right": 848,
+            "bottom": 955
+          },
+          "crop_bounds": {
+            "left": 821,
+            "top": 928,
+            "right": 872,
+            "bottom": 979
+          },
+          "native_file": "motion-a5db7a2097d37598-after-d2be1ad5e6-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-d2be1ad5e6-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 695,
+            "top": 960,
+            "right": 697,
+            "bottom": 962
+          },
+          "crop_bounds": {
+            "left": 671,
+            "top": 936,
+            "right": 721,
+            "bottom": 986
+          },
+          "native_file": "motion-a5db7a2097d37598-after-fe02bcdae3-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-fe02bcdae3-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 654,
+            "top": 1012,
+            "right": 656,
+            "bottom": 1014
+          },
+          "crop_bounds": {
+            "left": 630,
+            "top": 988,
+            "right": 680,
+            "bottom": 1038
+          },
+          "native_file": "motion-a5db7a2097d37598-after-8e352c3db3-crop.png",
+          "detail_file": "motion-a5db7a2097d37598-after-8e352c3db3-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 981,
@@ -241,7 +507,7 @@
             "right": 1036,
             "bottom": 760
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
         },
         {
           "left": 1510,
@@ -424,8 +690,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:43.829080+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:59.114101+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -446,9 +713,11 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.996,
+            "support_frames": 1,
+            "model_version": "20261028T183704Z-723291ee",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
@@ -457,8 +726,16 @@
             {
               "labels": [
                 {
-                  "identifier": "person",
-                  "confidence": 0.9281221
+                  "model_version": "20261028T183704Z-723291ee",
+                  "confidence": 0.99550027,
+                  "identifier": "bird",
+                  "minimum_native_size": 8,
+                  "threshold": 0.995,
+                  "source": "camera-trained"
+                },
+                {
+                  "confidence": 0.9281221,
+                  "identifier": "person"
                 }
               ]
             }
