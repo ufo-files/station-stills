@@ -22,18 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1239,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261028t161431z-2dfcb8/video.mp4",
+    "frame_count": 1239
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -264,10 +255,6 @@
       "bytes": 585830,
       "sha256": "db5fc80d6faad83a6447b1c1c9a2f057f00a9e38031a07c3bbf8a9f315902fb6"
     },
-    "video.mkv": {
-      "bytes": 723153643,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 719,
       "sha256": "7f759398d66403d9d71e7ce872cce052eca01ec2dfd839ed9c4aa46779ee7fee"
@@ -287,10 +274,6 @@
     "motion-fe8c91e49d98fc62-before-bc6bd81229-detail.jpg": {
       "bytes": 66485,
       "sha256": "16cfac8c41f6d35a34b20a143943e8c6eb7886253d8da7fd33d7a38059726f1e"
-    },
-    "video.mp4": {
-      "bytes": 7533501,
-      "sha256": "c0bdf3ecb69028db99bb1aa8e6ec2e102a4fbd9cb56fcb1b32894ae9eeee1476"
     }
   },
   "buffer_assembly": {
@@ -306,12 +289,12 @@
     "selected_original_stills": true
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261028t161431z-2dfcb8",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t161431z-2dfcb8",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t161431z-2dfcb8/video.mp4",
     "verified_at": 1793217301.664113,
-    "cleaned_at": null,
+    "cleaned_at": 1793220902.310448,
     "files": [
       {
         "name": "rf.jsonl",
@@ -470,7 +453,7 @@
     "error": null
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
