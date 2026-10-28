@@ -81,17 +81,9 @@
       "bytes": 37333,
       "sha256": "f5624c069436346bf86b3e1b942b4858d358cde53637f15ef5646b4468441ce9"
     },
-    "video.mkv": {
-      "bytes": 7933590923,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 721,
       "sha256": "2dc8f123139ffaba623ca1bb08b730f8c3cf0960871343ee5937597730cd85e3"
-    },
-    "video.mp4": {
-      "bytes": 439325220,
-      "sha256": "ef2a35cf09e7d55224bcc56629c5d837751054f31d48f4f6ffc82fdbf8ec2ca6"
     }
   },
   "buffer_assembly": {
@@ -107,7 +99,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "retaining",
+    "state": "cleaned",
     "video_id": "uze6uRh8e94",
     "url": "https://www.youtube.com/watch?v=uze6uRh8e94",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -124,8 +116,30 @@
       "height": 1080
     },
     "cleanup": "videos_only",
-    "cleaned_files": [],
-    "cleanup_plan": [],
+    "cleaned_files": [
+      {
+        "file": "video.mkv",
+        "bytes": 7933590923,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 439325220,
+        "sha256": "ef2a35cf09e7d55224bcc56629c5d837751054f31d48f4f6ffc82fdbf8ec2ca6"
+      }
+    ],
+    "cleanup_plan": [
+      {
+        "file": "video.mkv",
+        "bytes": 7933590923,
+        "integrity": "queued"
+      },
+      {
+        "file": "video.mp4",
+        "bytes": 439325220,
+        "sha256": "ef2a35cf09e7d55224bcc56629c5d837751054f31d48f4f6ffc82fdbf8ec2ca6"
+      }
+    ],
     "error": null
   },
   "internet_archive": {
