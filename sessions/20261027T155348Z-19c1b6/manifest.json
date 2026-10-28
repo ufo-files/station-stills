@@ -1339,13 +1339,13 @@
     "error": null
   },
   "youtube": {
-    "state": "verifying",
+    "state": "waiting_archive",
     "video_id": "tmGZhbeucSw",
     "url": "https://www.youtube.com/watch?v=tmGZhbeucSw",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
     "privacy": "public",
     "uploaded_at": 1793171634.5673702,
-    "verified_at": null,
+    "verified_at": 1793171818.319011,
     "uploaded_file": {
       "file": "video.mp4",
       "bytes": 348507448,

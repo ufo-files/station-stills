@@ -107,7 +107,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "uploading",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -126,6 +126,110 @@
     "cleanup": "videos_only",
     "cleaned_files": [],
     "cleanup_plan": [],
+    "error": null
+  },
+  "internet_archive": {
+    "state": "uploading",
+    "identifier": "ufo-files-station-7c3668-20261028t024133z-1266d3",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t024133z-1266d3",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t024133z-1266d3/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 522905,
+        "md5": "089231eb327cec90e7150bfe8895a7c1",
+        "sha256": "7d14d9d23227bf59856dc741ab9b298a0d208f9e1a984972a437fff5d78f5ea0"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 721,
+        "md5": "6b27341bc036edab0125c46474d5c84b",
+        "sha256": "2dc8f123139ffaba623ca1bb08b730f8c3cf0960871343ee5937597730cd85e3"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 721211,
+        "md5": "62f78ce63c304cf3fb3592c572e47ce1",
+        "sha256": "c3e304323a2afeb63ac4a09a5475b00f5e039fcf80f268ec5148fb754b12013b"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 748060,
+        "md5": "d315651ebdc5586f04632b3ca36465c9",
+        "sha256": "4859317467f91fea9d992371c0d99829c37d06e8a4c84e9a5adee2b80cd2c38c"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 724232,
+        "md5": "646b2892272a44604c3a13b1623e3b49",
+        "sha256": "99b8fb16d0988050b7f9779f1ef6bf8cd56d1a069757ce46c4ab349e19ab969a"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261028T024133Z-1266d3-session.json",
+        "bytes": 4310,
+        "md5": "d6f46e0ab219731777d0630a60f6b5e7",
+        "sha256": "2dc5b69b06c0554ee26a8b4d66c84e541c627ccfcecef2fd0b4ea833902df266"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 439325220,
+        "md5": "c3bcdaa58749de2e957a12f9976595a7",
+        "sha256": "ef2a35cf09e7d55224bcc56629c5d837751054f31d48f4f6ffc82fdbf8ec2ca6"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 151205,
+        "md5": "9872397460f8cf1c97f7d070ddc345b0",
+        "sha256": "0ffd75aac4195b7c8bfc708185ca82d40b2c0bf0c75c522e72932b294373d4b0"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 11967,
+        "md5": "2dd8f04b2f8625faa724b0e1882b0325",
+        "sha256": "49b40523d383772acd8694df638df00df78f4bc4fc745c88a410c5a3a2d42d48"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 37333,
+        "md5": "d2d02a11168db03914ba2f5841d0523e",
+        "sha256": "f5624c069436346bf86b3e1b942b4858d358cde53637f15ef5646b4468441ce9"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 49874,
+        "md5": "2ba42677a1c0947c2e34e72290693a6e",
+        "sha256": "9392a528a7a7054bea1823990d17f7cd214fa950ba76814c1b4e87369ba70c13"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261028T024133Z-1266d3-manifest.json",
+        "bytes": 4110,
+        "md5": "5dd0cde59b91c22fe7dcb1580e5374aa",
+        "sha256": "760920b8c02ba4da0928dc9e80646a4d6722186d7f247413ec8a6156b6b4d4be"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261028T024133Z-1266d3-archive-index.json",
+        "bytes": 3097,
+        "md5": "785b12d639087b26fa12d615ed638719",
+        "sha256": "11c3e0f5b6ff75801bf1d4b6228adc2c2c16962ca77e157316a3691c9b74b630"
+      }
+    ],
     "error": null
   }
 }
