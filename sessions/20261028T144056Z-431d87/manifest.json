@@ -92,119 +92,86 @@
       "annotation": {
         "boxes": [
           {
-            "left": 447,
-            "top": 519,
-            "right": 459,
-            "bottom": 525,
-            "changed_analysis_pixels": 36,
+            "left": 447.0,
+            "top": 519.0,
+            "right": 459.0,
+            "bottom": 525.0,
+            "label": "Bird (reviewed) | elongated",
             "visible_in": "after",
             "review_bounds": {
-              "left": 423,
-              "top": 495,
-              "right": 483,
-              "bottom": 549
-            },
-            "label": "Likely bird | too small"
+              "left": 431.0,
+              "top": 503.0,
+              "right": 475.0,
+              "bottom": 541.0
+            }
           },
           {
-            "left": 614,
-            "top": 517,
-            "right": 624,
-            "bottom": 522,
-            "changed_analysis_pixels": 30,
+            "left": 614.0,
+            "top": 517.0,
+            "right": 624.0,
+            "bottom": 522.0,
+            "label": "Bird (reviewed) | elongated",
             "visible_in": "after",
             "review_bounds": {
-              "left": 590,
-              "top": 493,
-              "right": 648,
-              "bottom": 546
-            },
-            "label": "Likely bird | too small"
+              "left": 598.0,
+              "top": 501.0,
+              "right": 640.0,
+              "bottom": 538.0
+            }
           }
         ],
         "detail_images": [
           {
             "bounds": {
-              "left": 447,
-              "top": 519,
-              "right": 459,
-              "bottom": 525
+              "left": 447.0,
+              "top": 519.0,
+              "right": 459.0,
+              "bottom": 525.0
             },
             "crop_bounds": {
-              "left": 423,
-              "top": 495,
-              "right": 483,
-              "bottom": 549
+              "left": 431,
+              "top": 503,
+              "right": 475,
+              "bottom": 541
             },
-            "native_file": "motion-784d57ed4920f54f-after-e57d2518d4-crop.png",
-            "detail_file": "motion-784d57ed4920f54f-after-e57d2518d4-detail.jpg",
-            "native_width": 60,
-            "native_height": 54,
+            "native_file": "motion-784d57ed4920f54f-after-79ef21ba82-crop.png",
+            "detail_file": "motion-784d57ed4920f54f-after-79ef21ba82-detail.jpg",
+            "native_width": 44,
+            "native_height": 38,
             "display_width": 1024,
-            "display_height": 922,
+            "display_height": 884,
             "upscaled": true,
             "processing": "Lanczos resize; mild display smoothing only"
           },
           {
             "bounds": {
-              "left": 614,
-              "top": 517,
-              "right": 624,
-              "bottom": 522
+              "left": 614.0,
+              "top": 517.0,
+              "right": 624.0,
+              "bottom": 522.0
             },
             "crop_bounds": {
-              "left": 590,
-              "top": 493,
-              "right": 648,
-              "bottom": 546
+              "left": 598,
+              "top": 501,
+              "right": 640,
+              "bottom": 538
             },
-            "native_file": "motion-784d57ed4920f54f-after-a7f3db4e62-crop.png",
-            "detail_file": "motion-784d57ed4920f54f-after-a7f3db4e62-detail.jpg",
-            "native_width": 58,
-            "native_height": 53,
+            "native_file": "motion-784d57ed4920f54f-after-72b6368f2f-crop.png",
+            "detail_file": "motion-784d57ed4920f54f-after-72b6368f2f-detail.jpg",
+            "native_width": 42,
+            "native_height": 37,
             "display_width": 1024,
-            "display_height": 936,
+            "display_height": 902,
             "upscaled": true,
             "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
-        "changed_regions": [
-          {
-            "left": 447,
-            "top": 519,
-            "right": 459,
-            "bottom": 525,
-            "changed_analysis_pixels": 36,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 423,
-              "top": 495,
-              "right": 483,
-              "bottom": 549
-            },
-            "label": "Likely bird | too small"
-          },
-          {
-            "left": 614,
-            "top": 517,
-            "right": 624,
-            "bottom": 522,
-            "changed_analysis_pixels": 30,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 590,
-              "top": 493,
-              "right": 648,
-              "bottom": 546
-            },
-            "label": "Likely bird | too small"
-          }
-        ],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-784d57ed4920f54f-boxed.jpg",
       "evidence_files": [
@@ -304,6 +271,36 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T19:23:09.202545+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 447.0,
+              "top": 519.0,
+              "right": 459.0,
+              "bottom": 525.0
+            },
+            "object": "bird",
+            "shape": "elongated"
+          },
+          {
+            "bounds": {
+              "left": 614.0,
+              "top": 517.0,
+              "right": 624.0,
+              "bottom": 522.0
+            },
+            "object": "bird",
+            "shape": "elongated"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -335,16 +332,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 7422,
-      "sha256": "8350cbdf76ca9da4ac448dc53b299808f5a28cbb7922f41889fea4b5ec79a107"
+      "bytes": 7253,
+      "sha256": "1df0f011708c252853906cb764a560dafa9d7ba49fd393b7135963b871f205f3"
     },
     "buffer-state.json": {
       "bytes": 5408,
       "sha256": "3ebcad9347dfe4f80af1a2b17a5a57f8782586fbe5911c25aa098d983c962387"
     },
     "motion-784d57ed4920f54f-boxed.jpg": {
-      "bytes": 250091,
-      "sha256": "d5a35ee581f006a54531d3ffe8f44c60c0117fcddb8247c36c960418ec52e3e7"
+      "bytes": 245216,
+      "sha256": "884a313c365b9b148a83a8426344ad1db8e3ca99ccde9a6f7fc5d4f8e913884e"
     },
     "motion-784d57ed4920f54f-before.jpg": {
       "bytes": 567506,
@@ -373,6 +370,22 @@
     "motion-784d57ed4920f54f-after-a7f3db4e62-detail.jpg": {
       "bytes": 56845,
       "sha256": "6c89e5389a0ee3291bf2f8c94bb25eb9e545f81e9a5761e8aab26c9a13d82dde"
+    },
+    "motion-784d57ed4920f54f-after-79ef21ba82-crop.png": {
+      "bytes": 1416,
+      "sha256": "a1f770365ba8c0b13172d0acbc4fa9f42130410b30a5c2e8f5ccfb15e8c609a9"
+    },
+    "motion-784d57ed4920f54f-after-79ef21ba82-detail.jpg": {
+      "bytes": 49330,
+      "sha256": "abf486ffd9454051dd74520bd46600ca2c2287588ff18d5d779d1cd493fb6e23"
+    },
+    "motion-784d57ed4920f54f-after-72b6368f2f-crop.png": {
+      "bytes": 1332,
+      "sha256": "6a12b8f5468afc8d6b5a6fdcdb38131ed17d5fd138e9de1b61965dfddeb2fd9d"
+    },
+    "motion-784d57ed4920f54f-after-72b6368f2f-detail.jpg": {
+      "bytes": 50220,
+      "sha256": "7bc3d04182abd2d28579d8fab509a26e44b5f0ff114c6cac0b079a870a4c7998"
     }
   },
   "buffer_assembly": {

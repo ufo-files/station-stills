@@ -100,69 +100,14 @@
       "action": "started_recording",
       "session_id": "20261028T144459Z-66ae3c",
       "annotation": {
-        "boxes": [
-          {
-            "left": 732,
-            "top": 1074,
-            "right": 747,
-            "bottom": 1079,
-            "changed_analysis_pixels": 47,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 708,
-              "top": 1050,
-              "right": 771,
-              "bottom": 1079
-            },
-            "label": "Unknown | too small"
-          }
-        ],
-        "detail_images": [
-          {
-            "bounds": {
-              "left": 732,
-              "top": 1074,
-              "right": 747,
-              "bottom": 1079
-            },
-            "crop_bounds": {
-              "left": 708,
-              "top": 1050,
-              "right": 771,
-              "bottom": 1080
-            },
-            "native_file": "motion-a98fd1120a851dc5-after-1e98465016-crop.png",
-            "detail_file": "motion-a98fd1120a851dc5-after-1e98465016-detail.jpg",
-            "native_width": 63,
-            "native_height": 30,
-            "display_width": 1024,
-            "display_height": 488,
-            "upscaled": true,
-            "processing": "Lanczos resize; mild display smoothing only"
-          }
-        ],
-        "changed_regions": [
-          {
-            "left": 732,
-            "top": 1074,
-            "right": 747,
-            "bottom": 1079,
-            "changed_analysis_pixels": 47,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 708,
-              "top": 1050,
-              "right": 771,
-              "bottom": 1079
-            },
-            "label": "Unknown | too small"
-          }
-        ],
+        "boxes": [],
+        "detail_images": [],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-a98fd1120a851dc5-boxed.jpg",
       "evidence_files": [
@@ -210,6 +155,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T19:21:54.050031+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 732.0,
+              "top": 1074.0,
+              "right": 747.0,
+              "bottom": 1079.0
+            },
+            "object": "cloud",
+            "shape": "unresolved"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     },
     {
@@ -494,12 +459,12 @@
       "annotation": {
         "boxes": [],
         "detail_images": [],
-        "changed_regions": [],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-08bafb788517bb3a-boxed.jpg",
       "evidence_files": [
@@ -617,6 +582,36 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T19:22:23.642377+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 420.0,
+              "top": 1046.0,
+              "right": 424.0,
+              "bottom": 1051.0
+            },
+            "object": "cloud",
+            "shape": "unresolved"
+          },
+          {
+            "bounds": {
+              "left": 341.0,
+              "top": 1029.0,
+              "right": 345.0,
+              "bottom": 1032.0
+            },
+            "object": "cloud",
+            "shape": "unresolved"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -648,8 +643,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 15303,
-      "sha256": "ee982d30fbfc98e01a8deaa85b8ab3f738cdf39adb3d0bcf46475392e2cb6023"
+      "bytes": 14868,
+      "sha256": "0db6b6d34dd68224c5d3d57f8122fc69053b1920d9e2fde90f02f65dd3245b20"
     },
     "buffer-state.json": {
       "bytes": 15374,
@@ -664,12 +659,12 @@
       "sha256": "52cb91af929282683a9382b986e32e1094835e5c16a93d48e0d23d4cf0b5acc4"
     },
     "motion-a98fd1120a851dc5-boxed.jpg": {
-      "bytes": 252291,
-      "sha256": "642d530c1dcc1b32d167077551e6e038ff942fda04e8b71be97d975ce86fed8d"
+      "bytes": 248999,
+      "sha256": "3d762de9b2a1b263ba3e3c942eba88ecf8834eab23f8d739efb736c430b5e114"
     },
     "motion-08bafb788517bb3a-boxed.jpg": {
-      "bytes": 250812,
-      "sha256": "e5ce9aecf329dc74e3bd706b50ec8a1c23864cbc7045019f9ae795cdca151344"
+      "bytes": 252081,
+      "sha256": "5f9be6e2b5963e0153f9546e2c5d61c88200ebffb9685d530bcc2ba9d0db5d18"
     },
     "motion-a98fd1120a851dc5-after.jpg": {
       "bytes": 584946,

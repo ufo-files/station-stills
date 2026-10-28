@@ -49,67 +49,50 @@
     "annotation": {
       "boxes": [
         {
-          "left": 1420,
-          "top": 265,
-          "right": 1426,
-          "bottom": 271,
-          "changed_analysis_pixels": 27,
+          "left": 1420.0,
+          "top": 265.0,
+          "right": 1426.0,
+          "bottom": 271.0,
+          "label": "Bird (reviewed) | irregular",
           "visible_in": "after",
           "review_bounds": {
-            "left": 1396,
-            "top": 241,
-            "right": 1450,
-            "bottom": 295
-          },
-          "label": "Unknown | too small"
+            "left": 1404.0,
+            "top": 249.0,
+            "right": 1442.0,
+            "bottom": 287.0
+          }
         }
       ],
       "detail_images": [
         {
           "bounds": {
-            "left": 1420,
-            "top": 265,
-            "right": 1426,
-            "bottom": 271
+            "left": 1420.0,
+            "top": 265.0,
+            "right": 1426.0,
+            "bottom": 271.0
           },
           "crop_bounds": {
-            "left": 1396,
-            "top": 241,
-            "right": 1450,
-            "bottom": 295
+            "left": 1404,
+            "top": 249,
+            "right": 1442,
+            "bottom": 287
           },
-          "native_file": "motion-05252dfe5a837f3b-after-8e3ae8e3c4-crop.png",
-          "detail_file": "motion-05252dfe5a837f3b-after-8e3ae8e3c4-detail.jpg",
-          "native_width": 54,
-          "native_height": 54,
+          "native_file": "motion-05252dfe5a837f3b-after-5cfc3cc836-crop.png",
+          "detail_file": "motion-05252dfe5a837f3b-after-5cfc3cc836-detail.jpg",
+          "native_width": 38,
+          "native_height": 38,
           "display_width": 1024,
           "display_height": 1024,
           "upscaled": true,
           "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
-      "changed_regions": [
-        {
-          "left": 1420,
-          "top": 265,
-          "right": 1426,
-          "bottom": 271,
-          "changed_analysis_pixels": 27,
-          "visible_in": "after",
-          "review_bounds": {
-            "left": 1396,
-            "top": 241,
-            "right": 1450,
-            "bottom": 295
-          },
-          "label": "Unknown | too small"
-        }
-      ],
       "source_frame": "after",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-05252dfe5a837f3b-boxed.jpg",
     "evidence_files": [
@@ -166,6 +149,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "after",
+      "reviewed_at": "2026-10-28T19:22:37.837056+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1420.0,
+            "top": 265.0,
+            "right": 1426.0,
+            "bottom": 271.0
+          },
+          "object": "bird",
+          "shape": "irregular"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]
