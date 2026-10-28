@@ -101,43 +101,50 @@
       "annotation": {
         "boxes": [
           {
-            "left": 854,
-            "top": 845,
-            "right": 873,
-            "bottom": 861,
-            "changed_analysis_pixels": 144,
+            "left": 854.0,
+            "top": 845.0,
+            "right": 873.0,
+            "bottom": 861.0,
+            "label": "Bird (reviewed) | elongated",
             "visible_in": "before",
             "review_bounds": {
-              "left": 830,
-              "top": 821,
-              "right": 897,
-              "bottom": 885
-            },
-            "label": "Unknown | elongated"
+              "left": 838.0,
+              "top": 829.0,
+              "right": 889.0,
+              "bottom": 877.0
+            }
           }
         ],
-        "changed_regions": [
+        "detail_images": [
           {
-            "left": 854,
-            "top": 845,
-            "right": 873,
-            "bottom": 861,
-            "changed_analysis_pixels": 144,
-            "visible_in": "before",
-            "review_bounds": {
-              "left": 830,
-              "top": 821,
-              "right": 897,
-              "bottom": 885
+            "bounds": {
+              "left": 854.0,
+              "top": 845.0,
+              "right": 873.0,
+              "bottom": 861.0
             },
-            "label": "Unknown | elongated"
+            "crop_bounds": {
+              "left": 838,
+              "top": 829,
+              "right": 889,
+              "bottom": 877
+            },
+            "native_file": "motion-727b7283986f4a04-before-a53612b43f-crop.png",
+            "detail_file": "motion-727b7283986f4a04-before-a53612b43f-detail.jpg",
+            "native_width": 51,
+            "native_height": 48,
+            "display_width": 1024,
+            "display_height": 964,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "source_frame": "before",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-727b7283986f4a04-boxed.jpg",
       "evidence_files": [
@@ -186,6 +193,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "before",
+        "reviewed_at": "2026-10-28T17:52:43.298161+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 854.0,
+              "top": 845.0,
+              "right": 873.0,
+              "bottom": 861.0
+            },
+            "object": "bird",
+            "shape": "elongated"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -217,8 +244,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 3627,
-      "sha256": "665fbd29fe91f942a0044fb93f72927743a80a64db83f3efd48fad809d4133fd"
+      "bytes": 4346,
+      "sha256": "cd6ff90742d4d4cc9fe6b5f533a66be58877722ad400bda19f1ba84e2a273715"
     },
     "buffer-state.json": {
       "bytes": 7371,
@@ -233,8 +260,8 @@
       "sha256": "98c82158122f825360f6d89962ab1830e0d403437e21a21367baebd80937c1f1"
     },
     "motion-727b7283986f4a04-boxed.jpg": {
-      "bytes": 227360,
-      "sha256": "f0d329b621c626ff640dd28c84ffac17ef41a5cbd4a2fc34fdb9e2d73166eff6"
+      "bytes": 222499,
+      "sha256": "8dd3d8eb3898f0c748f7eaa5cd3ab1f056c2b6b4ad059fcaf11614d0c6d9f3b0"
     },
     "video.mkv": {
       "bytes": 658458853,
@@ -247,6 +274,14 @@
     "video.mp4": {
       "bytes": 6769146,
       "sha256": "b9fbea3011df8d2702b6b5b71afbcd4d99f5bd880d0094d2c0e2a8a781e7d41f"
+    },
+    "motion-727b7283986f4a04-before-a53612b43f-crop.png": {
+      "bytes": 2825,
+      "sha256": "e4a328229276c0123e75c89c4429c5fbb3c17077b3d8f0b332b8e6e67b379504"
+    },
+    "motion-727b7283986f4a04-before-a53612b43f-detail.jpg": {
+      "bytes": 67111,
+      "sha256": "b45a5b5ff25d3c9c79f542c037c642d7be3574a8386ccfe25158d1b9fe748ed5"
     }
   },
   "buffer_assembly": {

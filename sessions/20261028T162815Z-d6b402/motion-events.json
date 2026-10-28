@@ -49,43 +49,50 @@
     "annotation": {
       "boxes": [
         {
-          "left": 854,
-          "top": 845,
-          "right": 873,
-          "bottom": 861,
-          "changed_analysis_pixels": 144,
+          "left": 854.0,
+          "top": 845.0,
+          "right": 873.0,
+          "bottom": 861.0,
+          "label": "Bird (reviewed) | elongated",
           "visible_in": "before",
           "review_bounds": {
-            "left": 830,
-            "top": 821,
-            "right": 897,
-            "bottom": 885
-          },
-          "label": "Unknown | elongated"
+            "left": 838.0,
+            "top": 829.0,
+            "right": 889.0,
+            "bottom": 877.0
+          }
         }
       ],
-      "changed_regions": [
+      "detail_images": [
         {
-          "left": 854,
-          "top": 845,
-          "right": 873,
-          "bottom": 861,
-          "changed_analysis_pixels": 144,
-          "visible_in": "before",
-          "review_bounds": {
-            "left": 830,
-            "top": 821,
-            "right": 897,
-            "bottom": 885
+          "bounds": {
+            "left": 854.0,
+            "top": 845.0,
+            "right": 873.0,
+            "bottom": 861.0
           },
-          "label": "Unknown | elongated"
+          "crop_bounds": {
+            "left": 838,
+            "top": 829,
+            "right": 889,
+            "bottom": 877
+          },
+          "native_file": "motion-727b7283986f4a04-before-a53612b43f-crop.png",
+          "detail_file": "motion-727b7283986f4a04-before-a53612b43f-detail.jpg",
+          "native_width": 51,
+          "native_height": 48,
+          "display_width": 1024,
+          "display_height": 964,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "source_frame": "before",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-727b7283986f4a04-boxed.jpg",
     "evidence_files": [
@@ -134,6 +141,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "before",
+      "reviewed_at": "2026-10-28T17:52:43.298161+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 854.0,
+            "top": 845.0,
+            "right": 873.0,
+            "bottom": 861.0
+          },
+          "object": "bird",
+          "shape": "elongated"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]
