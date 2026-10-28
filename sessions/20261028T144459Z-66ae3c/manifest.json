@@ -276,14 +276,52 @@
       "action": "annotated_existing_recording",
       "session_id": "20261028T144459Z-66ae3c",
       "annotation": {
-        "boxes": [],
-        "detail_images": [],
-        "changed_regions": [],
+        "boxes": [
+          {
+            "left": 572.0,
+            "top": 85.0,
+            "right": 575.0,
+            "bottom": 89.0,
+            "label": "Unknown (reviewed) | shape unresolved",
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 556.0,
+              "top": 69.0,
+              "right": 591.0,
+              "bottom": 105.0
+            }
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 572.0,
+              "top": 85.0,
+              "right": 575.0,
+              "bottom": 89.0
+            },
+            "crop_bounds": {
+              "left": 556,
+              "top": 69,
+              "right": 591,
+              "bottom": 105
+            },
+            "native_file": "motion-eb405e2889acf339-after-13a841d228-crop.png",
+            "detail_file": "motion-eb405e2889acf339-after-13a841d228-detail.jpg",
+            "native_width": 35,
+            "native_height": 36,
+            "display_width": 996,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-eb405e2889acf339-boxed.jpg",
       "evidence_files": [
@@ -358,6 +396,36 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T19:21:42.672608+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 578.0,
+              "top": 1075.0,
+              "right": 583.0,
+              "bottom": 1079.0
+            },
+            "object": "cloud",
+            "shape": "unresolved"
+          },
+          {
+            "bounds": {
+              "left": 572.0,
+              "top": 85.0,
+              "right": 575.0,
+              "bottom": 89.0
+            },
+            "object": "unknown",
+            "shape": "unresolved"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     },
     {
@@ -580,8 +648,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 13619,
-      "sha256": "3368386caa30aa36255b17269d6bd4e481ba53dafc1d90c4af581cb17da10d99"
+      "bytes": 15303,
+      "sha256": "ee982d30fbfc98e01a8deaa85b8ab3f738cdf39adb3d0bcf46475392e2cb6023"
     },
     "buffer-state.json": {
       "bytes": 15374,
@@ -608,8 +676,8 @@
       "sha256": "5f709a336ba14ee7d6940ecb0fb6134900b05a04a4f30abfa62a689dbd62aa33"
     },
     "motion-eb405e2889acf339-boxed.jpg": {
-      "bytes": 251400,
-      "sha256": "1c8fe62f61068d4991a0485398eb72398dcdb0fc7e76a5ce43e2ac52baa6d267"
+      "bytes": 253987,
+      "sha256": "a77a3f94064c19b5e992e0c40ca8429ae833e34595e6bc32cb19bee989e6e8fa"
     },
     "motion-eb405e2889acf339-before.jpg": {
       "bytes": 592819,
@@ -634,6 +702,14 @@
     "motion-a98fd1120a851dc5-after-1e98465016-detail.jpg": {
       "bytes": 33279,
       "sha256": "dbeed9a95601c2390a0b316ab773f400f3b4e2989f5ae210822b23d05d8b3640"
+    },
+    "motion-eb405e2889acf339-after-13a841d228-crop.png": {
+      "bytes": 1508,
+      "sha256": "121cfed039080fd4f1553b5d400b35901966167737ec28096e869459de1af995"
+    },
+    "motion-eb405e2889acf339-after-13a841d228-detail.jpg": {
+      "bytes": 75538,
+      "sha256": "145b8f10808293e8db6a6d54b52c4ee8bcd6fa220b89c3c9f730b17dc5beaf73"
     }
   },
   "buffer_assembly": {

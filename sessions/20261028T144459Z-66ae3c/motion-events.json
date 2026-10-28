@@ -223,14 +223,52 @@
     "action": "annotated_existing_recording",
     "session_id": "20261028T144459Z-66ae3c",
     "annotation": {
-      "boxes": [],
-      "detail_images": [],
-      "changed_regions": [],
+      "boxes": [
+        {
+          "left": 572.0,
+          "top": 85.0,
+          "right": 575.0,
+          "bottom": 89.0,
+          "label": "Unknown (reviewed) | shape unresolved",
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 556.0,
+            "top": 69.0,
+            "right": 591.0,
+            "bottom": 105.0
+          }
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 572.0,
+            "top": 85.0,
+            "right": 575.0,
+            "bottom": 89.0
+          },
+          "crop_bounds": {
+            "left": 556,
+            "top": 69,
+            "right": 591,
+            "bottom": 105
+          },
+          "native_file": "motion-eb405e2889acf339-after-13a841d228-crop.png",
+          "detail_file": "motion-eb405e2889acf339-after-13a841d228-detail.jpg",
+          "native_width": 35,
+          "native_height": 36,
+          "display_width": 996,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "source_frame": "after",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-eb405e2889acf339-boxed.jpg",
     "evidence_files": [
@@ -305,6 +343,36 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "after",
+      "reviewed_at": "2026-10-28T19:21:42.672608+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 578.0,
+            "top": 1075.0,
+            "right": 583.0,
+            "bottom": 1079.0
+          },
+          "object": "cloud",
+          "shape": "unresolved"
+        },
+        {
+          "bounds": {
+            "left": 572.0,
+            "top": 85.0,
+            "right": 575.0,
+            "bottom": 89.0
+          },
+          "object": "unknown",
+          "shape": "unresolved"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   },
   {
