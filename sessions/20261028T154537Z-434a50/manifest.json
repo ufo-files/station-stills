@@ -113,7 +113,31 @@
               "right": 1715,
               "bottom": 57
             },
-            "label": "Unknown | irregular"
+            "label": "Likely airplane | irregular"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1632,
+              "top": 1,
+              "right": 1691,
+              "bottom": 33
+            },
+            "crop_bounds": {
+              "left": 1608,
+              "top": 0,
+              "right": 1715,
+              "bottom": 57
+            },
+            "native_file": "motion-e427e308bb3d605f-after-eeb8b4badb-crop.png",
+            "detail_file": "motion-e427e308bb3d605f-after-eeb8b4badb-detail.jpg",
+            "native_width": 107,
+            "native_height": 57,
+            "display_width": 1024,
+            "display_height": 545,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -130,7 +154,7 @@
               "right": 1715,
               "bottom": 57
             },
-            "label": "Unknown | irregular"
+            "label": "Likely airplane | irregular"
           }
         ],
         "source_frame": "after",
@@ -148,8 +172,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:25:33.896332+00:00",
+        "classified_at": "2026-10-28T18:39:59.684184+00:00",
         "engine": "coreml-yolov3-fp16-coco",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -170,9 +195,11 @@
             },
             "source_frame": "after",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "airplane",
+              "confidence": 0.936,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
@@ -180,6 +207,14 @@
               },
               {
                 "labels": [
+                  {
+                    "identifier": "airplane",
+                    "confidence": 0.9357393,
+                    "source": "camera-trained",
+                    "minimum_native_size": 8,
+                    "threshold": 0.85,
+                    "model_version": "20261028T183704Z-723291ee"
+                  },
                   {
                     "identifier": "aeroplane",
                     "confidence": 0.56280535
@@ -222,16 +257,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 3755,
-      "sha256": "8736a45a8e0a812b6472e456dfae6ee9defd392e7bb1b7e40d0c0f2466a07aec"
+      "bytes": 4954,
+      "sha256": "35cd3f3fca55c87fc8fc592137f0787d31d561df73606a71837552cd5c733c4c"
     },
     "buffer-state.json": {
       "bytes": 14383,
       "sha256": "f989d07ae7c67c09c3916f5332c2ac476e92c71455f903dcb49db2cd57f823ca"
     },
     "motion-e427e308bb3d605f-boxed.jpg": {
-      "bytes": 232151,
-      "sha256": "4b2eca72ddf0b23b71aa86dbfc4259bdd0802e7655075e7a5ffb62290bf0ed1e"
+      "bytes": 232993,
+      "sha256": "b8564ef418e8b8aa891568097e206f0c7b46a1204be92fdb46b3f47b4cf07146"
     },
     "motion-e427e308bb3d605f-before.jpg": {
       "bytes": 547578,
@@ -252,6 +287,14 @@
     "video.mp4": {
       "bytes": 26423438,
       "sha256": "f178ce763c7c1df4abacb62ab860f255758967369c967374b87f07aca0b16b5e"
+    },
+    "motion-e427e308bb3d605f-after-eeb8b4badb-crop.png": {
+      "bytes": 5556,
+      "sha256": "2a8ebf9bd2952373d9783195d6d069eacbdfdf1aac4e558f7b353a5deba28e92"
+    },
+    "motion-e427e308bb3d605f-after-eeb8b4badb-detail.jpg": {
+      "bytes": 47689,
+      "sha256": "41bfeb93502fee94cb5148c5a567e8aa90c9cd6230ad14fab457e376ba4bc61c"
     }
   },
   "buffer_assembly": {

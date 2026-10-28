@@ -64,6 +64,30 @@
           "label": "Unknown | too small"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 738,
+            "top": 257,
+            "right": 753,
+            "bottom": 267
+          },
+          "crop_bounds": {
+            "left": 714,
+            "top": 233,
+            "right": 777,
+            "bottom": 291
+          },
+          "native_file": "motion-e89fcf3ebeb565e1-before-6c5e0e6cd8-crop.png",
+          "detail_file": "motion-e89fcf3ebeb565e1-before-6c5e0e6cd8-detail.jpg",
+          "native_width": 63,
+          "native_height": 58,
+          "display_width": 1024,
+          "display_height": 943,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 738,
@@ -96,8 +120,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:25:32.014723+00:00",
+      "classified_at": "2026-10-28T18:39:56.131118+00:00",
       "engine": "coreml-yolov3-fp16-coco",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {

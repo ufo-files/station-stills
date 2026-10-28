@@ -101,75 +101,50 @@
       "annotation": {
         "boxes": [
           {
-            "left": 1004,
-            "top": 1044,
-            "right": 1018,
-            "bottom": 1056,
-            "changed_analysis_pixels": 102,
+            "left": 1004.0,
+            "top": 1044.0,
+            "right": 1018.0,
+            "bottom": 1056.0,
+            "label": "Bird (reviewed) | irregular",
             "visible_in": "after",
             "review_bounds": {
-              "left": 980,
-              "top": 1020,
-              "right": 1042,
-              "bottom": 1079
-            },
-            "label": "Likely bird | irregular"
+              "left": 988.0,
+              "top": 1028.0,
+              "right": 1034.0,
+              "bottom": 1072.0
+            }
           }
         ],
         "detail_images": [
           {
             "bounds": {
-              "left": 1004,
-              "top": 1044,
-              "right": 1018,
-              "bottom": 1056
+              "left": 1004.0,
+              "top": 1044.0,
+              "right": 1018.0,
+              "bottom": 1056.0
             },
             "crop_bounds": {
-              "left": 980,
-              "top": 1020,
-              "right": 1042,
-              "bottom": 1080
+              "left": 988,
+              "top": 1028,
+              "right": 1034,
+              "bottom": 1072
             },
-            "native_file": "motion-43563783fbb01283-after-5f3f6207ce-crop.png",
-            "detail_file": "motion-43563783fbb01283-after-5f3f6207ce-detail.jpg",
-            "native_width": 62,
-            "native_height": 60,
+            "native_file": "motion-43563783fbb01283-after-d68494a801-crop.png",
+            "detail_file": "motion-43563783fbb01283-after-d68494a801-detail.jpg",
+            "native_width": 46,
+            "native_height": 44,
             "display_width": 1024,
-            "display_height": 991,
+            "display_height": 979,
             "upscaled": true,
             "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
-        "changed_regions": [
-          {
-            "left": 898,
-            "top": 1063,
-            "right": 913,
-            "bottom": 1075,
-            "changed_analysis_pixels": 103,
-            "visible_in": "before"
-          },
-          {
-            "left": 1004,
-            "top": 1044,
-            "right": 1018,
-            "bottom": 1056,
-            "changed_analysis_pixels": 102,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 980,
-              "top": 1020,
-              "right": 1042,
-              "bottom": 1079
-            },
-            "label": "Likely bird | irregular"
-          }
-        ],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-43563783fbb01283-boxed.jpg",
       "evidence_files": [
@@ -273,6 +248,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T18:41:16.304629+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1004.0,
+              "top": 1044.0,
+              "right": 1018.0,
+              "bottom": 1056.0
+            },
+            "object": "bird",
+            "shape": "irregular"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -304,8 +299,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 6287,
-      "sha256": "cb0325fc7f44edd383419e14611bab314c0f826fa7ff2d427b8d55d61485cbfc"
+      "bytes": 6087,
+      "sha256": "45417b1fb094eac83e4871fae6f419bf3c81146bd63b8ba815d8435f8d4a899b"
     },
     "buffer-state.json": {
       "bytes": 5085,
@@ -320,8 +315,8 @@
       "sha256": "61b11b6b600738327eaa65e1a3925424172b4bd26a903fee59d2ac8228a24c59"
     },
     "motion-43563783fbb01283-boxed.jpg": {
-      "bytes": 234358,
-      "sha256": "c89bd0bdd0bbaca58f8d82a618334da12fed81944cc0a00eb34293222e81c033"
+      "bytes": 229666,
+      "sha256": "c8fc310b2d68e27adf79f260404cd1582532102791ef371aec5c3b5716d3fb28"
     },
     "motion-43563783fbb01283-after-5f3f6207ce-detail.jpg": {
       "bytes": 65928,
@@ -342,6 +337,14 @@
     "video.mp4": {
       "bytes": 6273250,
       "sha256": "0aaa83f7874ec29a8ee7871a6fe05213551a1b22cc212a7aa05584da653fe53b"
+    },
+    "motion-43563783fbb01283-after-d68494a801-crop.png": {
+      "bytes": 2191,
+      "sha256": "74d4196a84c1f7f5d40ac0946b53815271d58be48a48dca88521f90917d58b54"
+    },
+    "motion-43563783fbb01283-after-d68494a801-detail.jpg": {
+      "bytes": 60570,
+      "sha256": "e0eeb6dfbdfdce5d46eae86395ae8ccff6e67173fbc53fd8f950ad3fed0d6b92"
     }
   },
   "buffer_assembly": {
