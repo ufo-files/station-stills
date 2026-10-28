@@ -22,18 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 3583,
-    "avg_frame_rate": "35830/597",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261028t134949z-070e5c/video.mp4",
+    "frame_count": 3583
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -260,10 +251,6 @@
       "bytes": 1083351,
       "sha256": "f30e9f7a4c0436221f2c28d5fc2501b35e083c4ae9f25acd42603d04ce6927c4"
     },
-    "video.mkv": {
-      "bytes": 3812452961,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 722,
       "sha256": "a286aa9479b30858cab457651285d354f20e7af71a29afc8b5c654162d7585ff"
@@ -275,10 +262,6 @@
     "motion-dc1ad4264fdc736f-before-3512fa6001-detail.jpg": {
       "bytes": 89867,
       "sha256": "5314d58b231d9d33f18239cf2e6ebc6f5d896e1de1955891c3d6cb90411f5a4a"
-    },
-    "video.mp4": {
-      "bytes": 348235820,
-      "sha256": "9f951bdcc091239b119b78b1fc48e9e08b05e5e5bc3dff9409cb85a24daaacfc"
     },
     "motion-dc1ad4264fdc736f-before-eb652060e3-crop.png": {
       "bytes": 2776,
@@ -302,7 +285,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -324,12 +307,12 @@
     "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261028t134949z-070e5c",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t134949z-070e5c",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t134949z-070e5c/video.mp4",
     "verified_at": 1793216945.4380198,
-    "cleaned_at": null,
+    "cleaned_at": 1793220580.238235,
     "files": [
       {
         "name": "rf.jsonl",
