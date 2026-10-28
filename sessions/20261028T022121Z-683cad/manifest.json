@@ -16,18 +16,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1800,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261028t022121z-683cad/video.mp4",
+    "frame_count": 1800
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -68,17 +59,9 @@
       "bytes": 6671,
       "sha256": "e796c23b2250bd997d55ddee15f6c7564bcc989264a95410a77dafc2732b68be"
     },
-    "video.mkv": {
-      "bytes": 1324932334,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "e7783438091df3846be1d62a22dc2d681f98768359b6ba5c597b2729637c6395"
-    },
-    "video.mp4": {
-      "bytes": 72937606,
-      "sha256": "a154cb61b63693a4757847c885db925ebdbc74d499e83b0b898c642799e18cd5"
     }
   },
   "buffer_assembly": {
@@ -94,7 +77,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -113,15 +96,15 @@
     "cleanup": "videos_only",
     "cleaned_files": [],
     "cleanup_plan": [],
-    "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
+    "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261028t022121z-683cad",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t022121z-683cad",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t022121z-683cad/video.mp4",
     "verified_at": 1793157022.9969661,
-    "cleaned_at": null,
+    "cleaned_at": 1793160624.5776756,
     "files": [
       {
         "name": "rf.jsonl",
