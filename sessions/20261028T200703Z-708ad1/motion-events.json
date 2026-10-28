@@ -1,0 +1,414 @@
+[
+  {
+    "id": "b0221ae05d358179",
+    "detected_at": "2026-10-28T20:07:02.802680+00:00",
+    "detected_epoch": 1793218022.8027337,
+    "motion_started_epoch": 1793218022.1857328,
+    "changed_area_percent": 0.006655092592592593,
+    "settings": {
+      "filter_profile": "daytime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 18,
+      "min_area_percent": 0.002,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T200703Z-708ad1",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 127,
+          "top": 935,
+          "right": 144,
+          "bottom": 952,
+          "changed_analysis_pixels": 138,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 103,
+            "top": 911,
+            "right": 168,
+            "bottom": 976
+          },
+          "label": "Likely bird | elongated"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 127,
+            "top": 935,
+            "right": 144,
+            "bottom": 952
+          },
+          "crop_bounds": {
+            "left": 103,
+            "top": 911,
+            "right": 168,
+            "bottom": 976
+          },
+          "native_file": "motion-b0221ae05d358179-after-0dc38a84bc-crop.png",
+          "detail_file": "motion-b0221ae05d358179-after-0dc38a84bc-detail.jpg",
+          "native_width": 65,
+          "native_height": 65,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 127,
+          "top": 935,
+          "right": 144,
+          "bottom": 952,
+          "changed_analysis_pixels": 138,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 103,
+            "top": 911,
+            "right": 168,
+            "bottom": 976
+          },
+          "label": "Likely bird | elongated"
+        },
+        {
+          "left": 57,
+          "top": 963,
+          "right": 71,
+          "bottom": 976,
+          "changed_analysis_pixels": 100,
+          "visible_in": "before"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-b0221ae05d358179-boxed.jpg",
+    "evidence_files": [
+      "motion-b0221ae05d358179-before.jpg",
+      "motion-b0221ae05d358179-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T20:07:14.607511+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T190333Z-72ab2f51",
+      "regions": [
+        {
+          "bounds": {
+            "left": 127,
+            "top": 935,
+            "right": 144,
+            "bottom": 952
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.139,
+            "axis_ratio": 0.234,
+            "fill_fraction": 0.317,
+            "area_pixels": 71,
+            "width_pixels": 14,
+            "height_pixels": 16,
+            "contrast_threshold": 24.58
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "bird",
+            "confidence": 0.94,
+            "support_frames": 1,
+            "model_version": "20261028T190333Z-72ab2f51",
+            "reason": "Camera-trained model suggestion at validated threshold"
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": [
+                {
+                  "confidence": 0.94017583,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "source": "camera-trained",
+                  "identifier": "bird",
+                  "threshold": 0.85,
+                  "minimum_native_size": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 57,
+            "top": 963,
+            "right": 71,
+            "bottom": 976
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.129,
+            "axis_ratio": 0.315,
+            "fill_fraction": 0.4,
+            "area_pixels": 56,
+            "width_pixels": 14,
+            "height_pixels": 10,
+            "contrast_threshold": 23.4
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "bird",
+            "confidence": 0.851,
+            "support_frames": 1,
+            "model_version": "20261028T190333Z-72ab2f51",
+            "reason": "Camera-trained model suggestion at validated threshold"
+          },
+          "model_observations": [
+            {
+              "labels": [
+                {
+                  "identifier": "bird",
+                  "threshold": 0.85,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "confidence": 0.8508847,
+                  "minimum_native_size": 8,
+                  "source": "camera-trained"
+                }
+              ]
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  },
+  {
+    "id": "1b1c9f5c8e7118dc",
+    "detected_at": "2026-10-28T20:07:40.898000+00:00",
+    "detected_epoch": 1793218060.898054,
+    "motion_started_epoch": 1793218060.3075016,
+    "changed_area_percent": 0.00318287037037037,
+    "settings": {
+      "filter_profile": "daytime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 18,
+      "min_area_percent": 0.002,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "annotated_existing_recording",
+    "session_id": "20261028T200703Z-708ad1",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1905,
+          "top": 206,
+          "right": 1916,
+          "bottom": 216,
+          "changed_analysis_pixels": 66,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1881,
+            "top": 182,
+            "right": 1919,
+            "bottom": 240
+          },
+          "label": "Unknown | irregular"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1905,
+            "top": 206,
+            "right": 1916,
+            "bottom": 216
+          },
+          "crop_bounds": {
+            "left": 1881,
+            "top": 182,
+            "right": 1920,
+            "bottom": 240
+          },
+          "native_file": "motion-1b1c9f5c8e7118dc-before-e0069bec4a-crop.png",
+          "detail_file": "motion-1b1c9f5c8e7118dc-before-e0069bec4a-detail.jpg",
+          "native_width": 39,
+          "native_height": 58,
+          "display_width": 689,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 1905,
+          "top": 206,
+          "right": 1916,
+          "bottom": 216,
+          "changed_analysis_pixels": 66,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1881,
+            "top": 182,
+            "right": 1919,
+            "bottom": 240
+          },
+          "label": "Unknown | irregular"
+        },
+        {
+          "left": 1856,
+          "top": 205,
+          "right": 1866,
+          "bottom": 214,
+          "changed_analysis_pixels": 53,
+          "visible_in": "after"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-1b1c9f5c8e7118dc-boxed.jpg",
+    "evidence_files": [
+      "motion-1b1c9f5c8e7118dc-before.jpg",
+      "motion-1b1c9f5c8e7118dc-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T20:08:04.020052+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T190333Z-72ab2f51",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1905,
+            "top": 206,
+            "right": 1916,
+            "bottom": 216
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.255,
+            "axis_ratio": 0.856,
+            "fill_fraction": 0.597,
+            "area_pixels": 43,
+            "width_pixels": 9,
+            "height_pixels": 8,
+            "contrast_threshold": 20.1
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": []
+        },
+        {
+          "bounds": {
+            "left": 1856,
+            "top": 205,
+            "right": 1866,
+            "bottom": 214
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.24,
+            "axis_ratio": 0.835,
+            "fill_fraction": 0.55,
+            "area_pixels": 44,
+            "width_pixels": 10,
+            "height_pixels": 8,
+            "contrast_threshold": 16.06
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": []
+        }
+      ],
+      "error": "Mac classifier failed: ssh: connect to host 100.113.237.2 port 22: Connection timed out\r\n",
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  }
+]

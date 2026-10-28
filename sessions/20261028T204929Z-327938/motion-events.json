@@ -1,0 +1,175 @@
+[
+  {
+    "id": "9bc2982f1f2415f3",
+    "detected_at": "2026-10-28T20:49:29.145676+00:00",
+    "detected_epoch": 1793220569.1456995,
+    "motion_started_epoch": 1793220568.5354583,
+    "changed_area_percent": 0.0028452932098765433,
+    "settings": {
+      "filter_profile": "daytime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 18,
+      "min_area_percent": 0.002,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T204929Z-327938",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 730,
+          "top": 890,
+          "right": 739,
+          "bottom": 898,
+          "changed_analysis_pixels": 59,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 706,
+            "top": 866,
+            "right": 763,
+            "bottom": 922
+          },
+          "label": "Likely bird | round"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 730,
+            "top": 890,
+            "right": 739,
+            "bottom": 898
+          },
+          "crop_bounds": {
+            "left": 706,
+            "top": 866,
+            "right": 763,
+            "bottom": 922
+          },
+          "native_file": "motion-9bc2982f1f2415f3-before-8c21a77758-crop.png",
+          "detail_file": "motion-9bc2982f1f2415f3-before-8c21a77758-detail.jpg",
+          "native_width": 57,
+          "native_height": 56,
+          "display_width": 1024,
+          "display_height": 1006,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 730,
+          "top": 890,
+          "right": 739,
+          "bottom": 898,
+          "changed_analysis_pixels": 59,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 706,
+            "top": 866,
+            "right": 763,
+            "bottom": 922
+          },
+          "label": "Likely bird | round"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-9bc2982f1f2415f3-boxed.jpg",
+    "evidence_files": [
+      "motion-9bc2982f1f2415f3-before.jpg",
+      "motion-9bc2982f1f2415f3-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T20:49:34.988213+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T190333Z-72ab2f51",
+      "regions": [
+        {
+          "bounds": {
+            "left": 730,
+            "top": 890,
+            "right": 739,
+            "bottom": 898
+          },
+          "shape": {
+            "label": "round",
+            "circularity": 0.652,
+            "axis_ratio": 0.804,
+            "fill_fraction": 0.837,
+            "area_pixels": 226,
+            "width_pixels": 18,
+            "height_pixels": 15,
+            "contrast_threshold": 15.7
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "bird",
+            "confidence": 0.982,
+            "support_frames": 1,
+            "model_version": "20261028T190333Z-72ab2f51",
+            "reason": "Camera-trained model suggestion at validated threshold"
+          },
+          "model_observations": [
+            {
+              "labels": [
+                {
+                  "minimum_native_size": 8,
+                  "identifier": "bird",
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "confidence": 0.98241526,
+                  "source": "camera-trained",
+                  "threshold": 0.85
+                }
+              ]
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  }
+]
