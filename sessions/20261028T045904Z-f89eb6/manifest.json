@@ -345,13 +345,13 @@
     "error": null
   },
   "youtube": {
-    "state": "verifying",
+    "state": "retaining",
     "video_id": "E7xLMH8DLgs",
     "url": "https://www.youtube.com/watch?v=E7xLMH8DLgs",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
     "privacy": "public",
     "uploaded_at": 1793170894.0497582,
-    "verified_at": null,
+    "verified_at": 1793170955.3992007,
     "uploaded_file": {
       "file": "video.mp4",
       "bytes": 48593635,
