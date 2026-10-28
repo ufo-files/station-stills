@@ -116,6 +116,30 @@
             "label": "Unknown | too small"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1420,
+              "top": 265,
+              "right": 1426,
+              "bottom": 271
+            },
+            "crop_bounds": {
+              "left": 1396,
+              "top": 241,
+              "right": 1450,
+              "bottom": 295
+            },
+            "native_file": "motion-05252dfe5a837f3b-after-8e3ae8e3c4-crop.png",
+            "detail_file": "motion-05252dfe5a837f3b-after-8e3ae8e3c4-detail.jpg",
+            "native_width": 54,
+            "native_height": 54,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1420,
@@ -148,8 +172,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:29:08.511428+00:00",
+        "classified_at": "2026-10-28T18:44:15.504136+00:00",
         "engine": "coreml-yolov3-fp16-coco",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -177,7 +202,16 @@
                 "labels": []
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "model_version": "20261028T183704Z-723291ee",
+                    "confidence": 0.9953055,
+                    "identifier": "bird",
+                    "minimum_native_size": 8,
+                    "threshold": 0.995,
+                    "source": "camera-trained"
+                  }
+                ]
               }
             ]
           }
@@ -215,8 +249,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 3602,
-      "sha256": "0cfe5b5b40e94e5469613f4a8952c112189f089d16d9c2707dea91308c6c76d9"
+      "bytes": 4698,
+      "sha256": "fac1ac8f206d430815038bfa66f9b233dfc5207ca49a24fd1c185ccfd3e74483"
     },
     "buffer-state.json": {
       "bytes": 6413,
@@ -245,6 +279,14 @@
     "video.mp4": {
       "bytes": 8442670,
       "sha256": "c7634091658716961bfe04015342d1a11fe66bff140c2fb3bdb70af934fef1d2"
+    },
+    "motion-05252dfe5a837f3b-after-8e3ae8e3c4-crop.png": {
+      "bytes": 2901,
+      "sha256": "b26f71cb99c1b981af9715ccdc7d37f41932ca7d295230175a73bf0bdc69d49b"
+    },
+    "motion-05252dfe5a837f3b-after-8e3ae8e3c4-detail.jpg": {
+      "bytes": 64798,
+      "sha256": "c463ed6fd81b2723fba8bb64258c66c4c78404645a42d08e3f79fe45d545391b"
     }
   },
   "buffer_assembly": {

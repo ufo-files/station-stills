@@ -117,6 +117,30 @@
             "label": "Unknown | too small"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 732,
+              "top": 1074,
+              "right": 747,
+              "bottom": 1079
+            },
+            "crop_bounds": {
+              "left": 708,
+              "top": 1050,
+              "right": 771,
+              "bottom": 1080
+            },
+            "native_file": "motion-a98fd1120a851dc5-after-1e98465016-crop.png",
+            "detail_file": "motion-a98fd1120a851dc5-after-1e98465016-detail.jpg",
+            "native_width": 63,
+            "native_height": 30,
+            "display_width": 1024,
+            "display_height": 488,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 732,
@@ -149,8 +173,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:29:06.475890+00:00",
+        "classified_at": "2026-10-28T18:44:13.198061+00:00",
         "engine": "coreml-yolov3-fp16-coco",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -252,6 +277,7 @@
       "session_id": "20261028T144459Z-66ae3c",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -268,8 +294,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:29:04.457694+00:00",
+        "classified_at": "2026-10-28T18:44:11.354613+00:00",
         "engine": "coreml-yolov3-fp16-coco",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -398,6 +425,7 @@
       "session_id": "20261028T144459Z-66ae3c",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -414,8 +442,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:29:02.633370+00:00",
+        "classified_at": "2026-10-28T18:44:09.582941+00:00",
         "engine": "coreml-yolov3-fp16-coco",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -515,8 +544,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 11387,
-      "sha256": "58b6622ca40ec41a9b85e1db3054ae5fb2545f623f5f3d5ba32a911ba1661ddf"
+      "bytes": 12315,
+      "sha256": "418ec67eeb7c74b52372077c0be77a95d08cc6bb685d16384bce8ae3a58e6527"
     },
     "buffer-state.json": {
       "bytes": 15374,
@@ -561,6 +590,14 @@
     "frames/index.json": {
       "bytes": 719,
       "sha256": "ef52c0b9c33c13f1f70c3bcd26a6db370124dd2a68245ebdde90f2508c0249e4"
+    },
+    "motion-a98fd1120a851dc5-after-1e98465016-crop.png": {
+      "bytes": 1888,
+      "sha256": "25aaf5696b725ad93e7fb5c8b1874d7a691a25f88e4a98491e52196e63d4c313"
+    },
+    "motion-a98fd1120a851dc5-after-1e98465016-detail.jpg": {
+      "bytes": 33279,
+      "sha256": "dbeed9a95601c2390a0b316ab773f400f3b4e2989f5ae210822b23d05d8b3640"
     }
   },
   "buffer_assembly": {

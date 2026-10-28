@@ -64,6 +64,30 @@
           "label": "Unknown | too small"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1420,
+            "top": 265,
+            "right": 1426,
+            "bottom": 271
+          },
+          "crop_bounds": {
+            "left": 1396,
+            "top": 241,
+            "right": 1450,
+            "bottom": 295
+          },
+          "native_file": "motion-05252dfe5a837f3b-after-8e3ae8e3c4-crop.png",
+          "detail_file": "motion-05252dfe5a837f3b-after-8e3ae8e3c4-detail.jpg",
+          "native_width": 54,
+          "native_height": 54,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1420,
@@ -96,8 +120,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:29:08.511428+00:00",
+      "classified_at": "2026-10-28T18:44:15.504136+00:00",
       "engine": "coreml-yolov3-fp16-coco",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -125,7 +150,16 @@
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "model_version": "20261028T183704Z-723291ee",
+                  "confidence": 0.9953055,
+                  "identifier": "bird",
+                  "minimum_native_size": 8,
+                  "threshold": 0.995,
+                  "source": "camera-trained"
+                }
+              ]
             }
           ]
         }

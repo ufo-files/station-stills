@@ -79,6 +79,52 @@
           "label": "Unknown | too small"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 447,
+            "top": 519,
+            "right": 459,
+            "bottom": 525
+          },
+          "crop_bounds": {
+            "left": 423,
+            "top": 495,
+            "right": 483,
+            "bottom": 549
+          },
+          "native_file": "motion-784d57ed4920f54f-after-e57d2518d4-crop.png",
+          "detail_file": "motion-784d57ed4920f54f-after-e57d2518d4-detail.jpg",
+          "native_width": 60,
+          "native_height": 54,
+          "display_width": 1024,
+          "display_height": 922,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 614,
+            "top": 517,
+            "right": 624,
+            "bottom": 522
+          },
+          "crop_bounds": {
+            "left": 590,
+            "top": 493,
+            "right": 648,
+            "bottom": 546
+          },
+          "native_file": "motion-784d57ed4920f54f-after-a7f3db4e62-crop.png",
+          "detail_file": "motion-784d57ed4920f54f-after-a7f3db4e62-detail.jpg",
+          "native_width": 58,
+          "native_height": 53,
+          "display_width": 1024,
+          "display_height": 936,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 447,
@@ -126,8 +172,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:29:13.122769+00:00",
+      "classified_at": "2026-10-28T18:44:20.536586+00:00",
       "engine": "coreml-yolov3-fp16-coco",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {

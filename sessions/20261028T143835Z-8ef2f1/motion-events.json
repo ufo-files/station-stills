@@ -57,6 +57,7 @@
     "session_id": "20261028T143835Z-8ef2f1",
     "annotation": {
       "boxes": [],
+      "detail_images": [],
       "changed_regions": [],
       "source_frame": "after",
       "annotation_version": 3,
@@ -73,8 +74,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:29:18.458974+00:00",
+      "classified_at": "2026-10-28T18:44:25.575003+00:00",
       "engine": "coreml-yolov3-fp16-coco",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {

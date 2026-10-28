@@ -109,6 +109,7 @@
       "session_id": "20261028T143835Z-8ef2f1",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -125,8 +126,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:29:18.458974+00:00",
+        "classified_at": "2026-10-28T18:44:25.575003+00:00",
         "engine": "coreml-yolov3-fp16-coco",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -194,8 +196,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 3019,
-      "sha256": "5e6be340eb9f31c04b5e8b94693f8e5e747be39795d95f53ed0919b130e6e2b8"
+      "bytes": 3098,
+      "sha256": "ddaebfcc27da5b7be3e365a3d9dde1dc8d483d94c73f0234d93bb189973dc1d6"
     },
     "buffer-state.json": {
       "bytes": 7853,
