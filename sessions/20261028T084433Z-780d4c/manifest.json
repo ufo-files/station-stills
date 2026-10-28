@@ -105,5 +105,27 @@
   "frame_integrity": {
     "every_recorded_frame": false,
     "selected_original_stills": true
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 305835211,
+      "sha256": "267f7ae462d493ed85afcc939b5ed5bbd9bf55c8392fed269a59ca2a1a147ce6",
+      "frame_count": 10799,
+      "fps": "60/1",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
+    "error": null
   }
 }
