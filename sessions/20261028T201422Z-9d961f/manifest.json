@@ -1,0 +1,297 @@
+{
+  "id": "20261028T201422Z-9d961f",
+  "title": "Motion trigger \u00b7 2026-10-28T20:14:21.990447+00:00",
+  "condition": "silence",
+  "notes": "",
+  "state": "completed",
+  "started_at": "2026-10-28T20:14:11.079856+00:00",
+  "started_epoch": 1793218451.0798562,
+  "started_monotonic": 83626.32826075148,
+  "duration_limit_seconds": 20.777214288711548,
+  "rf_records": 11,
+  "markers": [
+    {
+      "timestamp": "2026-10-28T20:14:21.857125+00:00",
+      "elapsed_seconds": 13.508392596515478,
+      "note": "Motion confirmed: 0.0022% of analysis region changed"
+    }
+  ],
+  "frame_fps": 1,
+  "video_fps": 60,
+  "frame_export_mode": "selected",
+  "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
+  "video_archive": "video.mkv",
+  "video_playback": {
+    "state": "queued",
+    "file": "video.mp4",
+    "error": "Playback creation paused by shutdown",
+    "attempts": 1,
+    "next_attempt": 0
+  },
+  "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
+  "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
+  "playback": {
+    "state": "silent",
+    "description": "Manual condition label; no station-controlled playback."
+  },
+  "upload": "Local only; video uploads are not configured",
+  "buffered_capture": true,
+  "capture_mode": "motion_window",
+  "pre_roll_seconds": 10.0,
+  "post_roll_seconds": 10.0,
+  "motion_onset_epoch": 1793218461.0798562,
+  "pre_roll_complete": true,
+  "pre_roll_actual_seconds": 10.0,
+  "capture_origin": "motion_trigger",
+  "motion_events": [
+    {
+      "id": "6279fcecf72c2b3c",
+      "detected_at": "2026-10-28T20:14:21.857125+00:00",
+      "detected_epoch": 1793218461.8571584,
+      "motion_started_epoch": 1793218461.0798562,
+      "changed_area_percent": 0.002218364197530864,
+      "settings": {
+        "filter_profile": "daytime",
+        "enabled": true,
+        "duration_minutes": 3,
+        "cooldown_minutes": 0.0,
+        "pre_roll_seconds": 10.0,
+        "post_roll_seconds": 10.0,
+        "analysis_fps": 5,
+        "analysis_width": 1920,
+        "pixel_threshold": 18,
+        "min_area_percent": 0.002,
+        "max_area_percent": 2.0,
+        "confirmation_seconds": 0.5,
+        "reference_seconds": 0.4,
+        "cloud_suppression": true,
+        "roi_left": 0.0,
+        "roi_top": 0.0,
+        "roi_right": 100.0,
+        "roi_bottom": 68.0,
+        "roi_polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            100.0,
+            0.0
+          ],
+          [
+            100.0,
+            100.0
+          ],
+          [
+            0.0,
+            100.0
+          ]
+        ]
+      },
+      "algorithm": "grouped-compact-detail-v4",
+      "action": "started_recording",
+      "session_id": "20261028T201422Z-9d961f",
+      "annotation": {
+        "boxes": [
+          {
+            "left": 1556,
+            "top": 375,
+            "right": 1567,
+            "bottom": 381,
+            "changed_analysis_pixels": 46,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1532,
+              "top": 351,
+              "right": 1591,
+              "bottom": 405
+            },
+            "label": "Likely bird | irregular"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1556,
+              "top": 375,
+              "right": 1567,
+              "bottom": 381
+            },
+            "crop_bounds": {
+              "left": 1532,
+              "top": 351,
+              "right": 1591,
+              "bottom": 405
+            },
+            "native_file": "motion-6279fcecf72c2b3c-before-446b5acf15-crop.png",
+            "detail_file": "motion-6279fcecf72c2b3c-before-446b5acf15-detail.jpg",
+            "native_width": 59,
+            "native_height": 54,
+            "display_width": 1024,
+            "display_height": 937,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
+        "changed_regions": [
+          {
+            "left": 1556,
+            "top": 375,
+            "right": 1567,
+            "bottom": 381,
+            "changed_analysis_pixels": 46,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1532,
+              "top": 351,
+              "right": 1591,
+              "bottom": 405
+            },
+            "label": "Likely bird | irregular"
+          }
+        ],
+        "source_frame": "before",
+        "annotation_version": 3,
+        "frame_width": 1920,
+        "frame_height": 1080,
+        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      },
+      "annotated_frame": "motion-6279fcecf72c2b3c-boxed.jpg",
+      "evidence_files": [
+        "motion-6279fcecf72c2b3c-before.jpg",
+        "motion-6279fcecf72c2b3c-after.jpg"
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T20:14:31.325552+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T190333Z-72ab2f51",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1556,
+              "top": 375,
+              "right": 1567,
+              "bottom": 381
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.582,
+              "axis_ratio": 0.555,
+              "fill_fraction": 0.794,
+              "area_pixels": 135,
+              "width_pixels": 17,
+              "height_pixels": 10,
+              "contrast_threshold": 11.39
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "bird",
+              "confidence": 0.995,
+              "support_frames": 1,
+              "model_version": "20261028T190333Z-72ab2f51",
+              "reason": "Camera-trained model suggestion at validated threshold"
+            },
+            "model_observations": [
+              {
+                "labels": [
+                  {
+                    "confidence": 0.9949209,
+                    "threshold": 0.85,
+                    "identifier": "bird",
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "minimum_native_size": 8,
+                    "source": "camera-trained"
+                  }
+                ]
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
+    }
+  ],
+  "motion_last_seen_epoch": 1793218461.8570704,
+  "motion_end_epoch": 1793218471.8570704,
+  "motion_tail_remaining_seconds": 0,
+  "files": {
+    "rf.jsonl": {
+      "bytes": 41775,
+      "sha256": "afc967f6a03739a7c89fc5fb076ff66114ce049109ac512aba447d0e037882ac"
+    },
+    "capture.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "motion-events.json": {
+      "bytes": 4842,
+      "sha256": "b9aa275be72f5fbf7d149d9611e4d1d44376ad21a99a31ee9a5566c719470a8c"
+    },
+    "buffer-state.json": {
+      "bytes": 4939,
+      "sha256": "1444b96eb2474c17609cecaff1b0a7c336b6318c2f4df8804bc3d81f8a70f8f0"
+    },
+    "motion-6279fcecf72c2b3c-before-446b5acf15-detail.jpg": {
+      "bytes": 63051,
+      "sha256": "7242f9a224c100b4594f2262599350d6e4b8b2ed68d7a3b5d1450ae8db4b2e29"
+    },
+    "motion-6279fcecf72c2b3c-after.jpg": {
+      "bytes": 585426,
+      "sha256": "fcb9f0d7405fb91c3c74ed2805959c3ecb79ba4e78f1d63cb628b22ae10bb44f"
+    },
+    "motion-6279fcecf72c2b3c-boxed.jpg": {
+      "bytes": 245314,
+      "sha256": "ec58a496f97068abd0338ab12de1e095b4b0aa2da8d251b2bfa2534480122824"
+    },
+    "motion-6279fcecf72c2b3c-before.jpg": {
+      "bytes": 587182,
+      "sha256": "f8c0a53f3426fcf9d87ed11b9b7a62f1b687508974c2c65514f660ad976575cd"
+    },
+    "motion-6279fcecf72c2b3c-before-446b5acf15-crop.png": {
+      "bytes": 2972,
+      "sha256": "cc4a1454fdec314cce98128cc25faf1a29f6c052ebcb9d38e2447a751633ea23"
+    },
+    "video.mkv": {
+      "bytes": 730717278,
+      "integrity": "queued"
+    },
+    "frames/index.json": {
+      "bytes": 720,
+      "sha256": "236f28077a08a6a965b1543288f7822fe4e3c93fd7107b141107dfc015a20890"
+    }
+  },
+  "buffer_tail_complete": true,
+  "clip_end_epoch": 1793218471.8570704,
+  "stopped_at": "2026-10-28T20:14:34.302273+00:00",
+  "stopped_epoch": 1793218474.302329,
+  "elapsed_seconds": 23.222,
+  "stop_reason": "Motion ended: post-roll complete",
+  "capture_stats": {
+    "frame": 1246
+  },
+  "frames": {
+    "state": "completed",
+    "mode": "selected",
+    "count": 3,
+    "completed_at": "2026-10-28T20:15:27.978799+00:00"
+  },
+  "buffer_assembly": {
+    "state": "completed",
+    "frames": 1246,
+    "seconds": 20.777214288711548,
+    "trim_start_seconds": 0.10590338706970215,
+    "packet_copy": true,
+    "timing": "Original segment packet timestamps; host UTC mapping estimated from first segment write time. HDMI latency uncalibrated."
+  },
+  "frame_integrity": {
+    "every_recorded_frame": false,
+    "selected_original_stills": true
+  }
+}
