@@ -90,99 +90,216 @@
       "annotation": {
         "boxes": [
           {
-            "left": 1907,
+            "left": 1872,
             "top": 274,
             "right": 1919,
-            "bottom": 285,
-            "changed_analysis_pixels": 72
-          },
-          {
-            "left": 1875,
-            "top": 280,
-            "right": 1888,
-            "bottom": 288,
-            "changed_analysis_pixels": 57
-          },
-          {
-            "left": 1872,
-            "top": 289,
-            "right": 1881,
             "bottom": 299,
-            "changed_analysis_pixels": 46
-          },
-          {
-            "left": 1888,
-            "top": 276,
-            "right": 1897,
-            "bottom": 283,
-            "changed_analysis_pixels": 41
-          },
-          {
-            "left": 1867,
-            "top": 171,
-            "right": 1874,
-            "bottom": 177,
-            "changed_analysis_pixels": 23
-          },
-          {
-            "left": 1913,
-            "top": 287,
-            "right": 1916,
-            "bottom": 294,
-            "changed_analysis_pixels": 17
+            "changed_analysis_pixels": 237,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1848,
+              "top": 250,
+              "right": 1919,
+              "bottom": 323
+            },
+            "label": "Motion | analyzing"
           },
           {
             "left": 1861,
             "top": 161,
-            "right": 1864,
-            "bottom": 168,
-            "changed_analysis_pixels": 13
+            "right": 1878,
+            "bottom": 193,
+            "changed_analysis_pixels": 58,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1837,
+              "top": 137,
+              "right": 1902,
+              "bottom": 217
+            },
+            "label": "Motion | analyzing"
           },
           {
             "left": 1915,
             "top": 226,
             "right": 1919,
             "bottom": 231,
-            "changed_analysis_pixels": 13
-          },
-          {
-            "left": 1865,
-            "top": 168,
-            "right": 1870,
-            "bottom": 171,
-            "changed_analysis_pixels": 10
-          },
-          {
-            "left": 1874,
-            "top": 190,
-            "right": 1878,
-            "bottom": 193,
-            "changed_analysis_pixels": 8
-          },
-          {
-            "left": 1872,
-            "top": 187,
-            "right": 1874,
-            "bottom": 189,
-            "changed_analysis_pixels": 4
-          },
-          {
-            "left": 1898,
-            "top": 289,
-            "right": 1900,
-            "bottom": 291,
-            "changed_analysis_pixels": 4
+            "changed_analysis_pixels": 13,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1891,
+              "top": 202,
+              "right": 1919,
+              "bottom": 255
+            },
+            "label": "Motion | analyzing"
           }
         ],
+        "changed_regions": [
+          {
+            "left": 1872,
+            "top": 274,
+            "right": 1919,
+            "bottom": 299,
+            "changed_analysis_pixels": 237,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1848,
+              "top": 250,
+              "right": 1919,
+              "bottom": 323
+            },
+            "label": "Motion | analyzing"
+          },
+          {
+            "left": 1861,
+            "top": 161,
+            "right": 1878,
+            "bottom": 193,
+            "changed_analysis_pixels": 58,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1837,
+              "top": 137,
+              "right": 1902,
+              "bottom": 217
+            },
+            "label": "Motion | analyzing"
+          },
+          {
+            "left": 1915,
+            "top": 226,
+            "right": 1919,
+            "bottom": 231,
+            "changed_analysis_pixels": 13,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1891,
+              "top": 202,
+              "right": 1919,
+              "bottom": 255
+            },
+            "label": "Motion | analyzing"
+          }
+        ],
+        "source_frame": "before",
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
       },
       "annotated_frame": "motion-31abc5509a300029-boxed.jpg",
       "evidence_files": [
         "motion-31abc5509a300029-before.jpg",
         "motion-31abc5509a300029-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:36:37.997017+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1907,
+              "top": 274,
+              "right": 1919,
+              "bottom": 285
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.594,
+              "axis_ratio": 0.967,
+              "fill_fraction": 0.757,
+              "area_pixels": 259,
+              "width_pixels": 19,
+              "height_pixels": 18,
+              "contrast_threshold": 14.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1875,
+              "top": 280,
+              "right": 1888,
+              "bottom": 288
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.433,
+              "axis_ratio": 0.585,
+              "fill_fraction": 0.638,
+              "area_pixels": 279,
+              "width_pixels": 23,
+              "height_pixels": 19,
+              "contrast_threshold": 20.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1872,
+              "top": 289,
+              "right": 1881,
+              "bottom": 299
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.469,
+              "axis_ratio": 0.893,
+              "fill_fraction": 0.701,
+              "area_pixels": 101,
+              "width_pixels": 12,
+              "height_pixels": 12,
+              "contrast_threshold": 28.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793115560.218039,
@@ -213,16 +330,16 @@
       "sha256": "6c284e082cc2510506fecb31f6216eb1ccdadcfc8fcec2c50bfcb11fa77c4ee2"
     },
     "motion-events.json": {
-      "bytes": 3391,
-      "sha256": "4fbdc152542d8772a4d3cb261901ff0efdfb4d118cf0914c2ac982972de6e147"
+      "bytes": 6756,
+      "sha256": "bb19cd820c2c8d6f5e80d4593031815b259c84327879ab7578751c2249cf12e2"
     },
     "buffer-state.json": {
       "bytes": 6930,
       "sha256": "f44964eb96b9fefc91b57aa4c8bd58d6aced4a137c32d1aec28e522dd6744d99"
     },
     "motion-31abc5509a300029-boxed.jpg": {
-      "bytes": 162486,
-      "sha256": "35f4edfe68bc135ee115ab49f1922dbd106214ff3fce9e74b082093fb8aea4ae"
+      "bytes": 172071,
+      "sha256": "6651f94e71970eb05b0d31167d30349a21877d97c842c67c5362654dcb57ef85"
     },
     "motion-31abc5509a300029-after.jpg": {
       "bytes": 113530,

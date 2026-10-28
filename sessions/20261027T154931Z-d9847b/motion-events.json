@@ -51,17 +51,92 @@
           "top": 736,
           "right": 240,
           "bottom": 763,
-          "changed_analysis_pixels": 685
+          "changed_analysis_pixels": 685,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 160,
+            "top": 712,
+            "right": 264,
+            "bottom": 787
+          },
+          "label": "Unknown | irregular"
         }
       ],
+      "changed_regions": [
+        {
+          "left": 184,
+          "top": 736,
+          "right": 240,
+          "bottom": 763,
+          "changed_analysis_pixels": 685,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 160,
+            "top": 712,
+            "right": 264,
+            "bottom": 787
+          },
+          "label": "Unknown | irregular"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
     },
     "annotated_frame": "motion-c8b5fc7aa63b75bf-boxed.jpg",
     "evidence_files": [
       "motion-c8b5fc7aa63b75bf-before.jpg",
       "motion-c8b5fc7aa63b75bf-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:36:35.289402+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 184,
+            "top": 736,
+            "right": 240,
+            "bottom": 763
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.195,
+            "axis_ratio": 0.538,
+            "fill_fraction": 0.452,
+            "area_pixels": 683,
+            "width_pixels": 56,
+            "height_pixels": 27,
+            "contrast_threshold": 20.8
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": [
+                {
+                  "identifier": "bird",
+                  "confidence": 0.9312925
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]
