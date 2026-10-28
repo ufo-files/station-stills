@@ -22,11 +22,18 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "failed",
+    "state": "completed",
     "file": "video.mp4",
-    "error": "MP4 encoding failed; see playback-encode.log",
-    "attempts": 2,
-    "next_attempt": 1793188882.0664818
+    "frame_count": 1243,
+    "avg_frame_rate": "60/1",
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "sample_aspect_ratio": "1:1",
+    "display_aspect_ratio": "16:9",
+    "faststart": true,
+    "encoder_worker": "m1",
+    "quality": "libx264 ultrafast CRF18"
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -190,6 +197,10 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "ef5847421a932f0898e9132354f335e1d8bebb294f73e27eaa09e91842a4c7c9"
+    },
+    "video.mp4": {
+      "bytes": 52101117,
+      "sha256": "27565f38cf34190971ad1034549f4c8dcec1fe7f635a2d16e460c4f0e702d8e5"
     }
   },
   "buffer_assembly": {
@@ -203,5 +214,27 @@
   "frame_integrity": {
     "every_recorded_frame": false,
     "selected_original_stills": true
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 52101117,
+      "sha256": "27565f38cf34190971ad1034549f4c8dcec1fe7f635a2d16e460c4f0e702d8e5",
+      "frame_count": 1243,
+      "fps": "60/1",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
+    "error": null
   }
 }
