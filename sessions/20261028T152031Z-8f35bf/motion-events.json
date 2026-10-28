@@ -60,7 +60,8 @@
             "top": 345,
             "right": 971,
             "bottom": 407
-          }
+          },
+          "label": "Unknown | too small"
         }
       ],
       "changed_regions": [
@@ -76,7 +77,8 @@
             "top": 345,
             "right": 971,
             "bottom": 407
-          }
+          },
+          "label": "Unknown | too small"
         },
         {
           "left": 40,
@@ -97,7 +99,80 @@
     "evidence_files": [
       "motion-6b98eb2e20ddf955-before.jpg",
       "motion-6b98eb2e20ddf955-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:26:20.411303+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 924,
+            "top": 369,
+            "right": 947,
+            "bottom": 383
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 79,
+            "width_pixels": 21,
+            "height_pixels": 6,
+            "contrast_threshold": 35.16
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 236,
+            "right": 61,
+            "bottom": 250
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.319,
+            "axis_ratio": 0.263,
+            "fill_fraction": 0.487,
+            "area_pixels": 74,
+            "width_pixels": 19,
+            "height_pixels": 8,
+            "contrast_threshold": 35.31
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   },
   {
     "id": "abfc4e8ca9b18077",
@@ -160,7 +235,8 @@
             "top": 199,
             "right": 769,
             "bottom": 305
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "changed_regions": [
@@ -176,7 +252,8 @@
             "top": 199,
             "right": 769,
             "bottom": 305
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "source_frame": "before",
@@ -189,6 +266,54 @@
     "evidence_files": [
       "motion-abfc4e8ca9b18077-before.jpg",
       "motion-abfc4e8ca9b18077-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:26:17.875279+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 651,
+            "top": 226,
+            "right": 742,
+            "bottom": 278
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.312,
+            "axis_ratio": 0.686,
+            "fill_fraction": 0.55,
+            "area_pixels": 2802,
+            "width_pixels": 91,
+            "height_pixels": 56,
+            "contrast_threshold": 28.2
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": [
+                {
+                  "identifier": "bird",
+                  "confidence": 0.66989034
+                }
+              ]
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

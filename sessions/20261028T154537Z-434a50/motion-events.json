@@ -60,7 +60,8 @@
             "top": 0,
             "right": 1715,
             "bottom": 57
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "changed_regions": [
@@ -76,7 +77,8 @@
             "top": 0,
             "right": 1715,
             "bottom": 57
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "source_frame": "after",
@@ -89,6 +91,54 @@
     "evidence_files": [
       "motion-e427e308bb3d605f-before.jpg",
       "motion-e427e308bb3d605f-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:25:33.896332+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1632,
+            "top": 1,
+            "right": 1691,
+            "bottom": 33
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.031,
+            "axis_ratio": 0.649,
+            "fill_fraction": 0.19,
+            "area_pixels": 292,
+            "width_pixels": 53,
+            "height_pixels": 29,
+            "contrast_threshold": 25.2
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": [
+                {
+                  "identifier": "aeroplane",
+                  "confidence": 0.56280535
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

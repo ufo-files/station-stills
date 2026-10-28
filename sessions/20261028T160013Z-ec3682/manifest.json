@@ -112,7 +112,8 @@
               "top": 919,
               "right": 103,
               "bottom": 994
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "changed_regions": [
@@ -128,7 +129,8 @@
               "top": 919,
               "right": 103,
               "bottom": 994
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "source_frame": "before",
@@ -141,7 +143,50 @@
       "evidence_files": [
         "motion-4f64cebacc27bd7d-before.jpg",
         "motion-4f64cebacc27bd7d-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:25:18.222927+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 49,
+              "top": 943,
+              "right": 79,
+              "bottom": 970
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.438,
+              "axis_ratio": 0.493,
+              "fill_fraction": 0.561,
+              "area_pixels": 258,
+              "width_pixels": 23,
+              "height_pixels": 20,
+              "contrast_threshold": 35.8
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793203213.7309737,
@@ -172,16 +217,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 2340,
-      "sha256": "d70159a9e07981c85bd2d2e6ed5c92a0bdb5837efb40411f40b5507792e5e728"
+      "bytes": 3620,
+      "sha256": "e4fef50c79fd292aca07fe2b8856058840b4f1488a364cee3949a309d8ba2d15"
     },
     "buffer-state.json": {
       "bytes": 4996,
       "sha256": "d96266c99c4c2e967bdd6dc2631e3fdfa65dc930f5b97debf36a4d2e5e7e6d1c"
     },
     "motion-4f64cebacc27bd7d-boxed.jpg": {
-      "bytes": 229449,
-      "sha256": "b2a34c82bd47ccdbc0751d87f2809cedd6be7a0f7c217a0ad59b0ccc23734810"
+      "bytes": 232950,
+      "sha256": "e5196cdd84fa9b6e2608c6bbe6df77e257b35721a9b902a5fcfae3e4c85b68f7"
     },
     "motion-4f64cebacc27bd7d-before.jpg": {
       "bytes": 527630,
@@ -239,7 +284,7 @@
     "error": null
   },
   "internet_archive": {
-    "state": "queued",
+    "state": "failed",
     "identifier": "ufo-files-station-7c3668-20261028t160013z-ec3682",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t160013z-ec3682",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t160013z-ec3682/video.mp4",
@@ -364,6 +409,6 @@
         "sha256": "9a67c25024510f89b08251b6171b432ec29da67ea26bf76776d46d8f197c30d3"
       }
     ],
-    "error": null
+    "error": "Archive source changed; local files retained"
   }
 }

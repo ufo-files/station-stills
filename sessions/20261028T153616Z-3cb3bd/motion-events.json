@@ -60,7 +60,8 @@
             "top": 873,
             "right": 704,
             "bottom": 945
-          }
+          },
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 741,
@@ -74,7 +75,8 @@
             "top": 537,
             "right": 776,
             "bottom": 594
-          }
+          },
+          "label": "Unknown | too small"
         }
       ],
       "changed_regions": [
@@ -90,7 +92,8 @@
             "top": 873,
             "right": 704,
             "bottom": 945
-          }
+          },
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 741,
@@ -104,7 +107,8 @@
             "top": 537,
             "right": 776,
             "bottom": 594
-          }
+          },
+          "label": "Unknown | too small"
         }
       ],
       "source_frame": "after",
@@ -117,6 +121,79 @@
     "evidence_files": [
       "motion-5fe51ea744aa490a-before.jpg",
       "motion-5fe51ea744aa490a-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:25:49.718374+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 665,
+            "top": 897,
+            "right": 680,
+            "bottom": 921
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.22,
+            "axis_ratio": 0.573,
+            "fill_fraction": 0.38,
+            "area_pixels": 519,
+            "width_pixels": 35,
+            "height_pixels": 39,
+            "contrast_threshold": 36.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 741,
+            "top": 561,
+            "right": 752,
+            "bottom": 570
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 36,
+            "width_pixels": 12,
+            "height_pixels": 4,
+            "contrast_threshold": 17.42
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

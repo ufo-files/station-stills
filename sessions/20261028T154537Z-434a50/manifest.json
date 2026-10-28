@@ -112,7 +112,8 @@
               "top": 0,
               "right": 1715,
               "bottom": 57
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "changed_regions": [
@@ -128,7 +129,8 @@
               "top": 0,
               "right": 1715,
               "bottom": 57
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "source_frame": "after",
@@ -141,7 +143,55 @@
       "evidence_files": [
         "motion-e427e308bb3d605f-before.jpg",
         "motion-e427e308bb3d605f-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:25:33.896332+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1632,
+              "top": 1,
+              "right": 1691,
+              "bottom": 33
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.031,
+              "axis_ratio": 0.649,
+              "fill_fraction": 0.19,
+              "area_pixels": 292,
+              "width_pixels": 53,
+              "height_pixels": 29,
+              "contrast_threshold": 25.2
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": [
+                  {
+                    "identifier": "aeroplane",
+                    "confidence": 0.56280535
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793202382.9053166,
@@ -172,16 +222,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 2337,
-      "sha256": "59d857a35c6ba39e954e0cf0d47d4a77fd6e2f3c9a3bad6b2666abace973410c"
+      "bytes": 3755,
+      "sha256": "8736a45a8e0a812b6472e456dfae6ee9defd392e7bb1b7e40d0c0f2466a07aec"
     },
     "buffer-state.json": {
       "bytes": 14383,
       "sha256": "f989d07ae7c67c09c3916f5332c2ac476e92c71455f903dcb49db2cd57f823ca"
     },
     "motion-e427e308bb3d605f-boxed.jpg": {
-      "bytes": 229851,
-      "sha256": "56f6037a0d93b9cef226d3f295f7f7c87880a937c66ae20a0aa64740f3e8a450"
+      "bytes": 232151,
+      "sha256": "4b2eca72ddf0b23b71aa86dbfc4259bdd0802e7655075e7a5ffb62290bf0ed1e"
     },
     "motion-e427e308bb3d605f-before.jpg": {
       "bytes": 547578,
