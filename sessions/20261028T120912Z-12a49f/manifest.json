@@ -127,7 +127,75 @@
       "evidence_files": [
         "motion-db6a924917e929d8-before.jpg",
         "motion-db6a924917e929d8-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:30:56.519925+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 294,
+              "top": 1001,
+              "right": 299,
+              "bottom": 1006
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 20,
+              "width_pixels": 6,
+              "height_pixels": 6,
+              "contrast_threshold": 8.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 281,
+              "top": 1013,
+              "right": 285,
+              "bottom": 1016
+            },
+            "shape": {
+              "label": "unresolved",
+              "reason": "No separable silhouette",
+              "contrast_threshold": 8.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793189383.831749,
@@ -158,8 +226,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 1940,
-      "sha256": "efbbe7f43ef60b5cb6d22801251b42c25ca42506dc4b669ac34a9d6789c234de"
+      "bytes": 3787,
+      "sha256": "0ab4c997e7a36af54e9896e3918bbec0bfb5677a5d36e189722bc06323fd1dd4"
     },
     "buffer-state.json": {
       "bytes": 11417,
@@ -170,8 +238,8 @@
       "sha256": "083d0e10127a664177e412694aaaefd14c05da6004d4c2488c30128abe21eaea"
     },
     "motion-db6a924917e929d8-boxed.jpg": {
-      "bytes": 265830,
-      "sha256": "bde3cec8e7408b5a00465066139ac9ed4e1df8b3e630ddda9c3e3b2418ffdb4f"
+      "bytes": 265414,
+      "sha256": "d738b1464e45bca2ee0c40bb143c1b6465c0dd35da6640f0293200025e98a72c"
     },
     "motion-db6a924917e929d8-before.jpg": {
       "bytes": 634125,

@@ -120,7 +120,48 @@
       "evidence_files": [
         "motion-5a395dbd5cfe982f-before.jpg",
         "motion-5a395dbd5cfe982f-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:31:02.762534+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1867,
+              "top": 1012,
+              "right": 1870,
+              "bottom": 1016
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 9,
+              "width_pixels": 3,
+              "height_pixels": 4,
+              "contrast_threshold": 8.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793188607.0838788,
@@ -151,8 +192,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 1814,
-      "sha256": "d0402afcf65f5926f67558360aee967a3784b66ff2be7186a862da3150da4c48"
+      "bytes": 2979,
+      "sha256": "87a4e475a417491a8c5a47b79c92f1fff00ea44d4b925e447740e15f072db8b3"
     },
     "buffer-state.json": {
       "bytes": 5244,
@@ -163,8 +204,8 @@
       "sha256": "3b83dafc23056cb38427414d2085058c9729348b8d58e723bac01ba05176bcf2"
     },
     "motion-5a395dbd5cfe982f-boxed.jpg": {
-      "bytes": 274195,
-      "sha256": "efc31abef12a41f287ffa7f15bea67a6661c2d58be66b574e620276145c8409a"
+      "bytes": 273778,
+      "sha256": "8ee2740418c36a35aa88f4356ab897112b3836d00aac43b8951deb67b1d43fbf"
     },
     "motion-5a395dbd5cfe982f-before.jpg": {
       "bytes": 631267,

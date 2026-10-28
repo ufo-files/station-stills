@@ -60,7 +60,8 @@
             "top": 992,
             "right": 348,
             "bottom": 1047
-          }
+          },
+          "label": "Unknown | too small"
         }
       ],
       "changed_regions": [
@@ -76,7 +77,8 @@
             "top": 992,
             "right": 348,
             "bottom": 1047
-          }
+          },
+          "label": "Unknown | too small"
         }
       ],
       "source_frame": "before",
@@ -89,6 +91,47 @@
     "evidence_files": [
       "motion-1e2ce3b1ae556611-before.jpg",
       "motion-1e2ce3b1ae556611-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:30:32.875949+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 317,
+            "top": 1016,
+            "right": 324,
+            "bottom": 1023
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 28,
+            "width_pixels": 7,
+            "height_pixels": 5,
+            "contrast_threshold": 15.15
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]
