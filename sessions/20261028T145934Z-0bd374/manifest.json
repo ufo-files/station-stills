@@ -113,7 +113,7 @@
               "right": 476,
               "bottom": 1051
             },
-            "label": "Unknown | too small"
+            "label": "Likely bird | too small"
           }
         ],
         "detail_images": [
@@ -154,7 +154,7 @@
               "right": 476,
               "bottom": 1051
             },
-            "label": "Unknown | too small"
+            "label": "Likely bird | too small"
           }
         ],
         "source_frame": "before",
@@ -172,9 +172,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:42:35.236276+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "model_version": "20261028T183704Z-723291ee",
+        "classified_at": "2026-10-28T19:05:04.311074+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -193,13 +193,24 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "Target too small for reliable object identification",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 1.0,
+              "support_frames": 1,
+              "model_version": "20261028T190333Z-72ab2f51",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "minimum_native_size": 8,
+                    "identifier": "bird",
+                    "confidence": 0.99954766,
+                    "source": "camera-trained",
+                    "threshold": 0.85
+                  }
+                ]
               },
               {
                 "labels": []
@@ -240,8 +251,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 4372,
-      "sha256": "de3f4fe108b298f7366c07578cf7522eea38487999be239a0be6b740c2e20094"
+      "bytes": 4795,
+      "sha256": "e7d636b539a910dcf2edaff2880fb2c3114f73b65488de6f35dbbb2a84c9d001"
     },
     "buffer-state.json": {
       "bytes": 4998,
@@ -252,8 +263,8 @@
       "sha256": "9b2c983318101e98dead8237b6615f193a55497b33d4c87cff7e6a854b8a6523"
     },
     "motion-9994a6b73afa105a-boxed.jpg": {
-      "bytes": 266645,
-      "sha256": "1258c4c284ce6d3d74f095e3757993ae882c7788852ccd0d42fdc8e1d654c963"
+      "bytes": 266730,
+      "sha256": "0f283356d7afbd488095b2b1cf61af69ae2b268ba4e081440a5663c5ff7efb94"
     },
     "motion-9994a6b73afa105a-before.jpg": {
       "bytes": 609056,

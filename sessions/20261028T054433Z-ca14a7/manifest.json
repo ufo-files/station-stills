@@ -16,18 +16,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 10798,
-    "avg_frame_rate": "5399/90",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261028t054433z-ca14a7/video.mp4",
+    "frame_count": 10798
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -81,17 +72,9 @@
       "bytes": 37309,
       "sha256": "32765d05c281c08a00acd825972e96bf21f3fe3700f52039ed061ed735c73bdf"
     },
-    "video.mkv": {
-      "bytes": 6633848736,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 721,
       "sha256": "adc6af8b355f09af89690d6b11bc954802c12debf51e0fb905439ce1a8683ed0"
-    },
-    "video.mp4": {
-      "bytes": 310094177,
-      "sha256": "795277ee97a7dd090b9f01d002f064f2e615ecc021564a0ad7187cc849a56d17"
     }
   },
   "buffer_assembly": {
@@ -107,7 +90,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -129,12 +112,12 @@
     "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261028t054433z-ca14a7",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t054433z-ca14a7",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t054433z-ca14a7/video.mp4",
     "verified_at": 1793210660.3662584,
-    "cleaned_at": null,
+    "cleaned_at": 1793214299.6028738,
     "files": [
       {
         "name": "rf.jsonl",
