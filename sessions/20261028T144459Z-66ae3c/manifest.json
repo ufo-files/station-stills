@@ -173,9 +173,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:44:13.198061+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "model_version": "20261028T183704Z-723291ee",
+        "classified_at": "2026-10-28T19:06:40.867310+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -294,9 +294,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:44:11.354613+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "model_version": "20261028T183704Z-723291ee",
+        "classified_at": "2026-10-28T19:06:37.534675+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -442,9 +442,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:44:09.582941+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "model_version": "20261028T183704Z-723291ee",
+        "classified_at": "2026-10-28T19:06:34.774107+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -471,10 +471,28 @@
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "confidence": 0.9989526,
+                    "threshold": 0.95,
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "identifier": "cloud"
+                  }
+                ]
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "confidence": 0.9987704,
+                    "threshold": 0.95,
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "identifier": "cloud"
+                  }
+                ]
               }
             ]
           },
@@ -503,10 +521,28 @@
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "confidence": 0.9953779,
+                    "threshold": 0.95,
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "identifier": "cloud"
+                  }
+                ]
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "confidence": 0.99647933,
+                    "threshold": 0.95,
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "identifier": "cloud"
+                  }
+                ]
               }
             ]
           }
@@ -544,8 +580,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 12315,
-      "sha256": "418ec67eeb7c74b52372077c0be77a95d08cc6bb685d16384bce8ae3a58e6527"
+      "bytes": 13619,
+      "sha256": "3368386caa30aa36255b17269d6bd4e481ba53dafc1d90c4af581cb17da10d99"
     },
     "buffer-state.json": {
       "bytes": 15374,

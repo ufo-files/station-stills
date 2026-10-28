@@ -61,7 +61,7 @@
             "right": 483,
             "bottom": 549
           },
-          "label": "Unknown | too small"
+          "label": "Likely bird | too small"
         },
         {
           "left": 614,
@@ -76,7 +76,7 @@
             "right": 648,
             "bottom": 546
           },
-          "label": "Unknown | too small"
+          "label": "Likely bird | too small"
         }
       ],
       "detail_images": [
@@ -139,7 +139,7 @@
             "right": 483,
             "bottom": 549
           },
-          "label": "Unknown | too small"
+          "label": "Likely bird | too small"
         },
         {
           "left": 614,
@@ -154,7 +154,7 @@
             "right": 648,
             "bottom": 546
           },
-          "label": "Unknown | too small"
+          "label": "Likely bird | too small"
         }
       ],
       "source_frame": "after",
@@ -172,9 +172,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:44:20.536586+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
-      "model_version": "20261028T183704Z-723291ee",
+      "classified_at": "2026-10-28T19:06:50.316742+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -193,16 +193,27 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.99,
+            "support_frames": 1,
+            "model_version": "20261028T190333Z-72ab2f51",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "identifier": "bird",
+                  "minimum_native_size": 8,
+                  "confidence": 0.9904231,
+                  "source": "camera-trained",
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "threshold": 0.85
+                }
+              ]
             }
           ]
         },
@@ -223,16 +234,27 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.985,
+            "support_frames": 1,
+            "model_version": "20261028T190333Z-72ab2f51",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "minimum_native_size": 8,
+                  "identifier": "bird",
+                  "source": "camera-trained",
+                  "threshold": 0.85,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "confidence": 0.98465157
+                }
+              ]
             }
           ]
         }

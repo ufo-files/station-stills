@@ -74,9 +74,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:44:25.575003+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
-      "model_version": "20261028T183704Z-723291ee",
+      "classified_at": "2026-10-28T19:06:58.200359+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
