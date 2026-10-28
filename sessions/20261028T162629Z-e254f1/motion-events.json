@@ -1,0 +1,320 @@
+[
+  {
+    "id": "f7b9eb73c51ec51d",
+    "detected_at": "2026-10-28T16:26:28.838802+00:00",
+    "detected_epoch": 1793204788.8388402,
+    "motion_started_epoch": 1793204787.9794345,
+    "changed_area_percent": 0.003472222222222222,
+    "settings": {
+      "filter_profile": "daytime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 18,
+      "min_area_percent": 0.002,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T162629Z-e254f1",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 716.0,
+          "top": 558.0,
+          "right": 728.0,
+          "bottom": 569.0,
+          "label": "Bird (reviewed) | irregular",
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 700.0,
+            "top": 542.0,
+            "right": 744.0,
+            "bottom": 585.0
+          }
+        },
+        {
+          "left": 1496.0,
+          "top": 744.0,
+          "right": 1508.0,
+          "bottom": 755.0,
+          "label": "Bird (reviewed) | irregular",
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1480.0,
+            "top": 728.0,
+            "right": 1524.0,
+            "bottom": 771.0
+          }
+        },
+        {
+          "left": 690.0,
+          "top": 605.0,
+          "right": 697.0,
+          "bottom": 613.0,
+          "label": "Bird (reviewed) | shape unresolved",
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 674.0,
+            "top": 589.0,
+            "right": 713.0,
+            "bottom": 629.0
+          }
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 716.0,
+            "top": 558.0,
+            "right": 728.0,
+            "bottom": 569.0
+          },
+          "crop_bounds": {
+            "left": 700,
+            "top": 542,
+            "right": 744,
+            "bottom": 585
+          },
+          "native_file": "motion-f7b9eb73c51ec51d-after-3633406cee-crop.png",
+          "detail_file": "motion-f7b9eb73c51ec51d-after-3633406cee-detail.jpg",
+          "native_width": 44,
+          "native_height": 43,
+          "display_width": 1024,
+          "display_height": 1001,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1496.0,
+            "top": 744.0,
+            "right": 1508.0,
+            "bottom": 755.0
+          },
+          "crop_bounds": {
+            "left": 1480,
+            "top": 728,
+            "right": 1524,
+            "bottom": 771
+          },
+          "native_file": "motion-f7b9eb73c51ec51d-after-522ea270ae-crop.png",
+          "detail_file": "motion-f7b9eb73c51ec51d-after-522ea270ae-detail.jpg",
+          "native_width": 44,
+          "native_height": 43,
+          "display_width": 1024,
+          "display_height": 1001,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 690.0,
+            "top": 605.0,
+            "right": 697.0,
+            "bottom": 613.0
+          },
+          "crop_bounds": {
+            "left": 674,
+            "top": 589,
+            "right": 713,
+            "bottom": 629
+          },
+          "native_file": "motion-f7b9eb73c51ec51d-after-38acddb6dc-crop.png",
+          "detail_file": "motion-f7b9eb73c51ec51d-after-38acddb6dc-detail.jpg",
+          "native_width": 39,
+          "native_height": 40,
+          "display_width": 998,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
+      "source_frame": "after",
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
+    },
+    "annotated_frame": "motion-f7b9eb73c51ec51d-boxed.jpg",
+    "evidence_files": [
+      "motion-f7b9eb73c51ec51d-before.jpg",
+      "motion-f7b9eb73c51ec51d-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:26:31.776249+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 716,
+            "top": 558,
+            "right": 728,
+            "bottom": 569
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.273,
+            "axis_ratio": 0.735,
+            "fill_fraction": 0.575,
+            "area_pixels": 46,
+            "width_pixels": 10,
+            "height_pixels": 8,
+            "contrast_threshold": 18.24
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1496,
+            "top": 744,
+            "right": 1508,
+            "bottom": 755
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.133,
+            "axis_ratio": 0.57,
+            "fill_fraction": 0.511,
+            "area_pixels": 46,
+            "width_pixels": 9,
+            "height_pixels": 10,
+            "contrast_threshold": 18.82
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 378,
+            "top": 770,
+            "right": 389,
+            "bottom": 780
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 38,
+            "width_pixels": 9,
+            "height_pixels": 8,
+            "contrast_threshold": 18.54
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "after",
+      "reviewed_at": "2026-10-28T17:53:04.558410+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 716.0,
+            "top": 558.0,
+            "right": 728.0,
+            "bottom": 569.0
+          },
+          "object": "bird",
+          "shape": "irregular"
+        },
+        {
+          "bounds": {
+            "left": 1496.0,
+            "top": 744.0,
+            "right": 1508.0,
+            "bottom": 755.0
+          },
+          "object": "bird",
+          "shape": "irregular"
+        },
+        {
+          "bounds": {
+            "left": 690.0,
+            "top": 605.0,
+            "right": 697.0,
+            "bottom": 613.0
+          },
+          "object": "bird",
+          "shape": "unresolved"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
+    }
+  }
+]
