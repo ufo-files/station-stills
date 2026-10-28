@@ -22,18 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1233,
-    "avg_frame_rate": "36990/617",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261028t161953z-4ac74e/video.mp4",
+    "frame_count": 1233
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -291,17 +282,9 @@
       "bytes": 566107,
       "sha256": "da0ff363d8ff65921174ec4c62dba3f7c6a16137db207f35397f92c63e26944d"
     },
-    "video.mkv": {
-      "bytes": 695912471,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 719,
       "sha256": "78e9594bcd6bdf56891e49ad44b39bc83e34aa07ca11392ae95687bb5b93f4a0"
-    },
-    "video.mp4": {
-      "bytes": 6945799,
-      "sha256": "b3000fa7e7882d52e24fb1d21f5503823580e9eeea5402c225b82175237c137b"
     },
     "motion-cf6f67a646d6f622-before-e8ce2c934f-crop.png": {
       "bytes": 1296,
@@ -325,7 +308,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -347,12 +330,12 @@
     "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261028t161953z-4ac74e",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t161953z-4ac74e",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t161953z-4ac74e/video.mp4",
     "verified_at": 1793207951.4521213,
-    "cleaned_at": null,
+    "cleaned_at": 1793211552.7525089,
     "files": [
       {
         "name": "rf.jsonl",
