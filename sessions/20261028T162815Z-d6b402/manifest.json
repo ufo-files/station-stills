@@ -22,18 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1252,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261028t162815z-d6b402/video.mp4",
+    "frame_count": 1252
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -263,17 +254,9 @@
       "bytes": 222499,
       "sha256": "8dd3d8eb3898f0c748f7eaa5cd3ab1f056c2b6b4ad059fcaf11614d0c6d9f3b0"
     },
-    "video.mkv": {
-      "bytes": 658458853,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "038b27f780e8cb405daebec7e75bbf178359dd87108fe2c66da7fa6ac8e84069"
-    },
-    "video.mp4": {
-      "bytes": 6769146,
-      "sha256": "b9fbea3011df8d2702b6b5b71afbcd4d99f5bd880d0094d2c0e2a8a781e7d41f"
     },
     "motion-727b7283986f4a04-before-a53612b43f-crop.png": {
       "bytes": 2825,
@@ -297,7 +280,7 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -319,12 +302,12 @@
     "error": null
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261028t162815z-d6b402",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t162815z-d6b402",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t162815z-d6b402/video.mp4",
     "verified_at": 1793208300.4313614,
-    "cleaned_at": null,
+    "cleaned_at": 1793211901.448951,
     "files": [
       {
         "name": "rf.jsonl",
