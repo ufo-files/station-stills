@@ -113,7 +113,31 @@
               "right": 103,
               "bottom": 994
             },
-            "label": "Unknown | irregular"
+            "label": "Likely bird | irregular"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 49,
+              "top": 943,
+              "right": 79,
+              "bottom": 970
+            },
+            "crop_bounds": {
+              "left": 25,
+              "top": 919,
+              "right": 103,
+              "bottom": 994
+            },
+            "native_file": "motion-4f64cebacc27bd7d-before-a74a31e6d6-crop.png",
+            "detail_file": "motion-4f64cebacc27bd7d-before-a74a31e6d6-detail.jpg",
+            "native_width": 78,
+            "native_height": 75,
+            "display_width": 1024,
+            "display_height": 985,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -130,7 +154,7 @@
               "right": 103,
               "bottom": 994
             },
-            "label": "Unknown | irregular"
+            "label": "Likely bird | irregular"
           }
         ],
         "source_frame": "before",
@@ -148,8 +172,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:25:18.222927+00:00",
+        "classified_at": "2026-10-28T18:39:36.394049+00:00",
         "engine": "coreml-yolov3-fp16-coco",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -170,13 +195,24 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 0.999,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "confidence": 0.99946946,
+                    "source": "camera-trained",
+                    "threshold": 0.995,
+                    "identifier": "bird",
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T183704Z-723291ee"
+                  }
+                ]
               },
               {
                 "labels": []
@@ -217,16 +253,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 3620,
-      "sha256": "e4fef50c79fd292aca07fe2b8856058840b4f1488a364cee3949a309d8ba2d15"
+      "bytes": 4819,
+      "sha256": "dbdcc7366d5e748b79be0f1cc934d0803c073ba6249c2adc873117ee76f86fc8"
     },
     "buffer-state.json": {
       "bytes": 4996,
       "sha256": "d96266c99c4c2e967bdd6dc2631e3fdfa65dc930f5b97debf36a4d2e5e7e6d1c"
     },
     "motion-4f64cebacc27bd7d-boxed.jpg": {
-      "bytes": 232950,
-      "sha256": "e5196cdd84fa9b6e2608c6bbe6df77e257b35721a9b902a5fcfae3e4c85b68f7"
+      "bytes": 232990,
+      "sha256": "25e4ef21b8df08c8f6fe3bfa78ea8afff676ab7e27cd61e6d652bf4235beac2f"
     },
     "motion-4f64cebacc27bd7d-before.jpg": {
       "bytes": 527630,
@@ -247,6 +283,14 @@
     "video.mp4": {
       "bytes": 5504274,
       "sha256": "6b3e54708f49003bc8f90a66f77a4996a5239ccd3a0905c36a42b93d2f9bf97d"
+    },
+    "motion-4f64cebacc27bd7d-before-a74a31e6d6-crop.png": {
+      "bytes": 4422,
+      "sha256": "108470549599cca5ae2b3978324c53b691c434820c9f6c426412d9a505d36621"
+    },
+    "motion-4f64cebacc27bd7d-before-a74a31e6d6-detail.jpg": {
+      "bytes": 70313,
+      "sha256": "9f99f297a4db90ac415566d8bc47517e479f3ef2875f7bc4977c8cbed43b7bd2"
     }
   },
   "buffer_assembly": {

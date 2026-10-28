@@ -61,7 +61,31 @@
             "right": 103,
             "bottom": 994
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 49,
+            "top": 943,
+            "right": 79,
+            "bottom": 970
+          },
+          "crop_bounds": {
+            "left": 25,
+            "top": 919,
+            "right": 103,
+            "bottom": 994
+          },
+          "native_file": "motion-4f64cebacc27bd7d-before-a74a31e6d6-crop.png",
+          "detail_file": "motion-4f64cebacc27bd7d-before-a74a31e6d6-detail.jpg",
+          "native_width": 78,
+          "native_height": 75,
+          "display_width": 1024,
+          "display_height": 985,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "changed_regions": [
@@ -78,7 +102,7 @@
             "right": 103,
             "bottom": 994
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
         }
       ],
       "source_frame": "before",
@@ -96,8 +120,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:25:18.222927+00:00",
+      "classified_at": "2026-10-28T18:39:36.394049+00:00",
       "engine": "coreml-yolov3-fp16-coco",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -118,13 +143,24 @@
           },
           "source_frame": "before",
           "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.999,
+            "support_frames": 1,
+            "model_version": "20261028T183704Z-723291ee",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
-              "labels": []
+              "labels": [
+                {
+                  "confidence": 0.99946946,
+                  "source": "camera-trained",
+                  "threshold": 0.995,
+                  "identifier": "bird",
+                  "minimum_native_size": 8,
+                  "model_version": "20261028T183704Z-723291ee"
+                }
+              ]
             },
             {
               "labels": []

@@ -61,7 +61,7 @@
             "right": 1042,
             "bottom": 1079
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
         }
       ],
       "detail_images": [
@@ -110,7 +110,7 @@
             "right": 1042,
             "bottom": 1079
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
         }
       ],
       "source_frame": "after",
@@ -128,9 +128,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:18:33.241238+00:00",
+      "classified_at": "2026-10-28T18:38:40.896652+00:00",
       "engine": "coreml-yolov3-fp16-coco",
-      "model_version": "baseline-yolov3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -151,13 +151,24 @@
           },
           "source_frame": "before",
           "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.999,
+            "support_frames": 1,
+            "model_version": "20261028T183704Z-723291ee",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
-              "labels": []
+              "labels": [
+                {
+                  "source": "camera-trained",
+                  "confidence": 0.9987679,
+                  "threshold": 0.995,
+                  "model_version": "20261028T183704Z-723291ee",
+                  "minimum_native_size": 8,
+                  "identifier": "bird"
+                }
+              ]
             },
             {
               "labels": []
@@ -183,16 +194,27 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.997,
+            "support_frames": 1,
+            "model_version": "20261028T183704Z-723291ee",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "source": "camera-trained",
+                  "confidence": 0.9971819,
+                  "threshold": 0.995,
+                  "model_version": "20261028T183704Z-723291ee",
+                  "minimum_native_size": 8,
+                  "identifier": "bird"
+                }
+              ]
             }
           ]
         }
