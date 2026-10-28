@@ -1,0 +1,162 @@
+[
+  {
+    "id": "dc1ad4264fdc736f",
+    "detected_at": "2026-10-28T13:49:48.299048+00:00",
+    "detected_epoch": 1793195388.299087,
+    "motion_started_epoch": 1793195387.3662412,
+    "changed_area_percent": 0.001591435185185185,
+    "settings": {
+      "filter_profile": "nighttime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 12,
+      "min_area_percent": 0.0012,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.4,
+      "reference_seconds": 0.8,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T134949Z-070e5c",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1081,
+          "top": 518,
+          "right": 1098,
+          "bottom": 530,
+          "changed_analysis_pixels": 33,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 1057,
+            "top": 494,
+            "right": 1122,
+            "bottom": 554
+          },
+          "label": "Unknown | too small"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1081,
+            "top": 518,
+            "right": 1098,
+            "bottom": 530
+          },
+          "crop_bounds": {
+            "left": 1057,
+            "top": 494,
+            "right": 1122,
+            "bottom": 554
+          },
+          "native_file": "motion-dc1ad4264fdc736f-before-3512fa6001-crop.png",
+          "detail_file": "motion-dc1ad4264fdc736f-before-3512fa6001-detail.jpg",
+          "native_width": 65,
+          "native_height": 60,
+          "display_width": 1024,
+          "display_height": 945,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 1081,
+          "top": 518,
+          "right": 1098,
+          "bottom": 530,
+          "changed_analysis_pixels": 33,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 1057,
+            "top": 494,
+            "right": 1122,
+            "bottom": 554
+          },
+          "label": "Unknown | too small"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-dc1ad4264fdc736f-boxed.jpg",
+    "evidence_files": [
+      "motion-dc1ad4264fdc736f-before.jpg",
+      "motion-dc1ad4264fdc736f-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T19:08:43.588594+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T190333Z-72ab2f51",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1081,
+            "top": 518,
+            "right": 1098,
+            "bottom": 530
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 52,
+            "width_pixels": 15,
+            "height_pixels": 7,
+            "contrast_threshold": 8.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  }
+]
