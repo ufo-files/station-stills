@@ -107,9 +107,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:48:29.737522+00:00",
+        "classified_at": "2026-10-28T19:15:13.751543+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
@@ -145,7 +145,7 @@
     },
     "motion-events.json": {
       "bytes": 2088,
-      "sha256": "0cc2b4cb4ef311f7185582a61f7e5b1af41e0a89890d000c2ef131ab3d25372b"
+      "sha256": "a91e54c06bd8f87bc1fd4a046d8c6c4bd70b6022f930974576e966c995126df0"
     },
     "buffer-state.json": {
       "bytes": 4975,

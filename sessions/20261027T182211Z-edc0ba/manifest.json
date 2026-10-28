@@ -103,7 +103,7 @@
               "right": 547,
               "bottom": 916
             },
-            "label": "Likely airplane | elongated"
+            "label": "Unknown | elongated"
           }
         ],
         "detail_images": [
@@ -144,7 +144,7 @@
               "right": 547,
               "bottom": 916
             },
-            "label": "Likely airplane | elongated"
+            "label": "Unknown | elongated"
           },
           {
             "left": 249,
@@ -170,9 +170,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:48:02.125076+00:00",
+        "classified_at": "2026-10-28T19:14:35.682840+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -193,27 +193,25 @@
             },
             "source_frame": "after",
             "object": {
-              "label": "airplane",
-              "confidence": 0.905,
-              "support_frames": 1,
-              "model_version": "20261028T183704Z-723291ee",
-              "reason": "Camera-trained model suggestion at validated threshold"
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
             },
             "model_observations": [
               {
-                "labels": []
-              },
-              {
                 "labels": [
                   {
-                    "identifier": "airplane",
                     "source": "camera-trained",
-                    "threshold": 0.85,
-                    "confidence": 0.90484303,
                     "minimum_native_size": 8,
-                    "model_version": "20261028T183704Z-723291ee"
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "confidence": 0.9048361,
+                    "threshold": 0.85,
+                    "identifier": "bird"
                   }
                 ]
+              },
+              {
+                "labels": []
               }
             ]
           },
@@ -234,24 +232,13 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "airplane",
-              "confidence": 0.902,
-              "support_frames": 1,
-              "model_version": "20261028T183704Z-723291ee",
-              "reason": "Camera-trained model suggestion at validated threshold"
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
             },
             "model_observations": [
               {
-                "labels": [
-                  {
-                    "identifier": "airplane",
-                    "confidence": 0.9022688,
-                    "minimum_native_size": 8,
-                    "source": "camera-trained",
-                    "threshold": 0.85,
-                    "model_version": "20261028T183704Z-723291ee"
-                  }
-                ]
+                "labels": []
               },
               {
                 "labels": []
@@ -292,8 +279,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 6219,
-      "sha256": "208a61e164b3747781a5a59f1cd735b26b7e40806a47474b98c6ca2199ac7a95"
+      "bytes": 5662,
+      "sha256": "4a5b73edb8641d7aee8b6ea99c00578b24888b8314a1bcf5d79cabd6d4eb74d2"
     },
     "buffer-state.json": {
       "bytes": 6193,
@@ -304,8 +291,8 @@
       "sha256": "1b334023a6fbcec0d9b8885f48f1c97c45b75a0bb24abec0c7d5d3e379bd79e3"
     },
     "motion-ae30a3ab8d50f869-boxed.jpg": {
-      "bytes": 188310,
-      "sha256": "da52b8efae0fb19ee4a9e9d119045c36805a88537fb5a221e0aa4b0f84754c92"
+      "bytes": 187273,
+      "sha256": "87ceb6119f084a5210d84d28aac2d523fb11a966330b82c51505cc3361d5860f"
     },
     "motion-ae30a3ab8d50f869-after.jpg": {
       "bytes": 132789,

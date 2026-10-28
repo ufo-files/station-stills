@@ -60,7 +60,7 @@
             "right": 596,
             "bottom": 219
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Likely bird | shape unresolved"
         },
         {
           "left": 95,
@@ -175,7 +175,7 @@
             "right": 596,
             "bottom": 219
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Likely bird | shape unresolved"
         },
         {
           "left": 95,
@@ -223,9 +223,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:48:31.969356+00:00",
+      "classified_at": "2026-10-28T19:15:16.044001+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -241,16 +241,27 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.966,
+            "support_frames": 1,
+            "model_version": "20261028T190333Z-72ab2f51",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "identifier": "bird",
+                  "confidence": 0.9663712,
+                  "threshold": 0.85,
+                  "source": "camera-trained",
+                  "minimum_native_size": 8,
+                  "model_version": "20261028T190333Z-72ab2f51"
+                }
+              ]
             }
           ]
         },
@@ -274,16 +285,7 @@
           },
           "model_observations": [
             {
-              "labels": [
-                {
-                  "identifier": "bird",
-                  "confidence": 0.99502605,
-                  "threshold": 0.995,
-                  "source": "camera-trained",
-                  "model_version": "20261028T183704Z-723291ee",
-                  "minimum_native_size": 8
-                }
-              ]
+              "labels": []
             },
             {
               "labels": []

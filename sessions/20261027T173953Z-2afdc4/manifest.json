@@ -112,9 +112,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:48:28.167538+00:00",
+        "classified_at": "2026-10-28T19:15:08.421401+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
@@ -185,9 +185,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:48:27.517032+00:00",
+        "classified_at": "2026-10-28T19:15:07.604126+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
@@ -223,7 +223,7 @@
     },
     "motion-events.json": {
       "bytes": 4186,
-      "sha256": "b47c4c364d606325101960be772d93deb7e44d3d8571ab5bb7df6d83e3deac13"
+      "sha256": "f6e405138e2647a351d80be7c4e6e98493f36477631c6bdcdeba3fb4e808f03d"
     },
     "buffer-state.json": {
       "bytes": 6400,

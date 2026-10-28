@@ -162,9 +162,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:47:58.810664+00:00",
+        "classified_at": "2026-10-28T19:14:29.499120+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -186,13 +186,22 @@
             "source_frame": "before",
             "object": {
               "label": "bird",
-              "confidence": 0.996,
+              "confidence": 0.971,
               "support_frames": 1,
-              "reason": "Strong single-frame suggestion; not validated for capture suppression"
+              "model_version": "20261028T190333Z-72ab2f51",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
                 "labels": [
+                  {
+                    "minimum_native_size": 8,
+                    "identifier": "bird",
+                    "threshold": 0.85,
+                    "source": "camera-trained",
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "confidence": 0.97137827
+                  },
                   {
                     "identifier": "bird",
                     "confidence": 0.9956159
@@ -200,7 +209,16 @@
                 ]
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "minimum_native_size": 8,
+                    "identifier": "bird",
+                    "threshold": 0.85,
+                    "source": "camera-trained",
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "confidence": 0.9633532
+                  }
+                ]
               }
             ]
           }
@@ -238,8 +256,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 4584,
-      "sha256": "0dc849cc933aa9a42ffdc06ad4f5a1b368ef21ae3b093160850a4929a083dc54"
+      "bytes": 5262,
+      "sha256": "f2b843a15dd28dd07a05ad8f097f4e66069c56f24647bfc3c09ceca2de1831a7"
     },
     "buffer-state.json": {
       "bytes": 4977,
