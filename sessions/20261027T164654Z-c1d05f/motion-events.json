@@ -171,9 +171,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:43.453480+00:00",
+      "classified_at": "2026-10-28T19:16:33.171210+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -229,12 +229,12 @@
             {
               "labels": [
                 {
-                  "identifier": "bird",
-                  "threshold": 0.995,
-                  "model_version": "20261028T183704Z-723291ee",
-                  "confidence": 0.9953917,
+                  "threshold": 0.85,
                   "source": "camera-trained",
-                  "minimum_native_size": 8
+                  "confidence": 0.8558758,
+                  "minimum_native_size": 8,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "identifier": "bird"
                 }
               ]
             },
@@ -324,7 +324,7 @@
             "right": 1321,
             "bottom": 150
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1047,
@@ -513,7 +513,7 @@
             "right": 1321,
             "bottom": 150
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 1047,
@@ -576,9 +576,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:40.437382+00:00",
+      "classified_at": "2026-10-28T19:16:29.392400+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -599,36 +599,16 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "bird",
-            "confidence": 0.995,
-            "support_frames": 1,
-            "model_version": "20261028T183704Z-723291ee",
-            "reason": "Camera-trained model suggestion at validated threshold"
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
           },
           "model_observations": [
             {
-              "labels": [
-                {
-                  "threshold": 0.995,
-                  "model_version": "20261028T183704Z-723291ee",
-                  "minimum_native_size": 8,
-                  "identifier": "bird",
-                  "source": "camera-trained",
-                  "confidence": 0.99530053
-                }
-              ]
+              "labels": []
             },
             {
-              "labels": [
-                {
-                  "threshold": 0.995,
-                  "model_version": "20261028T183704Z-723291ee",
-                  "minimum_native_size": 8,
-                  "identifier": "bird",
-                  "source": "camera-trained",
-                  "confidence": 0.9951887
-                }
-              ]
+              "labels": []
             }
           ]
         },
@@ -1237,9 +1217,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:36.390331+00:00",
+      "classified_at": "2026-10-28T19:16:23.144514+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -2227,9 +2207,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:31.860390+00:00",
+      "classified_at": "2026-10-28T19:16:19.114075+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -2251,7 +2231,16 @@
           },
           "model_observations": [
             {
-              "labels": []
+              "labels": [
+                {
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "confidence": 0.88875085,
+                  "threshold": 0.85,
+                  "identifier": "bird",
+                  "source": "camera-trained",
+                  "minimum_native_size": 8
+                }
+              ]
             },
             {
               "labels": []

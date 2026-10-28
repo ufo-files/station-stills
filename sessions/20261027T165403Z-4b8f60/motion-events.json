@@ -951,9 +951,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:25.259435+00:00",
+      "classified_at": "2026-10-28T19:16:12.273832+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -1577,9 +1577,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:21.744237+00:00",
+      "classified_at": "2026-10-28T19:16:03.204137+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -1655,16 +1655,7 @@
           },
           "model_observations": [
             {
-              "labels": [
-                {
-                  "model_version": "20261028T183704Z-723291ee",
-                  "identifier": "bird",
-                  "source": "camera-trained",
-                  "threshold": 0.995,
-                  "minimum_native_size": 8,
-                  "confidence": 0.9966905
-                }
-              ]
+              "labels": []
             },
             {
               "labels": []
@@ -2316,9 +2307,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:17.790660+00:00",
+      "classified_at": "2026-10-28T19:15:58.182941+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -2394,16 +2385,7 @@
           },
           "model_observations": [
             {
-              "labels": [
-                {
-                  "model_version": "20261028T183704Z-723291ee",
-                  "source": "camera-trained",
-                  "threshold": 0.995,
-                  "identifier": "bird",
-                  "confidence": 0.9955128,
-                  "minimum_native_size": 8
-                }
-              ]
+              "labels": []
             },
             {
               "labels": []

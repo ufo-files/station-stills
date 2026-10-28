@@ -60,7 +60,7 @@
             "right": 1337,
             "bottom": 276
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Unknown | shape unresolved"
         }
       ],
       "detail_images": [
@@ -101,7 +101,7 @@
             "right": 1337,
             "bottom": 276
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Unknown | shape unresolved"
         }
       ],
       "source_frame": "after",
@@ -119,9 +119,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:53.876512+00:00",
+      "classified_at": "2026-10-28T19:16:53.574644+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -137,27 +137,16 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "bird",
-            "confidence": 0.996,
-            "support_frames": 1,
-            "model_version": "20261028T183704Z-723291ee",
-            "reason": "Camera-trained model suggestion at validated threshold"
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
           },
           "model_observations": [
             {
               "labels": []
             },
             {
-              "labels": [
-                {
-                  "identifier": "bird",
-                  "threshold": 0.995,
-                  "source": "camera-trained",
-                  "confidence": 0.9956418,
-                  "minimum_native_size": 8,
-                  "model_version": "20261028T183704Z-723291ee"
-                }
-              ]
+              "labels": []
             }
           ]
         }
@@ -227,7 +216,7 @@
             "right": 1294,
             "bottom": 303
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Unknown | shape unresolved"
         }
       ],
       "detail_images": [
@@ -268,7 +257,7 @@
             "right": 1294,
             "bottom": 303
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Unknown | shape unresolved"
         }
       ],
       "source_frame": "after",
@@ -286,9 +275,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:49:51.726221+00:00",
+      "classified_at": "2026-10-28T19:16:50.135077+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -304,36 +293,16 @@
           },
           "source_frame": "after",
           "object": {
-            "label": "bird",
-            "confidence": 0.997,
-            "support_frames": 1,
-            "model_version": "20261028T183704Z-723291ee",
-            "reason": "Camera-trained model suggestion at validated threshold"
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
           },
           "model_observations": [
             {
-              "labels": [
-                {
-                  "confidence": 0.99583733,
-                  "model_version": "20261028T183704Z-723291ee",
-                  "identifier": "bird",
-                  "source": "camera-trained",
-                  "threshold": 0.995,
-                  "minimum_native_size": 8
-                }
-              ]
+              "labels": []
             },
             {
-              "labels": [
-                {
-                  "confidence": 0.9966974,
-                  "model_version": "20261028T183704Z-723291ee",
-                  "identifier": "bird",
-                  "source": "camera-trained",
-                  "threshold": 0.995,
-                  "minimum_native_size": 8
-                }
-              ]
+              "labels": []
             }
           ]
         }
