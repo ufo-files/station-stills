@@ -1,0 +1,73 @@
+[
+  {
+    "id": "de2a5c96624fbd30",
+    "detected_at": "2026-10-28T13:59:53.320843+00:00",
+    "detected_epoch": 1793195993.3208597,
+    "motion_started_epoch": 1793195992.690588,
+    "changed_area_percent": 0.0,
+    "settings": {
+      "filter_profile": "nighttime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 12,
+      "min_area_percent": 0.0012,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.4,
+      "reference_seconds": 0.8,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "night-small-trajectory-v1",
+    "small_motion_regions": [
+      {
+        "left": 620,
+        "top": 1060,
+        "right": 622,
+        "bottom": 1065,
+        "pixels": 9
+      }
+    ],
+    "action": "started_recording",
+    "session_id": "20261028T135953Z-7b07fb",
+    "annotation": {
+      "boxes": [],
+      "changed_regions": [],
+      "source_frame": "after",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-de2a5c96624fbd30-boxed.jpg",
+    "evidence_files": [
+      "motion-de2a5c96624fbd30-before.jpg",
+      "motion-de2a5c96624fbd30-after.jpg"
+    ]
+  }
+]
