@@ -127,9 +127,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:51:43.347906+00:00",
+      "classified_at": "2026-10-28T19:18:32.591331+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -151,9 +151,9 @@
           "source_frame": "after",
           "object": {
             "label": "bird",
-            "confidence": 0.995,
+            "confidence": 0.997,
             "support_frames": 1,
-            "model_version": "20261028T183704Z-723291ee",
+            "model_version": "20261028T190333Z-72ab2f51",
             "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
@@ -163,12 +163,12 @@
             {
               "labels": [
                 {
-                  "confidence": 0.9950854,
-                  "model_version": "20261028T183704Z-723291ee",
-                  "threshold": 0.995,
-                  "source": "camera-trained",
+                  "threshold": 0.85,
+                  "minimum_native_size": 8,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "confidence": 0.9967152,
                   "identifier": "bird",
-                  "minimum_native_size": 8
+                  "source": "camera-trained"
                 }
               ]
             }
@@ -199,7 +199,16 @@
           },
           "model_observations": [
             {
-              "labels": []
+              "labels": [
+                {
+                  "source": "camera-trained",
+                  "identifier": "bird",
+                  "threshold": 0.85,
+                  "minimum_native_size": 8,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "confidence": 0.9977283
+                }
+              ]
             },
             {
               "labels": []

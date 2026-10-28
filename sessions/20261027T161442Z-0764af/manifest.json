@@ -162,9 +162,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:51:35.103124+00:00",
+        "classified_at": "2026-10-28T19:18:24.783947+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -189,10 +189,28 @@
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "confidence": 0.9879247,
+                    "minimum_native_size": 8,
+                    "source": "camera-trained",
+                    "threshold": 0.85,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "identifier": "bird"
+                  }
+                ]
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "confidence": 0.857443,
+                    "minimum_native_size": 8,
+                    "source": "camera-trained",
+                    "threshold": 0.85,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "identifier": "bird"
+                  }
+                ]
               }
             ]
           }
@@ -230,8 +248,8 @@
       "sha256": "d819a2ed145732e248569d23625de1e3da16b910970a53c6369f5abd146c4cff"
     },
     "motion-events.json": {
-      "bytes": 4320,
-      "sha256": "469d781947f6a950cfecfc6b955a7c214b52e79eaaa6b17e6fd2e3a4bb24e479"
+      "bytes": 4967,
+      "sha256": "3984fdbb2b0602a346b9d977ddb4df9b8501fcc9e611f3c3c19d0e848fa6ef1c"
     },
     "buffer-state.json": {
       "bytes": 4859,

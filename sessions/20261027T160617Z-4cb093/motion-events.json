@@ -119,9 +119,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:51:54.494073+00:00",
+      "classified_at": "2026-10-28T19:18:41.046084+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -143,30 +143,39 @@
           "source_frame": "before",
           "object": {
             "label": "bird",
-            "confidence": 0.995,
+            "confidence": 0.999,
             "support_frames": 1,
-            "model_version": "20261028T183704Z-723291ee",
+            "model_version": "20261028T190333Z-72ab2f51",
             "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
               "labels": [
                 {
-                  "model_version": "20261028T183704Z-723291ee",
-                  "minimum_native_size": 8,
-                  "confidence": 0.9951191,
                   "source": "camera-trained",
+                  "minimum_native_size": 8,
                   "identifier": "bird",
-                  "threshold": 0.995
+                  "confidence": 0.9994667,
+                  "threshold": 0.85,
+                  "model_version": "20261028T190333Z-72ab2f51"
                 },
                 {
-                  "confidence": 0.49642017,
-                  "identifier": "bird"
+                  "identifier": "bird",
+                  "confidence": 0.49642017
                 }
               ]
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "source": "camera-trained",
+                  "minimum_native_size": 8,
+                  "identifier": "bird",
+                  "confidence": 0.851663,
+                  "threshold": 0.85,
+                  "model_version": "20261028T190333Z-72ab2f51"
+                }
+              ]
             }
           ]
         }

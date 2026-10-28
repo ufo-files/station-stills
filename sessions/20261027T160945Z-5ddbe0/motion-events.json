@@ -60,7 +60,7 @@
             "right": 651,
             "bottom": 173
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
         }
       ],
       "detail_images": [
@@ -101,7 +101,7 @@
             "right": 651,
             "bottom": 173
           },
-          "label": "Unknown | irregular"
+          "label": "Likely bird | irregular"
         }
       ],
       "source_frame": "before",
@@ -119,9 +119,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:51:45.930399+00:00",
+      "classified_at": "2026-10-28T19:18:34.669428+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -142,16 +142,36 @@
           },
           "source_frame": "before",
           "object": {
-            "label": "unknown",
-            "reason": "Target too small for reliable object identification",
-            "support_frames": 0
+            "label": "bird",
+            "confidence": 0.995,
+            "support_frames": 1,
+            "model_version": "20261028T190333Z-72ab2f51",
+            "reason": "Camera-trained model suggestion at validated threshold"
           },
           "model_observations": [
             {
-              "labels": []
+              "labels": [
+                {
+                  "source": "camera-trained",
+                  "minimum_native_size": 8,
+                  "threshold": 0.85,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "identifier": "bird",
+                  "confidence": 0.9949509
+                }
+              ]
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "source": "camera-trained",
+                  "minimum_native_size": 8,
+                  "threshold": 0.85,
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "identifier": "bird",
+                  "confidence": 0.86832803
+                }
+              ]
             }
           ]
         }

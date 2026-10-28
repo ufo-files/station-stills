@@ -103,7 +103,7 @@
               "right": 1918,
               "bottom": 754
             },
-            "label": "Unknown | irregular"
+            "label": "Likely bird | irregular"
           },
           {
             "left": 1320,
@@ -118,7 +118,7 @@
               "right": 1361,
               "bottom": 558
             },
-            "label": "Unknown | irregular"
+            "label": "Likely airplane | irregular"
           }
         ],
         "detail_images": [
@@ -181,7 +181,7 @@
               "right": 1918,
               "bottom": 754
             },
-            "label": "Unknown | irregular"
+            "label": "Likely bird | irregular"
           },
           {
             "left": 1288,
@@ -204,7 +204,7 @@
               "right": 1361,
               "bottom": 558
             },
-            "label": "Unknown | irregular"
+            "label": "Likely airplane | irregular"
           }
         ],
         "source_frame": "before",
@@ -222,9 +222,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:51:51.477919+00:00",
+        "classified_at": "2026-10-28T19:18:39.088955+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -245,16 +245,36 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 0.985,
+              "support_frames": 1,
+              "model_version": "20261028T190333Z-72ab2f51",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "identifier": "bird",
+                    "minimum_native_size": 8,
+                    "threshold": 0.85,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "confidence": 0.98520666,
+                    "source": "camera-trained"
+                  }
+                ]
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "identifier": "bird",
+                    "minimum_native_size": 8,
+                    "threshold": 0.85,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "confidence": 0.9114645,
+                    "source": "camera-trained"
+                  }
+                ]
               }
             ]
           },
@@ -277,16 +297,27 @@
             },
             "source_frame": "after",
             "object": {
-              "label": "unknown",
-              "reason": "Target too small for reliable object identification",
-              "support_frames": 0
+              "label": "airplane",
+              "confidence": 0.934,
+              "support_frames": 1,
+              "model_version": "20261028T190333Z-72ab2f51",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
                 "labels": []
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "identifier": "airplane",
+                    "minimum_native_size": 8,
+                    "threshold": 0.85,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "confidence": 0.93378437,
+                    "source": "camera-trained"
+                  }
+                ]
               }
             ]
           },
@@ -309,13 +340,24 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "airplane",
+              "confidence": 0.916,
+              "support_frames": 1,
+              "model_version": "20261028T190333Z-72ab2f51",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "identifier": "airplane",
+                    "minimum_native_size": 8,
+                    "threshold": 0.85,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "confidence": 0.9164208,
+                    "source": "camera-trained"
+                  }
+                ]
               },
               {
                 "labels": []
@@ -356,8 +398,8 @@
       "sha256": "655c1c4e0df54aee9ea5d9366de395c3a8c06d08bb1aa0a49c13d5cd8467954e"
     },
     "motion-events.json": {
-      "bytes": 7680,
-      "sha256": "33b80d5359180145b79be85fb34fe39632553fe14c5f1ca0106af57fcd621f10"
+      "bytes": 9309,
+      "sha256": "7f64f6377e1815b141e2684d2ac03867d84367ba1beba40965259b30409b7afc"
     },
     "buffer-state.json": {
       "bytes": 4934,
@@ -372,8 +414,8 @@
       "sha256": "0ce1f74c2f7fc636adeea4d75bd1c6bd0d8a57ed8c001a95ea04c0bf6d4fe2a5"
     },
     "motion-e1fd08fdc6c0313a-boxed.jpg": {
-      "bytes": 180479,
-      "sha256": "b3d3a726ab16d99d67c171eedd06013fbf3284d5a331f8e51c190d449cac791e"
+      "bytes": 181567,
+      "sha256": "63d86596b84146fe47b388c2be9a5a7382b9bd626d08d9d158d7b493c2ba7104"
     },
     "frames/index.json": {
       "bytes": 719,
