@@ -1,0 +1,167 @@
+[
+  {
+    "id": "5948a4f12586c1ec",
+    "detected_at": "2026-10-28T19:17:26.372478+00:00",
+    "detected_epoch": 1793215046.372496,
+    "motion_started_epoch": 1793215045.4819136,
+    "changed_area_percent": 0.01880787037037037,
+    "settings": {
+      "filter_profile": "daytime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 18,
+      "min_area_percent": 0.002,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T191726Z-16ffba",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 722.0,
+          "top": 391.0,
+          "right": 741.0,
+          "bottom": 427.0,
+          "label": "Bird (reviewed) | elongated",
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 706.0,
+            "top": 375.0,
+            "right": 757.0,
+            "bottom": 443.0
+          }
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 722.0,
+            "top": 391.0,
+            "right": 741.0,
+            "bottom": 427.0
+          },
+          "crop_bounds": {
+            "left": 706,
+            "top": 375,
+            "right": 757,
+            "bottom": 443
+          },
+          "native_file": "motion-5948a4f12586c1ec-before-87961d2bee-crop.png",
+          "detail_file": "motion-5948a4f12586c1ec-before-87961d2bee-detail.jpg",
+          "native_width": 51,
+          "native_height": 68,
+          "display_width": 768,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
+      "source_frame": "before",
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
+    },
+    "annotated_frame": "motion-5948a4f12586c1ec-boxed.jpg",
+    "evidence_files": [
+      "motion-5948a4f12586c1ec-before.jpg",
+      "motion-5948a4f12586c1ec-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T19:17:43.150287+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T190333Z-72ab2f51",
+      "regions": [
+        {
+          "bounds": {
+            "left": 722,
+            "top": 391,
+            "right": 741,
+            "bottom": 427
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.377,
+            "axis_ratio": 0.317,
+            "fill_fraction": 0.632,
+            "area_pixels": 312,
+            "width_pixels": 13,
+            "height_pixels": 38,
+            "contrast_threshold": 23.6
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "before",
+      "reviewed_at": "2026-10-28T19:19:15.062112+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 722.0,
+            "top": 391.0,
+            "right": 741.0,
+            "bottom": 427.0
+          },
+          "object": "bird",
+          "shape": "elongated"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
+    }
+  }
+]
