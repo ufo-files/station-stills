@@ -49,67 +49,50 @@
     "annotation": {
       "boxes": [
         {
-          "left": 48,
-          "top": 77,
-          "right": 67,
-          "bottom": 88,
-          "changed_analysis_pixels": 92,
+          "left": 48.0,
+          "top": 77.0,
+          "right": 67.0,
+          "bottom": 88.0,
+          "label": "Airplane (reviewed) | irregular",
           "visible_in": "after",
           "review_bounds": {
-            "left": 24,
-            "top": 53,
-            "right": 91,
-            "bottom": 112
-          },
-          "label": "Likely bird | too small"
+            "left": 32.0,
+            "top": 61.0,
+            "right": 83.0,
+            "bottom": 104.0
+          }
         }
       ],
       "detail_images": [
         {
           "bounds": {
-            "left": 48,
-            "top": 77,
-            "right": 67,
-            "bottom": 88
+            "left": 48.0,
+            "top": 77.0,
+            "right": 67.0,
+            "bottom": 88.0
           },
           "crop_bounds": {
-            "left": 24,
-            "top": 53,
-            "right": 91,
-            "bottom": 112
+            "left": 32,
+            "top": 61,
+            "right": 83,
+            "bottom": 104
           },
-          "native_file": "motion-46af33b7fed60248-after-57cfb81865-crop.png",
-          "detail_file": "motion-46af33b7fed60248-after-57cfb81865-detail.jpg",
-          "native_width": 67,
-          "native_height": 59,
+          "native_file": "motion-46af33b7fed60248-after-97677c319f-crop.png",
+          "detail_file": "motion-46af33b7fed60248-after-97677c319f-detail.jpg",
+          "native_width": 51,
+          "native_height": 43,
           "display_width": 1024,
-          "display_height": 902,
+          "display_height": 863,
           "upscaled": true,
           "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
-      "changed_regions": [
-        {
-          "left": 48,
-          "top": 77,
-          "right": 67,
-          "bottom": 88,
-          "changed_analysis_pixels": 92,
-          "visible_in": "after",
-          "review_bounds": {
-            "left": 24,
-            "top": 53,
-            "right": 91,
-            "bottom": 112
-          },
-          "label": "Likely bird | too small"
-        }
-      ],
       "source_frame": "after",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-46af33b7fed60248-boxed.jpg",
     "evidence_files": [
@@ -168,6 +151,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "after",
+      "reviewed_at": "2026-10-28T19:30:08.545764+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 48.0,
+            "top": 77.0,
+            "right": 67.0,
+            "bottom": 88.0
+          },
+          "object": "airplane",
+          "shape": "irregular"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]

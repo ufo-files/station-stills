@@ -58,12 +58,12 @@
     "annotation": {
       "boxes": [],
       "detail_images": [],
-      "changed_regions": [],
       "source_frame": "after",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-de2a5c96624fbd30-boxed.jpg",
     "evidence_files": [
@@ -108,6 +108,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "after",
+      "reviewed_at": "2026-10-28T19:30:23.498502+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 620.0,
+            "top": 1060.0,
+            "right": 622.0,
+            "bottom": 1065.0
+          },
+          "object": "cloud",
+          "shape": "unresolved"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]

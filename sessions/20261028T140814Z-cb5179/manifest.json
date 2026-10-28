@@ -101,67 +101,50 @@
       "annotation": {
         "boxes": [
           {
-            "left": 48,
-            "top": 77,
-            "right": 67,
-            "bottom": 88,
-            "changed_analysis_pixels": 92,
+            "left": 48.0,
+            "top": 77.0,
+            "right": 67.0,
+            "bottom": 88.0,
+            "label": "Airplane (reviewed) | irregular",
             "visible_in": "after",
             "review_bounds": {
-              "left": 24,
-              "top": 53,
-              "right": 91,
-              "bottom": 112
-            },
-            "label": "Likely bird | too small"
+              "left": 32.0,
+              "top": 61.0,
+              "right": 83.0,
+              "bottom": 104.0
+            }
           }
         ],
         "detail_images": [
           {
             "bounds": {
-              "left": 48,
-              "top": 77,
-              "right": 67,
-              "bottom": 88
+              "left": 48.0,
+              "top": 77.0,
+              "right": 67.0,
+              "bottom": 88.0
             },
             "crop_bounds": {
-              "left": 24,
-              "top": 53,
-              "right": 91,
-              "bottom": 112
+              "left": 32,
+              "top": 61,
+              "right": 83,
+              "bottom": 104
             },
-            "native_file": "motion-46af33b7fed60248-after-57cfb81865-crop.png",
-            "detail_file": "motion-46af33b7fed60248-after-57cfb81865-detail.jpg",
-            "native_width": 67,
-            "native_height": 59,
+            "native_file": "motion-46af33b7fed60248-after-97677c319f-crop.png",
+            "detail_file": "motion-46af33b7fed60248-after-97677c319f-detail.jpg",
+            "native_width": 51,
+            "native_height": 43,
             "display_width": 1024,
-            "display_height": 902,
+            "display_height": 863,
             "upscaled": true,
             "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
-        "changed_regions": [
-          {
-            "left": 48,
-            "top": 77,
-            "right": 67,
-            "bottom": 88,
-            "changed_analysis_pixels": 92,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 24,
-              "top": 53,
-              "right": 91,
-              "bottom": 112
-            },
-            "label": "Likely bird | too small"
-          }
-        ],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-46af33b7fed60248-boxed.jpg",
       "evidence_files": [
@@ -220,6 +203,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T19:30:08.545764+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 48.0,
+              "top": 77.0,
+              "right": 67.0,
+              "bottom": 88.0
+            },
+            "object": "airplane",
+            "shape": "irregular"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -251,8 +254,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 4758,
-      "sha256": "da1133f2cd7fe3081fa50c680657c0547592ecd8e8b6936651abc10be40132fe"
+      "bytes": 4766,
+      "sha256": "f2fc88b0fc108927d9c0a3d141b653dbcdc4e948dc233f844bc8590b00e80b03"
     },
     "buffer-state.json": {
       "bytes": 12016,
@@ -263,8 +266,8 @@
       "sha256": "b4b962c21c6ef68d2bfb55a09e79d4898cf7c742c0a22a282a6b0525ee283591"
     },
     "motion-46af33b7fed60248-boxed.jpg": {
-      "bytes": 331468,
-      "sha256": "2d3ba0fbce36a909143143da40c4b379ac3cf0620075e3900e6734f5ebf90479"
+      "bytes": 327382,
+      "sha256": "eb182e303b956e20c8a17264edb5c130fb04ff756b18fb5a83dce236f316ae03"
     },
     "motion-46af33b7fed60248-before.jpg": {
       "bytes": 788424,
@@ -289,6 +292,14 @@
     "motion-46af33b7fed60248-after-57cfb81865-detail.jpg": {
       "bytes": 78808,
       "sha256": "dd480f014cf352bff1a4cc7d162e8954b164bb9ffcd0a2ea2d7bebd2bb648e6f"
+    },
+    "motion-46af33b7fed60248-after-97677c319f-crop.png": {
+      "bytes": 2825,
+      "sha256": "7781e3929c469b8e1503dd791ec8a37d55097ec0196cb62cf3bf593dfd4cd703"
+    },
+    "motion-46af33b7fed60248-after-97677c319f-detail.jpg": {
+      "bytes": 72407,
+      "sha256": "661ce903c1597cd59474947c9a1fe23161d8500d0409243a1d5f58ab4c3b9e71"
     }
   },
   "buffer_assembly": {

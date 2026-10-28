@@ -110,12 +110,12 @@
       "annotation": {
         "boxes": [],
         "detail_images": [],
-        "changed_regions": [],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-de2a5c96624fbd30-boxed.jpg",
       "evidence_files": [
@@ -160,6 +160,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T19:30:23.498502+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 620.0,
+              "top": 1060.0,
+              "right": 622.0,
+              "bottom": 1065.0
+            },
+            "object": "cloud",
+            "shape": "unresolved"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -191,16 +211,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 2951,
-      "sha256": "9f21319e6b046a08842effde4a2802ee1c0bb1a37f93ce30f06aff7f4abbfe39"
+      "bytes": 3348,
+      "sha256": "2c9aef46438245eb647df25a52625cdfb6b489ec9e40ed3de3cd1e3f0200fb54"
     },
     "buffer-state.json": {
       "bytes": 5343,
       "sha256": "b92c723cd8eef7a5558098926972e545a21cb96c14e0ac2e81ae6f302b0aa125"
     },
     "motion-de2a5c96624fbd30-boxed.jpg": {
-      "bytes": 428865,
-      "sha256": "7317cc268dcac93d81b930796b8e1dbc5675c0760e49e48400ea2fead62af85e"
+      "bytes": 430369,
+      "sha256": "41369dfe4817b93903b55623858774085897a8b1cad14a7dfd590ea81b4d5000"
     },
     "motion-de2a5c96624fbd30-after.jpg": {
       "bytes": 913551,
