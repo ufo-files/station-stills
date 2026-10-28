@@ -324,11 +324,11 @@
     "error": null
   },
   "internet_archive": {
-    "state": "verifying",
+    "state": "retaining",
     "identifier": "ufo-files-station-7c3668-20261028t134949z-070e5c",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t134949z-070e5c",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t134949z-070e5c/video.mp4",
-    "verified_at": null,
+    "verified_at": 1793216945.4380198,
     "cleaned_at": null,
     "files": [
       {

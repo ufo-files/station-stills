@@ -306,7 +306,7 @@
     "selected_original_stills": true
   },
   "internet_archive": {
-    "state": "queued",
+    "state": "uploading",
     "identifier": "ufo-files-station-7c3668-20261028t161431z-2dfcb8",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t161431z-2dfcb8",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t161431z-2dfcb8/video.mp4",
@@ -467,6 +467,28 @@
         "sha256": "0ccfed6cffe7eb2b04d280f6b417b2d6cb896d8a7c9627aec2b9fe93dc600b5e"
       }
     ],
+    "error": null
+  },
+  "youtube": {
+    "state": "queued",
+    "video_id": null,
+    "url": null,
+    "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
+    "privacy": "public",
+    "uploaded_at": null,
+    "verified_at": null,
+    "uploaded_file": {
+      "file": "video.mp4",
+      "bytes": 7533501,
+      "sha256": "c0bdf3ecb69028db99bb1aa8e6ec2e102a4fbd9cb56fcb1b32894ae9eeee1476",
+      "frame_count": 1239,
+      "fps": "60/1",
+      "width": 1920,
+      "height": 1080
+    },
+    "cleanup": "videos_only",
+    "cleaned_files": [],
+    "cleanup_plan": [],
     "error": null
   }
 }
