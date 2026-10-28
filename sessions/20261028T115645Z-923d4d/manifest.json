@@ -343,6 +343,6 @@
         "sha256": "682fd8023f46dd13ab7509e2e06c3d8d6df7dbbf62c3c775fab11e706cb06b92"
       }
     ],
-    "error": null
+    "error": "Internet Archive is busy; upload queued for retry"
   }
 }
