@@ -49,67 +49,50 @@
     "annotation": {
       "boxes": [
         {
-          "left": 1081,
-          "top": 518,
-          "right": 1098,
-          "bottom": 530,
-          "changed_analysis_pixels": 33,
-          "visible_in": "both",
+          "left": 1081.0,
+          "top": 518.0,
+          "right": 1098.0,
+          "bottom": 530.0,
+          "label": "Anomalous (reviewed) | irregular",
+          "visible_in": "before",
           "review_bounds": {
-            "left": 1057,
-            "top": 494,
-            "right": 1122,
-            "bottom": 554
-          },
-          "label": "Unknown | too small"
+            "left": 1065.0,
+            "top": 502.0,
+            "right": 1114.0,
+            "bottom": 546.0
+          }
         }
       ],
       "detail_images": [
         {
           "bounds": {
-            "left": 1081,
-            "top": 518,
-            "right": 1098,
-            "bottom": 530
+            "left": 1081.0,
+            "top": 518.0,
+            "right": 1098.0,
+            "bottom": 530.0
           },
           "crop_bounds": {
-            "left": 1057,
-            "top": 494,
-            "right": 1122,
-            "bottom": 554
+            "left": 1065,
+            "top": 502,
+            "right": 1114,
+            "bottom": 546
           },
-          "native_file": "motion-dc1ad4264fdc736f-before-3512fa6001-crop.png",
-          "detail_file": "motion-dc1ad4264fdc736f-before-3512fa6001-detail.jpg",
-          "native_width": 65,
-          "native_height": 60,
+          "native_file": "motion-dc1ad4264fdc736f-before-eb652060e3-crop.png",
+          "detail_file": "motion-dc1ad4264fdc736f-before-eb652060e3-detail.jpg",
+          "native_width": 49,
+          "native_height": 44,
           "display_width": 1024,
-          "display_height": 945,
+          "display_height": 920,
           "upscaled": true,
           "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
-      "changed_regions": [
-        {
-          "left": 1081,
-          "top": 518,
-          "right": 1098,
-          "bottom": 530,
-          "changed_analysis_pixels": 33,
-          "visible_in": "both",
-          "review_bounds": {
-            "left": 1057,
-            "top": 494,
-            "right": 1122,
-            "bottom": 554
-          },
-          "label": "Unknown | too small"
-        }
-      ],
       "source_frame": "before",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-dc1ad4264fdc736f-boxed.jpg",
     "evidence_files": [
@@ -157,6 +140,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "before",
+      "reviewed_at": "2026-10-28T19:35:25.102004+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1081.0,
+            "top": 518.0,
+            "right": 1098.0,
+            "bottom": 530.0
+          },
+          "object": "anomalous",
+          "shape": "irregular"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]
