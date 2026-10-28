@@ -321,7 +321,7 @@
         "sha256": "15064033cde5ae87636a9d6b44a4e0fdd7ade363dfb8ddcdf3f0446b5f2b34da"
       }
     ],
-    "error": null
+    "error": "Internet Archive is busy; upload queued for retry"
   },
   "youtube": {
     "state": "queued",
