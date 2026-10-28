@@ -96,53 +96,271 @@
             "top": 594,
             "right": 1919,
             "bottom": 608,
-            "changed_analysis_pixels": 212
+            "changed_analysis_pixels": 212,
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 1875,
+              "top": 570,
+              "right": 1919,
+              "bottom": 632
+            },
+            "label": "Unknown | too small"
           },
           {
             "left": 205,
             "top": 103,
             "right": 212,
             "bottom": 109,
-            "changed_analysis_pixels": 23
-          },
-          {
-            "left": 341,
-            "top": 842,
-            "right": 344,
-            "bottom": 844,
-            "changed_analysis_pixels": 6
+            "changed_analysis_pixels": 23,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 181,
+              "top": 79,
+              "right": 236,
+              "bottom": 133
+            },
+            "label": "Unknown | too small"
           },
           {
             "left": 602,
             "top": 397,
             "right": 604,
             "bottom": 399,
-            "changed_analysis_pixels": 4
+            "changed_analysis_pixels": 4,
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 578,
+              "top": 373,
+              "right": 628,
+              "bottom": 423
+            },
+            "label": "Motion | analyzing"
           },
           {
             "left": 723,
             "top": 556,
             "right": 725,
             "bottom": 558,
-            "changed_analysis_pixels": 4
+            "changed_analysis_pixels": 4,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 699,
+              "top": 532,
+              "right": 749,
+              "bottom": 582
+            },
+            "label": "Motion | analyzing"
           },
           {
             "left": 434,
             "top": 910,
             "right": 436,
             "bottom": 912,
-            "changed_analysis_pixels": 3
+            "changed_analysis_pixels": 3,
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 410,
+              "top": 886,
+              "right": 460,
+              "bottom": 936
+            },
+            "label": "Motion | analyzing"
           }
         ],
+        "changed_regions": [
+          {
+            "left": 1899,
+            "top": 594,
+            "right": 1919,
+            "bottom": 608,
+            "changed_analysis_pixels": 212,
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 1875,
+              "top": 570,
+              "right": 1919,
+              "bottom": 632
+            },
+            "label": "Unknown | too small"
+          },
+          {
+            "left": 205,
+            "top": 103,
+            "right": 212,
+            "bottom": 109,
+            "changed_analysis_pixels": 23,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 181,
+              "top": 79,
+              "right": 236,
+              "bottom": 133
+            },
+            "label": "Unknown | too small"
+          },
+          {
+            "left": 341,
+            "top": 842,
+            "right": 344,
+            "bottom": 844,
+            "changed_analysis_pixels": 6,
+            "visible_in": "before"
+          },
+          {
+            "left": 602,
+            "top": 397,
+            "right": 604,
+            "bottom": 399,
+            "changed_analysis_pixels": 4,
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 578,
+              "top": 373,
+              "right": 628,
+              "bottom": 423
+            },
+            "label": "Motion | analyzing"
+          },
+          {
+            "left": 723,
+            "top": 556,
+            "right": 725,
+            "bottom": 558,
+            "changed_analysis_pixels": 4,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 699,
+              "top": 532,
+              "right": 749,
+              "bottom": 582
+            },
+            "label": "Motion | analyzing"
+          },
+          {
+            "left": 434,
+            "top": 910,
+            "right": 436,
+            "bottom": 912,
+            "changed_analysis_pixels": 3,
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 410,
+              "top": 886,
+              "right": 460,
+              "bottom": 936
+            },
+            "label": "Motion | analyzing"
+          }
+        ],
+        "source_frame": "after",
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
       },
       "annotated_frame": "motion-40d42dac06827fd7-boxed.jpg",
       "evidence_files": [
         "motion-40d42dac06827fd7-before.jpg",
         "motion-40d42dac06827fd7-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:37:38.733302+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1899,
+              "top": 594,
+              "right": 1919,
+              "bottom": 608
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 114,
+              "width_pixels": 20,
+              "height_pixels": 7,
+              "contrast_threshold": 46.29
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 205,
+              "top": 103,
+              "right": 212,
+              "bottom": 109
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 29,
+              "width_pixels": 7,
+              "height_pixels": 5,
+              "contrast_threshold": 29.6
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 341,
+              "top": 842,
+              "right": 344,
+              "bottom": 844
+            },
+            "shape": {
+              "label": "unresolved",
+              "reason": "No separable silhouette",
+              "contrast_threshold": 8.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793087140.6096575,
@@ -173,16 +391,16 @@
       "sha256": "b37a106e285d3e8633e24ca47d07a96c7640d451166fcf8ac7233a110d3c4e3c"
     },
     "motion-events.json": {
-      "bytes": 2439,
-      "sha256": "4e8dbc123097ff103930530ec19e74309d015839d086c08ba54229f6a9045a98"
+      "bytes": 8163,
+      "sha256": "ca0fcc3b380837f71c34bb909d144863c056e1e464adcfa108898a9df19a0fea"
     },
     "buffer-state.json": {
       "bytes": 15403,
       "sha256": "f4b674fe53381adc1d9d993c351049417f7d919abf87c25cc763d8c23ae61adc"
     },
     "motion-40d42dac06827fd7-boxed.jpg": {
-      "bytes": 360727,
-      "sha256": "3e9d4683b29e463937a24439e159c06abc214355cdc28b89ae5573c6d246ad0a"
+      "bytes": 377134,
+      "sha256": "e0c5e3bef8166cb786b205d2b2c5b7a762e144ba972d9ce2badceb79fe988f2a"
     },
     "motion-40d42dac06827fd7-before.jpg": {
       "bytes": 263864,

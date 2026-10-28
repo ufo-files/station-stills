@@ -51,38 +51,212 @@
           "top": 16,
           "right": 1816,
           "bottom": 26,
-          "changed_analysis_pixels": 138
-        },
-        {
-          "left": 1851,
-          "top": 1,
-          "right": 1873,
-          "bottom": 9,
-          "changed_analysis_pixels": 114
+          "changed_analysis_pixels": 138,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1770,
+            "top": 0,
+            "right": 1840,
+            "bottom": 50
+          },
+          "label": "Unknown | elongated"
         },
         {
           "left": 1734,
           "top": 382,
           "right": 1741,
           "bottom": 386,
-          "changed_analysis_pixels": 19
+          "changed_analysis_pixels": 19,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1710,
+            "top": 358,
+            "right": 1765,
+            "bottom": 410
+          },
+          "label": "Unknown | too small"
         },
         {
           "left": 67,
           "top": 399,
           "right": 69,
           "bottom": 401,
-          "changed_analysis_pixels": 3
+          "changed_analysis_pixels": 3,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 43,
+            "top": 375,
+            "right": 93,
+            "bottom": 425
+          },
+          "label": "Motion | analyzing"
         }
       ],
+      "changed_regions": [
+        {
+          "left": 1794,
+          "top": 16,
+          "right": 1816,
+          "bottom": 26,
+          "changed_analysis_pixels": 138,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1770,
+            "top": 0,
+            "right": 1840,
+            "bottom": 50
+          },
+          "label": "Unknown | elongated"
+        },
+        {
+          "left": 1851,
+          "top": 1,
+          "right": 1873,
+          "bottom": 9,
+          "changed_analysis_pixels": 114,
+          "visible_in": "before"
+        },
+        {
+          "left": 1734,
+          "top": 382,
+          "right": 1741,
+          "bottom": 386,
+          "changed_analysis_pixels": 19,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1710,
+            "top": 358,
+            "right": 1765,
+            "bottom": 410
+          },
+          "label": "Unknown | too small"
+        },
+        {
+          "left": 67,
+          "top": 399,
+          "right": 69,
+          "bottom": 401,
+          "changed_analysis_pixels": 3,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 43,
+            "top": 375,
+            "right": 93,
+            "bottom": 425
+          },
+          "label": "Motion | analyzing"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
     },
     "annotated_frame": "motion-40a6fa37f13ee852-boxed.jpg",
     "evidence_files": [
       "motion-40a6fa37f13ee852-before.jpg",
       "motion-40a6fa37f13ee852-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:37:58.461127+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1794,
+            "top": 16,
+            "right": 1816,
+            "bottom": 26
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.252,
+            "axis_ratio": 0.307,
+            "fill_fraction": 0.556,
+            "area_pixels": 110,
+            "width_pixels": 22,
+            "height_pixels": 9,
+            "contrast_threshold": 36.45
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1851,
+            "top": 1,
+            "right": 1873,
+            "bottom": 9
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 8.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1734,
+            "top": 382,
+            "right": 1741,
+            "bottom": 386
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 18,
+            "width_pixels": 6,
+            "height_pixels": 4,
+            "contrast_threshold": 26.51
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]
