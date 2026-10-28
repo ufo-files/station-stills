@@ -49,67 +49,50 @@
     "annotation": {
       "boxes": [
         {
-          "left": 1099,
-          "top": 1053,
-          "right": 1110,
-          "bottom": 1061,
-          "changed_analysis_pixels": 43,
+          "left": 1099.0,
+          "top": 1053.0,
+          "right": 1110.0,
+          "bottom": 1061.0,
+          "label": "Insect (reviewed) | irregular",
           "visible_in": "before",
           "review_bounds": {
-            "left": 1075,
-            "top": 1029,
-            "right": 1134,
-            "bottom": 1079
-          },
-          "label": "Unknown | irregular"
+            "left": 1083.0,
+            "top": 1037.0,
+            "right": 1126.0,
+            "bottom": 1077.0
+          }
         }
       ],
       "detail_images": [
         {
           "bounds": {
-            "left": 1099,
-            "top": 1053,
-            "right": 1110,
-            "bottom": 1061
+            "left": 1099.0,
+            "top": 1053.0,
+            "right": 1110.0,
+            "bottom": 1061.0
           },
           "crop_bounds": {
-            "left": 1075,
-            "top": 1029,
-            "right": 1134,
-            "bottom": 1080
+            "left": 1083,
+            "top": 1037,
+            "right": 1126,
+            "bottom": 1077
           },
-          "native_file": "motion-1d8606007ccad5d5-before-735fa4a83f-crop.png",
-          "detail_file": "motion-1d8606007ccad5d5-before-735fa4a83f-detail.jpg",
-          "native_width": 59,
-          "native_height": 51,
+          "native_file": "motion-1d8606007ccad5d5-before-0f80c94990-crop.png",
+          "detail_file": "motion-1d8606007ccad5d5-before-0f80c94990-detail.jpg",
+          "native_width": 43,
+          "native_height": 40,
           "display_width": 1024,
-          "display_height": 885,
+          "display_height": 953,
           "upscaled": true,
           "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
-      "changed_regions": [
-        {
-          "left": 1099,
-          "top": 1053,
-          "right": 1110,
-          "bottom": 1061,
-          "changed_analysis_pixels": 43,
-          "visible_in": "before",
-          "review_bounds": {
-            "left": 1075,
-            "top": 1029,
-            "right": 1134,
-            "bottom": 1079
-          },
-          "label": "Unknown | irregular"
-        }
-      ],
       "source_frame": "before",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-1d8606007ccad5d5-boxed.jpg",
     "evidence_files": [
@@ -159,6 +142,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "before",
+      "reviewed_at": "2026-10-28T18:46:59.061978+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1099.0,
+            "top": 1053.0,
+            "right": 1110.0,
+            "bottom": 1061.0
+          },
+          "object": "insect",
+          "shape": "irregular"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]
