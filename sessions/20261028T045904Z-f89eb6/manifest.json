@@ -328,7 +328,7 @@
     "error": null
   },
   "youtube": {
-    "state": "retaining",
+    "state": "cleaned",
     "video_id": "E7xLMH8DLgs",
     "url": "https://www.youtube.com/watch?v=E7xLMH8DLgs",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
