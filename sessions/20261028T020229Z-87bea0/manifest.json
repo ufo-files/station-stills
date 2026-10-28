@@ -162,9 +162,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:46:33.068486+00:00",
+        "classified_at": "2026-10-28T19:11:07.550002+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -231,7 +231,7 @@
     },
     "motion-events.json": {
       "bytes": 4340,
-      "sha256": "8704fcb0b16473dbe0e7003b7c9340bd7a2d52b02bd7293955c4fcb08386a5fb"
+      "sha256": "bcfcaa84c012baef1697fdca82d94397c54a2590ed6a98704082a732a60cf9cf"
     },
     "buffer-state.json": {
       "bytes": 10832,
