@@ -107,12 +107,12 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "uploading",
-    "video_id": null,
-    "url": null,
+    "state": "verifying",
+    "video_id": "uze6uRh8e94",
+    "url": "https://www.youtube.com/watch?v=uze6uRh8e94",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
     "privacy": "public",
-    "uploaded_at": null,
+    "uploaded_at": 1793172002.6777687,
     "verified_at": null,
     "uploaded_file": {
       "file": "video.mp4",
