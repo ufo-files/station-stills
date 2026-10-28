@@ -60,7 +60,31 @@
             "right": 1036,
             "bottom": 382
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | elongated"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 997,
+            "top": 321,
+            "right": 1012,
+            "bottom": 358
+          },
+          "crop_bounds": {
+            "left": 973,
+            "top": 297,
+            "right": 1036,
+            "bottom": 382
+          },
+          "native_file": "motion-cad7bda66a641361-before-2ba460fc31-crop.png",
+          "detail_file": "motion-cad7bda66a641361-before-2ba460fc31-detail.jpg",
+          "native_width": 63,
+          "native_height": 85,
+          "display_width": 759,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "changed_regions": [
@@ -77,7 +101,7 @@
             "right": 1036,
             "bottom": 382
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | elongated"
         }
       ],
       "source_frame": "before",
@@ -95,23 +119,26 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:35:36.829759+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:51:19.289342+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 1002,
-            "top": 323,
-            "right": 1007,
-            "bottom": 345
+            "left": 997,
+            "top": 321,
+            "right": 1012,
+            "bottom": 358
           },
           "shape": {
-            "label": "too_small",
-            "reason": "Insufficient native silhouette detail",
-            "area_pixels": 42,
-            "width_pixels": 6,
-            "height_pixels": 19,
-            "contrast_threshold": 56.0
+            "label": "elongated",
+            "circularity": 0.278,
+            "axis_ratio": 0.246,
+            "fill_fraction": 0.615,
+            "area_pixels": 128,
+            "width_pixels": 8,
+            "height_pixels": 26,
+            "contrast_threshold": 48.0
           },
           "source_frame": "after",
           "object": {

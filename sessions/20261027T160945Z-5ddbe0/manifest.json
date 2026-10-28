@@ -103,7 +103,31 @@
               "right": 651,
               "bottom": 173
             },
-            "label": "Unknown | shape unresolved"
+            "label": "Unknown | irregular"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 614,
+              "top": 138,
+              "right": 627,
+              "bottom": 149
+            },
+            "crop_bounds": {
+              "left": 590,
+              "top": 114,
+              "right": 651,
+              "bottom": 173
+            },
+            "native_file": "motion-cb6936379f18fae2-before-0f60c8097f-crop.png",
+            "detail_file": "motion-cb6936379f18fae2-before-0f60c8097f-detail.jpg",
+            "native_width": 61,
+            "native_height": 59,
+            "display_width": 1024,
+            "display_height": 990,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -120,7 +144,7 @@
               "right": 651,
               "bottom": 173
             },
-            "label": "Unknown | shape unresolved"
+            "label": "Unknown | irregular"
           }
         ],
         "source_frame": "before",
@@ -138,8 +162,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:35:57.657062+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:51:45.930399+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -149,11 +174,16 @@
               "bottom": 149
             },
             "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 28.0
+              "label": "irregular",
+              "circularity": 0.366,
+              "axis_ratio": 0.901,
+              "fill_fraction": 0.583,
+              "area_pixels": 42,
+              "width_pixels": 8,
+              "height_pixels": 9,
+              "contrast_threshold": 36.0
             },
-            "source_frame": "after",
+            "source_frame": "before",
             "object": {
               "label": "unknown",
               "reason": "Target too small for reliable object identification",
@@ -202,8 +232,8 @@
       "sha256": "655c1c4e0df54aee9ea5d9366de395c3a8c06d08bb1aa0a49c13d5cd8467954e"
     },
     "motion-events.json": {
-      "bytes": 3474,
-      "sha256": "e48bd1b5d66f762a12166bc4246161d387db0e7c69466e3239f7b90e69bf94d5"
+      "bytes": 4377,
+      "sha256": "d3e3e6164e5a7be8ede494fb917b23c88ba880743aeefcdc62e0dce9521fd9a0"
     },
     "buffer-state.json": {
       "bytes": 4932,
@@ -214,8 +244,8 @@
       "sha256": "d95667215f49089796d268930557b244859bdac0f96657895fb1e929b83d4e10"
     },
     "motion-cb6936379f18fae2-boxed.jpg": {
-      "bytes": 168646,
-      "sha256": "aa0acb31b8d6da6925eaabf284bc6fd54d3cc11bca7489000acd8582c5ae55f9"
+      "bytes": 166903,
+      "sha256": "6ec8ec0e699691875b8dcb388147d5aa225b0e68cc9997ac2ef3218a770e4673"
     },
     "motion-cb6936379f18fae2-after.jpg": {
       "bytes": 117493,
@@ -224,6 +254,14 @@
     "frames/index.json": {
       "bytes": 719,
       "sha256": "65bcac293f82a5b8063190e4c67643f2b0f54323f888864fad26b5bae525ece7"
+    },
+    "motion-cb6936379f18fae2-before-0f60c8097f-crop.png": {
+      "bytes": 3088,
+      "sha256": "eb4d7b47e6151db97e58d6d7ce393807a1a3cf22407fc2410f7afb976936f3b6"
+    },
+    "motion-cb6936379f18fae2-before-0f60c8097f-detail.jpg": {
+      "bytes": 70943,
+      "sha256": "10cf82a27df5be0fa4f89647d75fd478923d2056c44dd4a3a94387aafcb6f12a"
     }
   },
   "buffer_assembly": {

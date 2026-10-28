@@ -101,67 +101,50 @@
       "annotation": {
         "boxes": [
           {
-            "left": 1632,
-            "top": 1,
-            "right": 1691,
-            "bottom": 33,
-            "changed_analysis_pixels": 511,
+            "left": 1632.0,
+            "top": 1.0,
+            "right": 1691.0,
+            "bottom": 33.0,
+            "label": "Airplane (reviewed) | irregular",
             "visible_in": "after",
             "review_bounds": {
-              "left": 1608,
+              "left": 1616.0,
               "top": 0,
-              "right": 1715,
-              "bottom": 57
-            },
-            "label": "Likely airplane | irregular"
+              "right": 1707.0,
+              "bottom": 49.0
+            }
           }
         ],
         "detail_images": [
           {
             "bounds": {
-              "left": 1632,
-              "top": 1,
-              "right": 1691,
-              "bottom": 33
+              "left": 1632.0,
+              "top": 1.0,
+              "right": 1691.0,
+              "bottom": 33.0
             },
             "crop_bounds": {
-              "left": 1608,
+              "left": 1616,
               "top": 0,
-              "right": 1715,
-              "bottom": 57
+              "right": 1707,
+              "bottom": 49
             },
-            "native_file": "motion-e427e308bb3d605f-after-eeb8b4badb-crop.png",
-            "detail_file": "motion-e427e308bb3d605f-after-eeb8b4badb-detail.jpg",
-            "native_width": 107,
-            "native_height": 57,
+            "native_file": "motion-e427e308bb3d605f-after-5e80ccf059-crop.png",
+            "detail_file": "motion-e427e308bb3d605f-after-5e80ccf059-detail.jpg",
+            "native_width": 91,
+            "native_height": 49,
             "display_width": 1024,
-            "display_height": 545,
+            "display_height": 551,
             "upscaled": true,
             "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
-        "changed_regions": [
-          {
-            "left": 1632,
-            "top": 1,
-            "right": 1691,
-            "bottom": 33,
-            "changed_analysis_pixels": 511,
-            "visible_in": "after",
-            "review_bounds": {
-              "left": 1608,
-              "top": 0,
-              "right": 1715,
-              "bottom": 57
-            },
-            "label": "Likely airplane | irregular"
-          }
-        ],
         "source_frame": "after",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-e427e308bb3d605f-boxed.jpg",
       "evidence_files": [
@@ -226,6 +209,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "after",
+        "reviewed_at": "2026-10-28T18:51:03.974529+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1632.0,
+              "top": 1.0,
+              "right": 1691.0,
+              "bottom": 33.0
+            },
+            "object": "airplane",
+            "shape": "irregular"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -257,16 +260,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 4954,
-      "sha256": "35cd3f3fca55c87fc8fc592137f0787d31d561df73606a71837552cd5c733c4c"
+      "bytes": 4947,
+      "sha256": "52147a20f36207eefc3211fd36dc6d61196e0b256be00763dd4690222f06636b"
     },
     "buffer-state.json": {
       "bytes": 14383,
       "sha256": "f989d07ae7c67c09c3916f5332c2ac476e92c71455f903dcb49db2cd57f823ca"
     },
     "motion-e427e308bb3d605f-boxed.jpg": {
-      "bytes": 232993,
-      "sha256": "b8564ef418e8b8aa891568097e206f0c7b46a1204be92fdb46b3f47b4cf07146"
+      "bytes": 228073,
+      "sha256": "ac7e22123bccf096b8c77904920e7d518a11e3732deb47dfb36e4584214c6030"
     },
     "motion-e427e308bb3d605f-before.jpg": {
       "bytes": 547578,
@@ -295,6 +298,14 @@
     "motion-e427e308bb3d605f-after-eeb8b4badb-detail.jpg": {
       "bytes": 47689,
       "sha256": "41bfeb93502fee94cb5148c5a567e8aa90c9cd6230ad14fab457e376ba4bc61c"
+    },
+    "motion-e427e308bb3d605f-after-5e80ccf059-crop.png": {
+      "bytes": 4687,
+      "sha256": "742514b01436d8dd6b86e1d66523d81455791d84600aaa3f755ba49dc14897aa"
+    },
+    "motion-e427e308bb3d605f-after-5e80ccf059-detail.jpg": {
+      "bytes": 49801,
+      "sha256": "33b05656066fee91c4e75df8d72a01d63a5ff15b711c52776633049c07c0fd68"
     }
   },
   "buffer_assembly": {

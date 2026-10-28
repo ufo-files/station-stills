@@ -123,7 +123,7 @@
               "right": 642,
               "bottom": 966
             },
-            "label": "Unknown | irregular"
+            "label": "Likely bird | irregular"
           },
           {
             "left": 801,
@@ -138,7 +138,75 @@
               "right": 839,
               "bottom": 983
             },
-            "label": "Unknown | elongated"
+            "label": "Likely bird | elongated"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 757,
+              "top": 933,
+              "right": 779,
+              "bottom": 952
+            },
+            "crop_bounds": {
+              "left": 733,
+              "top": 909,
+              "right": 803,
+              "bottom": 976
+            },
+            "native_file": "motion-48c01e65d42889ea-before-8afa52d607-crop.png",
+            "detail_file": "motion-48c01e65d42889ea-before-8afa52d607-detail.jpg",
+            "native_width": 70,
+            "native_height": 67,
+            "display_width": 1024,
+            "display_height": 980,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 597,
+              "top": 926,
+              "right": 618,
+              "bottom": 942
+            },
+            "crop_bounds": {
+              "left": 573,
+              "top": 902,
+              "right": 642,
+              "bottom": 966
+            },
+            "native_file": "motion-48c01e65d42889ea-before-65730fb910-crop.png",
+            "detail_file": "motion-48c01e65d42889ea-before-65730fb910-detail.jpg",
+            "native_width": 69,
+            "native_height": 64,
+            "display_width": 1024,
+            "display_height": 950,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 801,
+              "top": 945,
+              "right": 815,
+              "bottom": 959
+            },
+            "crop_bounds": {
+              "left": 777,
+              "top": 921,
+              "right": 839,
+              "bottom": 983
+            },
+            "native_file": "motion-48c01e65d42889ea-before-b2ed43f4eb-crop.png",
+            "detail_file": "motion-48c01e65d42889ea-before-b2ed43f4eb-detail.jpg",
+            "native_width": 62,
+            "native_height": 62,
+            "display_width": 1024,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -170,7 +238,7 @@
               "right": 642,
               "bottom": 966
             },
-            "label": "Unknown | irregular"
+            "label": "Likely bird | irregular"
           },
           {
             "left": 801,
@@ -185,7 +253,7 @@
               "right": 839,
               "bottom": 983
             },
-            "label": "Unknown | elongated"
+            "label": "Likely bird | elongated"
           }
         ],
         "source_frame": "before",
@@ -203,8 +271,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:35:54.184777+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:51:40.573341+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -257,13 +326,24 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 0.999,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "confidence": 0.99912566,
+                    "threshold": 0.995,
+                    "identifier": "bird",
+                    "source": "camera-trained",
+                    "model_version": "20261028T183704Z-723291ee",
+                    "minimum_native_size": 8
+                  }
+                ]
               },
               {
                 "labels": []
@@ -289,13 +369,24 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "Target too small for reliable object identification",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 0.999,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "confidence": 0.99857295,
+                    "minimum_native_size": 8,
+                    "identifier": "bird",
+                    "model_version": "20261028T183704Z-723291ee",
+                    "threshold": 0.995
+                  }
+                ]
               },
               {
                 "labels": []
@@ -368,7 +459,7 @@
               "right": 121,
               "bottom": 587
             },
-            "label": "Unknown | elongated"
+            "label": "Likely bird | elongated"
           },
           {
             "left": 215,
@@ -401,6 +492,74 @@
             "label": "Motion | analyzing"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 67,
+              "top": 548,
+              "right": 97,
+              "bottom": 563
+            },
+            "crop_bounds": {
+              "left": 43,
+              "top": 524,
+              "right": 121,
+              "bottom": 587
+            },
+            "native_file": "motion-0f25d62098099f9f-before-e9ee3c77ab-crop.png",
+            "detail_file": "motion-0f25d62098099f9f-before-e9ee3c77ab-detail.jpg",
+            "native_width": 78,
+            "native_height": 63,
+            "display_width": 1024,
+            "display_height": 827,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 215,
+              "top": 678,
+              "right": 241,
+              "bottom": 693
+            },
+            "crop_bounds": {
+              "left": 191,
+              "top": 654,
+              "right": 265,
+              "bottom": 717
+            },
+            "native_file": "motion-0f25d62098099f9f-before-0f93a2c64f-crop.png",
+            "detail_file": "motion-0f25d62098099f9f-before-0f93a2c64f-detail.jpg",
+            "native_width": 74,
+            "native_height": 63,
+            "display_width": 1024,
+            "display_height": 872,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 298,
+              "top": 912,
+              "right": 322,
+              "bottom": 925
+            },
+            "crop_bounds": {
+              "left": 274,
+              "top": 888,
+              "right": 346,
+              "bottom": 949
+            },
+            "native_file": "motion-0f25d62098099f9f-before-265b0f7435-crop.png",
+            "detail_file": "motion-0f25d62098099f9f-before-265b0f7435-detail.jpg",
+            "native_width": 72,
+            "native_height": 61,
+            "display_width": 1024,
+            "display_height": 868,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 67,
@@ -415,7 +574,7 @@
               "right": 121,
               "bottom": 587
             },
-            "label": "Unknown | elongated"
+            "label": "Likely bird | elongated"
           },
           {
             "left": 215,
@@ -487,8 +646,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:35:51.880579+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:51:37.818621+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -509,13 +669,24 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 0.999,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T183704Z-723291ee",
+                    "identifier": "bird",
+                    "threshold": 0.995,
+                    "confidence": 0.99924266
+                  }
+                ]
               },
               {
                 "labels": []
@@ -571,16 +742,27 @@
             },
             "source_frame": "after",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 0.999,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
                 "labels": []
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T183704Z-723291ee",
+                    "identifier": "bird",
+                    "threshold": 0.995,
+                    "confidence": 0.9985536
+                  }
+                ]
               }
             ]
           }
@@ -618,8 +800,8 @@
       "sha256": "d819a2ed145732e248569d23625de1e3da16b910970a53c6369f5abd146c4cff"
     },
     "motion-events.json": {
-      "bytes": 14042,
-      "sha256": "ed300576ee8abc77c9344105f0b241d4bc13414d6db28927a25f2e110e803fec"
+      "bytes": 20028,
+      "sha256": "c0f49107227908d7294c3c93a6580ccd16e3b69d04aacb95757ca7e737c65667"
     },
     "buffer-state.json": {
       "bytes": 6458,
@@ -638,12 +820,12 @@
       "sha256": "d358fc950b28023bacedd86a3dc00e0091f2bf2fba4607e104600f3cb6c887fb"
     },
     "motion-48c01e65d42889ea-boxed.jpg": {
-      "bytes": 160228,
-      "sha256": "126c95a1a9320d5c8ba65653850d8e1f723b26d936d96db04d8476602c8aa21e"
+      "bytes": 160577,
+      "sha256": "3eb79c6adbe2bec438bebe00957b95b4a060442275199c4e0b94034c9f45068a"
     },
     "motion-0f25d62098099f9f-boxed.jpg": {
-      "bytes": 176102,
-      "sha256": "da2c43458b20676d1a6fb043709f06ad8cbb33d80ec46a2422afaca4c4282acb"
+      "bytes": 176287,
+      "sha256": "ab5f6e83b55c8fbae4e00d9332505d7a4fa4b4ffeffbcf01f5ee3276b373e8f7"
     },
     "motion-48c01e65d42889ea-after.jpg": {
       "bytes": 107084,
@@ -652,6 +834,54 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "97feb8e8e1e1a2539b39832a6bc11703c5d2709857d3defecb78826d355951fe"
+    },
+    "motion-0f25d62098099f9f-before-e9ee3c77ab-crop.png": {
+      "bytes": 4329,
+      "sha256": "f353a611a6b5d147e757a8241b28787cde3de0ad2c3451f29f40c857e5a9e52c"
+    },
+    "motion-0f25d62098099f9f-before-e9ee3c77ab-detail.jpg": {
+      "bytes": 69055,
+      "sha256": "f109cda9bc0d3a1f3fd7e94901cc88566e1174fad9563e321f67fd7cd4bb42f6"
+    },
+    "motion-0f25d62098099f9f-before-0f93a2c64f-crop.png": {
+      "bytes": 2724,
+      "sha256": "501363a0fe3c2943243a6ec2e2aa87e3cd1fcc1b6d8fdb1adbe22b52c5769f6a"
+    },
+    "motion-0f25d62098099f9f-before-0f93a2c64f-detail.jpg": {
+      "bytes": 58058,
+      "sha256": "2f6edc1acd3f13ef815727f5166af4cce2f80a408b19dff2b66535b4d6800c23"
+    },
+    "motion-0f25d62098099f9f-before-265b0f7435-crop.png": {
+      "bytes": 2261,
+      "sha256": "b23c99ecebd6f7e900b43811530df1b97922274e0b5c6789a88c8b6aabeb9a3e"
+    },
+    "motion-0f25d62098099f9f-before-265b0f7435-detail.jpg": {
+      "bytes": 43544,
+      "sha256": "8f243f25f147db1561c02da4ec7f244fb8597c75b97a07dbb07d4de525490397"
+    },
+    "motion-48c01e65d42889ea-before-8afa52d607-crop.png": {
+      "bytes": 2353,
+      "sha256": "9bcd702507fd167d16d2357342e33971bdd49fc5ac2de15d572e124934995cfe"
+    },
+    "motion-48c01e65d42889ea-before-8afa52d607-detail.jpg": {
+      "bytes": 49774,
+      "sha256": "7ae42748fd03aacdaab0b26ed2fdc77abe14744b4c9c05c9a9940ddaadc9fc67"
+    },
+    "motion-48c01e65d42889ea-before-65730fb910-crop.png": {
+      "bytes": 2450,
+      "sha256": "17ae3313aaca4062eab40e681216bf7b4cb5391ae63a662cea693f13eeea07f4"
+    },
+    "motion-48c01e65d42889ea-before-65730fb910-detail.jpg": {
+      "bytes": 48518,
+      "sha256": "ef2773498083925aa2dc3ad4012bec6f4bcb05c7423dbb25dd8fc28224c4639a"
+    },
+    "motion-48c01e65d42889ea-before-b2ed43f4eb-crop.png": {
+      "bytes": 1983,
+      "sha256": "24c1fb5bb89282e867e30edde7678988204a39e4fff3ece0fbcdfac9457afe9c"
+    },
+    "motion-48c01e65d42889ea-before-b2ed43f4eb-detail.jpg": {
+      "bytes": 47884,
+      "sha256": "8ee35737f2982f345429633d8dfb0b9c7ed593ab55680b3913035cc7cfaa95d8"
     }
   },
   "buffer_assembly": {

@@ -103,7 +103,31 @@
               "right": 809,
               "bottom": 722
             },
-            "label": "Unknown | too small"
+            "label": "Likely bird | too small"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 771,
+              "top": 688,
+              "right": 785,
+              "bottom": 698
+            },
+            "crop_bounds": {
+              "left": 747,
+              "top": 664,
+              "right": 809,
+              "bottom": 722
+            },
+            "native_file": "motion-722904ab53c11dbf-before-63baad94f8-crop.png",
+            "detail_file": "motion-722904ab53c11dbf-before-63baad94f8-detail.jpg",
+            "native_width": 62,
+            "native_height": 58,
+            "display_width": 1024,
+            "display_height": 958,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -120,7 +144,7 @@
               "right": 809,
               "bottom": 722
             },
-            "label": "Unknown | too small"
+            "label": "Likely bird | too small"
           }
         ],
         "source_frame": "before",
@@ -138,8 +162,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:35:22.852253+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:50:43.808282+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -158,13 +183,24 @@
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "Target too small for reliable object identification",
-              "support_frames": 0
+              "label": "bird",
+              "confidence": 0.999,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "model_version": "20261028T183704Z-723291ee",
+                    "identifier": "bird",
+                    "source": "camera-trained",
+                    "threshold": 0.995,
+                    "minimum_native_size": 8,
+                    "confidence": 0.9987488
+                  }
+                ]
               },
               {
                 "labels": []
@@ -205,8 +241,8 @@
       "sha256": "d819a2ed145732e248569d23625de1e3da16b910970a53c6369f5abd146c4cff"
     },
     "motion-events.json": {
-      "bytes": 3569,
-      "sha256": "0253b3b6133c250031b5112cd191e556906526e40878c84f2def8e2b2302b1c9"
+      "bytes": 4762,
+      "sha256": "1a324544e48f9c0b152cedc50c26f89eb896165934d7c8a9291bbcac7fab6cd4"
     },
     "buffer-state.json": {
       "bytes": 4693,
@@ -217,8 +253,8 @@
       "sha256": "13003f18dc2b0f999b8c7e228a2d4180cbca0600b10cc2decd052f5c5fd115bc"
     },
     "motion-722904ab53c11dbf-boxed.jpg": {
-      "bytes": 196689,
-      "sha256": "5b809ee65d54b75254092937ee212e7489cdae4f2a95094d385020b3a9f69e8b"
+      "bytes": 197097,
+      "sha256": "46f6d9304bfec272996a8afcdbe9d45edb0e331ab268c8751f2e9e9024972c8b"
     },
     "motion-722904ab53c11dbf-after.jpg": {
       "bytes": 139057,
@@ -227,6 +263,14 @@
     "frames/index.json": {
       "bytes": 717,
       "sha256": "cf541687e5e266a1c25b58e03e7780c9d1b638149d98c7d241409735efbdaee4"
+    },
+    "motion-722904ab53c11dbf-before-63baad94f8-crop.png": {
+      "bytes": 2165,
+      "sha256": "5ac55de8e266e6fed8ba7291fc45b89149a637930dd8b046dac0e790b10e089b"
+    },
+    "motion-722904ab53c11dbf-before-63baad94f8-detail.jpg": {
+      "bytes": 50962,
+      "sha256": "8774fad50ad72b94a6e72e3aa0a8b2c6c21ff2bd437da7c62c9c77b139a3fe8f"
     }
   },
   "buffer_assembly": {

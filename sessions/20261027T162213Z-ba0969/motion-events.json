@@ -60,7 +60,7 @@
             "right": 1886,
             "bottom": 713
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 232,
@@ -78,6 +78,52 @@
           "label": "Unknown | too small"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1855,
+            "top": 682,
+            "right": 1862,
+            "bottom": 689
+          },
+          "crop_bounds": {
+            "left": 1831,
+            "top": 658,
+            "right": 1886,
+            "bottom": 713
+          },
+          "native_file": "motion-a9ad2c9f14c2491c-before-142621f7e0-crop.png",
+          "detail_file": "motion-a9ad2c9f14c2491c-before-142621f7e0-detail.jpg",
+          "native_width": 55,
+          "native_height": 55,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 232,
+            "top": 982,
+            "right": 240,
+            "bottom": 986
+          },
+          "crop_bounds": {
+            "left": 208,
+            "top": 958,
+            "right": 264,
+            "bottom": 1010
+          },
+          "native_file": "motion-a9ad2c9f14c2491c-before-5f7cad3cfe-crop.png",
+          "detail_file": "motion-a9ad2c9f14c2491c-before-5f7cad3cfe-detail.jpg",
+          "native_width": 56,
+          "native_height": 52,
+          "display_width": 1024,
+          "display_height": 951,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1855,
@@ -92,7 +138,7 @@
             "right": 1886,
             "bottom": 713
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 232,
@@ -125,9 +171,37 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:35:34.940050+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:51:12.534577+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
+        {
+          "bounds": {
+            "left": 1855,
+            "top": 682,
+            "right": 1862,
+            "bottom": 689
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 96.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
         {
           "bounds": {
             "left": 232,

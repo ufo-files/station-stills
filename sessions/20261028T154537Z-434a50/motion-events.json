@@ -49,67 +49,50 @@
     "annotation": {
       "boxes": [
         {
-          "left": 1632,
-          "top": 1,
-          "right": 1691,
-          "bottom": 33,
-          "changed_analysis_pixels": 511,
+          "left": 1632.0,
+          "top": 1.0,
+          "right": 1691.0,
+          "bottom": 33.0,
+          "label": "Airplane (reviewed) | irregular",
           "visible_in": "after",
           "review_bounds": {
-            "left": 1608,
+            "left": 1616.0,
             "top": 0,
-            "right": 1715,
-            "bottom": 57
-          },
-          "label": "Likely airplane | irregular"
+            "right": 1707.0,
+            "bottom": 49.0
+          }
         }
       ],
       "detail_images": [
         {
           "bounds": {
-            "left": 1632,
-            "top": 1,
-            "right": 1691,
-            "bottom": 33
+            "left": 1632.0,
+            "top": 1.0,
+            "right": 1691.0,
+            "bottom": 33.0
           },
           "crop_bounds": {
-            "left": 1608,
+            "left": 1616,
             "top": 0,
-            "right": 1715,
-            "bottom": 57
+            "right": 1707,
+            "bottom": 49
           },
-          "native_file": "motion-e427e308bb3d605f-after-eeb8b4badb-crop.png",
-          "detail_file": "motion-e427e308bb3d605f-after-eeb8b4badb-detail.jpg",
-          "native_width": 107,
-          "native_height": 57,
+          "native_file": "motion-e427e308bb3d605f-after-5e80ccf059-crop.png",
+          "detail_file": "motion-e427e308bb3d605f-after-5e80ccf059-detail.jpg",
+          "native_width": 91,
+          "native_height": 49,
           "display_width": 1024,
-          "display_height": 545,
+          "display_height": 551,
           "upscaled": true,
           "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
-      "changed_regions": [
-        {
-          "left": 1632,
-          "top": 1,
-          "right": 1691,
-          "bottom": 33,
-          "changed_analysis_pixels": 511,
-          "visible_in": "after",
-          "review_bounds": {
-            "left": 1608,
-            "top": 0,
-            "right": 1715,
-            "bottom": 57
-          },
-          "label": "Likely airplane | irregular"
-        }
-      ],
       "source_frame": "after",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-e427e308bb3d605f-boxed.jpg",
     "evidence_files": [
@@ -174,6 +157,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "after",
+      "reviewed_at": "2026-10-28T18:51:03.974529+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1632.0,
+            "top": 1.0,
+            "right": 1691.0,
+            "bottom": 33.0
+          },
+          "object": "airplane",
+          "shape": "irregular"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]

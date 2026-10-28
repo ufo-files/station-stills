@@ -63,6 +63,30 @@
           "label": "Unknown | shape unresolved"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 670,
+            "top": 648,
+            "right": 698,
+            "bottom": 690
+          },
+          "crop_bounds": {
+            "left": 646,
+            "top": 624,
+            "right": 722,
+            "bottom": 714
+          },
+          "native_file": "motion-44481e8c5d3d750b-before-837f450227-crop.png",
+          "detail_file": "motion-44481e8c5d3d750b-before-837f450227-detail.jpg",
+          "native_width": 76,
+          "native_height": 90,
+          "display_width": 865,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 670,
@@ -95,22 +119,28 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:07.267999+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:52:08.887651+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
             "left": 670,
             "top": 648,
-            "right": 691,
+            "right": 698,
             "bottom": 690
           },
           "shape": {
             "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 8.0
+            "circularity": 0.174,
+            "axis_ratio": 0.856,
+            "fill_fraction": 0.282,
+            "area_pixels": 439,
+            "width_pixels": 37,
+            "height_pixels": 42,
+            "contrast_threshold": 32.4
           },
-          "source_frame": "after",
+          "source_frame": "before",
           "object": {
             "label": "unknown",
             "reason": "No consistent high-confidence object label",

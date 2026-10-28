@@ -103,7 +103,31 @@
               "right": 966,
               "bottom": 609
             },
-            "label": "Unknown | shape unresolved"
+            "label": "Unknown | elongated"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 924,
+              "top": 538,
+              "right": 942,
+              "bottom": 585
+            },
+            "crop_bounds": {
+              "left": 900,
+              "top": 514,
+              "right": 966,
+              "bottom": 609
+            },
+            "native_file": "motion-013cb6809a1f9601-before-d1f5b35a32-crop.png",
+            "detail_file": "motion-013cb6809a1f9601-before-d1f5b35a32-detail.jpg",
+            "native_width": 66,
+            "native_height": 95,
+            "display_width": 711,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -120,7 +144,7 @@
               "right": 966,
               "bottom": 609
             },
-            "label": "Unknown | shape unresolved"
+            "label": "Unknown | elongated"
           }
         ],
         "source_frame": "before",
@@ -138,49 +162,28 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:35:59.220858+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:51:48.455831+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
               "left": 924,
               "top": 538,
-              "right": 939,
+              "right": 942,
               "bottom": 585
             },
             "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 8.0
+              "label": "elongated",
+              "circularity": 0.269,
+              "axis_ratio": 0.214,
+              "fill_fraction": 0.462,
+              "area_pixels": 362,
+              "width_pixels": 16,
+              "height_pixels": 49,
+              "contrast_threshold": 31.7
             },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 936,
-              "top": 543,
-              "right": 942,
-              "bottom": 574
-            },
-            "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 8.0
-            },
-            "source_frame": "after",
+            "source_frame": "before",
             "object": {
               "label": "unknown",
               "reason": "No consistent high-confidence object label",
@@ -229,8 +232,8 @@
       "sha256": "655c1c4e0df54aee9ea5d9366de395c3a8c06d08bb1aa0a49c13d5cd8467954e"
     },
     "motion-events.json": {
-      "bytes": 4135,
-      "sha256": "14e1b07ba10ae64cff1d71f22dc8d467c0b93aca657d6832e87f8f3c81d350aa"
+      "bytes": 4370,
+      "sha256": "22e313377f6b1428de5592210cba70ca8a9aecf90f081bea6876c269bd19212d"
     },
     "buffer-state.json": {
       "bytes": 4933,
@@ -245,12 +248,20 @@
       "sha256": "4b13894d0036b56e22d5ea9c537b283024bb8ca2f09efc0675fc17496a04bc0f"
     },
     "motion-013cb6809a1f9601-boxed.jpg": {
-      "bytes": 157243,
-      "sha256": "3b638f617e88a254c0286002f55c8bf69c54128269e76a5ec7013a019617b74c"
+      "bytes": 155926,
+      "sha256": "3601e241258b53ac8ddfac8843bcd3040612f4d6e52d205d036f40d7e9d91f10"
     },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "4b0c8e75edf880da6f7614dc9734a4ffe537c1d2a5e35085aceae2c19353378e"
+    },
+    "motion-013cb6809a1f9601-before-d1f5b35a32-crop.png": {
+      "bytes": 4382,
+      "sha256": "3e69da23ecc160753e696b6dc4cde5ba9ccbedc9b313a82683d3de0ec4210a66"
+    },
+    "motion-013cb6809a1f9601-before-d1f5b35a32-detail.jpg": {
+      "bytes": 50266,
+      "sha256": "2ad0c260631461c47279201fd5f8482e18b61e3af5b28fe26958b9b695df6032"
     }
   },
   "buffer_assembly": {

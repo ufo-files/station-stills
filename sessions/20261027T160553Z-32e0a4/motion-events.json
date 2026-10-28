@@ -60,7 +60,7 @@
             "right": 1173,
             "bottom": 340
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | irregular"
         },
         {
           "left": 1714,
@@ -75,7 +75,53 @@
             "right": 1759,
             "bottom": 493
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | too small"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1127,
+            "top": 300,
+            "right": 1149,
+            "bottom": 316
+          },
+          "crop_bounds": {
+            "left": 1103,
+            "top": 276,
+            "right": 1173,
+            "bottom": 340
+          },
+          "native_file": "motion-af3d31318af3bbdb-before-3538a0c8a9-crop.png",
+          "detail_file": "motion-af3d31318af3bbdb-before-3538a0c8a9-detail.jpg",
+          "native_width": 70,
+          "native_height": 64,
+          "display_width": 1024,
+          "display_height": 936,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1714,
+            "top": 463,
+            "right": 1735,
+            "bottom": 469
+          },
+          "crop_bounds": {
+            "left": 1690,
+            "top": 439,
+            "right": 1759,
+            "bottom": 493
+          },
+          "native_file": "motion-af3d31318af3bbdb-before-acb52326ef-crop.png",
+          "detail_file": "motion-af3d31318af3bbdb-before-acb52326ef-detail.jpg",
+          "native_width": 69,
+          "native_height": 54,
+          "display_width": 1024,
+          "display_height": 801,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "changed_regions": [
@@ -92,7 +138,7 @@
             "right": 1173,
             "bottom": 340
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | irregular"
         },
         {
           "left": 1714,
@@ -107,7 +153,7 @@
             "right": 1759,
             "bottom": 493
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | too small"
         }
       ],
       "source_frame": "before",
@@ -125,20 +171,56 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:05.118394+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:51:57.319955+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
             "left": 1127,
-            "top": 305,
+            "top": 300,
             "right": 1149,
             "bottom": 316
           },
           "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 8.0
+            "label": "irregular",
+            "circularity": 0.271,
+            "axis_ratio": 0.696,
+            "fill_fraction": 0.483,
+            "area_pixels": 138,
+            "width_pixels": 22,
+            "height_pixels": 13,
+            "contrast_threshold": 27.13
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1714,
+            "top": 463,
+            "right": 1735,
+            "bottom": 469
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 9,
+            "width_pixels": 4,
+            "height_pixels": 3,
+            "contrast_threshold": 40.0
           },
           "source_frame": "after",
           "object": {

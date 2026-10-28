@@ -78,6 +78,52 @@
           "label": "Unknown | irregular"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1829,
+            "top": 638,
+            "right": 1891,
+            "bottom": 727
+          },
+          "crop_bounds": {
+            "left": 1802,
+            "top": 611,
+            "right": 1918,
+            "bottom": 754
+          },
+          "native_file": "motion-e1fd08fdc6c0313a-before-cb5dcbbda2-crop.png",
+          "detail_file": "motion-e1fd08fdc6c0313a-before-cb5dcbbda2-detail.jpg",
+          "native_width": 116,
+          "native_height": 143,
+          "display_width": 831,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1320,
+            "top": 524,
+            "right": 1337,
+            "bottom": 534
+          },
+          "crop_bounds": {
+            "left": 1296,
+            "top": 500,
+            "right": 1361,
+            "bottom": 558
+          },
+          "native_file": "motion-e1fd08fdc6c0313a-before-c6ba020055-crop.png",
+          "detail_file": "motion-e1fd08fdc6c0313a-before-c6ba020055-detail.jpg",
+          "native_width": 65,
+          "native_height": 58,
+          "display_width": 1024,
+          "display_height": 914,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1829,
@@ -133,8 +179,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:36:01.300524+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:51:51.477919+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
