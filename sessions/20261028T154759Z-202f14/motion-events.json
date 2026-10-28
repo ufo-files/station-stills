@@ -1,0 +1,94 @@
+[
+  {
+    "id": "e89fcf3ebeb565e1",
+    "detected_at": "2026-10-28T15:47:59.381482+00:00",
+    "detected_epoch": 1793202479.381506,
+    "motion_started_epoch": 1793202478.860506,
+    "changed_area_percent": 0.004822530864197531,
+    "settings": {
+      "filter_profile": "daytime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 18,
+      "min_area_percent": 0.002,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T154759Z-202f14",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 738,
+          "top": 257,
+          "right": 753,
+          "bottom": 267,
+          "changed_analysis_pixels": 100,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 714,
+            "top": 233,
+            "right": 777,
+            "bottom": 291
+          }
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 738,
+          "top": 257,
+          "right": 753,
+          "bottom": 267,
+          "changed_analysis_pixels": 100,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 714,
+            "top": 233,
+            "right": 777,
+            "bottom": 291
+          }
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-e89fcf3ebeb565e1-boxed.jpg",
+    "evidence_files": [
+      "motion-e89fcf3ebeb565e1-before.jpg",
+      "motion-e89fcf3ebeb565e1-after.jpg"
+    ]
+  }
+]
