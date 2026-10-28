@@ -52,17 +52,82 @@
           "top": 138,
           "right": 627,
           "bottom": 149,
-          "changed_analysis_pixels": 70
+          "changed_analysis_pixels": 70,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 590,
+            "top": 114,
+            "right": 651,
+            "bottom": 173
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
+      "changed_regions": [
+        {
+          "left": 614,
+          "top": 138,
+          "right": 627,
+          "bottom": 149,
+          "changed_analysis_pixels": 70,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 590,
+            "top": 114,
+            "right": 651,
+            "bottom": 173
+          },
+          "label": "Unknown | shape unresolved"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
     },
     "annotated_frame": "motion-cb6936379f18fae2-boxed.jpg",
     "evidence_files": [
       "motion-cb6936379f18fae2-before.jpg",
       "motion-cb6936379f18fae2-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:35:57.657062+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 614,
+            "top": 138,
+            "right": 627,
+            "bottom": 149
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 28.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

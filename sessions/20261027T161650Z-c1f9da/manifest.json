@@ -96,7 +96,14 @@
             "right": 811,
             "bottom": 580,
             "changed_analysis_pixels": 25,
-            "visible_in": "after"
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 779,
+              "top": 552,
+              "right": 835,
+              "bottom": 604
+            },
+            "label": "Unknown | too small"
           }
         ],
         "changed_regions": [
@@ -106,7 +113,14 @@
             "right": 811,
             "bottom": 580,
             "changed_analysis_pixels": 25,
-            "visible_in": "after"
+            "visible_in": "after",
+            "review_bounds": {
+              "left": 779,
+              "top": 552,
+              "right": 835,
+              "bottom": 604
+            },
+            "label": "Unknown | too small"
           },
           {
             "left": 1560,
@@ -118,7 +132,7 @@
           }
         ],
         "source_frame": "after",
-        "annotation_version": 2,
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
         "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -127,7 +141,80 @@
       "evidence_files": [
         "motion-f7906a51ac052421-before.jpg",
         "motion-f7906a51ac052421-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:35:43.123110+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 803,
+              "top": 576,
+              "right": 811,
+              "bottom": 580
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 67,
+              "width_pixels": 12,
+              "height_pixels": 7,
+              "contrast_threshold": 11.92
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1560,
+              "top": 341,
+              "right": 1568,
+              "bottom": 345
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.552,
+              "axis_ratio": 0.543,
+              "fill_fraction": 0.759,
+              "area_pixels": 85,
+              "width_pixels": 14,
+              "height_pixels": 8,
+              "contrast_threshold": 11.12
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793117810.4526162,
@@ -158,16 +245,16 @@
       "sha256": "d819a2ed145732e248569d23625de1e3da16b910970a53c6369f5abd146c4cff"
     },
     "motion-events.json": {
-      "bytes": 2220,
-      "sha256": "c4c27d597afa8c371df8221b8135a6005cfefa648803b33de184f300018d8995"
+      "bytes": 4589,
+      "sha256": "0af3a3a14a398de9691807f960f5263375cdfa097d36aeb053c3495ac8ad2cbb"
     },
     "buffer-state.json": {
       "bytes": 4890,
       "sha256": "3e5f28c6b3e8c1089a3b916dc947925cb092258f92021da59ddbf912938f9289"
     },
     "motion-f7906a51ac052421-boxed.jpg": {
-      "bytes": 170017,
-      "sha256": "a1a7416e4570a995a53a9c54b8c1fb6267ccdedbfbc37393ac3d89a0100dda79"
+      "bytes": 173947,
+      "sha256": "8f13e671e5bbae414a86032e0a10841ba65657e2cb18395e8b44e940fe2439ff"
     },
     "motion-f7906a51ac052421-after.jpg": {
       "bytes": 123999,

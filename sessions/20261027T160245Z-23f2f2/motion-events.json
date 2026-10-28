@@ -48,21 +48,146 @@
     "annotation": {
       "boxes": [
         {
+          "left": 1029,
+          "top": 553,
+          "right": 1038,
+          "bottom": 562,
+          "changed_analysis_pixels": 25,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 1005,
+            "top": 529,
+            "right": 1062,
+            "bottom": 586
+          },
+          "label": "Motion | analyzing"
+        },
+        {
+          "left": 515,
+          "top": 679,
+          "right": 528,
+          "bottom": 688,
+          "changed_analysis_pixels": 25,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 491,
+            "top": 655,
+            "right": 552,
+            "bottom": 712
+          },
+          "label": "Motion | analyzing"
+        },
+        {
           "left": 819,
           "top": 788,
           "right": 826,
           "bottom": 793,
-          "changed_analysis_pixels": 24
+          "changed_analysis_pixels": 24,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 795,
+            "top": 764,
+            "right": 850,
+            "bottom": 817
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
+      "changed_regions": [
+        {
+          "left": 1029,
+          "top": 553,
+          "right": 1038,
+          "bottom": 562,
+          "changed_analysis_pixels": 25,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 1005,
+            "top": 529,
+            "right": 1062,
+            "bottom": 586
+          },
+          "label": "Motion | analyzing"
+        },
+        {
+          "left": 515,
+          "top": 679,
+          "right": 528,
+          "bottom": 688,
+          "changed_analysis_pixels": 25,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 491,
+            "top": 655,
+            "right": 552,
+            "bottom": 712
+          },
+          "label": "Motion | analyzing"
+        },
+        {
+          "left": 819,
+          "top": 788,
+          "right": 826,
+          "bottom": 793,
+          "changed_analysis_pixels": 24,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 795,
+            "top": 764,
+            "right": 850,
+            "bottom": 817
+          },
+          "label": "Unknown | shape unresolved"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
     },
     "annotated_frame": "motion-70d9989c0732c258-boxed.jpg",
     "evidence_files": [
       "motion-70d9989c0732c258-before.jpg",
       "motion-70d9989c0732c258-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:36:09.414434+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 819,
+            "top": 788,
+            "right": 826,
+            "bottom": 793
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 8.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

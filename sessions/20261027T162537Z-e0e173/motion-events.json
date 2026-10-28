@@ -48,42 +48,40 @@
     "annotation": {
       "boxes": [
         {
-          "left": 946,
-          "top": 1043,
-          "right": 959,
-          "bottom": 1079,
-          "changed_analysis_pixels": 118,
-          "visible_in": "before"
-        },
-        {
           "left": 935,
-          "top": 1047,
-          "right": 944,
+          "top": 1043,
+          "right": 962,
           "bottom": 1079,
-          "changed_analysis_pixels": 63,
-          "visible_in": "before"
+          "changed_analysis_pixels": 274,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 911,
+            "top": 1019,
+            "right": 986,
+            "bottom": 1079
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
       "changed_regions": [
         {
-          "left": 946,
-          "top": 1043,
-          "right": 959,
-          "bottom": 1079,
-          "changed_analysis_pixels": 118,
-          "visible_in": "before"
-        },
-        {
           "left": 935,
-          "top": 1047,
-          "right": 944,
+          "top": 1043,
+          "right": 962,
           "bottom": 1079,
-          "changed_analysis_pixels": 63,
-          "visible_in": "before"
+          "changed_analysis_pixels": 274,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 911,
+            "top": 1019,
+            "right": 986,
+            "bottom": 1079
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
       "source_frame": "before",
-      "annotation_version": 2,
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
       "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -92,6 +90,81 @@
     "evidence_files": [
       "motion-3ee37d513c68501c-before.jpg",
       "motion-3ee37d513c68501c-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:35:32.901282+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 946,
+            "top": 1043,
+            "right": 959,
+            "bottom": 1079
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.487,
+            "axis_ratio": 0.496,
+            "fill_fraction": 0.66,
+            "area_pixels": 577,
+            "width_pixels": 23,
+            "height_pixels": 38,
+            "contrast_threshold": 21.2
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 935,
+            "top": 1047,
+            "right": 944,
+            "bottom": 1079
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.499,
+            "axis_ratio": 0.369,
+            "fill_fraction": 0.762,
+            "area_pixels": 463,
+            "width_pixels": 16,
+            "height_pixels": 38,
+            "contrast_threshold": 21.2
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

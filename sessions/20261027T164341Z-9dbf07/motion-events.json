@@ -48,26 +48,40 @@
     "annotation": {
       "boxes": [
         {
-          "left": 128,
+          "left": 119,
           "top": 315,
           "right": 143,
           "bottom": 319,
-          "changed_analysis_pixels": 32,
-          "visible_in": "both"
+          "changed_analysis_pixels": 37,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 95,
+            "top": 291,
+            "right": 167,
+            "bottom": 343
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
       "changed_regions": [
         {
-          "left": 128,
+          "left": 119,
           "top": 315,
           "right": 143,
           "bottom": 319,
-          "changed_analysis_pixels": 32,
-          "visible_in": "both"
+          "changed_analysis_pixels": 37,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 95,
+            "top": 291,
+            "right": 167,
+            "bottom": 343
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
       "source_frame": "after",
-      "annotation_version": 2,
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
       "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -76,7 +90,50 @@
     "evidence_files": [
       "motion-7e0d9659b1b51c3c-before.jpg",
       "motion-7e0d9659b1b51c3c-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:35:09.335642+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 128,
+            "top": 315,
+            "right": 143,
+            "bottom": 319
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.46,
+            "axis_ratio": 0.291,
+            "fill_fraction": 0.805,
+            "area_pixels": 310,
+            "width_pixels": 35,
+            "height_pixels": 11,
+            "contrast_threshold": 30.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   },
   {
     "id": "22798538792b6c16",
@@ -130,25 +187,46 @@
           "left": 1070,
           "top": 317,
           "right": 1115,
-          "bottom": 344,
-          "changed_analysis_pixels": 260,
-          "visible_in": "before"
-        },
-        {
-          "left": 1079,
-          "top": 339,
-          "right": 1106,
           "bottom": 346,
-          "changed_analysis_pixels": 49,
-          "visible_in": "before"
+          "changed_analysis_pixels": 378,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1046,
+            "top": 293,
+            "right": 1139,
+            "bottom": 370
+          },
+          "label": "Unknown | elongated"
         },
         {
-          "left": 1080,
+          "left": 864,
+          "top": 58,
+          "right": 878,
+          "bottom": 74,
+          "changed_analysis_pixels": 36,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 840,
+            "top": 34,
+            "right": 902,
+            "bottom": 98
+          },
+          "label": "Motion | analyzing"
+        },
+        {
+          "left": 144,
           "top": 328,
-          "right": 1087,
-          "bottom": 334,
-          "changed_analysis_pixels": 30,
-          "visible_in": "before"
+          "right": 163,
+          "bottom": 335,
+          "changed_analysis_pixels": 29,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 120,
+            "top": 304,
+            "right": 187,
+            "bottom": 359
+          },
+          "label": "Motion | analyzing"
         }
       ],
       "changed_regions": [
@@ -156,29 +234,50 @@
           "left": 1070,
           "top": 317,
           "right": 1115,
-          "bottom": 344,
-          "changed_analysis_pixels": 260,
-          "visible_in": "before"
-        },
-        {
-          "left": 1079,
-          "top": 339,
-          "right": 1106,
           "bottom": 346,
-          "changed_analysis_pixels": 49,
-          "visible_in": "before"
+          "changed_analysis_pixels": 378,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1046,
+            "top": 293,
+            "right": 1139,
+            "bottom": 370
+          },
+          "label": "Unknown | elongated"
         },
         {
-          "left": 1080,
+          "left": 864,
+          "top": 58,
+          "right": 878,
+          "bottom": 74,
+          "changed_analysis_pixels": 36,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 840,
+            "top": 34,
+            "right": 902,
+            "bottom": 98
+          },
+          "label": "Motion | analyzing"
+        },
+        {
+          "left": 144,
           "top": 328,
-          "right": 1087,
-          "bottom": 334,
-          "changed_analysis_pixels": 30,
-          "visible_in": "before"
+          "right": 163,
+          "bottom": 335,
+          "changed_analysis_pixels": 29,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 120,
+            "top": 304,
+            "right": 187,
+            "bottom": 359
+          },
+          "label": "Motion | analyzing"
         }
       ],
       "source_frame": "before",
-      "annotation_version": 2,
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
       "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -187,6 +286,113 @@
     "evidence_files": [
       "motion-22798538792b6c16-before.jpg",
       "motion-22798538792b6c16-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:35:07.391614+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1070,
+            "top": 317,
+            "right": 1115,
+            "bottom": 344
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.241,
+            "axis_ratio": 0.423,
+            "fill_fraction": 0.476,
+            "area_pixels": 420,
+            "width_pixels": 42,
+            "height_pixels": 21,
+            "contrast_threshold": 62.0
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1079,
+            "top": 339,
+            "right": 1106,
+            "bottom": 346
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.416,
+            "axis_ratio": 0.355,
+            "fill_fraction": 0.097,
+            "area_pixels": 70,
+            "width_pixels": 45,
+            "height_pixels": 16,
+            "contrast_threshold": 22.0
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1080,
+            "top": 328,
+            "right": 1087,
+            "bottom": 334
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.413,
+            "axis_ratio": 0.501,
+            "fill_fraction": 0.536,
+            "area_pixels": 103,
+            "width_pixels": 16,
+            "height_pixels": 12,
+            "contrast_threshold": 96.0
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

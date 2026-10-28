@@ -53,7 +53,14 @@
           "right": 127,
           "bottom": 213,
           "changed_analysis_pixels": 30,
-          "visible_in": "before"
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 97,
+            "top": 182,
+            "right": 151,
+            "bottom": 237
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "changed_regions": [
@@ -63,11 +70,18 @@
           "right": 127,
           "bottom": 213,
           "changed_analysis_pixels": 30,
-          "visible_in": "before"
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 97,
+            "top": 182,
+            "right": 151,
+            "bottom": 237
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "source_frame": "before",
-      "annotation_version": 2,
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
       "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -76,6 +90,49 @@
     "evidence_files": [
       "motion-d46cb99e9fc673b0-before.jpg",
       "motion-d46cb99e9fc673b0-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:35:20.874200+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 121,
+            "top": 206,
+            "right": 127,
+            "bottom": 213
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.56,
+            "axis_ratio": 0.675,
+            "fill_fraction": 0.713,
+            "area_pixels": 194,
+            "width_pixels": 16,
+            "height_pixels": 17,
+            "contrast_threshold": 13.2
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

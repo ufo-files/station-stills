@@ -53,7 +53,14 @@
           "right": 122,
           "bottom": 1028,
           "changed_analysis_pixels": 1464,
-          "visible_in": "before"
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 19,
+            "top": 969,
+            "right": 146,
+            "bottom": 1052
+          },
+          "label": "Unknown | elongated"
         }
       ],
       "changed_regions": [
@@ -63,11 +70,18 @@
           "right": 122,
           "bottom": 1028,
           "changed_analysis_pixels": 1464,
-          "visible_in": "before"
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 19,
+            "top": 969,
+            "right": 146,
+            "bottom": 1052
+          },
+          "label": "Unknown | elongated"
         }
       ],
       "source_frame": "before",
-      "annotation_version": 2,
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
       "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -76,6 +90,54 @@
     "evidence_files": [
       "motion-24b119a237d7982d-before.jpg",
       "motion-24b119a237d7982d-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:36:03.112156+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 43,
+            "top": 993,
+            "right": 122,
+            "bottom": 1028
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.204,
+            "axis_ratio": 0.307,
+            "fill_fraction": 0.552,
+            "area_pixels": 1147,
+            "width_pixels": 77,
+            "height_pixels": 27,
+            "contrast_threshold": 39.6
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": [
+                {
+                  "confidence": 0.49642017,
+                  "identifier": "bird"
+                }
+              ]
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

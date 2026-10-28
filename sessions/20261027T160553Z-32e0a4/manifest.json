@@ -92,21 +92,116 @@
         "boxes": [
           {
             "left": 1127,
-            "top": 305,
+            "top": 300,
             "right": 1149,
             "bottom": 316,
-            "changed_analysis_pixels": 149
+            "changed_analysis_pixels": 184,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1103,
+              "top": 276,
+              "right": 1173,
+              "bottom": 340
+            },
+            "label": "Unknown | shape unresolved"
+          },
+          {
+            "left": 1714,
+            "top": 463,
+            "right": 1735,
+            "bottom": 469,
+            "changed_analysis_pixels": 39,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1690,
+              "top": 439,
+              "right": 1759,
+              "bottom": 493
+            },
+            "label": "Motion | analyzing"
           }
         ],
+        "changed_regions": [
+          {
+            "left": 1127,
+            "top": 300,
+            "right": 1149,
+            "bottom": 316,
+            "changed_analysis_pixels": 184,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 1103,
+              "top": 276,
+              "right": 1173,
+              "bottom": 340
+            },
+            "label": "Unknown | shape unresolved"
+          },
+          {
+            "left": 1714,
+            "top": 463,
+            "right": 1735,
+            "bottom": 469,
+            "changed_analysis_pixels": 39,
+            "visible_in": "both",
+            "review_bounds": {
+              "left": 1690,
+              "top": 439,
+              "right": 1759,
+              "bottom": 493
+            },
+            "label": "Motion | analyzing"
+          }
+        ],
+        "source_frame": "before",
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
       },
       "annotated_frame": "motion-af3d31318af3bbdb-boxed.jpg",
       "evidence_files": [
         "motion-af3d31318af3bbdb-before.jpg",
         "motion-af3d31318af3bbdb-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:36:05.118394+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1127,
+              "top": 305,
+              "right": 1149,
+              "bottom": 316
+            },
+            "shape": {
+              "label": "unresolved",
+              "reason": "No separable silhouette",
+              "contrast_threshold": 8.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793117153.5427287,
@@ -137,16 +232,16 @@
       "sha256": "655c1c4e0df54aee9ea5d9366de395c3a8c06d08bb1aa0a49c13d5cd8467954e"
     },
     "motion-events.json": {
-      "bytes": 1700,
-      "sha256": "5b169a3f97755296e9ce2a14f8de4eb790908f1067291d8011b3f7771c576045"
+      "bytes": 4227,
+      "sha256": "904bf1ab9c938406f202af75ab4da9f695b5a59b5d4413641fe6ef5dcbc50cf8"
     },
     "buffer-state.json": {
       "bytes": 5311,
       "sha256": "87fcb780ce4c349bd78ce0064d7cdc1e56c31a6db6f84301b11655ce2fc2085f"
     },
     "motion-af3d31318af3bbdb-boxed.jpg": {
-      "bytes": 159318,
-      "sha256": "0eb03dfbf5c8a651eca38dc4524d0a570b284fa2a00e98391a13cf94ac649f23"
+      "bytes": 172622,
+      "sha256": "feabf417d39cd6a48ebd7653cacccb9b276e2004b1964e21444a045d6c5cd4e8"
     },
     "motion-af3d31318af3bbdb-before.jpg": {
       "bytes": 115098,

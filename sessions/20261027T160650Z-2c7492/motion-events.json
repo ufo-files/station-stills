@@ -59,7 +59,8 @@
             "top": 611,
             "right": 1918,
             "bottom": 754
-          }
+          },
+          "label": "Unknown | irregular"
         },
         {
           "left": 1320,
@@ -73,7 +74,8 @@
             "top": 500,
             "right": 1361,
             "bottom": 558
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "changed_regions": [
@@ -89,7 +91,8 @@
             "top": 611,
             "right": 1918,
             "bottom": 754
-          }
+          },
+          "label": "Unknown | irregular"
         },
         {
           "left": 1288,
@@ -111,7 +114,8 @@
             "top": 500,
             "right": 1361,
             "bottom": 558
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "source_frame": "before",
@@ -124,6 +128,113 @@
     "evidence_files": [
       "motion-e1fd08fdc6c0313a-before.jpg",
       "motion-e1fd08fdc6c0313a-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:36:01.300524+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1829,
+            "top": 638,
+            "right": 1891,
+            "bottom": 727
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.231,
+            "axis_ratio": 0.519,
+            "fill_fraction": 0.467,
+            "area_pixels": 2542,
+            "width_pixels": 64,
+            "height_pixels": 85,
+            "contrast_threshold": 37.0
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1288,
+            "top": 544,
+            "right": 1303,
+            "bottom": 558
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.124,
+            "axis_ratio": 0.489,
+            "fill_fraction": 0.403,
+            "area_pixels": 133,
+            "width_pixels": 22,
+            "height_pixels": 15,
+            "contrast_threshold": 8.22
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1320,
+            "top": 524,
+            "right": 1337,
+            "bottom": 534
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.075,
+            "axis_ratio": 0.481,
+            "fill_fraction": 0.362,
+            "area_pixels": 145,
+            "width_pixels": 25,
+            "height_pixels": 16,
+            "contrast_threshold": 8.38
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

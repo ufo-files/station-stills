@@ -46,28 +46,10 @@
     "action": "started_recording",
     "session_id": "20261027T164422Z-cccdce",
     "annotation": {
-      "boxes": [
-        {
-          "left": 1122,
-          "top": 29,
-          "right": 1136,
-          "bottom": 59,
-          "changed_analysis_pixels": 83,
-          "visible_in": "both"
-        }
-      ],
-      "changed_regions": [
-        {
-          "left": 1122,
-          "top": 29,
-          "right": 1136,
-          "bottom": 59,
-          "changed_analysis_pixels": 83,
-          "visible_in": "both"
-        }
-      ],
+      "boxes": [],
+      "changed_regions": [],
       "source_frame": "after",
-      "annotation_version": 2,
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
       "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -76,6 +58,44 @@
     "evidence_files": [
       "motion-c70d27f6387b96cf-before.jpg",
       "motion-c70d27f6387b96cf-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:35:05.287096+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1122,
+            "top": 29,
+            "right": 1136,
+            "bottom": 59
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 84.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

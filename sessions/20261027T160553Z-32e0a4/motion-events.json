@@ -49,20 +49,115 @@
       "boxes": [
         {
           "left": 1127,
-          "top": 305,
+          "top": 300,
           "right": 1149,
           "bottom": 316,
-          "changed_analysis_pixels": 149
+          "changed_analysis_pixels": 184,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1103,
+            "top": 276,
+            "right": 1173,
+            "bottom": 340
+          },
+          "label": "Unknown | shape unresolved"
+        },
+        {
+          "left": 1714,
+          "top": 463,
+          "right": 1735,
+          "bottom": 469,
+          "changed_analysis_pixels": 39,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 1690,
+            "top": 439,
+            "right": 1759,
+            "bottom": 493
+          },
+          "label": "Motion | analyzing"
         }
       ],
+      "changed_regions": [
+        {
+          "left": 1127,
+          "top": 300,
+          "right": 1149,
+          "bottom": 316,
+          "changed_analysis_pixels": 184,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1103,
+            "top": 276,
+            "right": 1173,
+            "bottom": 340
+          },
+          "label": "Unknown | shape unresolved"
+        },
+        {
+          "left": 1714,
+          "top": 463,
+          "right": 1735,
+          "bottom": 469,
+          "changed_analysis_pixels": 39,
+          "visible_in": "both",
+          "review_bounds": {
+            "left": 1690,
+            "top": 439,
+            "right": 1759,
+            "bottom": 493
+          },
+          "label": "Motion | analyzing"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
     },
     "annotated_frame": "motion-af3d31318af3bbdb-boxed.jpg",
     "evidence_files": [
       "motion-af3d31318af3bbdb-before.jpg",
       "motion-af3d31318af3bbdb-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:36:05.118394+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1127,
+            "top": 305,
+            "right": 1149,
+            "bottom": 316
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 8.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

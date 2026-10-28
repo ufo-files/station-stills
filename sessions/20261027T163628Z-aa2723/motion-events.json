@@ -53,7 +53,14 @@
           "right": 1567,
           "bottom": 632,
           "changed_analysis_pixels": 25,
-          "visible_in": "before"
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1535,
+            "top": 604,
+            "right": 1591,
+            "bottom": 656
+          },
+          "label": "Unknown | too small"
         }
       ],
       "changed_regions": [
@@ -63,11 +70,18 @@
           "right": 1567,
           "bottom": 632,
           "changed_analysis_pixels": 25,
-          "visible_in": "before"
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1535,
+            "top": 604,
+            "right": 1591,
+            "bottom": 656
+          },
+          "label": "Unknown | too small"
         }
       ],
       "source_frame": "before",
-      "annotation_version": 2,
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
       "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -76,6 +90,47 @@
     "evidence_files": [
       "motion-51f37e2f140eed36-before.jpg",
       "motion-51f37e2f140eed36-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:35:13.021409+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1559,
+            "top": 628,
+            "right": 1567,
+            "bottom": 632
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 40,
+            "width_pixels": 10,
+            "height_pixels": 5,
+            "contrast_threshold": 20.0
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

@@ -102,7 +102,8 @@
               "top": 611,
               "right": 1918,
               "bottom": 754
-            }
+            },
+            "label": "Unknown | irregular"
           },
           {
             "left": 1320,
@@ -116,7 +117,8 @@
               "top": 500,
               "right": 1361,
               "bottom": 558
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "changed_regions": [
@@ -132,7 +134,8 @@
               "top": 611,
               "right": 1918,
               "bottom": 754
-            }
+            },
+            "label": "Unknown | irregular"
           },
           {
             "left": 1288,
@@ -154,7 +157,8 @@
               "top": 500,
               "right": 1361,
               "bottom": 558
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "source_frame": "before",
@@ -167,7 +171,114 @@
       "evidence_files": [
         "motion-e1fd08fdc6c0313a-before.jpg",
         "motion-e1fd08fdc6c0313a-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:36:01.300524+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1829,
+              "top": 638,
+              "right": 1891,
+              "bottom": 727
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.231,
+              "axis_ratio": 0.519,
+              "fill_fraction": 0.467,
+              "area_pixels": 2542,
+              "width_pixels": 64,
+              "height_pixels": 85,
+              "contrast_threshold": 37.0
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1288,
+              "top": 544,
+              "right": 1303,
+              "bottom": 558
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.124,
+              "axis_ratio": 0.489,
+              "fill_fraction": 0.403,
+              "area_pixels": 133,
+              "width_pixels": 22,
+              "height_pixels": 15,
+              "contrast_threshold": 8.22
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1320,
+              "top": 524,
+              "right": 1337,
+              "bottom": 534
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.075,
+              "axis_ratio": 0.481,
+              "fill_fraction": 0.362,
+              "area_pixels": 145,
+              "width_pixels": 25,
+              "height_pixels": 16,
+              "contrast_threshold": 8.38
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793117210.8060472,
@@ -198,8 +309,8 @@
       "sha256": "655c1c4e0df54aee9ea5d9366de395c3a8c06d08bb1aa0a49c13d5cd8467954e"
     },
     "motion-events.json": {
-      "bytes": 2327,
-      "sha256": "a9e5128a464d2ec0888254b37b9f992ba2d2236ed40c9fc9a6967705d652697d"
+      "bytes": 6218,
+      "sha256": "2ea4ba965e1cca61b6a4d0f34c32fa72889e5626a80bf5cc4275c1e268ed134b"
     },
     "buffer-state.json": {
       "bytes": 4934,
@@ -214,8 +325,8 @@
       "sha256": "0ce1f74c2f7fc636adeea4d75bd1c6bd0d8a57ed8c001a95ea04c0bf6d4fe2a5"
     },
     "motion-e1fd08fdc6c0313a-boxed.jpg": {
-      "bytes": 174335,
-      "sha256": "85145f01af925e2a2874223b0c97204c895684579237fbc7716a7e153dd15e96"
+      "bytes": 180479,
+      "sha256": "b3d3a726ab16d99d67c171eedd06013fbf3284d5a331f8e51c190d449cac791e"
     },
     "frames/index.json": {
       "bytes": 719,

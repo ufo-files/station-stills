@@ -50,19 +50,84 @@
         {
           "left": 670,
           "top": 648,
-          "right": 691,
+          "right": 698,
           "bottom": 690,
-          "changed_analysis_pixels": 426
+          "changed_analysis_pixels": 446,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 646,
+            "top": 624,
+            "right": 722,
+            "bottom": 714
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
+      "changed_regions": [
+        {
+          "left": 670,
+          "top": 648,
+          "right": 698,
+          "bottom": 690,
+          "changed_analysis_pixels": 446,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 646,
+            "top": 624,
+            "right": 722,
+            "bottom": 714
+          },
+          "label": "Unknown | shape unresolved"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Connected changed pixel regions; may include previous and current object positions; not object classification"
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
     },
     "annotated_frame": "motion-44481e8c5d3d750b-boxed.jpg",
     "evidence_files": [
       "motion-44481e8c5d3d750b-before.jpg",
       "motion-44481e8c5d3d750b-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:36:07.267999+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 670,
+            "top": 648,
+            "right": 691,
+            "bottom": 690
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 8.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]
