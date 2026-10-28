@@ -22,18 +22,9 @@
   "video": "1920x1080 / 60 fps requested / original MJPEG stream / no audio",
   "video_archive": "video.mkv",
   "video_playback": {
-    "state": "completed",
-    "file": "video.mp4",
-    "frame_count": 1423,
-    "avg_frame_rate": "60/1",
-    "codec": "h264",
-    "width": 1920,
-    "height": 1080,
-    "sample_aspect_ratio": "1:1",
-    "display_aspect_ratio": "16:9",
-    "faststart": true,
-    "encoder_worker": "m1",
-    "quality": "libx264 ultrafast CRF18"
+    "state": "internet_archive",
+    "url": "https://archive.org/download/ufo-files-station-7c3668-20261028t022614z-540af6/video.mp4",
+    "frame_count": 1423
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
@@ -219,17 +210,9 @@
       "bytes": 331027,
       "sha256": "da1e2a298ababf9a7060ad7ed22d30fab9f9b80c81bcb0fc3fdce099f02ed976"
     },
-    "video.mkv": {
-      "bytes": 1043341631,
-      "integrity": "queued"
-    },
     "frames/index.json": {
       "bytes": 720,
       "sha256": "a3e953d0982437aa99497a87c6a9e27adba86d7a88786c20d3c403b62ef101bc"
-    },
-    "video.mp4": {
-      "bytes": 56763856,
-      "sha256": "bf36b88e91bd5cde852c2b8ac84d030a009bf9d9f0fc17b37756a805fd36be2f"
     }
   },
   "buffer_assembly": {
@@ -245,12 +228,12 @@
     "selected_original_stills": true
   },
   "internet_archive": {
-    "state": "retaining",
+    "state": "cleaned",
     "identifier": "ufo-files-station-7c3668-20261028t022614z-540af6",
     "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t022614z-540af6",
     "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t022614z-540af6/video.mp4",
     "verified_at": 1793159741.7621412,
-    "cleaned_at": null,
+    "cleaned_at": 1793163348.7694213,
     "files": [
       {
         "name": "rf.jsonl",
@@ -373,7 +356,7 @@
     "error": null
   },
   "youtube": {
-    "state": "queued",
+    "state": "skipped_archive_primary",
     "video_id": null,
     "url": null,
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
@@ -392,6 +375,6 @@
     "cleanup": "videos_only",
     "cleaned_files": [],
     "cleanup_plan": [],
-    "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
+    "error": null
   }
 }
