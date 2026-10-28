@@ -1,0 +1,436 @@
+[
+  {
+    "id": "a98fd1120a851dc5",
+    "detected_at": "2026-10-28T14:44:59.504830+00:00",
+    "detected_epoch": 1793198699.504866,
+    "motion_started_epoch": 1793198698.87703,
+    "changed_area_percent": 0.0022665895061728396,
+    "settings": {
+      "filter_profile": "nighttime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 12,
+      "min_area_percent": 0.0012,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.4,
+      "reference_seconds": 0.8,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T144459Z-66ae3c",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 732,
+          "top": 1074,
+          "right": 747,
+          "bottom": 1079,
+          "changed_analysis_pixels": 47,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 708,
+            "top": 1050,
+            "right": 771,
+            "bottom": 1079
+          },
+          "label": "Unknown | too small"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 732,
+          "top": 1074,
+          "right": 747,
+          "bottom": 1079,
+          "changed_analysis_pixels": 47,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 708,
+            "top": 1050,
+            "right": 771,
+            "bottom": 1079
+          },
+          "label": "Unknown | too small"
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-a98fd1120a851dc5-boxed.jpg",
+    "evidence_files": [
+      "motion-a98fd1120a851dc5-before.jpg",
+      "motion-a98fd1120a851dc5-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:29:06.475890+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 732,
+            "top": 1074,
+            "right": 747,
+            "bottom": 1079
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 23,
+            "width_pixels": 11,
+            "height_pixels": 3,
+            "contrast_threshold": 18.76
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  },
+  {
+    "id": "eb405e2889acf339",
+    "detected_at": "2026-10-28T14:45:41.230786+00:00",
+    "detected_epoch": 1793198741.2308064,
+    "motion_started_epoch": 1793198740.6943178,
+    "changed_area_percent": 0.0,
+    "settings": {
+      "filter_profile": "nighttime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 12,
+      "min_area_percent": 0.0012,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.4,
+      "reference_seconds": 0.8,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "night-small-trajectory-v1",
+    "small_motion_regions": [
+      {
+        "left": 572,
+        "top": 85,
+        "right": 575,
+        "bottom": 89,
+        "pixels": 8
+      },
+      {
+        "left": 578,
+        "top": 1075,
+        "right": 583,
+        "bottom": 1079,
+        "pixels": 10
+      }
+    ],
+    "action": "annotated_existing_recording",
+    "session_id": "20261028T144459Z-66ae3c",
+    "annotation": {
+      "boxes": [],
+      "changed_regions": [],
+      "source_frame": "after",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-eb405e2889acf339-boxed.jpg",
+    "evidence_files": [
+      "motion-eb405e2889acf339-before.jpg",
+      "motion-eb405e2889acf339-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:29:04.457694+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 578,
+            "top": 1075,
+            "right": 583,
+            "bottom": 1079
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 102,
+            "width_pixels": 25,
+            "height_pixels": 7,
+            "contrast_threshold": 22.25
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 572,
+            "top": 85,
+            "right": 575,
+            "bottom": 89
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 56.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  },
+  {
+    "id": "08bafb788517bb3a",
+    "detected_at": "2026-10-28T14:45:50.400233+00:00",
+    "detected_epoch": 1793198750.4002664,
+    "motion_started_epoch": 1793198749.9503555,
+    "changed_area_percent": 0.0,
+    "settings": {
+      "filter_profile": "nighttime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 12,
+      "min_area_percent": 0.0012,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.4,
+      "reference_seconds": 0.8,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "night-small-trajectory-v1",
+    "small_motion_regions": [
+      {
+        "left": 420,
+        "top": 1046,
+        "right": 424,
+        "bottom": 1051,
+        "pixels": 10
+      },
+      {
+        "left": 341,
+        "top": 1029,
+        "right": 345,
+        "bottom": 1032,
+        "pixels": 8
+      }
+    ],
+    "action": "annotated_existing_recording",
+    "session_id": "20261028T144459Z-66ae3c",
+    "annotation": {
+      "boxes": [],
+      "changed_regions": [],
+      "source_frame": "after",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-08bafb788517bb3a-boxed.jpg",
+    "evidence_files": [
+      "motion-08bafb788517bb3a-before.jpg",
+      "motion-08bafb788517bb3a-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:29:02.633370+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 420,
+            "top": 1046,
+            "right": 424,
+            "bottom": 1051
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.485,
+            "axis_ratio": 0.382,
+            "fill_fraction": 0.653,
+            "area_pixels": 235,
+            "width_pixels": 24,
+            "height_pixels": 15,
+            "contrast_threshold": 21.4
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 341,
+            "top": 1029,
+            "right": 345,
+            "bottom": 1032
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.461,
+            "axis_ratio": 0.361,
+            "fill_fraction": 0.619,
+            "area_pixels": 223,
+            "width_pixels": 24,
+            "height_pixels": 15,
+            "contrast_threshold": 20.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  }
+]
