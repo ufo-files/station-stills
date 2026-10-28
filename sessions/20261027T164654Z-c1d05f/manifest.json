@@ -650,12 +650,12 @@
     "selected_original_stills": true
   },
   "youtube": {
-    "state": "uploading",
-    "video_id": null,
-    "url": null,
+    "state": "verifying",
+    "video_id": "U_SybMZXbNQ",
+    "url": "https://www.youtube.com/watch?v=U_SybMZXbNQ",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
     "privacy": "public",
-    "uploaded_at": null,
+    "uploaded_at": 1793171640.8038955,
     "verified_at": null,
     "uploaded_file": {
       "file": "video.mp4",
@@ -669,7 +669,7 @@
     "cleanup": "videos_only",
     "cleaned_files": [],
     "cleanup_plan": [],
-    "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
+    "error": null
   },
   "internet_archive": {
     "state": "queued",
