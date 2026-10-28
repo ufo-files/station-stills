@@ -237,5 +237,133 @@
     "cleaned_files": [],
     "cleanup_plan": [],
     "error": null
+  },
+  "internet_archive": {
+    "state": "queued",
+    "identifier": "ufo-files-station-7c3668-20261028t134631z-d7f9e5",
+    "url": "https://archive.org/details/ufo-files-station-7c3668-20261028t134631z-d7f9e5",
+    "video_url": "https://archive.org/download/ufo-files-station-7c3668-20261028t134631z-d7f9e5/video.mp4",
+    "verified_at": null,
+    "cleaned_at": null,
+    "files": [
+      {
+        "name": "rf.jsonl",
+        "bytes": 101947,
+        "md5": "69fe054fff68ccde63984cf51844da05",
+        "sha256": "f5c47a3129b06ecabd0312ff23875c835ea429129f421882c14135bf93b76189"
+      },
+      {
+        "name": "motion-events.json",
+        "bytes": 2354,
+        "md5": "134913f7c8ee89d13d164b33066cfbc4",
+        "sha256": "075df549127d121cd54bc369d17ed3469f605ea1401cd1519a21d7a74d476a49"
+      },
+      {
+        "name": "frames/index.json",
+        "bytes": 719,
+        "md5": "c0dcbe5710469c8e3457c668cd5a6eca",
+        "sha256": "ee5569c1f846657f749c7c0dfab4ee302ff196c0db80484ce570491f934522fd"
+      },
+      {
+        "name": "motion-1e2ce3b1ae556611-boxed.jpg",
+        "bytes": 325235,
+        "md5": "7d215926a4ef0fba8ef1bd669ff14252",
+        "sha256": "48c08206e4ca347f822e574c5607fc0d9dbc380c40f4c512319ef80335435266"
+      },
+      {
+        "name": "motion-1e2ce3b1ae556611-after.jpg",
+        "bytes": 730819,
+        "md5": "3f6896c0221a49a766d50b1649c13534",
+        "sha256": "96f23d29f4fc9e30983a65656e5df5c578471d1370074df764f228eb01c02e5e"
+      },
+      {
+        "name": "motion-1e2ce3b1ae556611-before.jpg",
+        "bytes": 730306,
+        "md5": "de5e059db512486a2288298f58fab438",
+        "sha256": "f869ff690669b7d0a21f6a0d43e8f7d8fee7ea90ec4bb931cf43bf11ccdc4c02"
+      },
+      {
+        "name": "frames/frame-000000000.jpg",
+        "bytes": 727644,
+        "md5": "1b05f3faefa59e0abdfbff9198293bbd",
+        "sha256": "82b3a57302d9de229266a228c0dbb7794a4499e3da3decc6ffe773123cb936ad"
+      },
+      {
+        "name": "frames/frame-000000001.jpg",
+        "bytes": 726444,
+        "md5": "6b718bb55b9f6dd93f77e690c6f1a1a3",
+        "sha256": "64614adec5383289b31db928864e7c9d88b4fce82aa022c54ac14f92474044d0"
+      },
+      {
+        "name": "frames/frame-000000002.jpg",
+        "bytes": 730265,
+        "md5": "c346510e0027873a7549e95593873b2c",
+        "sha256": "eed375744f0a98130a0b85b0f2912e38ead829c4b0fb223b47db210beabdf2f6"
+      },
+      {
+        "name": "session.json",
+        "private_source": "20261028T134631Z-d7f9e5-session.json",
+        "bytes": 7828,
+        "md5": "6397a6ef28c88d0b4619d6a2589b523c",
+        "sha256": "86e168d4d3b2086827c8ffe45d06ca30fa28abd4f484361fc6e7e1bbe549009a"
+      },
+      {
+        "name": "video.mp4",
+        "bytes": 82157646,
+        "md5": "a7b4a57139fa9d600b1ffdc342158e6c",
+        "sha256": "1c762df698522827c5eb87f2d570e6cff0bf9be1ef5674683932372de81703b3"
+      },
+      {
+        "name": "assembly-progress.txt",
+        "bytes": 23686,
+        "md5": "fd05e72363f49092a5b7b6b7f32ad1b4",
+        "sha256": "c8f952c5070440b7a357da95c70e85e8c5c0da98d2746b0874cbdc29d162fd6e"
+      },
+      {
+        "name": "assembly.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "buffer-concat.txt",
+        "bytes": 2331,
+        "md5": "500e041246f0179fa0add38e368107c4",
+        "sha256": "da86e6190d376708628d12401484278e54802daa8998ee446eee39acfc703eba"
+      },
+      {
+        "name": "buffer-state.json",
+        "bytes": 7716,
+        "md5": "744cf11e182f15bb7a0df4f6caaa7462",
+        "sha256": "e7b821066191ffcc89c5acfd36127574de32014a2a6ad9f938fcbae26d251da1"
+      },
+      {
+        "name": "capture.log",
+        "bytes": 0,
+        "md5": "d41d8cd98f00b204e9800998ecf8427e",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "playback-encode.log",
+        "bytes": 8920,
+        "md5": "33f25ea3c3ab6d16d2a22e7eebec7ee5",
+        "sha256": "48beb0cad8452f7c54a601232067eb2bab6a842dd32ed3ab606307e0184c6d97"
+      },
+      {
+        "name": "manifest.json",
+        "private_source": "20261028T134631Z-d7f9e5-manifest.json",
+        "bytes": 7408,
+        "md5": "8685b8be93cf9398fe06890d8642dcad",
+        "sha256": "7ebcdfe5d2ea62b372e47ee9278a66a4603dac04986fe5966d12bd95b040672a"
+      },
+      {
+        "name": "archive-index.json",
+        "private_source": "20261028T134631Z-d7f9e5-archive-index.json",
+        "bytes": 3952,
+        "md5": "8737f8da83a73807f4f6d9ed10ba9384",
+        "sha256": "90b512de3d1401deec7255a72d4dfa3b37b01e042f21d7ea4e37eef800c0a93b"
+      }
+    ],
+    "error": null
   }
 }
