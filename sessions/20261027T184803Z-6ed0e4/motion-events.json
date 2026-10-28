@@ -60,7 +60,31 @@
             "right": 1149,
             "bottom": 379
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Likely bird | elongated"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 996,
+            "top": 303,
+            "right": 1114,
+            "bottom": 344
+          },
+          "crop_bounds": {
+            "left": 961,
+            "top": 268,
+            "right": 1149,
+            "bottom": 379
+          },
+          "native_file": "motion-13d0654eb8a4ef1b-before-5175b1c7f4-crop.png",
+          "detail_file": "motion-13d0654eb8a4ef1b-before-5175b1c7f4-detail.jpg",
+          "native_width": 188,
+          "native_height": 111,
+          "display_width": 1024,
+          "display_height": 605,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "changed_regions": [
@@ -77,7 +101,7 @@
             "right": 1149,
             "bottom": 379
           },
-          "label": "Likely bird | shape unresolved"
+          "label": "Likely bird | elongated"
         }
       ],
       "source_frame": "before",
@@ -95,30 +119,31 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:33:35.340084+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:47:58.810664+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
             "left": 996,
-            "top": 323,
-            "right": 1106,
+            "top": 303,
+            "right": 1114,
             "bottom": 344
           },
           "shape": {
-            "label": "unresolved",
-            "circularity": 0.24,
-            "axis_ratio": 0.217,
-            "fill_fraction": 0.549,
-            "area_pixels": 1435,
+            "label": "elongated",
+            "circularity": 0.242,
+            "axis_ratio": 0.229,
+            "fill_fraction": 0.503,
+            "area_pixels": 1534,
             "width_pixels": 109,
-            "height_pixels": 24,
-            "contrast_threshold": 112.0
+            "height_pixels": 28,
+            "contrast_threshold": 110.0
           },
           "source_frame": "before",
           "object": {
             "label": "bird",
-            "confidence": 0.988,
+            "confidence": 0.996,
             "support_frames": 1,
             "reason": "Strong single-frame suggestion; not validated for capture suppression"
           },
@@ -127,68 +152,9 @@
               "labels": [
                 {
                   "identifier": "bird",
-                  "confidence": 0.9881424
+                  "confidence": 0.9956159
                 }
               ]
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
-        {
-          "bounds": {
-            "left": 1021,
-            "top": 322,
-            "right": 1114,
-            "bottom": 339
-          },
-          "shape": {
-            "label": "unresolved",
-            "circularity": 0.306,
-            "axis_ratio": 0.234,
-            "fill_fraction": 0.637,
-            "area_pixels": 1855,
-            "width_pixels": 104,
-            "height_pixels": 28,
-            "contrast_threshold": 68.0
-          },
-          "source_frame": "before",
-          "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
-            },
-            {
-              "labels": []
-            }
-          ]
-        },
-        {
-          "bounds": {
-            "left": 1027,
-            "top": 311,
-            "right": 1060,
-            "bottom": 319
-          },
-          "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 190.0
-          },
-          "source_frame": "before",
-          "object": {
-            "label": "unknown",
-            "reason": "No consistent high-confidence object label",
-            "support_frames": 0
-          },
-          "model_observations": [
-            {
-              "labels": []
             },
             {
               "labels": []

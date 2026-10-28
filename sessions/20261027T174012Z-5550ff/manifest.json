@@ -103,7 +103,7 @@
               "right": 63,
               "bottom": 30
             },
-            "label": "Motion | analyzing"
+            "label": "Unknown | too small"
           },
           {
             "left": 1429,
@@ -118,7 +118,7 @@
               "right": 1462,
               "bottom": 547
             },
-            "label": "Motion | analyzing"
+            "label": "Unknown | shape unresolved"
           },
           {
             "left": 253,
@@ -134,6 +134,74 @@
               "bottom": 83
             },
             "label": "Motion | analyzing"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 25,
+              "top": 1,
+              "right": 39,
+              "bottom": 6
+            },
+            "crop_bounds": {
+              "left": 1,
+              "top": 0,
+              "right": 63,
+              "bottom": 30
+            },
+            "native_file": "motion-9f34f2e1cfd96f40-after-d9c1c65744-crop.png",
+            "detail_file": "motion-9f34f2e1cfd96f40-after-d9c1c65744-detail.jpg",
+            "native_width": 62,
+            "native_height": 30,
+            "display_width": 1024,
+            "display_height": 495,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1429,
+              "top": 513,
+              "right": 1438,
+              "bottom": 523
+            },
+            "crop_bounds": {
+              "left": 1405,
+              "top": 489,
+              "right": 1462,
+              "bottom": 547
+            },
+            "native_file": "motion-9f34f2e1cfd96f40-after-8360571662-crop.png",
+            "detail_file": "motion-9f34f2e1cfd96f40-after-8360571662-detail.jpg",
+            "native_width": 57,
+            "native_height": 58,
+            "display_width": 1006,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 253,
+              "top": 51,
+              "right": 260,
+              "bottom": 59
+            },
+            "crop_bounds": {
+              "left": 229,
+              "top": 27,
+              "right": 284,
+              "bottom": 83
+            },
+            "native_file": "motion-9f34f2e1cfd96f40-after-a0bd931948-crop.png",
+            "detail_file": "motion-9f34f2e1cfd96f40-after-a0bd931948-detail.jpg",
+            "native_width": 55,
+            "native_height": 56,
+            "display_width": 1006,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -158,7 +226,7 @@
               "right": 63,
               "bottom": 30
             },
-            "label": "Motion | analyzing"
+            "label": "Unknown | too small"
           },
           {
             "left": 1429,
@@ -173,7 +241,7 @@
               "right": 1462,
               "bottom": 547
             },
-            "label": "Motion | analyzing"
+            "label": "Unknown | shape unresolved"
           },
           {
             "left": 253,
@@ -206,30 +274,62 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:53.174853+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:48:26.358288+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
-              "left": 144,
-              "top": 11,
-              "right": 200,
-              "bottom": 68
+              "left": 266,
+              "top": 25,
+              "right": 279,
+              "bottom": 38
             },
             "shape": {
               "label": "unresolved",
-              "circularity": 0.573,
-              "axis_ratio": 0.722,
-              "fill_fraction": 0.74,
-              "area_pixels": 3273,
-              "width_pixels": 68,
-              "height_pixels": 65,
-              "contrast_threshold": 32.0
+              "reason": "No separable silhouette",
+              "contrast_threshold": 196.0
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": [
+                  {
+                    "identifier": "bird",
+                    "model_version": "20261028T183704Z-723291ee",
+                    "confidence": 0.9950421,
+                    "threshold": 0.995,
+                    "source": "camera-trained",
+                    "minimum_native_size": 8
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1429,
+              "top": 513,
+              "right": 1438,
+              "bottom": 523
+            },
+            "shape": {
+              "label": "unresolved",
+              "reason": "No separable silhouette",
+              "contrast_threshold": 144.0
             },
             "source_frame": "after",
             "object": {
               "label": "unknown",
-              "reason": "No consistent high-confidence object label",
+              "reason": "Target too small for reliable object identification",
               "support_frames": 0
             },
             "model_observations": [
@@ -243,20 +343,23 @@
           },
           {
             "bounds": {
-              "left": 63,
+              "left": 25,
               "top": 1,
-              "right": 80,
-              "bottom": 17
+              "right": 39,
+              "bottom": 6
             },
             "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 244.0
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 112,
+              "width_pixels": 22,
+              "height_pixels": 7,
+              "contrast_threshold": 32.0
             },
             "source_frame": "after",
             "object": {
               "label": "unknown",
-              "reason": "No consistent high-confidence object label",
+              "reason": "Target too small for reliable object identification",
               "support_frames": 0
             },
             "model_observations": [
@@ -302,16 +405,16 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 5908,
-      "sha256": "b7f9813bfaa989e4328f88eba9a3d3623e8b6171cd8d728fd1516ebd3878a70a"
+      "bytes": 9031,
+      "sha256": "38f2c892f60657ecb1f3f7babb1a701703c63de10c6d3d13e6bc171aa4de45d4"
     },
     "buffer-state.json": {
       "bytes": 8226,
       "sha256": "919538c387e44d1ff664e3619b9fbeb4da3fe9c7c248d2f7211883a08a94a777"
     },
     "motion-9f34f2e1cfd96f40-boxed.jpg": {
-      "bytes": 230924,
-      "sha256": "03a275293d805de8d305bf2aa059684754c2e11c31147508bacb9a77621252cc"
+      "bytes": 232618,
+      "sha256": "f6d61bf0546f1d621d770a7b2a7f93b30579416dba6d9880d9ece56dfd15dab4"
     },
     "motion-9f34f2e1cfd96f40-before.jpg": {
       "bytes": 159771,
@@ -324,6 +427,30 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "2f006ac2860e4df5d9acfc213752373b39872e600d5ceb10cf46ca6ab7fe5c55"
+    },
+    "motion-9f34f2e1cfd96f40-after-d9c1c65744-crop.png": {
+      "bytes": 1707,
+      "sha256": "6ef7e5c981de87769e09b6759f6ab78ece60d6c4a1cd2872e9c3e3f6fb1cc97e"
+    },
+    "motion-9f34f2e1cfd96f40-after-d9c1c65744-detail.jpg": {
+      "bytes": 38947,
+      "sha256": "20a8d673e3a5d0265e60ba09858e6feb48d3a471e373c294ff17fd8edb6f5b16"
+    },
+    "motion-9f34f2e1cfd96f40-after-8360571662-crop.png": {
+      "bytes": 3185,
+      "sha256": "df2b95d91e21f585d33f232780000ed1793f7cb5bc1b4b00fece6878f16bb648"
+    },
+    "motion-9f34f2e1cfd96f40-after-8360571662-detail.jpg": {
+      "bytes": 80634,
+      "sha256": "128532017cd6fa6aae43720930bd9ed687fafb2e948fe09d26cb6c817f202137"
+    },
+    "motion-9f34f2e1cfd96f40-after-a0bd931948-crop.png": {
+      "bytes": 2970,
+      "sha256": "dee609f40d2468a44ddde694cc573095581d13c209537b9ff70faa583c9d9f90"
+    },
+    "motion-9f34f2e1cfd96f40-after-a0bd931948-detail.jpg": {
+      "bytes": 80438,
+      "sha256": "e787e86daa8d7c3bd4296b14db6afb9055bc21f356c5ea8b7f9774d458d12181"
     }
   },
   "buffer_assembly": {

@@ -95,6 +95,7 @@
       "session_id": "20261027T173953Z-2afdc4",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -111,37 +112,10 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:56.987328+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "regions": [
-          {
-            "bounds": {
-              "left": 326,
-              "top": 22,
-              "right": 384,
-              "bottom": 50
-            },
-            "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 220.0
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          }
-        ],
+        "classified_at": "2026-10-28T18:48:28.167538+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
+        "regions": [],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
       }
@@ -194,6 +168,7 @@
       "session_id": "20261027T173953Z-2afdc4",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -210,99 +185,10 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:54.968717+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "regions": [
-          {
-            "bounds": {
-              "left": 220,
-              "top": 1,
-              "right": 251,
-              "bottom": 31
-            },
-            "shape": {
-              "label": "too_small",
-              "reason": "Insufficient native silhouette detail",
-              "area_pixels": 10,
-              "width_pixels": 6,
-              "height_pixels": 6,
-              "contrast_threshold": 122.0
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 328,
-              "top": 36,
-              "right": 358,
-              "bottom": 56
-            },
-            "shape": {
-              "label": "unresolved",
-              "reason": "No separable silhouette",
-              "contrast_threshold": 154.0
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 259,
-              "top": 42,
-              "right": 278,
-              "bottom": 55
-            },
-            "shape": {
-              "label": "unresolved",
-              "circularity": 0.492,
-              "axis_ratio": 0.545,
-              "fill_fraction": 0.724,
-              "area_pixels": 621,
-              "width_pixels": 39,
-              "height_pixels": 22,
-              "contrast_threshold": 48.0
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          }
-        ],
+        "classified_at": "2026-10-28T18:48:27.517032+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
+        "regions": [],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
       }
@@ -336,8 +222,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 6982,
-      "sha256": "72166ca88bf2b72e66956bd2629d32c4450c9232dbf9da74e96ea540d49d332f"
+      "bytes": 4186,
+      "sha256": "b47c4c364d606325101960be772d93deb7e44d3d8571ab5bb7df6d83e3deac13"
     },
     "buffer-state.json": {
       "bytes": 6400,

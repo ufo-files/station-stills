@@ -116,6 +116,30 @@
             "label": "Unknown | irregular"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 887,
+              "top": 923,
+              "right": 920,
+              "bottom": 962
+            },
+            "crop_bounds": {
+              "left": 863,
+              "top": 899,
+              "right": 944,
+              "bottom": 986
+            },
+            "native_file": "motion-528f52bceace11c7-after-8ed55bfc82-crop.png",
+            "detail_file": "motion-528f52bceace11c7-after-8ed55bfc82-detail.jpg",
+            "native_width": 81,
+            "native_height": 87,
+            "display_width": 953,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 887,
@@ -148,8 +172,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:19.956095+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:47:45.717199+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -252,6 +277,30 @@
             "label": "Unknown | irregular"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1008,
+              "top": 803,
+              "right": 1063,
+              "bottom": 862
+            },
+            "crop_bounds": {
+              "left": 984,
+              "top": 779,
+              "right": 1087,
+              "bottom": 886
+            },
+            "native_file": "motion-760be97b9a5cace1-after-c03e258d6a-crop.png",
+            "detail_file": "motion-760be97b9a5cace1-after-c03e258d6a-detail.jpg",
+            "native_width": 103,
+            "native_height": 107,
+            "display_width": 986,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1008,
@@ -284,8 +333,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:11.231324+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:47:43.563696+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -388,6 +438,30 @@
             "label": "Unknown | elongated"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 910,
+              "top": 739,
+              "right": 985,
+              "bottom": 803
+            },
+            "crop_bounds": {
+              "left": 886,
+              "top": 715,
+              "right": 1009,
+              "bottom": 827
+            },
+            "native_file": "motion-1df1334c578ce71d-after-8cb8c915af-crop.png",
+            "detail_file": "motion-1df1334c578ce71d-after-8cb8c915af-detail.jpg",
+            "native_width": 123,
+            "native_height": 112,
+            "display_width": 1024,
+            "display_height": 932,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 910,
@@ -420,8 +494,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:09.298749+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:47:41.414761+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -494,8 +569,8 @@
       "sha256": "5223100699feececbb2477094a543c0721912651b4be3a2e0f0b7fd797b22942"
     },
     "motion-events.json": {
-      "bytes": 10928,
-      "sha256": "e9cd83c8a278f2fac8d7b3fcccaa9c1c9923898aa42ec233bbdd46f6c3e4dd3e"
+      "bytes": 13237,
+      "sha256": "f5ef412d3e61f42c20113d023d70924399a954c511d556265e46b3169e3ce09f"
     },
     "buffer-state.json": {
       "bytes": 7812,
@@ -540,6 +615,30 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "905e3ed8b641f8742a6b14ed3739a2ef36ee0a484f39df50c90fc227b4701fab"
+    },
+    "motion-1df1334c578ce71d-after-8cb8c915af-crop.png": {
+      "bytes": 8960,
+      "sha256": "7db3dd296991b2024bb96f2f87977d6e443360c1309e0abc5f3462b2b6902780"
+    },
+    "motion-1df1334c578ce71d-after-8cb8c915af-detail.jpg": {
+      "bytes": 67478,
+      "sha256": "bda873d9d7b58041024432f55fcc03321420aad4d536a8e44104249d953ad59e"
+    },
+    "motion-760be97b9a5cace1-after-c03e258d6a-crop.png": {
+      "bytes": 9278,
+      "sha256": "5aa8ecb337a2a62594edca30bcca64f8fce29d82ac3b3b2d4bd4a92126b0cee4"
+    },
+    "motion-760be97b9a5cace1-after-c03e258d6a-detail.jpg": {
+      "bytes": 81943,
+      "sha256": "6406e754a72be6ba0d809b6193a11b0a3cf4a10e2401538ab05ebb714bb5a4a3"
+    },
+    "motion-528f52bceace11c7-after-8ed55bfc82-crop.png": {
+      "bytes": 5938,
+      "sha256": "a2cfebdb555dd50d7043f1ea25349d54499327911af5ac69dfdbc9bcaae26c60"
+    },
+    "motion-528f52bceace11c7-after-8ed55bfc82-detail.jpg": {
+      "bytes": 73046,
+      "sha256": "390c70fd5b81fb42c71b70e720954a6f347d64ec4f02e29694757dbbb08b7100"
     }
   },
   "buffer_assembly": {

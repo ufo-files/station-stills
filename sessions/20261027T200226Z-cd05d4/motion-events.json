@@ -63,6 +63,30 @@
           "label": "Unknown | irregular"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1621,
+            "top": 527,
+            "right": 1654,
+            "bottom": 558
+          },
+          "crop_bounds": {
+            "left": 1597,
+            "top": 503,
+            "right": 1678,
+            "bottom": 582
+          },
+          "native_file": "motion-10b6c7890fdf78c0-after-7073bc77f8-crop.png",
+          "detail_file": "motion-10b6c7890fdf78c0-after-7073bc77f8-detail.jpg",
+          "native_width": 81,
+          "native_height": 79,
+          "display_width": 1024,
+          "display_height": 999,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1621,
@@ -95,8 +119,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:33:05.570579+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:47:36.304621+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -199,6 +224,30 @@
           "label": "Unknown | irregular"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1586,
+            "top": 862,
+            "right": 1610,
+            "bottom": 879
+          },
+          "crop_bounds": {
+            "left": 1562,
+            "top": 838,
+            "right": 1634,
+            "bottom": 903
+          },
+          "native_file": "motion-606ba6fcff2a619a-after-d94716311b-crop.png",
+          "detail_file": "motion-606ba6fcff2a619a-after-d94716311b-detail.jpg",
+          "native_width": 72,
+          "native_height": 65,
+          "display_width": 1024,
+          "display_height": 924,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1586,
@@ -231,8 +280,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:33:00.811634+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:47:33.862896+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {

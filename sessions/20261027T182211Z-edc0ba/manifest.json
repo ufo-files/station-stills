@@ -103,7 +103,31 @@
               "right": 547,
               "bottom": 916
             },
-            "label": "Unknown | elongated"
+            "label": "Likely airplane | elongated"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 459,
+              "top": 858,
+              "right": 523,
+              "bottom": 892
+            },
+            "crop_bounds": {
+              "left": 435,
+              "top": 834,
+              "right": 547,
+              "bottom": 916
+            },
+            "native_file": "motion-ae30a3ab8d50f869-after-bd1d3f4c38-crop.png",
+            "detail_file": "motion-ae30a3ab8d50f869-after-bd1d3f4c38-detail.jpg",
+            "native_width": 112,
+            "native_height": 82,
+            "display_width": 1024,
+            "display_height": 750,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -120,7 +144,7 @@
               "right": 547,
               "bottom": 916
             },
-            "label": "Unknown | elongated"
+            "label": "Likely airplane | elongated"
           },
           {
             "left": 249,
@@ -146,38 +170,50 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:37.259171+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:48:02.125076+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
               "left": 459,
               "top": 858,
               "right": 523,
-              "bottom": 888
+              "bottom": 892
             },
             "shape": {
               "label": "elongated",
-              "circularity": 0.054,
-              "axis_ratio": 0.464,
-              "fill_fraction": 0.38,
-              "area_pixels": 767,
+              "circularity": 0.055,
+              "axis_ratio": 0.465,
+              "fill_fraction": 0.375,
+              "area_pixels": 757,
               "width_pixels": 63,
               "height_pixels": 32,
-              "contrast_threshold": 28.8
+              "contrast_threshold": 28.53
             },
             "source_frame": "after",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "airplane",
+              "confidence": 0.905,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
                 "labels": []
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "identifier": "airplane",
+                    "source": "camera-trained",
+                    "threshold": 0.85,
+                    "confidence": 0.90484303,
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T183704Z-723291ee"
+                  }
+                ]
               }
             ]
           },
@@ -186,7 +222,7 @@
               "left": 249,
               "top": 925,
               "right": 308,
-              "bottom": 957
+              "bottom": 961
             },
             "shape": {
               "label": "too_small",
@@ -194,49 +230,28 @@
               "area_pixels": 1,
               "width_pixels": 53,
               "height_pixels": 24,
-              "contrast_threshold": 27.8
+              "contrast_threshold": 27.6
             },
             "source_frame": "before",
             "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
+              "label": "airplane",
+              "confidence": 0.902,
+              "support_frames": 1,
+              "model_version": "20261028T183704Z-723291ee",
+              "reason": "Camera-trained model suggestion at validated threshold"
             },
             "model_observations": [
               {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 498,
-              "top": 888,
-              "right": 519,
-              "bottom": 892
-            },
-            "shape": {
-              "label": "unresolved",
-              "circularity": 0.156,
-              "axis_ratio": 0.373,
-              "fill_fraction": 0.615,
-              "area_pixels": 251,
-              "width_pixels": 34,
-              "height_pixels": 12,
-              "contrast_threshold": 29.0
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
+                "labels": [
+                  {
+                    "identifier": "airplane",
+                    "confidence": 0.9022688,
+                    "minimum_native_size": 8,
+                    "source": "camera-trained",
+                    "threshold": 0.85,
+                    "model_version": "20261028T183704Z-723291ee"
+                  }
+                ]
               },
               {
                 "labels": []
@@ -277,8 +292,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 5392,
-      "sha256": "4fd531c9caa20fc77a80538b99cd22abac2367111042cdc9b3a76c00cbfd23f0"
+      "bytes": 6219,
+      "sha256": "208a61e164b3747781a5a59f1cd735b26b7e40806a47474b98c6ca2199ac7a95"
     },
     "buffer-state.json": {
       "bytes": 6193,
@@ -289,8 +304,8 @@
       "sha256": "1b334023a6fbcec0d9b8885f48f1c97c45b75a0bb24abec0c7d5d3e379bd79e3"
     },
     "motion-ae30a3ab8d50f869-boxed.jpg": {
-      "bytes": 187273,
-      "sha256": "87ceb6119f084a5210d84d28aac2d523fb11a966330b82c51505cc3361d5860f"
+      "bytes": 188310,
+      "sha256": "da52b8efae0fb19ee4a9e9d119045c36805a88537fb5a221e0aa4b0f84754c92"
     },
     "motion-ae30a3ab8d50f869-after.jpg": {
       "bytes": 132789,
@@ -299,6 +314,14 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "9b97fadd23e2fe50ca8cdd112c8ac2e86f27e3394cfb05a4624c2bcc9c6a56a2"
+    },
+    "motion-ae30a3ab8d50f869-after-bd1d3f4c38-crop.png": {
+      "bytes": 8778,
+      "sha256": "04c97025d026d9ebdf1c45585c26a658bfe05115120f8df5018f8e3da277794c"
+    },
+    "motion-ae30a3ab8d50f869-after-bd1d3f4c38-detail.jpg": {
+      "bytes": 73095,
+      "sha256": "ac848426e3424f743303d6df72d12b64c0061bbcc4c081df3bfc5c27d00b7164"
     }
   },
   "buffer_assembly": {

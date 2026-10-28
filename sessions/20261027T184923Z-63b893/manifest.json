@@ -103,7 +103,31 @@
               "right": 1774,
               "bottom": 1073
             },
-            "label": "Motion | analyzing"
+            "label": "Unknown | shape unresolved"
+          }
+        ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1727,
+              "top": 1025,
+              "right": 1750,
+              "bottom": 1049
+            },
+            "crop_bounds": {
+              "left": 1703,
+              "top": 1001,
+              "right": 1774,
+              "bottom": 1073
+            },
+            "native_file": "motion-2be37744b63750fd-after-ae2a1c71ff-crop.png",
+            "detail_file": "motion-2be37744b63750fd-after-ae2a1c71ff-detail.jpg",
+            "native_width": 71,
+            "native_height": 72,
+            "display_width": 1010,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
           }
         ],
         "changed_regions": [
@@ -120,7 +144,7 @@
               "right": 1774,
               "bottom": 1073
             },
-            "label": "Motion | analyzing"
+            "label": "Unknown | shape unresolved"
           }
         ],
         "source_frame": "after",
@@ -138,89 +162,26 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:28.670356+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:47:55.264717+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
-              "left": 1821,
-              "top": 655,
-              "right": 1919,
-              "bottom": 854
+              "left": 1727,
+              "top": 1025,
+              "right": 1750,
+              "bottom": 1049
             },
             "shape": {
               "label": "unresolved",
-              "circularity": 0.109,
-              "axis_ratio": 0.077,
-              "fill_fraction": 0.16,
-              "area_pixels": 3817,
-              "width_pixels": 109,
-              "height_pixels": 219,
-              "contrast_threshold": 18.6
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 1790,
-              "top": 867,
-              "right": 1816,
-              "bottom": 927
-            },
-            "shape": {
-              "label": "unresolved",
-              "circularity": 0.286,
-              "axis_ratio": 0.215,
-              "fill_fraction": 0.414,
-              "area_pixels": 1291,
+              "circularity": 0.241,
+              "axis_ratio": 0.394,
+              "fill_fraction": 0.502,
+              "area_pixels": 862,
               "width_pixels": 39,
-              "height_pixels": 80,
-              "contrast_threshold": 18.2
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 1829,
-              "top": 787,
-              "right": 1850,
-              "bottom": 825
-            },
-            "shape": {
-              "label": "unresolved",
-              "circularity": 0.37,
-              "axis_ratio": 0.299,
-              "fill_fraction": 0.492,
-              "area_pixels": 1085,
-              "width_pixels": 38,
-              "height_pixels": 58,
-              "contrast_threshold": 18.3
+              "height_pixels": 44,
+              "contrast_threshold": 14.8
             },
             "source_frame": "after",
             "object": {
@@ -271,16 +232,16 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 5265,
-      "sha256": "2125774ce8984a30aef1a5e3d6f1ceb7c16715e4336a034a6dc68c2b67a604a6"
+      "bytes": 4404,
+      "sha256": "4732f16886ec0fbdb06e112e55ca67c48bcc461c8959337df8f3031860de4e00"
     },
     "buffer-state.json": {
       "bytes": 32090,
       "sha256": "5405ee82b8bb980513425548de3aac880e3937d7c2946813b7b27825d3c65c87"
     },
     "motion-2be37744b63750fd-boxed.jpg": {
-      "bytes": 182189,
-      "sha256": "d0d9d159de63c17925ddd28b307d475783dd9e766ad12e6e902297611c82cfe2"
+      "bytes": 183928,
+      "sha256": "8cb2fe5fe8e543028a1c4413965937e2153894a984de848a1ca34c87051de8f7"
     },
     "motion-2be37744b63750fd-before.jpg": {
       "bytes": 131316,
@@ -293,6 +254,14 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "8c436181c161d7c96bdc466ec6fab346bc5b87d51f4c9f79fcfaf809b46329ed"
+    },
+    "motion-2be37744b63750fd-after-ae2a1c71ff-crop.png": {
+      "bytes": 5197,
+      "sha256": "19f93c0aa6387df49e32e0ec9fee3c02aaea9208aa6513ad517b344634922f6f"
+    },
+    "motion-2be37744b63750fd-after-ae2a1c71ff-detail.jpg": {
+      "bytes": 85472,
+      "sha256": "08235a674d246bf1d87b47145ab39f02e89553364909d7fd8f97007ab1ffc5ce"
     }
   },
   "buffer_assembly": {

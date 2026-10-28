@@ -90,6 +90,7 @@
       "session_id": "20261027T173858Z-f3cdc2",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -106,42 +107,10 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:34:01.007410+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
-        "regions": [
-          {
-            "bounds": {
-              "left": 740,
-              "top": 65,
-              "right": 791,
-              "bottom": 104
-            },
-            "shape": {
-              "label": "unresolved",
-              "circularity": 0.469,
-              "axis_ratio": 0.566,
-              "fill_fraction": 0.643,
-              "area_pixels": 2115,
-              "width_pixels": 70,
-              "height_pixels": 47,
-              "contrast_threshold": 22.8
-            },
-            "source_frame": "after",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          }
-        ],
+        "classified_at": "2026-10-28T18:48:29.737522+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
+        "regions": [],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
       }
@@ -175,8 +144,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 2838,
-      "sha256": "fa81dfcbd534618a51feb9d0dbe0b54cfbfc96b3cdcc9b87104186092065950e"
+      "bytes": 2088,
+      "sha256": "0cc2b4cb4ef311f7185582a61f7e5b1af41e0a89890d000c2ef131ab3d25372b"
     },
     "buffer-state.json": {
       "bytes": 4975,

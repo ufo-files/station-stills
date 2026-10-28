@@ -60,7 +60,7 @@
             "right": 63,
             "bottom": 30
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | too small"
         },
         {
           "left": 1429,
@@ -75,7 +75,7 @@
             "right": 1462,
             "bottom": 547
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 253,
@@ -91,6 +91,74 @@
             "bottom": 83
           },
           "label": "Motion | analyzing"
+        }
+      ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 25,
+            "top": 1,
+            "right": 39,
+            "bottom": 6
+          },
+          "crop_bounds": {
+            "left": 1,
+            "top": 0,
+            "right": 63,
+            "bottom": 30
+          },
+          "native_file": "motion-9f34f2e1cfd96f40-after-d9c1c65744-crop.png",
+          "detail_file": "motion-9f34f2e1cfd96f40-after-d9c1c65744-detail.jpg",
+          "native_width": 62,
+          "native_height": 30,
+          "display_width": 1024,
+          "display_height": 495,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1429,
+            "top": 513,
+            "right": 1438,
+            "bottom": 523
+          },
+          "crop_bounds": {
+            "left": 1405,
+            "top": 489,
+            "right": 1462,
+            "bottom": 547
+          },
+          "native_file": "motion-9f34f2e1cfd96f40-after-8360571662-crop.png",
+          "detail_file": "motion-9f34f2e1cfd96f40-after-8360571662-detail.jpg",
+          "native_width": 57,
+          "native_height": 58,
+          "display_width": 1006,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 253,
+            "top": 51,
+            "right": 260,
+            "bottom": 59
+          },
+          "crop_bounds": {
+            "left": 229,
+            "top": 27,
+            "right": 284,
+            "bottom": 83
+          },
+          "native_file": "motion-9f34f2e1cfd96f40-after-a0bd931948-crop.png",
+          "detail_file": "motion-9f34f2e1cfd96f40-after-a0bd931948-detail.jpg",
+          "native_width": 55,
+          "native_height": 56,
+          "display_width": 1006,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
         }
       ],
       "changed_regions": [
@@ -115,7 +183,7 @@
             "right": 63,
             "bottom": 30
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | too small"
         },
         {
           "left": 1429,
@@ -130,7 +198,7 @@
             "right": 1462,
             "bottom": 547
           },
-          "label": "Motion | analyzing"
+          "label": "Unknown | shape unresolved"
         },
         {
           "left": 253,
@@ -163,30 +231,62 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:33:53.174853+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:48:26.358288+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
-            "left": 144,
-            "top": 11,
-            "right": 200,
-            "bottom": 68
+            "left": 266,
+            "top": 25,
+            "right": 279,
+            "bottom": 38
           },
           "shape": {
             "label": "unresolved",
-            "circularity": 0.573,
-            "axis_ratio": 0.722,
-            "fill_fraction": 0.74,
-            "area_pixels": 3273,
-            "width_pixels": 68,
-            "height_pixels": 65,
-            "contrast_threshold": 32.0
+            "reason": "No separable silhouette",
+            "contrast_threshold": 196.0
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": [
+                {
+                  "identifier": "bird",
+                  "model_version": "20261028T183704Z-723291ee",
+                  "confidence": 0.9950421,
+                  "threshold": 0.995,
+                  "source": "camera-trained",
+                  "minimum_native_size": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 1429,
+            "top": 513,
+            "right": 1438,
+            "bottom": 523
+          },
+          "shape": {
+            "label": "unresolved",
+            "reason": "No separable silhouette",
+            "contrast_threshold": 144.0
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "No consistent high-confidence object label",
+            "reason": "Target too small for reliable object identification",
             "support_frames": 0
           },
           "model_observations": [
@@ -200,20 +300,23 @@
         },
         {
           "bounds": {
-            "left": 63,
+            "left": 25,
             "top": 1,
-            "right": 80,
-            "bottom": 17
+            "right": 39,
+            "bottom": 6
           },
           "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 244.0
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 112,
+            "width_pixels": 22,
+            "height_pixels": 7,
+            "contrast_threshold": 32.0
           },
           "source_frame": "after",
           "object": {
             "label": "unknown",
-            "reason": "No consistent high-confidence object label",
+            "reason": "Target too small for reliable object identification",
             "support_frames": 0
           },
           "model_observations": [

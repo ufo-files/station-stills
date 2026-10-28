@@ -106,6 +106,30 @@
             "label": "Unknown | irregular"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 23,
+              "top": 265,
+              "right": 74,
+              "bottom": 304
+            },
+            "crop_bounds": {
+              "left": 0,
+              "top": 241,
+              "right": 98,
+              "bottom": 328
+            },
+            "native_file": "motion-390a260d949cdda8-before-fd8f3a7671-crop.png",
+            "detail_file": "motion-390a260d949cdda8-before-fd8f3a7671-detail.jpg",
+            "native_width": 98,
+            "native_height": 87,
+            "display_width": 1024,
+            "display_height": 909,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 23,
@@ -146,14 +170,15 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:33:51.080559+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:48:24.115994+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
               "left": 23,
-              "top": 268,
-              "right": 71,
+              "top": 265,
+              "right": 74,
               "bottom": 304
             },
             "shape": {
@@ -183,54 +208,20 @@
           },
           {
             "bounds": {
-              "left": 51,
-              "top": 265,
-              "right": 74,
-              "bottom": 294
+              "left": 1840,
+              "top": 1,
+              "right": 1856,
+              "bottom": 13
             },
             "shape": {
-              "label": "unresolved",
-              "circularity": 0.303,
-              "axis_ratio": 0.496,
-              "fill_fraction": 0.473,
-              "area_pixels": 528,
-              "width_pixels": 31,
-              "height_pixels": 36,
-              "contrast_threshold": 40.0
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 3,
+              "width_pixels": 3,
+              "height_pixels": 1,
+              "contrast_threshold": 96.0
             },
-            "source_frame": "before",
-            "object": {
-              "label": "unknown",
-              "reason": "No consistent high-confidence object label",
-              "support_frames": 0
-            },
-            "model_observations": [
-              {
-                "labels": []
-              },
-              {
-                "labels": []
-              }
-            ]
-          },
-          {
-            "bounds": {
-              "left": 46,
-              "top": 288,
-              "right": 66,
-              "bottom": 302
-            },
-            "shape": {
-              "label": "unresolved",
-              "circularity": 0.299,
-              "axis_ratio": 0.532,
-              "fill_fraction": 0.516,
-              "area_pixels": 427,
-              "width_pixels": 36,
-              "height_pixels": 23,
-              "contrast_threshold": 36.9
-            },
-            "source_frame": "before",
+            "source_frame": "after",
             "object": {
               "label": "unknown",
               "reason": "No consistent high-confidence object label",
@@ -279,8 +270,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 5422,
-      "sha256": "ec00a297e5c488302e2e6d802123919ad7ff2900697b05e5309312fa2a1e2ce6"
+      "bytes": 5318,
+      "sha256": "9fee8be6bf8afaabb8befbaaf59eeacff79a858456d2d809834d7374e0299633"
     },
     "buffer-state.json": {
       "bytes": 4977,
@@ -301,6 +292,14 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "d64cb2ab06c931b04bcf16410c6a6634ad909aa29282a465c2267a86118adc85"
+    },
+    "motion-390a260d949cdda8-before-fd8f3a7671-crop.png": {
+      "bytes": 6881,
+      "sha256": "4d92edcdd21e07d59e46ea067b3c1c3234d2f34330b2b46feec72826ac0d5212"
+    },
+    "motion-390a260d949cdda8-before-fd8f3a7671-detail.jpg": {
+      "bytes": 73150,
+      "sha256": "df224cca03ea036307b2cc4ce3851e34e7c1e362e9334e5282955db88da024df"
     }
   },
   "buffer_assembly": {
