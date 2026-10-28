@@ -99,7 +99,7 @@
             "right": 874,
             "bottom": 175
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | too small"
         },
         {
           "left": 377,
@@ -312,6 +312,338 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 832,
+            "top": 144,
+            "right": 850,
+            "bottom": 151
+          },
+          "crop_bounds": {
+            "left": 808,
+            "top": 120,
+            "right": 874,
+            "bottom": 175
+          },
+          "native_file": "motion-807bef6db6b886fc-before-00fa75e007-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-00fa75e007-detail.jpg",
+          "native_width": 66,
+          "native_height": 55,
+          "display_width": 1024,
+          "display_height": 853,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 377,
+            "top": 977,
+            "right": 380,
+            "bottom": 981
+          },
+          "crop_bounds": {
+            "left": 353,
+            "top": 953,
+            "right": 404,
+            "bottom": 1005
+          },
+          "native_file": "motion-807bef6db6b886fc-before-e073d82ba4-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-e073d82ba4-detail.jpg",
+          "native_width": 51,
+          "native_height": 52,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 377,
+            "top": 339,
+            "right": 380,
+            "bottom": 342
+          },
+          "crop_bounds": {
+            "left": 353,
+            "top": 315,
+            "right": 404,
+            "bottom": 366
+          },
+          "native_file": "motion-807bef6db6b886fc-before-99b7ab967b-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-99b7ab967b-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 9,
+            "top": 187,
+            "right": 11,
+            "bottom": 190
+          },
+          "crop_bounds": {
+            "left": 0,
+            "top": 163,
+            "right": 35,
+            "bottom": 214
+          },
+          "native_file": "motion-807bef6db6b886fc-before-900b2b5e11-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-900b2b5e11-detail.jpg",
+          "native_width": 35,
+          "native_height": 51,
+          "display_width": 703,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1678,
+            "top": 208,
+            "right": 1681,
+            "bottom": 210
+          },
+          "crop_bounds": {
+            "left": 1654,
+            "top": 184,
+            "right": 1705,
+            "bottom": 234
+          },
+          "native_file": "motion-807bef6db6b886fc-before-1f9831b899-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-1f9831b899-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1021,
+            "top": 226,
+            "right": 1024,
+            "bottom": 229
+          },
+          "crop_bounds": {
+            "left": 997,
+            "top": 202,
+            "right": 1048,
+            "bottom": 253
+          },
+          "native_file": "motion-807bef6db6b886fc-before-f0edfdb4a5-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-f0edfdb4a5-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1558,
+            "top": 427,
+            "right": 1560,
+            "bottom": 430
+          },
+          "crop_bounds": {
+            "left": 1534,
+            "top": 403,
+            "right": 1584,
+            "bottom": 454
+          },
+          "native_file": "motion-807bef6db6b886fc-before-be90e6d3a4-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-be90e6d3a4-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 409,
+            "top": 845,
+            "right": 412,
+            "bottom": 847
+          },
+          "crop_bounds": {
+            "left": 385,
+            "top": 821,
+            "right": 436,
+            "bottom": 871
+          },
+          "native_file": "motion-807bef6db6b886fc-before-b24317364b-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-b24317364b-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 129,
+            "top": 88,
+            "right": 131,
+            "bottom": 91
+          },
+          "crop_bounds": {
+            "left": 105,
+            "top": 64,
+            "right": 155,
+            "bottom": 115
+          },
+          "native_file": "motion-807bef6db6b886fc-before-b969f9ccd2-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-b969f9ccd2-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1309,
+            "top": 181,
+            "right": 1311,
+            "bottom": 183
+          },
+          "crop_bounds": {
+            "left": 1285,
+            "top": 157,
+            "right": 1335,
+            "bottom": 207
+          },
+          "native_file": "motion-807bef6db6b886fc-before-62366e862b-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-62366e862b-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 154,
+            "top": 309,
+            "right": 157,
+            "bottom": 311
+          },
+          "crop_bounds": {
+            "left": 130,
+            "top": 285,
+            "right": 181,
+            "bottom": 335
+          },
+          "native_file": "motion-807bef6db6b886fc-before-d8a810fad3-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-d8a810fad3-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 513,
+            "top": 387,
+            "right": 516,
+            "bottom": 389
+          },
+          "crop_bounds": {
+            "left": 489,
+            "top": 363,
+            "right": 540,
+            "bottom": 413
+          },
+          "native_file": "motion-807bef6db6b886fc-before-96d3ee04f5-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-96d3ee04f5-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 125,
+            "top": 423,
+            "right": 127,
+            "bottom": 425
+          },
+          "crop_bounds": {
+            "left": 101,
+            "top": 399,
+            "right": 151,
+            "bottom": 449
+          },
+          "native_file": "motion-807bef6db6b886fc-before-5c880e4d0e-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-5c880e4d0e-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 664,
+            "top": 441,
+            "right": 666,
+            "bottom": 443
+          },
+          "crop_bounds": {
+            "left": 640,
+            "top": 417,
+            "right": 690,
+            "bottom": 467
+          },
+          "native_file": "motion-807bef6db6b886fc-before-c77de2e17f-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-c77de2e17f-detail.jpg",
+          "native_width": 50,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 242,
+            "top": 461,
+            "right": 245,
+            "bottom": 463
+          },
+          "crop_bounds": {
+            "left": 218,
+            "top": 437,
+            "right": 269,
+            "bottom": 487
+          },
+          "native_file": "motion-807bef6db6b886fc-before-edb56ff964-crop.png",
+          "detail_file": "motion-807bef6db6b886fc-before-edb56ff964-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 832,
@@ -326,7 +658,7 @@
             "right": 874,
             "bottom": 175
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | too small"
         },
         {
           "left": 799,
@@ -594,8 +926,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:38:22.339497+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:54:36.896246+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -605,11 +938,14 @@
             "bottom": 151
           },
           "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 8.0
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 55,
+            "width_pixels": 17,
+            "height_pixels": 5,
+            "contrast_threshold": 25.15
           },
-          "source_frame": "after",
+          "source_frame": "before",
           "object": {
             "label": "unknown",
             "reason": "No consistent high-confidence object label",

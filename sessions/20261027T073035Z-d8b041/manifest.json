@@ -165,6 +165,118 @@
             "label": "Motion | analyzing"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1884,
+              "top": 725,
+              "right": 1911,
+              "bottom": 743
+            },
+            "crop_bounds": {
+              "left": 1860,
+              "top": 701,
+              "right": 1920,
+              "bottom": 767
+            },
+            "native_file": "motion-588da4221b984be8-after-948a64745b-crop.png",
+            "detail_file": "motion-588da4221b984be8-after-948a64745b-detail.jpg",
+            "native_width": 60,
+            "native_height": 66,
+            "display_width": 931,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1540,
+              "top": 860,
+              "right": 1545,
+              "bottom": 866
+            },
+            "crop_bounds": {
+              "left": 1516,
+              "top": 836,
+              "right": 1569,
+              "bottom": 890
+            },
+            "native_file": "motion-588da4221b984be8-after-b519d0a360-crop.png",
+            "detail_file": "motion-588da4221b984be8-after-b519d0a360-detail.jpg",
+            "native_width": 53,
+            "native_height": 54,
+            "display_width": 1005,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 290,
+              "top": 896,
+              "right": 293,
+              "bottom": 900
+            },
+            "crop_bounds": {
+              "left": 266,
+              "top": 872,
+              "right": 317,
+              "bottom": 924
+            },
+            "native_file": "motion-588da4221b984be8-after-bc6cc47c5a-crop.png",
+            "detail_file": "motion-588da4221b984be8-after-bc6cc47c5a-detail.jpg",
+            "native_width": 51,
+            "native_height": 52,
+            "display_width": 1004,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1522,
+              "top": 707,
+              "right": 1525,
+              "bottom": 711
+            },
+            "crop_bounds": {
+              "left": 1498,
+              "top": 683,
+              "right": 1549,
+              "bottom": 735
+            },
+            "native_file": "motion-588da4221b984be8-after-a1c7da3644-crop.png",
+            "detail_file": "motion-588da4221b984be8-after-a1c7da3644-detail.jpg",
+            "native_width": 51,
+            "native_height": 52,
+            "display_width": 1004,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          },
+          {
+            "bounds": {
+              "left": 1336,
+              "top": 1057,
+              "right": 1338,
+              "bottom": 1060
+            },
+            "crop_bounds": {
+              "left": 1312,
+              "top": 1033,
+              "right": 1362,
+              "bottom": 1080
+            },
+            "native_file": "motion-588da4221b984be8-after-33d2f1c2ec-crop.png",
+            "detail_file": "motion-588da4221b984be8-after-33d2f1c2ec-detail.jpg",
+            "native_width": 50,
+            "native_height": 47,
+            "display_width": 1024,
+            "display_height": 963,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1884,
@@ -281,8 +393,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:37:47.068738+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:53:53.231113+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -410,8 +523,8 @@
       "sha256": "92436bb3c81321d556872217d17f00eaf8c51fd5850b134ca26901ecf8444e8c"
     },
     "motion-events.json": {
-      "bytes": 8733,
-      "sha256": "4cc31ea58a366f3c1368adf5ec253e117087f022808cca104d0652753a80dfb6"
+      "bytes": 12247,
+      "sha256": "4db09412e0c3dcf9cc8fc61215c6b65cc1dd18e46d8b02c5effe84cd15089781"
     },
     "buffer-state.json": {
       "bytes": 7243,
@@ -432,6 +545,46 @@
     "frames/index.json": {
       "bytes": 732,
       "sha256": "ffc5ff8ea97d3dbcfe4e70ee3baddd4f5120a63ed005224eecdde5d4d0949859"
+    },
+    "motion-588da4221b984be8-after-948a64745b-crop.png": {
+      "bytes": 3959,
+      "sha256": "611d1878d522c816772a291583122e7b29f75179864d06ea51b1d9a15b9bfe2a"
+    },
+    "motion-588da4221b984be8-after-948a64745b-detail.jpg": {
+      "bytes": 78721,
+      "sha256": "71ab85bd9566d63683f756f29c3ee17989cb4cca4d1ea2987b93e2d7f28f303d"
+    },
+    "motion-588da4221b984be8-after-b519d0a360-crop.png": {
+      "bytes": 2523,
+      "sha256": "9062d422365400606dceeb26222d57c7048448fe134c17210e8d853682a1e022"
+    },
+    "motion-588da4221b984be8-after-b519d0a360-detail.jpg": {
+      "bytes": 73939,
+      "sha256": "ca988b2338ffd50d0179510867e22b68fe86fe669a7e37c0d81a9e66004851cb"
+    },
+    "motion-588da4221b984be8-after-bc6cc47c5a-crop.png": {
+      "bytes": 2059,
+      "sha256": "3ea8e230c0638b14682d97a079bdb4923ee50d99d478f04292d60fad068dcda9"
+    },
+    "motion-588da4221b984be8-after-bc6cc47c5a-detail.jpg": {
+      "bytes": 69807,
+      "sha256": "af994a71bd029e258fc7f57e3c9284f71be2ffacc76549d7820c94c71220fff7"
+    },
+    "motion-588da4221b984be8-after-a1c7da3644-crop.png": {
+      "bytes": 2128,
+      "sha256": "c0da419aa757119fb0a274d152a459b8ce202b6dcaa61af9951fecc710cb764c"
+    },
+    "motion-588da4221b984be8-after-a1c7da3644-detail.jpg": {
+      "bytes": 70544,
+      "sha256": "e8a0414923c844d72cd3e060a4bc38e34d9533b156aa1191b42f96ff68fac5cb"
+    },
+    "motion-588da4221b984be8-after-33d2f1c2ec-crop.png": {
+      "bytes": 1812,
+      "sha256": "034b3d42cd8302828cc3481540d9c2058bc67e28cff8de7deb7b43cc44bb2562"
+    },
+    "motion-588da4221b984be8-after-33d2f1c2ec-detail.jpg": {
+      "bytes": 63977,
+      "sha256": "77e684523ef6bbf4d90996e3516e61d37891fcfa6f78397120d1580a7beffc27"
     }
   },
   "buffer_assembly": {

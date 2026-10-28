@@ -99,7 +99,7 @@
             "right": 1631,
             "bottom": 296
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | too small"
         },
         {
           "left": 1896,
@@ -357,6 +357,404 @@
           "label": "Motion | analyzing"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1586,
+            "top": 261,
+            "right": 1607,
+            "bottom": 272
+          },
+          "crop_bounds": {
+            "left": 1562,
+            "top": 237,
+            "right": 1631,
+            "bottom": 296
+          },
+          "native_file": "motion-242b0746b10d304d-before-7ce800df7f-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-7ce800df7f-detail.jpg",
+          "native_width": 69,
+          "native_height": 59,
+          "display_width": 1024,
+          "display_height": 876,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1896,
+            "top": 763,
+            "right": 1903,
+            "bottom": 770
+          },
+          "crop_bounds": {
+            "left": 1872,
+            "top": 739,
+            "right": 1920,
+            "bottom": 794
+          },
+          "native_file": "motion-242b0746b10d304d-before-cd272a11e1-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-cd272a11e1-detail.jpg",
+          "native_width": 48,
+          "native_height": 55,
+          "display_width": 894,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 777,
+            "top": 650,
+            "right": 783,
+            "bottom": 656
+          },
+          "crop_bounds": {
+            "left": 753,
+            "top": 626,
+            "right": 807,
+            "bottom": 680
+          },
+          "native_file": "motion-242b0746b10d304d-before-5d23948ec7-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-5d23948ec7-detail.jpg",
+          "native_width": 54,
+          "native_height": 54,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 244,
+            "top": 467,
+            "right": 247,
+            "bottom": 470
+          },
+          "crop_bounds": {
+            "left": 220,
+            "top": 443,
+            "right": 271,
+            "bottom": 494
+          },
+          "native_file": "motion-242b0746b10d304d-before-97ec046af4-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-97ec046af4-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 419,
+            "top": 980,
+            "right": 423,
+            "bottom": 983
+          },
+          "crop_bounds": {
+            "left": 395,
+            "top": 956,
+            "right": 447,
+            "bottom": 1007
+          },
+          "native_file": "motion-242b0746b10d304d-before-3f1328d45a-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-3f1328d45a-detail.jpg",
+          "native_width": 52,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 195,
+            "top": 54,
+            "right": 197,
+            "bottom": 58
+          },
+          "crop_bounds": {
+            "left": 171,
+            "top": 30,
+            "right": 221,
+            "bottom": 82
+          },
+          "native_file": "motion-242b0746b10d304d-before-093adb6f29-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-093adb6f29-detail.jpg",
+          "native_width": 50,
+          "native_height": 52,
+          "display_width": 985,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1720,
+            "top": 347,
+            "right": 1722,
+            "bottom": 350
+          },
+          "crop_bounds": {
+            "left": 1696,
+            "top": 323,
+            "right": 1746,
+            "bottom": 374
+          },
+          "native_file": "motion-242b0746b10d304d-before-094070b380-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-094070b380-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 107,
+            "top": 474,
+            "right": 111,
+            "bottom": 476
+          },
+          "crop_bounds": {
+            "left": 83,
+            "top": 450,
+            "right": 135,
+            "bottom": 500
+          },
+          "native_file": "motion-242b0746b10d304d-before-0eb66feb34-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-0eb66feb34-detail.jpg",
+          "native_width": 52,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 985,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 604,
+            "top": 506,
+            "right": 607,
+            "bottom": 509
+          },
+          "crop_bounds": {
+            "left": 580,
+            "top": 482,
+            "right": 631,
+            "bottom": 533
+          },
+          "native_file": "motion-242b0746b10d304d-before-8e3f83d08e-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-8e3f83d08e-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 1345,
+            "top": 653,
+            "right": 1348,
+            "bottom": 656
+          },
+          "crop_bounds": {
+            "left": 1321,
+            "top": 629,
+            "right": 1372,
+            "bottom": 680
+          },
+          "native_file": "motion-242b0746b10d304d-before-cd2af96f1c-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-cd2af96f1c-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 753,
+            "top": 129,
+            "right": 756,
+            "bottom": 131
+          },
+          "crop_bounds": {
+            "left": 729,
+            "top": 105,
+            "right": 780,
+            "bottom": 155
+          },
+          "native_file": "motion-242b0746b10d304d-before-95d518e36f-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-95d518e36f-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 138,
+            "top": 296,
+            "right": 140,
+            "bottom": 299
+          },
+          "crop_bounds": {
+            "left": 114,
+            "top": 272,
+            "right": 164,
+            "bottom": 323
+          },
+          "native_file": "motion-242b0746b10d304d-before-45d9041784-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-45d9041784-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 74,
+            "top": 327,
+            "right": 76,
+            "bottom": 330
+          },
+          "crop_bounds": {
+            "left": 50,
+            "top": 303,
+            "right": 100,
+            "bottom": 354
+          },
+          "native_file": "motion-242b0746b10d304d-before-84dab27f14-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-84dab27f14-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 837,
+            "top": 549,
+            "right": 840,
+            "bottom": 551
+          },
+          "crop_bounds": {
+            "left": 813,
+            "top": 525,
+            "right": 864,
+            "bottom": 575
+          },
+          "native_file": "motion-242b0746b10d304d-before-013a8ba335-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-013a8ba335-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 629,
+            "top": 680,
+            "right": 631,
+            "bottom": 683
+          },
+          "crop_bounds": {
+            "left": 605,
+            "top": 656,
+            "right": 655,
+            "bottom": 707
+          },
+          "native_file": "motion-242b0746b10d304d-before-9a4f86b7b7-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-9a4f86b7b7-detail.jpg",
+          "native_width": 50,
+          "native_height": 51,
+          "display_width": 1004,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 956,
+            "top": 704,
+            "right": 959,
+            "bottom": 706
+          },
+          "crop_bounds": {
+            "left": 932,
+            "top": 680,
+            "right": 983,
+            "bottom": 730
+          },
+          "native_file": "motion-242b0746b10d304d-before-3c438a19de-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-3c438a19de-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 802,
+            "top": 784,
+            "right": 805,
+            "bottom": 786
+          },
+          "crop_bounds": {
+            "left": 778,
+            "top": 760,
+            "right": 829,
+            "bottom": 810
+          },
+          "native_file": "motion-242b0746b10d304d-before-02f30db3d2-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-02f30db3d2-detail.jpg",
+          "native_width": 51,
+          "native_height": 50,
+          "display_width": 1024,
+          "display_height": 1004,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        },
+        {
+          "bounds": {
+            "left": 830,
+            "top": 820,
+            "right": 833,
+            "bottom": 823
+          },
+          "crop_bounds": {
+            "left": 806,
+            "top": 796,
+            "right": 857,
+            "bottom": 847
+          },
+          "native_file": "motion-242b0746b10d304d-before-6d34bda7ee-crop.png",
+          "detail_file": "motion-242b0746b10d304d-before-6d34bda7ee-detail.jpg",
+          "native_width": 51,
+          "native_height": 51,
+          "display_width": 1024,
+          "display_height": 1024,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1586,
@@ -371,7 +769,7 @@
             "right": 1631,
             "bottom": 296
           },
-          "label": "Unknown | shape unresolved"
+          "label": "Unknown | too small"
         },
         {
           "left": 1528,
@@ -652,8 +1050,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:38:27.893626+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:54:40.870013+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -663,11 +1062,14 @@
             "bottom": 272
           },
           "shape": {
-            "label": "unresolved",
-            "reason": "No separable silhouette",
-            "contrast_threshold": 8.0
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 88,
+            "width_pixels": 17,
+            "height_pixels": 7,
+            "contrast_threshold": 45.4
           },
-          "source_frame": "after",
+          "source_frame": "before",
           "object": {
             "label": "unknown",
             "reason": "No consistent high-confidence object label",
