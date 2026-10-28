@@ -112,7 +112,8 @@
               "top": 495,
               "right": 483,
               "bottom": 549
-            }
+            },
+            "label": "Unknown | too small"
           },
           {
             "left": 614,
@@ -126,7 +127,8 @@
               "top": 493,
               "right": 648,
               "bottom": 546
-            }
+            },
+            "label": "Unknown | too small"
           }
         ],
         "changed_regions": [
@@ -142,7 +144,8 @@
               "top": 495,
               "right": 483,
               "bottom": 549
-            }
+            },
+            "label": "Unknown | too small"
           },
           {
             "left": 614,
@@ -156,7 +159,8 @@
               "top": 493,
               "right": 648,
               "bottom": 546
-            }
+            },
+            "label": "Unknown | too small"
           }
         ],
         "source_frame": "after",
@@ -169,7 +173,78 @@
       "evidence_files": [
         "motion-784d57ed4920f54f-before.jpg",
         "motion-784d57ed4920f54f-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:29:13.122769+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 447,
+              "top": 519,
+              "right": 459,
+              "bottom": 525
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 41,
+              "width_pixels": 14,
+              "height_pixels": 4,
+              "contrast_threshold": 8.34
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 614,
+              "top": 517,
+              "right": 624,
+              "bottom": 522
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 30,
+              "width_pixels": 11,
+              "height_pixels": 5,
+              "contrast_threshold": 12.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793198457.6417508,
@@ -200,16 +275,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 3006,
-      "sha256": "cce276922c330415b955a79a5329752d5433b8084e6a9acaa5b12e3c4777f521"
+      "bytes": 5128,
+      "sha256": "171460f771786ec255129a7a6d6e3055165745e3d687239beef2c23a95ad767d"
     },
     "buffer-state.json": {
       "bytes": 5408,
       "sha256": "3ebcad9347dfe4f80af1a2b17a5a57f8782586fbe5911c25aa098d983c962387"
     },
     "motion-784d57ed4920f54f-boxed.jpg": {
-      "bytes": 243933,
-      "sha256": "eefa50a2bec3134063bf5466f9e8a4a143d13468e625fc4cfd95fa4eb615a2cd"
+      "bytes": 249950,
+      "sha256": "830b9d20bf9d5f1b0a030679523a95c09ae03241d0cc780d6de2d6f835570917"
     },
     "motion-784d57ed4920f54f-before.jpg": {
       "bytes": 567506,
