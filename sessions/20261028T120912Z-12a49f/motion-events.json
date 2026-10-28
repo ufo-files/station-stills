@@ -81,9 +81,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T18:45:41.828415+00:00",
+      "classified_at": "2026-10-28T19:09:35.596095+00:00",
       "engine": "camera-crop-mobilenet-v3",
-      "model_version": "20261028T183704Z-723291ee",
+      "model_version": "20261028T190333Z-72ab2f51",
       "regions": [
         {
           "bounds": {
@@ -111,7 +111,16 @@
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "confidence": 0.9539062,
+                  "source": "camera-trained",
+                  "model_version": "20261028T190333Z-72ab2f51",
+                  "minimum_native_size": 8,
+                  "threshold": 0.85,
+                  "identifier": "bird"
+                }
+              ]
             }
           ]
         },
@@ -138,7 +147,16 @@
               "labels": []
             },
             {
-              "labels": []
+              "labels": [
+                {
+                  "confidence": 0.93469393,
+                  "threshold": 0.85,
+                  "source": "camera-trained",
+                  "identifier": "bird",
+                  "minimum_native_size": 8,
+                  "model_version": "20261028T190333Z-72ab2f51"
+                }
+              ]
             }
           ]
         }
