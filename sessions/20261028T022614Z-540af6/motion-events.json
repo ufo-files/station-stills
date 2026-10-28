@@ -1,0 +1,122 @@
+[
+  {
+    "id": "312a15f1f49030db",
+    "detected_at": "2026-10-28T02:26:14.349640+00:00",
+    "detected_epoch": 1793154374.3496568,
+    "motion_started_epoch": 1793154373.78677,
+    "changed_area_percent": 0.012827932098765432,
+    "settings": {
+      "filter_profile": "nighttime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 12,
+      "min_area_percent": 0.0012,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.4,
+      "reference_seconds": 0.8,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T022614Z-540af6",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1803,
+          "top": 966,
+          "right": 1823,
+          "bottom": 984,
+          "changed_analysis_pixels": 266,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1779,
+            "top": 942,
+            "right": 1847,
+            "bottom": 1008
+          }
+        },
+        {
+          "left": 1766,
+          "top": 975,
+          "right": 1785,
+          "bottom": 992,
+          "changed_analysis_pixels": 169,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1742,
+            "top": 951,
+            "right": 1809,
+            "bottom": 1016
+          }
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 1803,
+          "top": 966,
+          "right": 1823,
+          "bottom": 984,
+          "changed_analysis_pixels": 266,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1779,
+            "top": 942,
+            "right": 1847,
+            "bottom": 1008
+          }
+        },
+        {
+          "left": 1766,
+          "top": 975,
+          "right": 1785,
+          "bottom": 992,
+          "changed_analysis_pixels": 169,
+          "visible_in": "after",
+          "review_bounds": {
+            "left": 1742,
+            "top": 951,
+            "right": 1809,
+            "bottom": 1016
+          }
+        }
+      ],
+      "source_frame": "after",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-312a15f1f49030db-boxed.jpg",
+    "evidence_files": [
+      "motion-312a15f1f49030db-before.jpg",
+      "motion-312a15f1f49030db-after.jpg"
+    ]
+  }
+]
