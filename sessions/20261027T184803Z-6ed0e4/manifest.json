@@ -91,106 +91,40 @@
       "annotation": {
         "boxes": [
           {
-            "left": 1021,
-            "top": 322,
-            "right": 1114,
-            "bottom": 339,
-            "changed_analysis_pixels": 428,
-            "visible_in": "before"
-          },
-          {
             "left": 996,
-            "top": 323,
-            "right": 1106,
+            "top": 303,
+            "right": 1114,
             "bottom": 344,
-            "changed_analysis_pixels": 333,
-            "visible_in": "before"
-          },
-          {
-            "left": 998,
-            "top": 309,
-            "right": 1018,
-            "bottom": 320,
-            "changed_analysis_pixels": 101,
-            "visible_in": "before"
-          },
-          {
-            "left": 1027,
-            "top": 311,
-            "right": 1060,
-            "bottom": 319,
-            "changed_analysis_pixels": 95,
-            "visible_in": "before"
-          },
-          {
-            "left": 1038,
-            "top": 304,
-            "right": 1057,
-            "bottom": 312,
-            "changed_analysis_pixels": 70,
-            "visible_in": "before"
-          },
-          {
-            "left": 1082,
-            "top": 316,
-            "right": 1102,
-            "bottom": 327,
-            "changed_analysis_pixels": 65,
-            "visible_in": "before"
+            "changed_analysis_pixels": 1158,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 961,
+              "top": 268,
+              "right": 1149,
+              "bottom": 379
+            },
+            "label": "Likely bird | shape unresolved"
           }
         ],
         "changed_regions": [
           {
-            "left": 1021,
-            "top": 322,
-            "right": 1114,
-            "bottom": 339,
-            "changed_analysis_pixels": 428,
-            "visible_in": "before"
-          },
-          {
             "left": 996,
-            "top": 323,
-            "right": 1106,
+            "top": 303,
+            "right": 1114,
             "bottom": 344,
-            "changed_analysis_pixels": 333,
-            "visible_in": "before"
-          },
-          {
-            "left": 998,
-            "top": 309,
-            "right": 1018,
-            "bottom": 320,
-            "changed_analysis_pixels": 101,
-            "visible_in": "before"
-          },
-          {
-            "left": 1027,
-            "top": 311,
-            "right": 1060,
-            "bottom": 319,
-            "changed_analysis_pixels": 95,
-            "visible_in": "before"
-          },
-          {
-            "left": 1038,
-            "top": 304,
-            "right": 1057,
-            "bottom": 312,
-            "changed_analysis_pixels": 70,
-            "visible_in": "before"
-          },
-          {
-            "left": 1082,
-            "top": 316,
-            "right": 1102,
-            "bottom": 327,
-            "changed_analysis_pixels": 65,
-            "visible_in": "before"
+            "changed_analysis_pixels": 1158,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 961,
+              "top": 268,
+              "right": 1149,
+              "bottom": 379
+            },
+            "label": "Likely bird | shape unresolved"
           }
         ],
         "source_frame": "before",
-        "annotation_version": 2,
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
         "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -199,7 +133,115 @@
       "evidence_files": [
         "motion-13d0654eb8a4ef1b-before.jpg",
         "motion-13d0654eb8a4ef1b-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:33:35.340084+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 996,
+              "top": 323,
+              "right": 1106,
+              "bottom": 344
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.24,
+              "axis_ratio": 0.217,
+              "fill_fraction": 0.549,
+              "area_pixels": 1435,
+              "width_pixels": 109,
+              "height_pixels": 24,
+              "contrast_threshold": 112.0
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "bird",
+              "confidence": 0.988,
+              "support_frames": 1,
+              "reason": "Strong single-frame suggestion; not validated for capture suppression"
+            },
+            "model_observations": [
+              {
+                "labels": [
+                  {
+                    "identifier": "bird",
+                    "confidence": 0.9881424
+                  }
+                ]
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1021,
+              "top": 322,
+              "right": 1114,
+              "bottom": 339
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.306,
+              "axis_ratio": 0.234,
+              "fill_fraction": 0.637,
+              "area_pixels": 1855,
+              "width_pixels": 104,
+              "height_pixels": 28,
+              "contrast_threshold": 68.0
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1027,
+              "top": 311,
+              "right": 1060,
+              "bottom": 319
+            },
+            "shape": {
+              "label": "unresolved",
+              "reason": "No separable silhouette",
+              "contrast_threshold": 190.0
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793126883.6786625,
@@ -230,8 +272,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 3949,
-      "sha256": "600fe0193b4a89bd99627fccbd2ee3b942c7cdf0618978cb96aa84321a6ec86d"
+      "bytes": 5331,
+      "sha256": "0b3e46beae1e1d55118cc5ebd94c40e00b144c9eda7f900d91a15c2104db2b99"
     },
     "buffer-state.json": {
       "bytes": 4977,
@@ -246,8 +288,8 @@
       "sha256": "7d3abc625122652e9b97521ad9f03cb28b856746c53c5c427b1782adfe0d0002"
     },
     "motion-13d0654eb8a4ef1b-boxed.jpg": {
-      "bytes": 192611,
-      "sha256": "8ba2487b61b8cce082f6ddd5231b12f9cbfd8186cf114ec153e930ae7282f7bf"
+      "bytes": 195307,
+      "sha256": "ae768d61cf9dae9cf1787719a999d46b7622076d2e481cace6600b59d8e0902f"
     },
     "frames/index.json": {
       "bytes": 720,

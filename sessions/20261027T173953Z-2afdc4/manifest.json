@@ -94,28 +94,10 @@
       "action": "started_recording",
       "session_id": "20261027T173953Z-2afdc4",
       "annotation": {
-        "boxes": [
-          {
-            "left": 326,
-            "top": 22,
-            "right": 384,
-            "bottom": 50,
-            "changed_analysis_pixels": 212,
-            "visible_in": "both"
-          }
-        ],
-        "changed_regions": [
-          {
-            "left": 326,
-            "top": 22,
-            "right": 384,
-            "bottom": 50,
-            "changed_analysis_pixels": 212,
-            "visible_in": "both"
-          }
-        ],
+        "boxes": [],
+        "changed_regions": [],
         "source_frame": "after",
-        "annotation_version": 2,
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
         "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -124,7 +106,45 @@
       "evidence_files": [
         "motion-43e0c868372eed85-before.jpg",
         "motion-43e0c868372eed85-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:33:56.987328+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 326,
+              "top": 22,
+              "right": 384,
+              "bottom": 50
+            },
+            "shape": {
+              "label": "unresolved",
+              "reason": "No separable silhouette",
+              "contrast_threshold": 220.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     },
     {
       "id": "cbbd7e3b60a465d0",
@@ -173,68 +193,10 @@
       "action": "annotated_existing_recording",
       "session_id": "20261027T173953Z-2afdc4",
       "annotation": {
-        "boxes": [
-          {
-            "left": 220,
-            "top": 1,
-            "right": 251,
-            "bottom": 31,
-            "changed_analysis_pixels": 146,
-            "visible_in": "both"
-          },
-          {
-            "left": 328,
-            "top": 36,
-            "right": 358,
-            "bottom": 56,
-            "changed_analysis_pixels": 95,
-            "visible_in": "both"
-          },
-          {
-            "left": 259,
-            "top": 42,
-            "right": 278,
-            "bottom": 55,
-            "changed_analysis_pixels": 67,
-            "visible_in": "both"
-          }
-        ],
-        "changed_regions": [
-          {
-            "left": 220,
-            "top": 1,
-            "right": 251,
-            "bottom": 31,
-            "changed_analysis_pixels": 146,
-            "visible_in": "both"
-          },
-          {
-            "left": 328,
-            "top": 36,
-            "right": 358,
-            "bottom": 56,
-            "changed_analysis_pixels": 95,
-            "visible_in": "both"
-          },
-          {
-            "left": 259,
-            "top": 42,
-            "right": 278,
-            "bottom": 55,
-            "changed_analysis_pixels": 67,
-            "visible_in": "both"
-          },
-          {
-            "left": 356,
-            "top": 49,
-            "right": 363,
-            "bottom": 54,
-            "changed_analysis_pixels": 29,
-            "visible_in": "before"
-          }
-        ],
+        "boxes": [],
+        "changed_regions": [],
         "source_frame": "after",
-        "annotation_version": 2,
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
         "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -243,7 +205,107 @@
       "evidence_files": [
         "motion-cbbd7e3b60a465d0-before.jpg",
         "motion-cbbd7e3b60a465d0-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:33:54.968717+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 220,
+              "top": 1,
+              "right": 251,
+              "bottom": 31
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 10,
+              "width_pixels": 6,
+              "height_pixels": 6,
+              "contrast_threshold": 122.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 328,
+              "top": 36,
+              "right": 358,
+              "bottom": 56
+            },
+            "shape": {
+              "label": "unresolved",
+              "reason": "No separable silhouette",
+              "contrast_threshold": 154.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 259,
+              "top": 42,
+              "right": 278,
+              "bottom": 55
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.492,
+              "axis_ratio": 0.545,
+              "fill_fraction": 0.724,
+              "area_pixels": 621,
+              "width_pixels": 39,
+              "height_pixels": 22,
+              "contrast_threshold": 48.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793122798.8792353,
@@ -274,8 +336,8 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 4983,
-      "sha256": "a62f60279456e208d37438eb3a7da59aaf97d5fa933a5ff5577a016f4989163a"
+      "bytes": 6982,
+      "sha256": "72166ca88bf2b72e66956bd2629d32c4450c9232dbf9da74e96ea540d49d332f"
     },
     "buffer-state.json": {
       "bytes": 6400,
@@ -286,16 +348,16 @@
       "sha256": "360e1a9b78293b0397afd9cfec7e3b2a0de7721a6c671ffd1fa6f880f8a0bc8f"
     },
     "motion-43e0c868372eed85-boxed.jpg": {
-      "bytes": 221973,
-      "sha256": "0bcb0921217ee63b97cb56bb1a9f4611de30035c3d14fb5494ae19cb41a1d2a1"
+      "bytes": 220027,
+      "sha256": "ac150c1e25155572ab935b2581a83c8d0463fcce60138a57ba8582ed436c802d"
     },
     "motion-cbbd7e3b60a465d0-before.jpg": {
       "bytes": 161664,
       "sha256": "96798c93db1bf09048f75352b199fb2163508c0295ada1e3f883f92a21847746"
     },
     "motion-cbbd7e3b60a465d0-boxed.jpg": {
-      "bytes": 223918,
-      "sha256": "a04f5e67007c83a9e023fdd8d868bee7952c48ba028ae3536111090795900dc3"
+      "bytes": 220163,
+      "sha256": "816a96b7295e04ff4b3ca38e92ebb589839b820d2e51168b404daf27bceca3a0"
     },
     "motion-cbbd7e3b60a465d0-after.jpg": {
       "bytes": 161930,

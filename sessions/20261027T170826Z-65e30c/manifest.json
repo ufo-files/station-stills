@@ -91,42 +91,40 @@
       "annotation": {
         "boxes": [
           {
-            "left": 2,
-            "top": 1026,
-            "right": 43,
-            "bottom": 1042,
-            "changed_analysis_pixels": 159,
-            "visible_in": "before"
-          },
-          {
             "left": 1,
-            "top": 1040,
-            "right": 33,
+            "top": 1021,
+            "right": 43,
             "bottom": 1047,
-            "changed_analysis_pixels": 65,
-            "visible_in": "before"
+            "changed_analysis_pixels": 259,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 0,
+              "top": 997,
+              "right": 67,
+              "bottom": 1071
+            },
+            "label": "Unknown | shape unresolved"
           }
         ],
         "changed_regions": [
           {
-            "left": 2,
-            "top": 1026,
-            "right": 43,
-            "bottom": 1042,
-            "changed_analysis_pixels": 159,
-            "visible_in": "before"
-          },
-          {
             "left": 1,
-            "top": 1040,
-            "right": 33,
+            "top": 1021,
+            "right": 43,
             "bottom": 1047,
-            "changed_analysis_pixels": 65,
-            "visible_in": "before"
+            "changed_analysis_pixels": 259,
+            "visible_in": "before",
+            "review_bounds": {
+              "left": 0,
+              "top": 997,
+              "right": 67,
+              "bottom": 1071
+            },
+            "label": "Unknown | shape unresolved"
           }
         ],
         "source_frame": "before",
-        "annotation_version": 2,
+        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
         "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
@@ -135,7 +133,82 @@
       "evidence_files": [
         "motion-cfb65d8973437363-before.jpg",
         "motion-cfb65d8973437363-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:34:21.476029+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 2,
+              "top": 1026,
+              "right": 43,
+              "bottom": 1042
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.445,
+              "axis_ratio": 0.465,
+              "fill_fraction": 0.622,
+              "area_pixels": 819,
+              "width_pixels": 47,
+              "height_pixels": 28,
+              "contrast_threshold": 24.4
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 1,
+              "top": 1040,
+              "right": 33,
+              "bottom": 1047
+            },
+            "shape": {
+              "label": "unresolved",
+              "circularity": 0.508,
+              "axis_ratio": 0.321,
+              "fill_fraction": 0.872,
+              "area_pixels": 525,
+              "width_pixels": 43,
+              "height_pixels": 14,
+              "contrast_threshold": 24.48
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793120906.2939346,
@@ -166,16 +239,16 @@
       "sha256": "cc457c74f172898635afea89ada7593107be9f43433cf1246c3b76044718a578"
     },
     "motion-events.json": {
-      "bytes": 2407,
-      "sha256": "c113c8624cbeebb2bdf789a73c230906748b4aa2ae6ee7c86923ce18c4491d9a"
+      "bytes": 4434,
+      "sha256": "ee00a73f249c61960f65b860f484968ec32af4be36dac58405a29c9484103dc7"
     },
     "buffer-state.json": {
       "bytes": 4932,
       "sha256": "160e0412b8be9801252fb3a0767481ffa9af503992c680080d0e302d41326f7a"
     },
     "motion-cfb65d8973437363-boxed.jpg": {
-      "bytes": 178376,
-      "sha256": "6a65b0ca10aedd5535891b8584a56f3b2f04edfd4e987fa21eacc588a92a39c8"
+      "bytes": 183184,
+      "sha256": "4cf00589848d2a0f0886f9e2d49e4e3a7e9764d270c62341a66a18f1e6910a0d"
     },
     "motion-cfb65d8973437363-after.jpg": {
       "bytes": 129662,
