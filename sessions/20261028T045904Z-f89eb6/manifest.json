@@ -345,12 +345,12 @@
     "error": null
   },
   "youtube": {
-    "state": "queued",
-    "video_id": null,
-    "url": null,
+    "state": "verifying",
+    "video_id": "E7xLMH8DLgs",
+    "url": "https://www.youtube.com/watch?v=E7xLMH8DLgs",
     "channel_id": "UCQA8_F18kJhUA1hE0MpyHug",
     "privacy": "public",
-    "uploaded_at": null,
+    "uploaded_at": 1793170894.0497582,
     "verified_at": null,
     "uploaded_file": {
       "file": "video.mp4",
@@ -364,6 +364,6 @@
     "cleanup": "videos_only",
     "cleaned_files": [],
     "cleanup_plan": [],
-    "error": "Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1031212243970'."
+    "error": null
   }
 }
