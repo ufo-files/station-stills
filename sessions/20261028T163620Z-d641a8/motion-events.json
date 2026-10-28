@@ -1,0 +1,175 @@
+[
+  {
+    "id": "19d8023ac16a072c",
+    "detected_at": "2026-10-28T16:36:20.450249+00:00",
+    "detected_epoch": 1793205380.4502835,
+    "motion_started_epoch": 1793205379.787755,
+    "changed_area_percent": 0.008921682098765432,
+    "settings": {
+      "filter_profile": "daytime",
+      "enabled": true,
+      "duration_minutes": 3,
+      "cooldown_minutes": 0.0,
+      "pre_roll_seconds": 10.0,
+      "post_roll_seconds": 10.0,
+      "analysis_fps": 5,
+      "analysis_width": 1920,
+      "pixel_threshold": 18,
+      "min_area_percent": 0.002,
+      "max_area_percent": 2.0,
+      "confirmation_seconds": 0.5,
+      "reference_seconds": 0.4,
+      "cloud_suppression": true,
+      "roi_left": 0.0,
+      "roi_top": 0.0,
+      "roi_right": 100.0,
+      "roi_bottom": 68.0,
+      "roi_polygon": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          100.0,
+          0.0
+        ],
+        [
+          100.0,
+          100.0
+        ],
+        [
+          0.0,
+          100.0
+        ]
+      ]
+    },
+    "algorithm": "grouped-compact-detail-v4",
+    "action": "started_recording",
+    "session_id": "20261028T163620Z-d641a8",
+    "annotation": {
+      "boxes": [
+        {
+          "left": 1362,
+          "top": 660,
+          "right": 1386,
+          "bottom": 672,
+          "changed_analysis_pixels": 185,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1338,
+            "top": 636,
+            "right": 1410,
+            "bottom": 696
+          },
+          "label": "Unknown | too small"
+        }
+      ],
+      "changed_regions": [
+        {
+          "left": 1362,
+          "top": 660,
+          "right": 1386,
+          "bottom": 672,
+          "changed_analysis_pixels": 185,
+          "visible_in": "before",
+          "review_bounds": {
+            "left": 1338,
+            "top": 636,
+            "right": 1410,
+            "bottom": 696
+          },
+          "label": "Unknown | too small"
+        },
+        {
+          "left": 162,
+          "top": 716,
+          "right": 184,
+          "bottom": 728,
+          "changed_analysis_pixels": 155,
+          "visible_in": "after"
+        }
+      ],
+      "source_frame": "before",
+      "annotation_version": 3,
+      "frame_width": 1920,
+      "frame_height": 1080,
+      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+    },
+    "annotated_frame": "motion-19d8023ac16a072c-boxed.jpg",
+    "evidence_files": [
+      "motion-19d8023ac16a072c-before.jpg",
+      "motion-19d8023ac16a072c-after.jpg"
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:36:24.957935+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1362,
+            "top": 660,
+            "right": 1386,
+            "bottom": 672
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 102,
+            "width_pixels": 24,
+            "height_pixels": 6,
+            "contrast_threshold": 21.4
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 162,
+            "top": 716,
+            "right": 184,
+            "bottom": 728
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 92,
+            "width_pixels": 22,
+            "height_pixels": 6,
+            "contrast_threshold": 22.91
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
+  }
+]
