@@ -59,7 +59,8 @@
             "top": 783,
             "right": 1369,
             "bottom": 871
-          }
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
       "changed_regions": [
@@ -75,7 +76,8 @@
             "top": 783,
             "right": 1369,
             "bottom": 871
-          }
+          },
+          "label": "Unknown | shape unresolved"
         }
       ],
       "source_frame": "before",
@@ -88,6 +90,49 @@
     "evidence_files": [
       "motion-0169a65003ec1a6f-before.jpg",
       "motion-0169a65003ec1a6f-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:33:22.227743+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1324,
+            "top": 807,
+            "right": 1345,
+            "bottom": 847
+          },
+          "shape": {
+            "label": "unresolved",
+            "circularity": 0.251,
+            "axis_ratio": 0.664,
+            "fill_fraction": 0.405,
+            "area_pixels": 662,
+            "width_pixels": 38,
+            "height_pixels": 43,
+            "contrast_threshold": 29.2
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

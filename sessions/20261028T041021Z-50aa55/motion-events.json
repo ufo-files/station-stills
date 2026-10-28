@@ -60,7 +60,8 @@
             "top": 238,
             "right": 1892,
             "bottom": 295
-          }
+          },
+          "label": "Unknown | elongated"
         }
       ],
       "changed_regions": [
@@ -76,7 +77,8 @@
             "top": 238,
             "right": 1892,
             "bottom": 295
-          }
+          },
+          "label": "Unknown | elongated"
         }
       ],
       "source_frame": "after",
@@ -89,6 +91,49 @@
     "evidence_files": [
       "motion-a9a4e979c5dc1682-before.jpg",
       "motion-a9a4e979c5dc1682-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:31:16.964856+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1856,
+            "top": 262,
+            "right": 1868,
+            "bottom": 271
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.351,
+            "axis_ratio": 0.343,
+            "fill_fraction": 0.519,
+            "area_pixels": 54,
+            "width_pixels": 13,
+            "height_pixels": 8,
+            "contrast_threshold": 18.45
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

@@ -103,7 +103,8 @@
               "top": 966,
               "right": 1320,
               "bottom": 1022
-            }
+            },
+            "label": "Unknown | too small"
           }
         ],
         "changed_regions": [
@@ -119,7 +120,8 @@
               "top": 966,
               "right": 1320,
               "bottom": 1022
-            }
+            },
+            "label": "Unknown | too small"
           }
         ],
         "source_frame": "before",
@@ -132,7 +134,48 @@
       "evidence_files": [
         "motion-f524033a0e8c1ffb-before.jpg",
         "motion-f524033a0e8c1ffb-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:31:22.000190+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1290,
+              "top": 990,
+              "right": 1296,
+              "bottom": 998
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 20,
+              "width_pixels": 5,
+              "height_pixels": 5,
+              "contrast_threshold": 17.44
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793159786.3367002,
@@ -163,8 +206,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 2357,
-      "sha256": "bf281e99c611d829aaca8deb45e5e2ad72e7ef5757e26cbb64924e72dac63ad1"
+      "bytes": 3608,
+      "sha256": "c99c9e26f25c9e0cc478db0b434646bd5d246f973e6994b4baf5bebb6e0a3050"
     },
     "buffer-state.json": {
       "bytes": 6214,
@@ -179,8 +222,8 @@
       "sha256": "d5b4e4e804ef25de6fea71b2982294e564a8a5a1457ef2c002a7a498f3bf80cf"
     },
     "motion-f524033a0e8c1ffb-boxed.jpg": {
-      "bytes": 338994,
-      "sha256": "f3ede38f6192bb408d3bd73dd3008010050616179019f2dfa58390037c526caa"
+      "bytes": 340976,
+      "sha256": "6547f0fb71cea9e62474a0ad8994efec102f89785972619efd8631336e7f0203"
     },
     "frames/index.json": {
       "bytes": 720,

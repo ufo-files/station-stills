@@ -59,7 +59,8 @@
             "top": 745,
             "right": 1851,
             "bottom": 815
-          }
+          },
+          "label": "Unknown | elongated"
         }
       ],
       "changed_regions": [
@@ -75,7 +76,8 @@
             "top": 745,
             "right": 1851,
             "bottom": 815
-          }
+          },
+          "label": "Unknown | elongated"
         }
       ],
       "source_frame": "before",
@@ -88,6 +90,49 @@
     "evidence_files": [
       "motion-ee6c9ff7e286df4f-before.jpg",
       "motion-ee6c9ff7e286df4f-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:33:24.199141+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1791,
+            "top": 769,
+            "right": 1827,
+            "bottom": 791
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.36,
+            "axis_ratio": 0.342,
+            "fill_fraction": 0.566,
+            "area_pixels": 385,
+            "width_pixels": 40,
+            "height_pixels": 17,
+            "contrast_threshold": 27.8
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

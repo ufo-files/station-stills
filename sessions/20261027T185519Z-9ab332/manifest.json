@@ -102,7 +102,8 @@
               "top": 273,
               "right": 1759,
               "bottom": 361
-            }
+            },
+            "label": "Unknown | elongated"
           }
         ],
         "changed_regions": [
@@ -118,7 +119,8 @@
               "top": 273,
               "right": 1759,
               "bottom": 361
-            }
+            },
+            "label": "Unknown | elongated"
           },
           {
             "left": 339,
@@ -139,7 +141,82 @@
       "evidence_files": [
         "motion-5361709989eaf8c1-before.jpg",
         "motion-5361709989eaf8c1-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:33:26.657844+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1670,
+              "top": 297,
+              "right": 1735,
+              "bottom": 337
+            },
+            "shape": {
+              "label": "elongated",
+              "circularity": 0.164,
+              "axis_ratio": 0.195,
+              "fill_fraction": 0.234,
+              "area_pixels": 668,
+              "width_pixels": 68,
+              "height_pixels": 42,
+              "contrast_threshold": 29.8
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          },
+          {
+            "bounds": {
+              "left": 339,
+              "top": 647,
+              "right": 362,
+              "bottom": 669
+            },
+            "shape": {
+              "label": "elongated",
+              "circularity": 0.42,
+              "axis_ratio": 0.467,
+              "fill_fraction": 0.555,
+              "area_pixels": 295,
+              "width_pixels": 28,
+              "height_pixels": 19,
+              "contrast_threshold": 25.2
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793127319.6089635,
@@ -170,16 +247,16 @@
       "sha256": "5223100699feececbb2477094a543c0721912651b4be3a2e0f0b7fd797b22942"
     },
     "motion-events.json": {
-      "bytes": 2508,
-      "sha256": "34e809cddb4d32a09beded50d2380ee4650b8a4736c0bd913330a73de3804f85"
+      "bytes": 4614,
+      "sha256": "e7e710fd6632caa5edf65ee60c9144dcc5aed3ae150f2d1ad05e55f737b7a866"
     },
     "buffer-state.json": {
       "bytes": 4888,
       "sha256": "69a24c2ae5338145f0e3f0821c95e395775db7942270612c5bf5f4433c4db693"
     },
     "motion-5361709989eaf8c1-boxed.jpg": {
-      "bytes": 194742,
-      "sha256": "cc7820861e8b23f9145c56d0b6c0009b69ce5fcd3138c5a47733d6dd06c6b849"
+      "bytes": 197649,
+      "sha256": "4c6ce1eba62c3fa0eb52c734242a56e16aaa55e32d28cc7564f023b109f1a3e9"
     },
     "motion-5361709989eaf8c1-after.jpg": {
       "bytes": 142440,

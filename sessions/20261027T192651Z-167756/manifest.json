@@ -112,7 +112,8 @@
               "top": 899,
               "right": 944,
               "bottom": 986
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "changed_regions": [
@@ -128,7 +129,8 @@
               "top": 899,
               "right": 944,
               "bottom": 986
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "source_frame": "after",
@@ -141,7 +143,50 @@
       "evidence_files": [
         "motion-528f52bceace11c7-before.jpg",
         "motion-528f52bceace11c7-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:33:19.956095+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 887,
+              "top": 923,
+              "right": 920,
+              "bottom": 962
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.125,
+              "axis_ratio": 0.654,
+              "fill_fraction": 0.488,
+              "area_pixels": 527,
+              "width_pixels": 30,
+              "height_pixels": 36,
+              "contrast_threshold": 29.6
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     },
     {
       "id": "760be97b9a5cace1",
@@ -203,7 +248,8 @@
               "top": 779,
               "right": 1087,
               "bottom": 886
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "changed_regions": [
@@ -219,7 +265,8 @@
               "top": 779,
               "right": 1087,
               "bottom": 886
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "source_frame": "after",
@@ -232,7 +279,50 @@
       "evidence_files": [
         "motion-760be97b9a5cace1-before.jpg",
         "motion-760be97b9a5cace1-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:33:11.231324+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1008,
+              "top": 803,
+              "right": 1063,
+              "bottom": 862
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.082,
+              "axis_ratio": 0.807,
+              "fill_fraction": 0.353,
+              "area_pixels": 1062,
+              "width_pixels": 51,
+              "height_pixels": 59,
+              "contrast_threshold": 29.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     },
     {
       "id": "1df1334c578ce71d",
@@ -294,7 +384,8 @@
               "top": 715,
               "right": 1009,
               "bottom": 827
-            }
+            },
+            "label": "Unknown | elongated"
           }
         ],
         "changed_regions": [
@@ -310,7 +401,8 @@
               "top": 715,
               "right": 1009,
               "bottom": 827
-            }
+            },
+            "label": "Unknown | elongated"
           }
         ],
         "source_frame": "after",
@@ -323,7 +415,55 @@
       "evidence_files": [
         "motion-1df1334c578ce71d-before.jpg",
         "motion-1df1334c578ce71d-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:33:09.298749+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 910,
+              "top": 739,
+              "right": 985,
+              "bottom": 803
+            },
+            "shape": {
+              "label": "elongated",
+              "circularity": 0.017,
+              "axis_ratio": 0.162,
+              "fill_fraction": 0.117,
+              "area_pixels": 535,
+              "width_pixels": 74,
+              "height_pixels": 62,
+              "contrast_threshold": 27.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": [
+                  {
+                    "identifier": "bird",
+                    "confidence": 0.6195573
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793129226.269099,
@@ -354,8 +494,8 @@
       "sha256": "5223100699feececbb2477094a543c0721912651b4be3a2e0f0b7fd797b22942"
     },
     "motion-events.json": {
-      "bytes": 6949,
-      "sha256": "720287d28e43e279977369a45d81cc919983e853012123a76bbb9afdaaa28c93"
+      "bytes": 10928,
+      "sha256": "e9cd83c8a278f2fac8d7b3fcccaa9c1c9923898aa42ec233bbdd46f6c3e4dd3e"
     },
     "buffer-state.json": {
       "bytes": 7812,
@@ -370,12 +510,12 @@
       "sha256": "db2b639b5d0152d4c2da542742764f204e874a6cae42b11dd4c13d924318c12a"
     },
     "motion-760be97b9a5cace1-boxed.jpg": {
-      "bytes": 161582,
-      "sha256": "984f1e574adf1bb40047c9c5ef86d2a96f16f8ed2b31294eb99007a70d2ac2be"
+      "bytes": 164584,
+      "sha256": "9ee07456e547def7addbaeac608874833cb1bf97a71eb5bf4963df1e333a938e"
     },
     "motion-1df1334c578ce71d-boxed.jpg": {
-      "bytes": 161590,
-      "sha256": "95a8ce4114958e0165603a4f03fd1728463210c4e051842bdb1129925410b549"
+      "bytes": 164888,
+      "sha256": "c1d05d284184b285a8d5951580da328afaa6b1da258c9f54d54a87d8fc5a2ba8"
     },
     "motion-1df1334c578ce71d-after.jpg": {
       "bytes": 116210,
@@ -390,8 +530,8 @@
       "sha256": "8963a7c3b6c516a06e4eff39f61c545dc1231eb1715d04927e6ec3e42d3fffed"
     },
     "motion-528f52bceace11c7-boxed.jpg": {
-      "bytes": 160935,
-      "sha256": "3af307f91204f42422aeef2a3aee0b8ff8ea9f74514ea6334a5687070da2554a"
+      "bytes": 163817,
+      "sha256": "ca2ec19441ee8554ecd6855f216023b09602a47f7bd8def25a1a88feefd4704a"
     },
     "motion-760be97b9a5cace1-before.jpg": {
       "bytes": 115602,

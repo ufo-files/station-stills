@@ -59,7 +59,8 @@
             "top": 503,
             "right": 1678,
             "bottom": 582
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "changed_regions": [
@@ -75,7 +76,8 @@
             "top": 503,
             "right": 1678,
             "bottom": 582
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "source_frame": "after",
@@ -88,7 +90,50 @@
     "evidence_files": [
       "motion-10b6c7890fdf78c0-before.jpg",
       "motion-10b6c7890fdf78c0-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:33:05.570579+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1621,
+            "top": 527,
+            "right": 1654,
+            "bottom": 558
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.209,
+            "axis_ratio": 0.69,
+            "fill_fraction": 0.492,
+            "area_pixels": 425,
+            "width_pixels": 32,
+            "height_pixels": 27,
+            "contrast_threshold": 27.2
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   },
   {
     "id": "606ba6fcff2a619a",
@@ -150,7 +195,8 @@
             "top": 838,
             "right": 1634,
             "bottom": 903
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "changed_regions": [
@@ -166,7 +212,8 @@
             "top": 838,
             "right": 1634,
             "bottom": 903
-          }
+          },
+          "label": "Unknown | irregular"
         }
       ],
       "source_frame": "after",
@@ -179,6 +226,49 @@
     "evidence_files": [
       "motion-606ba6fcff2a619a-before.jpg",
       "motion-606ba6fcff2a619a-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:33:00.811634+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1586,
+            "top": 862,
+            "right": 1610,
+            "bottom": 879
+          },
+          "shape": {
+            "label": "irregular",
+            "circularity": 0.274,
+            "axis_ratio": 0.626,
+            "fill_fraction": 0.565,
+            "area_pixels": 169,
+            "width_pixels": 23,
+            "height_pixels": 13,
+            "contrast_threshold": 30.2
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

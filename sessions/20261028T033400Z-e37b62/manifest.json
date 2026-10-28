@@ -107,7 +107,48 @@
       "evidence_files": [
         "motion-1a94ece9cec7ee0c-before.jpg",
         "motion-1a94ece9cec7ee0c-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:31:29.132510+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 668,
+              "top": 121,
+              "right": 692,
+              "bottom": 145
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 13,
+              "width_pixels": 5,
+              "height_pixels": 3,
+              "contrast_threshold": 8.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793158462.6915884,
@@ -138,8 +179,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 1771,
-      "sha256": "268ccde9b4d744e97dc7fb617668092f79c91fa984e063df08eab543124c66b8"
+      "bytes": 2924,
+      "sha256": "fe68455444833e2ef0a66a41364a3826ff491d6e2e846253da2b9e9ee5c63945"
     },
     "buffer-state.json": {
       "bytes": 9085,
@@ -154,8 +195,8 @@
       "sha256": "b8b1b52023914981ba96fcdee8b0557c4555decffb385055773ae5571f4f06a2"
     },
     "motion-1a94ece9cec7ee0c-boxed.jpg": {
-      "bytes": 337792,
-      "sha256": "508f6c908f82cedb09fe380df6434534ba4206dbcc4b64fcdd65135e0ae847d1"
+      "bytes": 337400,
+      "sha256": "d350e522942123a4143d9a96f3d6723651058ca69dc781b88872b8bd2c1517c9"
     },
     "frames/index.json": {
       "bytes": 719,

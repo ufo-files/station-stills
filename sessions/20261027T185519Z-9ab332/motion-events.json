@@ -59,7 +59,8 @@
             "top": 273,
             "right": 1759,
             "bottom": 361
-          }
+          },
+          "label": "Unknown | elongated"
         }
       ],
       "changed_regions": [
@@ -75,7 +76,8 @@
             "top": 273,
             "right": 1759,
             "bottom": 361
-          }
+          },
+          "label": "Unknown | elongated"
         },
         {
           "left": 339,
@@ -96,6 +98,81 @@
     "evidence_files": [
       "motion-5361709989eaf8c1-before.jpg",
       "motion-5361709989eaf8c1-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:33:26.657844+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1670,
+            "top": 297,
+            "right": 1735,
+            "bottom": 337
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.164,
+            "axis_ratio": 0.195,
+            "fill_fraction": 0.234,
+            "area_pixels": 668,
+            "width_pixels": 68,
+            "height_pixels": 42,
+            "contrast_threshold": 29.8
+          },
+          "source_frame": "before",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 339,
+            "top": 647,
+            "right": 362,
+            "bottom": 669
+          },
+          "shape": {
+            "label": "elongated",
+            "circularity": 0.42,
+            "axis_ratio": 0.467,
+            "fill_fraction": 0.555,
+            "area_pixels": 295,
+            "width_pixels": 28,
+            "height_pixels": 19,
+            "contrast_threshold": 25.2
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "No consistent high-confidence object label",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

@@ -102,7 +102,8 @@
               "top": 406,
               "right": 1175,
               "bottom": 491
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "changed_regions": [
@@ -118,7 +119,8 @@
               "top": 406,
               "right": 1175,
               "bottom": 491
-            }
+            },
+            "label": "Unknown | irregular"
           }
         ],
         "source_frame": "before",
@@ -131,7 +133,50 @@
       "evidence_files": [
         "motion-ff1ed0b5ebf726fd-before.jpg",
         "motion-ff1ed0b5ebf726fd-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:32:57.551400+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1107,
+              "top": 430,
+              "right": 1151,
+              "bottom": 467
+            },
+            "shape": {
+              "label": "irregular",
+              "circularity": 0.333,
+              "axis_ratio": 0.497,
+              "fill_fraction": 0.562,
+              "area_pixels": 382,
+              "width_pixels": 34,
+              "height_pixels": 20,
+              "contrast_threshold": 38.0
+            },
+            "source_frame": "before",
+            "object": {
+              "label": "unknown",
+              "reason": "No consistent high-confidence object label",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793133376.6634774,
@@ -162,16 +207,16 @@
       "sha256": "862fd61458e484316f3b811278b24161ede27f4b94718e5ce07bc3952464c769"
     },
     "motion-events.json": {
-      "bytes": 2318,
-      "sha256": "bc25646ce851ae64a57f050c75c2978359bb66462ab162bdb1bc76bda4ded9a6"
+      "bytes": 3602,
+      "sha256": "00903a486f0e9fe72a2227986363bce06c60164a39646e2e03b412d3262c6158"
     },
     "buffer-state.json": {
       "bytes": 4933,
       "sha256": "9b694c4ba8dba43153be8955e7518d9ff3f927a145135c61b9a5fc67d73f4a82"
     },
     "motion-ff1ed0b5ebf726fd-boxed.jpg": {
-      "bytes": 162285,
-      "sha256": "18c6680b7527172e24e6a76fddc5870cfc9ca9ed2eec87fcf0404cac7e2ae6c9"
+      "bytes": 165056,
+      "sha256": "e818397f5009db2024df0768c4796c1303412c1215eefe98d2a27d3b837048f6"
     },
     "motion-ff1ed0b5ebf726fd-after.jpg": {
       "bytes": 111232,

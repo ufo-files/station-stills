@@ -68,6 +68,47 @@
     "evidence_files": [
       "motion-66e845f0b52bc1f4-before.jpg",
       "motion-66e845f0b52bc1f4-after.jpg"
-    ]
+    ],
+    "classification": {
+      "version": 1,
+      "state": "completed",
+      "mode": "label_only",
+      "classified_at": "2026-10-28T16:31:37.092290+00:00",
+      "engine": "coreml-yolov3-fp16-coco",
+      "regions": [
+        {
+          "bounds": {
+            "left": 460,
+            "top": 185,
+            "right": 463,
+            "bottom": 188
+          },
+          "shape": {
+            "label": "too_small",
+            "reason": "Insufficient native silhouette detail",
+            "area_pixels": 11,
+            "width_pixels": 4,
+            "height_pixels": 4,
+            "contrast_threshold": 8.0
+          },
+          "source_frame": "after",
+          "object": {
+            "label": "unknown",
+            "reason": "Target too small for reliable object identification",
+            "support_frames": 0
+          },
+          "model_observations": [
+            {
+              "labels": []
+            },
+            {
+              "labels": []
+            }
+          ]
+        }
+      ],
+      "error": null,
+      "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    }
   }
 ]

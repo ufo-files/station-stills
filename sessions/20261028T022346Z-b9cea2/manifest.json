@@ -120,7 +120,48 @@
       "evidence_files": [
         "motion-66e845f0b52bc1f4-before.jpg",
         "motion-66e845f0b52bc1f4-after.jpg"
-      ]
+      ],
+      "classification": {
+        "version": 1,
+        "state": "completed",
+        "mode": "label_only",
+        "classified_at": "2026-10-28T16:31:37.092290+00:00",
+        "engine": "coreml-yolov3-fp16-coco",
+        "regions": [
+          {
+            "bounds": {
+              "left": 460,
+              "top": 185,
+              "right": 463,
+              "bottom": 188
+            },
+            "shape": {
+              "label": "too_small",
+              "reason": "Insufficient native silhouette detail",
+              "area_pixels": 11,
+              "width_pixels": 4,
+              "height_pixels": 4,
+              "contrast_threshold": 8.0
+            },
+            "source_frame": "after",
+            "object": {
+              "label": "unknown",
+              "reason": "Target too small for reliable object identification",
+              "support_frames": 0
+            },
+            "model_observations": [
+              {
+                "labels": []
+              },
+              {
+                "labels": []
+              }
+            ]
+          }
+        ],
+        "error": null,
+        "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      }
     }
   ],
   "motion_last_seen_epoch": 1793154228.5013423,
@@ -151,8 +192,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 1812,
-      "sha256": "cdba1a9b83702158387c07f5fc4d6cfe349438c4f98ff40da3c83e376aa27f67"
+      "bytes": 2974,
+      "sha256": "b45ea66390c8c2661f86c1a86c4ae3509d8602a44cd00a94c56d8bdc55344b6e"
     },
     "buffer-state.json": {
       "bytes": 13890,
@@ -163,8 +204,8 @@
       "sha256": "14c98dddd2037def4a05fce0098fb604b5d0226305a2878679e60a6092a0420b"
     },
     "motion-66e845f0b52bc1f4-boxed.jpg": {
-      "bytes": 326537,
-      "sha256": "b76fc16c3fd24e645804c01869af65ca6fd188c0dd8a922e17c5f5a555194f8c"
+      "bytes": 326158,
+      "sha256": "e8adec969dc50678c61e762475f4bad670cc62334960f83edc2a35581f572bc2"
     },
     "motion-66e845f0b52bc1f4-after.jpg": {
       "bytes": 726070,
