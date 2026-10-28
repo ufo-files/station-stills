@@ -64,6 +64,30 @@
           "label": "Unknown | round"
         }
       ],
+      "detail_images": [
+        {
+          "bounds": {
+            "left": 1872,
+            "top": 1060,
+            "right": 1905,
+            "bottom": 1079
+          },
+          "crop_bounds": {
+            "left": 1848,
+            "top": 1036,
+            "right": 1920,
+            "bottom": 1080
+          },
+          "native_file": "motion-afa003b142696dfb-after-3f81f431ce-crop.png",
+          "detail_file": "motion-afa003b142696dfb-after-3f81f431ce-detail.jpg",
+          "native_width": 72,
+          "native_height": 44,
+          "display_width": 1024,
+          "display_height": 626,
+          "upscaled": true,
+          "processing": "Lanczos resize; mild display smoothing only"
+        }
+      ],
       "changed_regions": [
         {
           "left": 1872,
@@ -96,8 +120,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:31:13.198423+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:45:52.818253+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {

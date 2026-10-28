@@ -107,6 +107,30 @@
             "label": "Unknown | round"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1872,
+              "top": 1060,
+              "right": 1905,
+              "bottom": 1079
+            },
+            "crop_bounds": {
+              "left": 1848,
+              "top": 1036,
+              "right": 1920,
+              "bottom": 1080
+            },
+            "native_file": "motion-afa003b142696dfb-after-3f81f431ce-crop.png",
+            "detail_file": "motion-afa003b142696dfb-after-3f81f431ce-detail.jpg",
+            "native_width": 72,
+            "native_height": 44,
+            "display_width": 1024,
+            "display_height": 626,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1872,
@@ -139,8 +163,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:31:13.198423+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:45:52.818253+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -208,8 +233,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 3632,
-      "sha256": "95479b1ab402083d3b7f124cf3755558c8aaf32def8b0ca9f766661941737d64"
+      "bytes": 4407,
+      "sha256": "09b07ca69577f85f4f1f1ad4c3d7229f9319592df5b738c6aae1dccd3e983ebb"
     },
     "buffer-state.json": {
       "bytes": 5000,
@@ -230,6 +255,14 @@
     "frames/index.json": {
       "bytes": 718,
       "sha256": "160c1ec79d578b533b553e1143b65646b3019500e15edf50aace6aa4a934ef2b"
+    },
+    "motion-afa003b142696dfb-after-3f81f431ce-crop.png": {
+      "bytes": 3814,
+      "sha256": "172c5be1a1b32fb5426becd63d47aff45711d54e714a626cbef51b8db8604121"
+    },
+    "motion-afa003b142696dfb-after-3f81f431ce-detail.jpg": {
+      "bytes": 57769,
+      "sha256": "78391d9b26c543c20b96c83648a907bde076ce34a68a134fb7b7d47f34cbff0f"
     }
   },
   "buffer_assembly": {

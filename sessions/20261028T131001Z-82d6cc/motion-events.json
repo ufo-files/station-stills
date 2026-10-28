@@ -64,6 +64,7 @@
     "session_id": "20261028T131001Z-82d6cc",
     "annotation": {
       "boxes": [],
+      "detail_images": [],
       "changed_regions": [],
       "source_frame": "after",
       "annotation_version": 3,
@@ -80,8 +81,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:30:48.423021+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:45:31.627706+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -203,6 +205,7 @@
     "session_id": "20261028T131001Z-82d6cc",
     "annotation": {
       "boxes": [],
+      "detail_images": [],
       "changed_regions": [],
       "source_frame": "after",
       "annotation_version": 3,
@@ -219,8 +222,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:30:45.968006+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:45:29.626006+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {
@@ -315,6 +319,7 @@
     "session_id": "20261028T131001Z-82d6cc",
     "annotation": {
       "boxes": [],
+      "detail_images": [],
       "changed_regions": [],
       "source_frame": "after",
       "annotation_version": 3,
@@ -331,8 +336,9 @@
       "version": 1,
       "state": "completed",
       "mode": "label_only",
-      "classified_at": "2026-10-28T16:30:43.164890+00:00",
-      "engine": "coreml-yolov3-fp16-coco",
+      "classified_at": "2026-10-28T18:45:27.641354+00:00",
+      "engine": "camera-crop-mobilenet-v3",
+      "model_version": "20261028T183704Z-723291ee",
       "regions": [
         {
           "bounds": {

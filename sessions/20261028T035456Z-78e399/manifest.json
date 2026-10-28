@@ -128,6 +128,30 @@
             "label": "Unknown | too small"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1413,
+              "top": 28,
+              "right": 1425,
+              "bottom": 58
+            },
+            "crop_bounds": {
+              "left": 1389,
+              "top": 4,
+              "right": 1449,
+              "bottom": 82
+            },
+            "native_file": "motion-ba832b168c1db574-after-cfe02b44be-crop.png",
+            "detail_file": "motion-ba832b168c1db574-after-cfe02b44be-detail.jpg",
+            "native_width": 60,
+            "native_height": 78,
+            "display_width": 788,
+            "display_height": 1024,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1413,
@@ -160,8 +184,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:31:27.172301+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:46:05.896125+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -272,6 +297,30 @@
             "label": "Unknown | too small"
           }
         ],
+        "detail_images": [
+          {
+            "bounds": {
+              "left": 1319,
+              "top": 773,
+              "right": 1326,
+              "bottom": 779
+            },
+            "crop_bounds": {
+              "left": 1295,
+              "top": 749,
+              "right": 1350,
+              "bottom": 803
+            },
+            "native_file": "motion-6c1e38682365d78e-before-4c8922b352-crop.png",
+            "detail_file": "motion-6c1e38682365d78e-before-4c8922b352-detail.jpg",
+            "native_width": 55,
+            "native_height": 54,
+            "display_width": 1024,
+            "display_height": 1005,
+            "upscaled": true,
+            "processing": "Lanczos resize; mild display smoothing only"
+          }
+        ],
         "changed_regions": [
           {
             "left": 1319,
@@ -304,8 +353,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:31:25.067371+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:46:04.084323+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -371,8 +421,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 7643,
-      "sha256": "9f78029e4636e37750dadf73a1a306fec25cd1abbbb41be5f141d2459f94d5ac"
+      "bytes": 9183,
+      "sha256": "2899d03563bc70931790a530e1499560caddfe8630724169cee75c0b7fc1d6f0"
     },
     "buffer-state.json": {
       "bytes": 18646,
@@ -405,6 +455,22 @@
     "frames/index.json": {
       "bytes": 720,
       "sha256": "a0efa173b2847bee4d963204ded5f8981def67566d9aeffd4a8b776a8a086df2"
+    },
+    "motion-6c1e38682365d78e-before-4c8922b352-crop.png": {
+      "bytes": 3092,
+      "sha256": "59d7f2113be1e2dc5bce6e66001695d9c1a9cb3c0074085b08a09a16ff874f37"
+    },
+    "motion-6c1e38682365d78e-before-4c8922b352-detail.jpg": {
+      "bytes": 77808,
+      "sha256": "732e58054dc722da2ba6bf2271cef19d23da4bc2c7f8aac4810c6d7e6923b0f4"
+    },
+    "motion-ba832b168c1db574-after-cfe02b44be-crop.png": {
+      "bytes": 4721,
+      "sha256": "fed9c6522ecc6fdf50bcfcbaf358504a4b8162e3a087beb9b04e818ad6f94592"
+    },
+    "motion-ba832b168c1db574-after-cfe02b44be-detail.jpg": {
+      "bytes": 66464,
+      "sha256": "4e395822451334dc098f47a747d66c8b86fecd3f53adefacf0f5eac9bd3e14e9"
     }
   },
   "buffer_assembly": {

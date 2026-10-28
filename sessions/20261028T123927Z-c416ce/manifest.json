@@ -109,6 +109,7 @@
       "session_id": "20261028T123927Z-c416ce",
       "annotation": {
         "boxes": [],
+        "detail_images": [],
         "changed_regions": [],
         "source_frame": "after",
         "annotation_version": 3,
@@ -125,8 +126,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T16:30:52.826212+00:00",
-        "engine": "coreml-yolov3-fp16-coco",
+        "classified_at": "2026-10-28T18:45:37.555830+00:00",
+        "engine": "camera-crop-mobilenet-v3",
+        "model_version": "20261028T183704Z-723291ee",
         "regions": [
           {
             "bounds": {
@@ -192,8 +194,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 2977,
-      "sha256": "f837aa2493e12e73ae357f36fa20ff68fe360f3a7d9ba4eef56e733571a4a643"
+      "bytes": 3057,
+      "sha256": "f60bc5c1ecbfce0ba6174c7281568f9bb0d4192a1d476e48b88b0159337fa002"
     },
     "buffer-state.json": {
       "bytes": 8736,
