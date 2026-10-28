@@ -49,51 +49,26 @@
     "annotation": {
       "boxes": [
         {
-          "left": 1428,
-          "top": 983,
-          "right": 1449,
-          "bottom": 999,
-          "changed_analysis_pixels": 226,
+          "left": 1428.0,
+          "top": 983.0,
+          "right": 1449.0,
+          "bottom": 999.0,
+          "label": "Bird (reviewed) | irregular",
           "visible_in": "after",
           "review_bounds": {
-            "left": 1404,
-            "top": 959,
-            "right": 1473,
-            "bottom": 1023
-          },
-          "label": "Unknown | irregular"
-        }
-      ],
-      "changed_regions": [
-        {
-          "left": 1428,
-          "top": 983,
-          "right": 1449,
-          "bottom": 999,
-          "changed_analysis_pixels": 226,
-          "visible_in": "after",
-          "review_bounds": {
-            "left": 1404,
-            "top": 959,
-            "right": 1473,
-            "bottom": 1023
-          },
-          "label": "Unknown | irregular"
-        },
-        {
-          "left": 463,
-          "top": 965,
-          "right": 484,
-          "bottom": 978,
-          "changed_analysis_pixels": 172,
-          "visible_in": "before"
+            "left": 1412.0,
+            "top": 967.0,
+            "right": 1465.0,
+            "bottom": 1015.0
+          }
         }
       ],
       "source_frame": "after",
-      "annotation_version": 3,
       "frame_width": 1920,
       "frame_height": 1080,
-      "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+      "annotation_version": 3,
+      "human_reviewed": true,
+      "meaning": "Observer-reviewed labels; original images retained."
     },
     "annotated_frame": "motion-ade5b9735680431b-boxed.jpg",
     "evidence_files": [
@@ -172,6 +147,26 @@
       ],
       "error": null,
       "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+    },
+    "human_review": {
+      "source": "human",
+      "source_frame": "after",
+      "reviewed_at": "2026-10-28T17:17:25.401400+00:00",
+      "regions": [
+        {
+          "bounds": {
+            "left": 1428.0,
+            "top": 983.0,
+            "right": 1449.0,
+            "bottom": 999.0
+          },
+          "object": "bird",
+          "shape": "irregular"
+        }
+      ],
+      "boxes_confirmed": true,
+      "no_object": false,
+      "note": ""
     }
   }
 ]
