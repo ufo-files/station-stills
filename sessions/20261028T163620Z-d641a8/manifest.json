@@ -101,51 +101,26 @@
       "annotation": {
         "boxes": [
           {
-            "left": 1362,
-            "top": 660,
-            "right": 1386,
-            "bottom": 672,
-            "changed_analysis_pixels": 185,
+            "left": 1362.0,
+            "top": 660.0,
+            "right": 1386.0,
+            "bottom": 672.0,
+            "label": "Bird (reviewed) | elongated",
             "visible_in": "before",
             "review_bounds": {
-              "left": 1338,
-              "top": 636,
-              "right": 1410,
-              "bottom": 696
-            },
-            "label": "Unknown | too small"
-          }
-        ],
-        "changed_regions": [
-          {
-            "left": 1362,
-            "top": 660,
-            "right": 1386,
-            "bottom": 672,
-            "changed_analysis_pixels": 185,
-            "visible_in": "before",
-            "review_bounds": {
-              "left": 1338,
-              "top": 636,
-              "right": 1410,
-              "bottom": 696
-            },
-            "label": "Unknown | too small"
-          },
-          {
-            "left": 162,
-            "top": 716,
-            "right": 184,
-            "bottom": 728,
-            "changed_analysis_pixels": 155,
-            "visible_in": "after"
+              "left": 1346.0,
+              "top": 644.0,
+              "right": 1402.0,
+              "bottom": 688.0
+            }
           }
         ],
         "source_frame": "before",
-        "annotation_version": 3,
         "frame_width": 1920,
         "frame_height": 1080,
-        "meaning": "Boxes are shown on the frame with stronger local detail. Both original frames are retained; this is not object classification."
+        "annotation_version": 3,
+        "human_reviewed": true,
+        "meaning": "Observer-reviewed labels; original images retained."
       },
       "annotated_frame": "motion-19d8023ac16a072c-boxed.jpg",
       "evidence_files": [
@@ -222,6 +197,26 @@
         ],
         "error": null,
         "meaning": "Shape is single-frame appearance; object labels are model suggestions. All captures are retained."
+      },
+      "human_review": {
+        "source": "human",
+        "source_frame": "before",
+        "reviewed_at": "2026-10-28T17:21:43.457965+00:00",
+        "regions": [
+          {
+            "bounds": {
+              "left": 1362.0,
+              "top": 660.0,
+              "right": 1386.0,
+              "bottom": 672.0
+            },
+            "object": "bird",
+            "shape": "elongated"
+          }
+        ],
+        "boxes_confirmed": true,
+        "no_object": false,
+        "note": ""
       }
     }
   ],
@@ -238,8 +233,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "motion-events.json": {
-      "bytes": 4567,
-      "sha256": "98d78c8b4f8b2d3756f9d676501f77822289b6d3300336a6a9d9946d97aa7a7e"
+      "bytes": 4371,
+      "sha256": "ca24a66536998ce8d1402ed31c6d554aa6a272bfed85ae9db111596b6b4a1134"
     },
     "buffer-state.json": {
       "bytes": 4952,
@@ -250,8 +245,8 @@
       "sha256": "966604f35040fe196f936fccea78d71b10f73e7206921cbe8619bad52136d1da"
     },
     "motion-19d8023ac16a072c-boxed.jpg": {
-      "bytes": 215996,
-      "sha256": "1df9eaaff9511733a97f8f944768d92a388ef155e41e03f1b5fa547cfa853dda"
+      "bytes": 211638,
+      "sha256": "8596f2e537a12a7d340d397d3f289b8ce97c372bb2bc738818fe06d93c8634d0"
     },
     "motion-19d8023ac16a072c-before.jpg": {
       "bytes": 502422,
