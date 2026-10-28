@@ -877,9 +877,9 @@
         "version": 1,
         "state": "completed",
         "mode": "label_only",
-        "classified_at": "2026-10-28T18:53:22.005952+00:00",
+        "classified_at": "2026-10-28T19:19:44.115235+00:00",
         "engine": "camera-crop-mobilenet-v3",
-        "model_version": "20261028T183704Z-723291ee",
+        "model_version": "20261028T190333Z-72ab2f51",
         "regions": [
           {
             "bounds": {
@@ -934,10 +934,28 @@
             },
             "model_observations": [
               {
-                "labels": []
+                "labels": [
+                  {
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "source": "camera-trained",
+                    "identifier": "bird",
+                    "threshold": 0.85,
+                    "confidence": 0.95125866
+                  }
+                ]
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "threshold": 0.85,
+                    "source": "camera-trained",
+                    "minimum_native_size": 8,
+                    "identifier": "bird",
+                    "confidence": 0.8595403,
+                    "model_version": "20261028T190333Z-72ab2f51"
+                  }
+                ]
               }
             ]
           },
@@ -967,7 +985,16 @@
                 "labels": []
               },
               {
-                "labels": []
+                "labels": [
+                  {
+                    "source": "camera-trained",
+                    "identifier": "bird",
+                    "minimum_native_size": 8,
+                    "model_version": "20261028T190333Z-72ab2f51",
+                    "threshold": 0.85,
+                    "confidence": 0.89954436
+                  }
+                ]
               }
             ]
           }
@@ -1005,8 +1032,8 @@
       "sha256": "3735db1cb2b8a976d8719e38afbb99e123129a6dbb3470536e1881500f1fd333"
     },
     "motion-events.json": {
-      "bytes": 25362,
-      "sha256": "c365789fc1dace88fb8a32a15c849b204d51e3518030134e4da037a7d02549f0"
+      "bytes": 26336,
+      "sha256": "7e5658d59449831ff912b40d747525d11cef93d46ed9b6f32d5fd34843d46334"
     },
     "buffer-state.json": {
       "bytes": 5037,
