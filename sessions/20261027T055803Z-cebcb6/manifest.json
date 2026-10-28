@@ -25,8 +25,8 @@
     "state": "failed",
     "file": "video.mp4",
     "error": "Playback frame mismatch: 1283 vs 1291",
-    "attempts": 4,
-    "next_attempt": 1793167940.6170182
+    "attempts": 5,
+    "next_attempt": 1793206467.0020416
   },
   "rf_source": "OpenWebRX FFT live snapshots, approximately 1 second; no raw IQ",
   "timing": "Host UTC and monotonic timestamps. HDMI latency is uncalibrated; not frame-synchronized.",
