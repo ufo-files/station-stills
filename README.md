@@ -9,3 +9,10 @@ Internet Archive is the primary video destination; session manifests link to its
 The station preserves a 100 GiB local free-space reserve. Upload failures retain local evidence for retry. UTC timestamps use the station clock; HDMI capture latency is not calibrated.
 
 Observations and automatic triggers do not establish a sighting or identify an object.
+
+
+## Current licensing
+
+Original UFO Files software is available under the **UFO Files Noncommercial Shared-Source License 1.0**: no commercial use; distributed derivatives and modified network services must provide corresponding source under the same terms. Original content is **CC BY-NC-SA 4.0**, only to the extent we control its rights.
+
+See [LICENSE](LICENSE), [LICENSE-CONTENT.txt](LICENSE-CONTENT.txt), and [LICENSING.md](LICENSING.md) for scope, exceptions, and the transition from prior grants. These are source-available terms, not an OSI-approved open-source license. Third-party materials and public-domain records retain their own status.
